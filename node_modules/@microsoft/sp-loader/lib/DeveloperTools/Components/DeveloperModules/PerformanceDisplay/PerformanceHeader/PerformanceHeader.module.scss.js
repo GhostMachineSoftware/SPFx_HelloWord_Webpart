@@ -1,0 +1,9 @@
+require("./PerformanceHeader.module.css");
+var styles = {
+    headerTable: 'headerTable_aa6b7018',
+    headerTableRows: 'headerTableRows_aa6b7018',
+    hint: 'hint_aa6b7018',
+    infoIcon: 'infoIcon_aa6b7018',
+    msThemeLighter: 'msThemeLighter_aa6b7018'
+};
+export default styles;

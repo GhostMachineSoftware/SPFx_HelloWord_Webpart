@@ -1,0 +1,72 @@
+(window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] = window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] || []).push([[19],{
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Dialog.js":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Dialog.js ***!
+  \*****************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/Dialog.js
+var pkg = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+module.exports = {}
+for (var key in pkg) {
+  if (pkg.hasOwnProperty(key)) {
+    module.exports[key] = pkg[key];
+  }
+}
+Object.defineProperty(module.exports, "__esModule", { value: true });
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/narrowModeDialog/NarrowModeDialog.js":
+/*!*********************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/narrowModeDialog/NarrowModeDialog.js ***!
+  \*********************************************************************************************************************/
+/*! exports provided: NarrowModeDialog */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NarrowModeDialog", function() { return NarrowModeDialog; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var office_ui_fabric_react_lib_Dialog__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! office-ui-fabric-react/lib/Dialog */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Dialog.js");
+/* harmony import */ var office_ui_fabric_react_lib_Dialog__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(office_ui_fabric_react_lib_Dialog__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _NarrowModeDialog_resx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./NarrowModeDialog.resx */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/narrowModeDialog/NarrowModeDialog.resx.js");
+
+
+
+function NarrowModeDialog() {
+    return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](office_ui_fabric_react_lib_Dialog__WEBPACK_IMPORTED_MODULE_1__["Dialog"], { hidden: false, dialogContentProps: {
+            title: _NarrowModeDialog_resx__WEBPACK_IMPORTED_MODULE_2__["default"].Title,
+            subText: _NarrowModeDialog_resx__WEBPACK_IMPORTED_MODULE_2__["default"].Subtitle
+        }, modalProps: {
+            isBlocking: true
+        } }));
+}
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/narrowModeDialog/NarrowModeDialog.resx.js":
+/*!**************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/narrowModeDialog/NarrowModeDialog.resx.js ***!
+  \**************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var key = '_aldiWWnENoBI4mn+VYF4ZA';
+var allStrings = ( false) ?
+    undefined :
+    __webpack_require__(/*! resx-strings */ "resx-strings");
+var strings = allStrings[key];
+/* harmony default export */ __webpack_exports__["default"] = (strings);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=19.19_5da9d0ed4685c0f42a96.js.map

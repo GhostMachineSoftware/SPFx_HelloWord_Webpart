@@ -1,0 +1,1492 @@
+(window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] = window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] || []).push([[4],{
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas-toolbox/lib/toolboxChrome/ToolboxChrome.module.css":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxChrome/ToolboxChrome.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".chrome_aab1d09f{height:100%;position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.chrome_aab1d09f .searchBox_aab1d09f{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;margin-bottom:0;border-width:0;-webkit-box-sizing:border-box;box-sizing:border-box;height:33px;border-bottom:1px solid;border-color:\"[theme:neutralLight, default: #eaeaea]\";width:100%}[dir=ltr] .chrome_aab1d09f .searchBox_aab1d09f{padding-right:32px}[dir=rtl] .chrome_aab1d09f .searchBox_aab1d09f{padding-left:32px}.chrome_aab1d09f .searchBox_aab1d09f:hover{border-color:\"[theme:neutralLight, default: #eaeaea]\"}.chrome_aab1d09f .farButton_aab1d09f{-webkit-box-sizing:border-box;box-sizing:border-box;width:32px;height:32px;position:absolute;top:0}[dir=ltr] .chrome_aab1d09f .farButton_aab1d09f{right:0}[dir=rtl] .chrome_aab1d09f .farButton_aab1d09f{left:0}.chrome_aab1d09f .commandBar_aab1d09f{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto}.chrome_aab1d09f .content_aab1d09f{-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;overflow-y:scroll;height:100%}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas-toolbox/lib/toolboxError/ToolboxError.module.css":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxError/ToolboxError.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".error_bddebef5{background-color:#fde7e9;font-weight:600;font-size:12px;letter-spacing:1px;padding:0 12px}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLarge.module.css":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLarge.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".toolboxLargeContainer_4baf0272{margin:24px;height:712px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.modalScrollContent_4baf0272{height:100%}.screenReaderAlert_4baf0272{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}.menuCommandBar_4baf0272{height:40px;background-color:\"[theme:neutralLight, default: #eaeaea]\"}.menuCommandBar_4baf0272 .ms-CommandBar{padding:0}.menuCommandBar_4baf0272 .ms-CommandBar-primaryCommands{margin:0 4px}.menuCommandBar_4baf0272 .ms-Button-textContainer{font-size:17px}.selectedItem_4baf0272{font-weight:600;background-color:\"[theme:neutralLight, default: #eaeaea]\"}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewSearch.module.css":
+/*!************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewSearch.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".noResultFoundContainer_602a8146{height:100%}.noResultFound_602a8146{height:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.noResultFoundIcon_602a8146{margin-bottom:18px;font-size:32px}[dir=ltr] .noResultFoundIcon_602a8146{margin-right:14px}[dir=rtl] .noResultFoundIcon_602a8146{margin-left:14px}.noResultFoundLabelContainer_602a8146{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.noResultLabel_602a8146{font-size:21px;font-weight:100;margin-bottom:4px}.noResultLabel_602a8146,.tryAgainLabel_602a8146{color:\"[theme:neutralSecondary, default: #666666]\"}.tryAgainLabel_602a8146{font-size:17px;font-weight:300}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmall.module.css":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmall.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".noResults_0e4facae{-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;font-size:13px;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:13px}.calloutContent_0e4facae{height:330px}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolbox/ToolboxItemsLayer.js":
+/*!******************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolbox/ToolboxItemsLayer.js ***!
+  \******************************************************************************************/
+/*! exports provided: ToolboxItemsLayer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToolboxItemsLayer", function() { return ToolboxItemsLayer; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @microsoft/sp-diagnostics */ "@microsoft/sp-diagnostics");
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _ms_sp_telemetry__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ms/sp-telemetry */ "../../libraries/sp-telemetry/lib/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _toolboxData__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../toolboxData */ "../../libraries/sp-canvas-toolbox/lib/toolboxData/index.js");
+/* harmony import */ var _toolboxError__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../toolboxError */ "../../libraries/sp-canvas-toolbox/lib/toolboxError/index.js");
+/* harmony import */ var _toolboxGroup__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../toolboxGroup */ "../../libraries/sp-canvas-toolbox/lib/toolboxGroup/index.js");
+/* harmony import */ var _toolboxLoading__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../toolboxLoading */ "../../libraries/sp-canvas-toolbox/lib/toolboxLoading/index.js");
+/* harmony import */ var _toolboxModel__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../toolboxModel */ "../../libraries/sp-canvas-toolbox/lib/toolboxModel/index.js");
+/* harmony import */ var _ToolboxProviderLayer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./ToolboxProviderLayer */ "../../libraries/sp-canvas-toolbox/lib/toolbox/ToolboxProviderLayer.js");
+
+
+
+
+
+
+
+
+
+
+
+var ToolboxItemsLayer =  (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](ToolboxItemsLayer, _super);
+    function ToolboxItemsLayer(props) {
+        var _this = _super.call(this, props) || this;
+        _this.state = _this._getState(props.items);
+        return _this;
+    }
+    ToolboxItemsLayer.prototype.componentDidMount = function () {
+        this._markStageToolboxRenderEnd();
+    };
+    ToolboxItemsLayer.prototype.componentDidUpdate = function () {
+        this._markStageToolboxRenderEnd();
+    };
+    ToolboxItemsLayer.prototype.componentWillReceiveProps = function (nextProps) {
+        if (nextProps.items !== this.props.items) {
+            this.setState(this._getState(nextProps.items));
+        }
+    };
+    ToolboxItemsLayer.prototype.render = function () {
+        var items = this.state.items;
+        if (items === undefined) {
+            return (react__WEBPACK_IMPORTED_MODULE_4__["createElement"](_toolboxLoading__WEBPACK_IMPORTED_MODULE_8__["ToolboxLoading"], { className: '', controller: this.props.controller, calloutTarget: this.props.calloutTarget, calloutDirectionalHint: this.props.calloutDirectionalHint, onDismiss: this.props.onDismiss }));
+        }
+        else if (Array.isArray(items)) {
+            var groups = Object(_toolboxGroup__WEBPACK_IMPORTED_MODULE_7__["categorizeGroups"])(items);
+            this._logWebPartSource(groups);
+            return (react__WEBPACK_IMPORTED_MODULE_4__["createElement"](_ToolboxProviderLayer__WEBPACK_IMPORTED_MODULE_10__["ToolboxProviderLayer"], { controller: this.props.controller, items: items, groups: groups, a11yManager: this.props.a11yManager, onCloseToolbox: this.props.onCloseToolbox, calloutTarget: this.props.calloutTarget, calloutDirectionalHint: this.props.calloutDirectionalHint, onDismiss: this.props.onDismiss, onClickItem: this._clickItem }));
+        }
+        else {
+            return (react__WEBPACK_IMPORTED_MODULE_4__["createElement"](_toolboxError__WEBPACK_IMPORTED_MODULE_6__["ToolboxError"], { className: '', controller: this.props.controller, message: items.message, a11yManager: this.props.a11yManager, calloutTarget: this.props.calloutTarget, calloutDirectionalHint: this.props.calloutDirectionalHint, onDismiss: this.props.onDismiss }));
+        }
+    };
+    ToolboxItemsLayer.prototype._getState = function (itemShims) {
+        var _this = this;
+        if (Array.isArray(itemShims)) {
+            var itemMaps = itemShims
+                .map(_toolboxModel__WEBPACK_IMPORTED_MODULE_9__["mapToolboxItem"])
+                .concat(this.props.disableRTE ? [] : _toolboxData__WEBPACK_IMPORTED_MODULE_5__["RTE"].TOOLBOX_ITEM_MAP)
+                .filter(function (map) { return (_this.props.siteSupportsFullWidth || map.id !== 'FullWidthSectionToolboxItem'); });
+            var items = itemMaps
+                .map(function (map) { return map.item; })
+                .sort(function (a, b) { return a.displayName.localeCompare(b.displayName, _this.props.cultureName); });
+            return {
+                items: items,
+                mapToolboxItemIdToCanvasControl: new Map(itemMaps.map(function (map) { return [map.id, map.control]; })),
+                mapToolboxItemIdToWebPartManifest: new Map(itemMaps.map(function (map) { return [map.id, map.manifest]; }))
+            };
+        }
+        else {
+            return {
+                items: itemShims,
+                mapToolboxItemIdToCanvasControl: undefined,
+                mapToolboxItemIdToWebPartManifest: undefined
+            };
+        }
+    };
+    ToolboxItemsLayer.prototype._clickItem = function (toolboxItemId, info) {
+        if (!this.state.mapToolboxItemIdToCanvasControl || !this.state.mapToolboxItemIdToWebPartManifest) {
+            return;
+        }
+        var control = this.state.mapToolboxItemIdToCanvasControl.get(toolboxItemId);
+        var manifest = this.state.mapToolboxItemIdToWebPartManifest.get(toolboxItemId);
+        if (!control || !manifest) {
+            return;
+        }
+        this.props.onClickItem(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, control, { position: this.props.position }));
+        if (control.controlType === _toolboxModel__WEBPACK_IMPORTED_MODULE_9__["CanvasControlType"].WebPartZone) {
+            _ms_sp_telemetry__WEBPACK_IMPORTED_MODULE_3__["_EngagementLogger"].logEventWithLogEntry(new _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__["_LogEntry"]('Toolbox', 'AddWebPart', _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__["_LogType"].Event, tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({ manifestId: manifest.id }, this._convertClickItemInfo(info))));
+        }
+        else if (control.controlType === _toolboxModel__WEBPACK_IMPORTED_MODULE_9__["CanvasControlType"].RTE) {
+            _ms_sp_telemetry__WEBPACK_IMPORTED_MODULE_3__["_EngagementLogger"].logEventWithLogEntry(new _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__["_LogEntry"]('Toolbox', 'AddRTE', _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__["_LogType"].Event, tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({ source: info.size }, this._convertClickItemInfo(info))));
+        }
+        this.props.onCloseToolbox();
+    };
+    ToolboxItemsLayer.prototype._convertClickItemInfo = function (info) {
+        if (info.size === "Small" ) {
+            return {
+                source: info.size,
+                view: '',
+                queryLength: info.query.length.toString()
+            };
+        }
+        else {
+            return {
+                source: info.size,
+                view: info.query ? 'Search' : info.view.type,
+                queryLength: info.query.length.toString()
+            };
+        }
+    };
+    ToolboxItemsLayer.prototype._logWebPartSource = function (groups) {
+        var _this = this;
+        var map = this.state.mapToolboxItemIdToWebPartManifest;
+        if (ToolboxItemsLayer._isWebPartSourceLogged || !map) {
+            return;
+        }
+        var countMap = groups
+            .filter(function (group) { return group.groupId !== _toolboxData__WEBPACK_IMPORTED_MODULE_5__["Group"].FEATURED_GROUP[0]; })
+            .reduce(function (accumulator, group) {
+            var firstPartyCount = group.items
+                .map(function (item) { return map.get(item.id); })
+                .filter(function (manifest) { return manifest && manifest.isInternal; })
+                .length;
+            var thirdPartyCount = group.items.length - firstPartyCount;
+            _this._accumulate(accumulator, _this._shortenGuid(group.groupId) + '_1', firstPartyCount);
+            _this._accumulate(accumulator, _this._shortenGuid(group.groupId) + '_3', thirdPartyCount);
+            _this._accumulate(accumulator, 'All_1', firstPartyCount);
+            _this._accumulate(accumulator, 'All_3', thirdPartyCount);
+            _this._accumulate(accumulator, 'All', group.items.length);
+            return accumulator;
+        }, new Map());
+        var countLog = {};
+        countMap.forEach(function (value, key) {
+            countLog[key] = value.toString();
+        });
+        _ms_sp_telemetry__WEBPACK_IMPORTED_MODULE_3__["_EngagementLogger"].logEventWithLogEntry(new _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__["_LogEntry"]('Toolbox', 'ItemsSource', _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__["_LogType"].Event, countLog));
+        ToolboxItemsLayer._isWebPartSourceLogged = true;
+    };
+    ToolboxItemsLayer.prototype._shortenGuid = function (guid) {
+        return guid.replace(/-/g, '');
+    };
+    ToolboxItemsLayer.prototype._accumulate = function (map, key, value) {
+        var base = map.get(key) || 0;
+        map.set(key, base + value);
+    };
+    ToolboxItemsLayer.prototype._markStageToolboxRenderEnd = function () {
+        if (this.props.componentPerfLogger && this.state.items !== undefined) {
+            this.props.componentPerfLogger.end('ToolboxRender');
+        }
+    };
+    ToolboxItemsLayer._isWebPartSourceLogged = false;
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["autobind"]
+    ], ToolboxItemsLayer.prototype, "_clickItem", null);
+    return ToolboxItemsLayer;
+}(react__WEBPACK_IMPORTED_MODULE_4__["PureComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolbox/ToolboxProviderLayer.js":
+/*!*********************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolbox/ToolboxProviderLayer.js ***!
+  \*********************************************************************************************/
+/*! exports provided: ToolboxProviderLayer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToolboxProviderLayer", function() { return ToolboxProviderLayer; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _toolboxSearch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../toolboxSearch */ "../../libraries/sp-canvas-toolbox/lib/toolboxSearch/index.js");
+/* harmony import */ var _ToolboxSizeLayer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ToolboxSizeLayer */ "../../libraries/sp-canvas-toolbox/lib/toolbox/ToolboxSizeLayer.js");
+
+
+
+
+function ToolboxProviderLayer(props) {
+    return (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_toolboxSearch__WEBPACK_IMPORTED_MODULE_2__["SearchProvider"], { items: props.items, a11yManager: props.a11yManager },
+        react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_ToolboxSizeLayer__WEBPACK_IMPORTED_MODULE_3__["ToolboxSizeLayer"], tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, props))));
+}
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolbox/ToolboxSizeLayer.js":
+/*!*****************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolbox/ToolboxSizeLayer.js ***!
+  \*****************************************************************************************/
+/*! exports provided: ToolboxSizeLayer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToolboxSizeLayer", function() { return ToolboxSizeLayer; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @microsoft/sp-diagnostics */ "@microsoft/sp-diagnostics");
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _ms_sp_telemetry__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ms/sp-telemetry */ "../../libraries/sp-telemetry/lib/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _toolboxLarge__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../toolboxLarge */ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/index.js");
+/* harmony import */ var _toolboxSmall__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../toolboxSmall */ "../../libraries/sp-canvas-toolbox/lib/toolboxSmall/index.js");
+
+
+
+
+
+
+
+var ToolboxSizeLayer =  (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](ToolboxSizeLayer, _super);
+    function ToolboxSizeLayer(props) {
+        var _this = _super.call(this, props) || this;
+        _this.state = {
+            size: "Small" 
+        };
+        return _this;
+    }
+    ToolboxSizeLayer.prototype.render = function () {
+        switch (this.state.size) {
+            case "Small" :
+                return (react__WEBPACK_IMPORTED_MODULE_4__["createElement"](_toolboxSmall__WEBPACK_IMPORTED_MODULE_6__["ToolboxSmall"], { className: '', items: this.props.items, controller: this.props.controller, onExpandToolbox: this._expandToolbox, onCloseToolbox: this.props.onCloseToolbox, calloutTarget: this.props.calloutTarget, calloutDirectionalHint: this.props.calloutDirectionalHint, onDismiss: this.props.onDismiss, onClickItem: this.props.onClickItem }));
+            case "Large" :
+                return (react__WEBPACK_IMPORTED_MODULE_4__["createElement"](_toolboxLarge__WEBPACK_IMPORTED_MODULE_5__["ToolboxLarge"], { className: '', controller: this.props.controller, items: this.props.items, groups: this.props.groups, onCollapseToolbox: this._collapseToolbox, onCloseToolbox: this.props.onCloseToolbox, onClickItem: this.props.onClickItem, a11yManager: this.props.a11yManager }));
+            default:
+                throw new Error('Unknown toolbox mode');
+        }
+    };
+    ToolboxSizeLayer.prototype._expandToolbox = function () {
+        _ms_sp_telemetry__WEBPACK_IMPORTED_MODULE_3__["_EngagementLogger"].logEventWithLogEntry(new _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__["_LogEntry"]('Toolbox', 'ExpandToolbox', _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__["_LogType"].Event, {
+            itemCount: this.props.items.length.toString()
+        }));
+        this.setState({
+            size: "Large" 
+        });
+    };
+    ToolboxSizeLayer.prototype._collapseToolbox = function () {
+        _ms_sp_telemetry__WEBPACK_IMPORTED_MODULE_3__["_EngagementLogger"].logEventWithLogEntry(new _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__["_LogEntry"]('Toolbox', 'CollapseToolbox', _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__["_LogType"].Event, {
+            itemCount: this.props.items.length.toString()
+        }));
+        this.setState({
+            size: "Small" 
+        });
+    };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["autobind"]
+    ], ToolboxSizeLayer.prototype, "_expandToolbox", null);
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["autobind"]
+    ], ToolboxSizeLayer.prototype, "_collapseToolbox", null);
+    return ToolboxSizeLayer;
+}(react__WEBPACK_IMPORTED_MODULE_4__["PureComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxChrome/ToolboxChrome.js":
+/*!********************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxChrome/ToolboxChrome.js ***!
+  \********************************************************************************************/
+/*! exports provided: ToolboxChrome */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToolboxChrome", function() { return ToolboxChrome; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var office_ui_fabric_react_lib_components_SearchBox_SearchBox__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! office-ui-fabric-react/lib/components/SearchBox/SearchBox */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.js");
+/* harmony import */ var office_ui_fabric_react_lib_components_SearchBox_SearchBox__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(office_ui_fabric_react_lib_components_SearchBox_SearchBox__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-dom */ "react-dom");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ms/odsp-utilities-bundle */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/@ms/odsp-utilities-bundle/5.0.61/node_modules/@ms/odsp-utilities-bundle/lib/index.js");
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _ToolboxChrome_module_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ToolboxChrome.module.scss */ "../../libraries/sp-canvas-toolbox/lib/toolboxChrome/ToolboxChrome.module.scss.js");
+/* harmony import */ var _ToolboxChromeStrings_resx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ToolboxChromeStrings.resx */ "../../libraries/sp-canvas-toolbox/lib/toolboxChrome/ToolboxChromeStrings.resx.js");
+
+
+
+
+
+
+
+
+var ToolboxChrome =  (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](ToolboxChrome, _super);
+    function ToolboxChrome() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this._searchBoxContainer = null; 
+        _this._commandBar = react__WEBPACK_IMPORTED_MODULE_3__["createRef"]();
+        return _this;
+    }
+    ToolboxChrome.prototype.componentDidMount = function () {
+        var _this = this;
+        if (this._searchBoxContainer) {
+            var inputDOMNode = react_dom__WEBPACK_IMPORTED_MODULE_4__["findDOMNode"](this._searchBoxContainer);
+            if (inputDOMNode && inputDOMNode instanceof Element) {
+                var input = inputDOMNode.querySelector('input');
+                if (input) {
+                    var valueLength = input.value.length;
+                    input.setSelectionRange(valueLength, valueLength);
+                }
+            }
+        }
+        setTimeout(function () {
+            if (_this._commandBar.current) {
+                _this._commandBar.current.remeasure();
+            }
+        }, 300);
+    };
+    ToolboxChrome.prototype.render = function () {
+        var _this = this;
+        var ariaLabel = _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_5__["StringHelper"].format(_ToolboxChromeStrings_resx__WEBPACK_IMPORTED_MODULE_7__["default"].ToolboxSearchAccessibleLabelTemplate, this.props.searchQuery ? _ToolboxChromeStrings_resx__WEBPACK_IMPORTED_MODULE_7__["default"].ToolboxSearchEscapeAccessibleLabel : '');
+        return (react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("div", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["css"])(this.props.className, _ToolboxChrome_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].chrome), ref: function (instance) { return _this._searchBoxContainer = instance; } },
+            react__WEBPACK_IMPORTED_MODULE_3__["createElement"](office_ui_fabric_react_lib_components_SearchBox_SearchBox__WEBPACK_IMPORTED_MODULE_2__["SearchBox"], { ariaLabel: ariaLabel, placeholder: _ToolboxChromeStrings_resx__WEBPACK_IMPORTED_MODULE_7__["default"].ToolboxSearchLabel, onChange: this.props.onChange, onSearch: this.props.onSearch, onEscape: this._handleEscape, value: this.props.searchQuery, className: _ToolboxChrome_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].searchBox, "data-automation-id": 'toolbox-searchBox' }),
+            this._renderCommandBar(),
+            react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("div", { className: _ToolboxChrome_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].content, "data-automation-id": 'spPageCanvasLargeToolboxBody' }, this.props.children),
+            react__WEBPACK_IMPORTED_MODULE_3__["createElement"](_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["IconButton"], { className: _ToolboxChrome_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].farButton, iconProps: this.props.farButton.iconProps, onClick: this.props.farButton.onClick, title: this.props.farButton.title, ariaLabel: this.props.farButton.ariaLabel, ariaDescription: this.props.farButton.ariaDescription, "data-automation-id": 'toolbox-farButton' })));
+    };
+    ToolboxChrome.prototype._renderCommandBar = function () {
+        if (!this.props.commandBar) {
+            return null; 
+        }
+        return (react__WEBPACK_IMPORTED_MODULE_3__["createElement"](_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["CommandBar"], tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, this.props.commandBar, { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["css"])(this.props.commandBar.className, _ToolboxChrome_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].commandBar), componentRef: this._commandBar })));
+    };
+    ToolboxChrome.prototype._handleEscape = function () {
+        if (this.props.searchQuery) {
+            this.props.onChange('');
+        }
+        else if (this.props.onEscape) {
+            this.props.onEscape();
+        }
+    };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["autobind"]
+    ], ToolboxChrome.prototype, "_handleEscape", null);
+    return ToolboxChrome;
+}(react__WEBPACK_IMPORTED_MODULE_3__["PureComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxChrome/ToolboxChrome.module.css":
+/*!****************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxChrome/ToolboxChrome.module.css ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./ToolboxChrome.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas-toolbox/lib/toolboxChrome/ToolboxChrome.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxChrome/ToolboxChrome.module.scss.js":
+/*!********************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxChrome/ToolboxChrome.module.scss.js ***!
+  \********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./ToolboxChrome.module.css */ "../../libraries/sp-canvas-toolbox/lib/toolboxChrome/ToolboxChrome.module.css");
+var styles = {
+    chrome: 'chrome_aab1d09f',
+    searchBox: 'searchBox_aab1d09f',
+    farButton: 'farButton_aab1d09f',
+    commandBar: 'commandBar_aab1d09f',
+    content: 'content_aab1d09f'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxChrome/ToolboxChromeStrings.resx.js":
+/*!********************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxChrome/ToolboxChromeStrings.resx.js ***!
+  \********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var key = '_4SOrKBlkyRLkXWcT6txoow';
+var allStrings = ( false) ?
+    undefined :
+    __webpack_require__(/*! resx-strings */ "resx-strings");
+var strings = allStrings[key];
+/* harmony default export */ __webpack_exports__["default"] = (strings);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxChrome/index.js":
+/*!************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxChrome/index.js ***!
+  \************************************************************************************/
+/*! exports provided: ToolboxChrome */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ToolboxChrome__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ToolboxChrome */ "../../libraries/sp-canvas-toolbox/lib/toolboxChrome/ToolboxChrome.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ToolboxChrome", function() { return _ToolboxChrome__WEBPACK_IMPORTED_MODULE_0__["ToolboxChrome"]; });
+
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxError/ToolboxError.js":
+/*!******************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxError/ToolboxError.js ***!
+  \******************************************************************************************/
+/*! exports provided: ToolboxError */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToolboxError", function() { return ToolboxError; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _toolboxCallout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../toolboxCallout */ "../../libraries/sp-canvas-toolbox/lib/toolboxCallout/index.js");
+/* harmony import */ var _ToolboxError_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ToolboxError.module.scss */ "../../libraries/sp-canvas-toolbox/lib/toolboxError/ToolboxError.module.scss.js");
+
+
+
+function ToolboxError(props) {
+    props.a11yManager.alert(props.message);
+    var toolboxErrorContent = (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", { className: _ToolboxError_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].error }, props.message));
+    return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_toolboxCallout__WEBPACK_IMPORTED_MODULE_1__["ToolboxCallout"], { className: props.className, onDismiss: props.onDismiss, target: props.calloutTarget, directionalHint: props.calloutDirectionalHint }, toolboxErrorContent));
+}
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxError/ToolboxError.module.css":
+/*!**************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxError/ToolboxError.module.css ***!
+  \**************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./ToolboxError.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas-toolbox/lib/toolboxError/ToolboxError.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxError/ToolboxError.module.scss.js":
+/*!******************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxError/ToolboxError.module.scss.js ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./ToolboxError.module.css */ "../../libraries/sp-canvas-toolbox/lib/toolboxError/ToolboxError.module.css");
+var styles = {
+    error: 'error_bddebef5'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxError/ToolboxErrorAnimationLayer.js":
+/*!********************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxError/ToolboxErrorAnimationLayer.js ***!
+  \********************************************************************************************************/
+/*! exports provided: ToolboxErrorAnimationLayer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToolboxErrorAnimationLayer", function() { return ToolboxErrorAnimationLayer; });
+/* harmony import */ var _toolboxAnimation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../toolboxAnimation */ "../../libraries/sp-canvas-toolbox/lib/toolboxAnimation/index.js");
+/* harmony import */ var _ToolboxError__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ToolboxError */ "../../libraries/sp-canvas-toolbox/lib/toolboxError/ToolboxError.js");
+
+
+var ToolboxErrorAnimationLayer = Object(_toolboxAnimation__WEBPACK_IMPORTED_MODULE_0__["animation"])(_ToolboxError__WEBPACK_IMPORTED_MODULE_1__["ToolboxError"], 2 );
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxError/index.js":
+/*!***********************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxError/index.js ***!
+  \***********************************************************************************/
+/*! exports provided: ToolboxError */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ToolboxErrorAnimationLayer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ToolboxErrorAnimationLayer */ "../../libraries/sp-canvas-toolbox/lib/toolboxError/ToolboxErrorAnimationLayer.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ToolboxError", function() { return _ToolboxErrorAnimationLayer__WEBPACK_IMPORTED_MODULE_0__["ToolboxErrorAnimationLayer"]; });
+
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLarge.module.css":
+/*!**************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLarge.module.css ***!
+  \**************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./ToolboxLarge.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLarge.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLarge.module.scss.js":
+/*!******************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLarge.module.scss.js ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./ToolboxLarge.module.css */ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLarge.module.css");
+var styles = {
+    toolboxLargeContainer: 'toolboxLargeContainer_4baf0272',
+    modalScrollContent: 'modalScrollContent_4baf0272',
+    screenReaderAlert: 'screenReaderAlert_4baf0272',
+    menuCommandBar: 'menuCommandBar_4baf0272',
+    selectedItem: 'selectedItem_4baf0272'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLargeAnimationLayer.js":
+/*!********************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLargeAnimationLayer.js ***!
+  \********************************************************************************************************/
+/*! exports provided: ToolboxLargeAnimationLayer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToolboxLargeAnimationLayer", function() { return ToolboxLargeAnimationLayer; });
+/* harmony import */ var _toolboxAnimation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../toolboxAnimation */ "../../libraries/sp-canvas-toolbox/lib/toolboxAnimation/index.js");
+/* harmony import */ var _ToolboxLargeSearchLayer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ToolboxLargeSearchLayer */ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLargeSearchLayer.js");
+
+
+var ToolboxLargeAnimationLayer = Object(_toolboxAnimation__WEBPACK_IMPORTED_MODULE_0__["animation"])(_ToolboxLargeSearchLayer__WEBPACK_IMPORTED_MODULE_1__["ToolboxLargeSearchLayer"], 4 );
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLargeSearchLayer.js":
+/*!*****************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLargeSearchLayer.js ***!
+  \*****************************************************************************************************/
+/*! exports provided: ToolboxLargeSearchLayer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToolboxLargeSearchLayer", function() { return ToolboxLargeSearchLayer; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _toolboxSearch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../toolboxSearch */ "../../libraries/sp-canvas-toolbox/lib/toolboxSearch/index.js");
+/* harmony import */ var _ToolboxLargeViewLayer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ToolboxLargeViewLayer */ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLargeViewLayer.js");
+
+
+
+
+function ToolboxLargeSearchLayer(props) {
+    return (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_toolboxSearch__WEBPACK_IMPORTED_MODULE_2__["SearchConsumer"], null, function (searchContext) { return react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_ToolboxLargeViewLayer__WEBPACK_IMPORTED_MODULE_3__["ToolboxLargeViewLayer"], tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, props, searchContext)); }));
+}
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLargeStrings.resx.js":
+/*!******************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLargeStrings.resx.js ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var key = '_WVn4QXYnL8WpGCqr2C9ySA';
+var allStrings = ( false) ?
+    undefined :
+    __webpack_require__(/*! resx-strings */ "resx-strings");
+var strings = allStrings[key];
+/* harmony default export */ __webpack_exports__["default"] = (strings);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLargeViewLayer.js":
+/*!***************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLargeViewLayer.js ***!
+  \***************************************************************************************************/
+/*! exports provided: ALL_BY_CATEGORY_KEY, ALL_A_TO_Z_KEY, ToolboxLargeViewLayer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ALL_BY_CATEGORY_KEY", function() { return ALL_BY_CATEGORY_KEY; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ALL_A_TO_Z_KEY", function() { return ALL_A_TO_Z_KEY; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToolboxLargeViewLayer", function() { return ToolboxLargeViewLayer; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @microsoft/sp-diagnostics */ "@microsoft/sp-diagnostics");
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @microsoft/sp-lodash-subset */ "@microsoft/sp-lodash-subset");
+/* harmony import */ var _microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ms/odsp-utilities-bundle */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/@ms/odsp-utilities-bundle/5.0.61/node_modules/@ms/odsp-utilities-bundle/lib/index.js");
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var office_ui_fabric_react_lib_components_Modal_Modal__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! office-ui-fabric-react/lib/components/Modal/Modal */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.js");
+/* harmony import */ var office_ui_fabric_react_lib_components_Modal_Modal__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(office_ui_fabric_react_lib_components_Modal_Modal__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _toolboxChrome__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../toolboxChrome */ "../../libraries/sp-canvas-toolbox/lib/toolboxChrome/index.js");
+/* harmony import */ var _ViewCategory__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./ViewCategory */ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewCategory.js");
+/* harmony import */ var _ViewHome__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./ViewHome */ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewHome.js");
+/* harmony import */ var _ViewSearch__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./ViewSearch */ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewSearch.js");
+/* harmony import */ var _ViewSort__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./ViewSort */ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewSort.js");
+/* harmony import */ var _ToolboxLarge_module_scss__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./ToolboxLarge.module.scss */ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLarge.module.scss.js");
+/* harmony import */ var _ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./ToolboxLargeStrings.resx */ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLargeStrings.resx.js");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var ALL_BY_CATEGORY_KEY = 'allByCategory';
+var ALL_A_TO_Z_KEY = 'allAToZ';
+var ToolboxLargeViewLayer =  (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](ToolboxLargeViewLayer, _super);
+    function ToolboxLargeViewLayer(props) {
+        var _this = _super.call(this, props) || this;
+        _this.state = {
+            view: {
+                type: "Home" ,
+                previousView: undefined
+            }
+        };
+        return _this;
+    }
+    ToolboxLargeViewLayer.prototype.render = function () {
+        var _this = this;
+        var titleAriaId = Math.random().toString().substr(2);
+        var title = _ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_13__["default"].LargeToolboxAriaTitle;
+        var collapseButtonProps = {
+            iconProps: { iconName: 'BackToWindow' },
+            onClick: this.props.onCollapseToolbox,
+            title: _ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_13__["default"].ToolboxCollapseButtonDescription,
+            ariaLabel: _ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_13__["default"].ToolboxCollapseButtonAriaLabel,
+            ariaDescription: _ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_13__["default"].ToolboxCollapseButtonDescription
+        };
+        var commandBarProps = {
+            items: this._commandBarItems,
+            className: _ToolboxLarge_module_scss__WEBPACK_IMPORTED_MODULE_12__["default"].menuCommandBar
+        };
+        return (react__WEBPACK_IMPORTED_MODULE_6__["createElement"](office_ui_fabric_react_lib_components_Modal_Modal__WEBPACK_IMPORTED_MODULE_5__["Modal"], { onDismiss: this.props.onCloseToolbox, containerClassName: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["css"])(_ToolboxLarge_module_scss__WEBPACK_IMPORTED_MODULE_12__["default"].toolboxLargeContainer, this.props.className), isOpen: true, isBlocking: false, titleAriaId: titleAriaId, scrollableContentClassName: _ToolboxLarge_module_scss__WEBPACK_IMPORTED_MODULE_12__["default"].modalScrollContent },
+            react__WEBPACK_IMPORTED_MODULE_6__["createElement"](_toolboxChrome__WEBPACK_IMPORTED_MODULE_7__["ToolboxChrome"], { searchQuery: this.props.query, farButton: collapseButtonProps, onChange: function (query) { return _this.props.onFilterItems(query,  true, 'Large'); }, onSearch: function (query) { return _this.props.onFilterItems(query,  false, 'Large'); }, onEscape: this.props.onCloseToolbox, commandBar: commandBarProps }, this._toolboxBody),
+            react__WEBPACK_IMPORTED_MODULE_6__["createElement"]("p", { id: titleAriaId, className: _ToolboxLarge_module_scss__WEBPACK_IMPORTED_MODULE_12__["default"].screenReaderAlert }, title)));
+    };
+    Object.defineProperty(ToolboxLargeViewLayer.prototype, "_commandBarItems", {
+        get: function () {
+            var _this = this;
+            var _a, _b;
+            var _c = this._selectedCategory, selectedCategoryKey = _c[0], selectedCategoryName = _c[1];
+            var subMenuForGroup = this.props.groups
+                .map(function (toolboxLargeGroup) {
+                var _a;
+                return ({
+                    key: toolboxLargeGroup.groupId,
+                    name: toolboxLargeGroup.title,
+                    className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["css"])((_a = {},
+                        _a[_ToolboxLarge_module_scss__WEBPACK_IMPORTED_MODULE_12__["default"].selectedItem] = toolboxLargeGroup.groupId === selectedCategoryKey,
+                        _a)),
+                    onClick: _this._handleChangeCategoryMenu
+                });
+            });
+            var subMenuForView = [{
+                    key: ALL_BY_CATEGORY_KEY,
+                    name: _ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_13__["default"].ToolboxCategoryAllCategory,
+                    className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["css"])((_a = {},
+                        _a[_ToolboxLarge_module_scss__WEBPACK_IMPORTED_MODULE_12__["default"].selectedItem] = ALL_BY_CATEGORY_KEY === selectedCategoryKey,
+                        _a)),
+                    onClick: this._handleChangeCategoryMenu
+                }, {
+                    key: ALL_A_TO_Z_KEY,
+                    name: _ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_13__["default"].ToolboxCategorySortingCategory,
+                    className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["css"])((_b = {},
+                        _b[_ToolboxLarge_module_scss__WEBPACK_IMPORTED_MODULE_12__["default"].selectedItem] = ALL_A_TO_Z_KEY === selectedCategoryKey,
+                        _b)),
+                    onClick: this._handleChangeCategoryMenu
+                }];
+            var backButton = {
+                key: 'BackButton',
+                ariaLabel: _ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_13__["default"].BackButtonAriaLabel,
+                iconProps: { iconName: 'ChromeBack' },
+                disabled: !this.props.query && this.state.view.previousView === undefined,
+                onClick: this._handleBackClick,
+                'data-automation-id': 'toolbox-back-button'
+            };
+            var commandBarMenus = [
+                backButton,
+                {
+                    key: 'CategoryContextualMenu',
+                    name: selectedCategoryName,
+                    subMenuProps: {
+                        items: subMenuForView.concat(subMenuForGroup),
+                        beakWidth: 10,
+                        isBeakVisible: true
+                    },
+                    role: 'navigation',
+                    ariaLabel: _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4__["StringHelper"].format(_ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_13__["default"].DropDownMenuAriaLabel, selectedCategoryName)
+                }
+            ];
+            return commandBarMenus;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    ToolboxLargeViewLayer.prototype._handleChangeCategoryMenu = function (ev, item) {
+        if (!item) {
+            return;
+        }
+        switch (item.key) {
+            case ALL_BY_CATEGORY_KEY: {
+                this._switchView({
+                    type: "Home" ,
+                    previousView: this.state.view
+                });
+                var message = _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4__["StringHelper"].format(_ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_13__["default"].SwitchCategoryAlert, _ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_13__["default"].ToolboxCategoryAllCategory);
+                this.props.a11yManager.alert(message);
+                break;
+            }
+            case ALL_A_TO_Z_KEY: {
+                this._switchView({
+                    type: "Sort" ,
+                    sortBy: 'alphabet',
+                    previousView: this.state.view
+                });
+                var message = _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4__["StringHelper"].format(_ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_13__["default"].SwitchCategoryAlert, _ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_13__["default"].ToolboxCategorySortingCategory);
+                this.props.a11yManager.alert(message);
+                break;
+            }
+            default: {
+                this._switchView({
+                    type: "Category" ,
+                    groupId: item.key,
+                    previousView: this.state.view
+                });
+                var message = _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4__["StringHelper"].format(_ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_13__["default"].SwitchCategoryAlert, this._getCategoryName(item.key));
+                this.props.a11yManager.alert(message);
+            }
+        }
+    };
+    Object.defineProperty(ToolboxLargeViewLayer.prototype, "_selectedCategory", {
+        get: function () {
+            var selectedCategoryKey;
+            var selectedCategoryName;
+            if (this.props.query) {
+                selectedCategoryKey = '';
+                selectedCategoryName = _ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_13__["default"].ToolboxCategorySearchResults;
+            }
+            else if (this.state.view.type === "Home" ) {
+                selectedCategoryKey = ALL_BY_CATEGORY_KEY;
+                selectedCategoryName = _ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_13__["default"].ToolboxCategoryAllCategory;
+            }
+            else if (this.state.view.type === "Sort" ) {
+                selectedCategoryKey = ALL_A_TO_Z_KEY;
+                selectedCategoryName = _ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_13__["default"].ToolboxCategorySortingCategory;
+            }
+            else {
+                selectedCategoryKey = this.state.view.groupId;
+                selectedCategoryName = this._getCategoryName(this.state.view.groupId);
+            }
+            return [selectedCategoryKey, selectedCategoryName];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    ToolboxLargeViewLayer.prototype._getCategoryName = function (groupId) {
+        var groupIndex = Object(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_3__["findIndex"])(this.props.groups, function (group) { return group.groupId === groupId; });
+        if (groupIndex >= 0) {
+            return this.props.groups[groupIndex].title;
+        }
+        else {
+            _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__["_TraceLogger"].logError(ToolboxLargeViewLayer._logSource, new Error("Something went wrong with categorizing groups, group not found by given id: " + groupId));
+            return '';
+        }
+    };
+    ToolboxLargeViewLayer.prototype._handleBackClick = function () {
+        if (this.props.query) {
+            this.props.onFilterItems('',  false);
+        }
+        else if (this.state.view.previousView) {
+            this._switchView(this.state.view.previousView);
+        }
+    };
+    Object.defineProperty(ToolboxLargeViewLayer.prototype, "_toolboxBody", {
+        get: function () {
+            if (this.props.query) {
+                return (react__WEBPACK_IMPORTED_MODULE_6__["createElement"](_ViewSearch__WEBPACK_IMPORTED_MODULE_10__["ViewSearch"], { items: this.props.items, onClickItem: this._clickItemInToolboxLarge }));
+            }
+            switch (this.state.view.type) {
+                case "Home" :
+                    return (react__WEBPACK_IMPORTED_MODULE_6__["createElement"](_ViewHome__WEBPACK_IMPORTED_MODULE_9__["ViewHome"], { view: this.state.view, groups: this.props.groups, onClickItem: this._clickItemInToolboxLarge, onSwitchView: this._switchView }));
+                case "Sort" :
+                    return (react__WEBPACK_IMPORTED_MODULE_6__["createElement"](_ViewSort__WEBPACK_IMPORTED_MODULE_11__["ViewSort"], { view: this.state.view, items: this.props.items, onClickItem: this._clickItemInToolboxLarge }));
+                case "Category" :
+                    return (react__WEBPACK_IMPORTED_MODULE_6__["createElement"](_ViewCategory__WEBPACK_IMPORTED_MODULE_8__["ViewCategory"], { view: this.state.view, groups: this.props.groups, onClickItem: this._clickItemInToolboxLarge }));
+                default: {
+                    return null; 
+                }
+            }
+        },
+        enumerable: true,
+        configurable: true
+    });
+    ToolboxLargeViewLayer.prototype._switchView = function (view) {
+        this.props.onFilterItems('',  false);
+        if (view.previousView !== undefined && this._isSameView(view, view.previousView)) {
+            this.setState({ view: view.previousView });
+        }
+        else {
+            this.setState({ view: view });
+        }
+    };
+    ToolboxLargeViewLayer.prototype._isSameView = function (view1, view2) {
+        if (view1.type === "Category"  && view2.type === "Category" ) {
+            return view1.groupId === view2.groupId;
+        }
+        else {
+            return view1.type === view2.type;
+        }
+    };
+    ToolboxLargeViewLayer.prototype._clickItemInToolboxLarge = function (toolboxItemId) {
+        this.props.onClickItem(toolboxItemId, {
+            size: "Large" ,
+            query: this.props.query,
+            view: this.state.view
+        });
+    };
+    ToolboxLargeViewLayer._logSource = _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__["_LogSource"].create('Toolbox');
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["autobind"]
+    ], ToolboxLargeViewLayer.prototype, "_handleChangeCategoryMenu", null);
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["autobind"]
+    ], ToolboxLargeViewLayer.prototype, "_handleBackClick", null);
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["autobind"]
+    ], ToolboxLargeViewLayer.prototype, "_switchView", null);
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["autobind"]
+    ], ToolboxLargeViewLayer.prototype, "_clickItemInToolboxLarge", null);
+    return ToolboxLargeViewLayer;
+}(react__WEBPACK_IMPORTED_MODULE_6__["PureComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewCategory.js":
+/*!******************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewCategory.js ***!
+  \******************************************************************************************/
+/*! exports provided: ViewCategory */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewCategory", function() { return ViewCategory; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/sp-lodash-subset */ "@microsoft/sp-lodash-subset");
+/* harmony import */ var _microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _toolboxGroup__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../toolboxGroup */ "../../libraries/sp-canvas-toolbox/lib/toolboxGroup/index.js");
+/* harmony import */ var _toolboxItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../toolboxItem */ "../../libraries/sp-canvas-toolbox/lib/toolboxItem/index.js");
+
+
+
+
+
+var ViewCategory =  (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](ViewCategory, _super);
+    function ViewCategory() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    ViewCategory.prototype.render = function () {
+        var _this = this;
+        var groupIndex = Object(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_1__["findIndex"])(this.props.groups, function (group) { return group.groupId === _this.props.view.groupId; });
+        var toolboxGroup = this.props.groups[groupIndex];
+        var itemViews = toolboxGroup.items
+            .map(function (item) {
+            return react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_toolboxItem__WEBPACK_IMPORTED_MODULE_4__["ToolboxItemLarge"], { key: item.id, item: item, onClick: _this.props.onClickItem });
+        });
+        return (react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_toolboxGroup__WEBPACK_IMPORTED_MODULE_3__["ToolboxGroupLarge"], { groupName: toolboxGroup.title, hasHeader: false }, itemViews));
+    };
+    return ViewCategory;
+}(react__WEBPACK_IMPORTED_MODULE_2__["PureComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewHome.js":
+/*!**************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewHome.js ***!
+  \**************************************************************************************/
+/*! exports provided: ViewHome */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewHome", function() { return ViewHome; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _toolboxGroup__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../toolboxGroup */ "../../libraries/sp-canvas-toolbox/lib/toolboxGroup/index.js");
+/* harmony import */ var _toolboxItem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../toolboxItem */ "../../libraries/sp-canvas-toolbox/lib/toolboxItem/index.js");
+
+
+
+
+var ViewHome =  (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](ViewHome, _super);
+    function ViewHome() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    ViewHome.prototype.render = function () {
+        return (react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", null, this._renderGroups()));
+    };
+    ViewHome.prototype._renderGroups = function () {
+        var _this = this;
+        return this.props.groups.map(function (group) {
+            return react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_toolboxGroup__WEBPACK_IMPORTED_MODULE_2__["ToolboxGroupLarge"], { groupName: group.title, hasHeader: true, key: group.groupId, onClickSeeAll: function () { return _this._switchToCategoryView(group.groupId); } }, _this._renderItems(group.items));
+        });
+    };
+    ViewHome.prototype._renderItems = function (items) {
+        var _this = this;
+        return items.map(function (item) {
+            return react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_toolboxItem__WEBPACK_IMPORTED_MODULE_3__["ToolboxItemLarge"], { key: item.id, item: item, onClick: _this.props.onClickItem });
+        });
+    };
+    ViewHome.prototype._switchToCategoryView = function (groupId) {
+        this.props.onSwitchView({
+            type: "Category" ,
+            groupId: groupId,
+            previousView: this.props.view
+        });
+    };
+    return ViewHome;
+}(react__WEBPACK_IMPORTED_MODULE_1__["PureComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewSearch.js":
+/*!****************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewSearch.js ***!
+  \****************************************************************************************/
+/*! exports provided: ViewSearch, EmptySearchResultComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewSearch", function() { return ViewSearch; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EmptySearchResultComponent", function() { return EmptySearchResultComponent; });
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _toolboxGroup__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../toolboxGroup */ "../../libraries/sp-canvas-toolbox/lib/toolboxGroup/index.js");
+/* harmony import */ var _toolboxItem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../toolboxItem */ "../../libraries/sp-canvas-toolbox/lib/toolboxItem/index.js");
+/* harmony import */ var _ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ToolboxLargeStrings.resx */ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLargeStrings.resx.js");
+/* harmony import */ var _ViewSearch_module_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ViewSearch.module.scss */ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewSearch.module.scss.js");
+
+
+
+
+
+
+function ViewSearch(props) {
+    if (props.items.length === 0) {
+        return (react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", { className: _ViewSearch_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].noResultFoundContainer },
+            react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_toolboxGroup__WEBPACK_IMPORTED_MODULE_2__["ToolboxGroupLarge"], { groupName: 'empty', hasHeader: false, key: 'toolboxGroup-empty' }),
+            react__WEBPACK_IMPORTED_MODULE_1__["createElement"](EmptySearchResultComponent, null)));
+    }
+    var itemViews = props.items
+        .map(function (item) {
+        return react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_toolboxItem__WEBPACK_IMPORTED_MODULE_3__["ToolboxItemLarge"], { key: item.id, item: item, onClick: props.onClickItem });
+    });
+    return (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_toolboxGroup__WEBPACK_IMPORTED_MODULE_2__["ToolboxGroupLarge"], { groupName: _ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_4__["default"].ToolboxCategorySearchResults, hasHeader: false }, itemViews));
+}
+function EmptySearchResultComponent() {
+    return (react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", { className: _ViewSearch_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].noResultFound },
+        react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_0__["Icon"], { iconName: 'Search', className: _ViewSearch_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].noResultFoundIcon }),
+        react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", { className: _ViewSearch_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].noResultFoundLabelContainer },
+            react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", { className: _ViewSearch_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].noResultLabel }, _ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_4__["default"].NoResultLabel),
+            react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", { className: _ViewSearch_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].tryAgainLabel }, _ToolboxLargeStrings_resx__WEBPACK_IMPORTED_MODULE_4__["default"].TryAgainLabel))));
+}
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewSearch.module.css":
+/*!************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewSearch.module.css ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./ViewSearch.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewSearch.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewSearch.module.scss.js":
+/*!****************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewSearch.module.scss.js ***!
+  \****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./ViewSearch.module.css */ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewSearch.module.css");
+var styles = {
+    noResultFoundContainer: 'noResultFoundContainer_602a8146',
+    noResultFound: 'noResultFound_602a8146',
+    noResultFoundIcon: 'noResultFoundIcon_602a8146',
+    noResultFoundLabelContainer: 'noResultFoundLabelContainer_602a8146',
+    noResultLabel: 'noResultLabel_602a8146',
+    tryAgainLabel: 'tryAgainLabel_602a8146'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewSort.js":
+/*!**************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxLarge/ViewSort.js ***!
+  \**************************************************************************************/
+/*! exports provided: ViewSort */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ViewSort", function() { return ViewSort; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _toolboxGroup__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../toolboxGroup */ "../../libraries/sp-canvas-toolbox/lib/toolboxGroup/index.js");
+/* harmony import */ var _toolboxItem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../toolboxItem */ "../../libraries/sp-canvas-toolbox/lib/toolboxItem/index.js");
+
+
+
+
+var ViewSort =  (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](ViewSort, _super);
+    function ViewSort() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    ViewSort.prototype.render = function () {
+        var _this = this;
+        var itemViews = this.props.items
+            .map(function (item) {
+            return react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_toolboxItem__WEBPACK_IMPORTED_MODULE_3__["ToolboxItemLarge"], { key: item.id, item: item, onClick: _this.props.onClickItem });
+        });
+        return (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_toolboxGroup__WEBPACK_IMPORTED_MODULE_2__["ToolboxGroupLarge"], { groupName: '', hasHeader: false }, itemViews));
+    };
+    return ViewSort;
+}(react__WEBPACK_IMPORTED_MODULE_1__["PureComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/index.js":
+/*!***********************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxLarge/index.js ***!
+  \***********************************************************************************/
+/*! exports provided: ToolboxLarge */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ToolboxLargeAnimationLayer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ToolboxLargeAnimationLayer */ "../../libraries/sp-canvas-toolbox/lib/toolboxLarge/ToolboxLargeAnimationLayer.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ToolboxLarge", function() { return _ToolboxLargeAnimationLayer__WEBPACK_IMPORTED_MODULE_0__["ToolboxLargeAnimationLayer"]; });
+
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmall.js":
+/*!******************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmall.js ***!
+  \******************************************************************************************/
+/*! exports provided: ToolboxSmall */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToolboxSmall", function() { return ToolboxSmall; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _toolboxCallout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../toolboxCallout */ "../../libraries/sp-canvas-toolbox/lib/toolboxCallout/index.js");
+/* harmony import */ var _toolboxChrome__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../toolboxChrome */ "../../libraries/sp-canvas-toolbox/lib/toolboxChrome/index.js");
+/* harmony import */ var _toolboxGroup__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../toolboxGroup */ "../../libraries/sp-canvas-toolbox/lib/toolboxGroup/index.js");
+/* harmony import */ var _toolboxItem__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../toolboxItem */ "../../libraries/sp-canvas-toolbox/lib/toolboxItem/index.js");
+/* harmony import */ var _ToolboxSmall_module_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ToolboxSmall.module.scss */ "../../libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmall.module.scss.js");
+/* harmony import */ var _ToolboxSmallStrings_resx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./ToolboxSmallStrings.resx */ "../../libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmallStrings.resx.js");
+
+
+
+
+
+
+
+
+
+var ToolboxSmall =  (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](ToolboxSmall, _super);
+    function ToolboxSmall(props) {
+        var _this = _super.call(this, props) || this;
+        _this.state = _this._getState(props.items, props.query);
+        return _this;
+    }
+    ToolboxSmall.prototype.componentWillReceiveProps = function (nextProps) {
+        if (nextProps.items !== this.props.items) {
+            this.setState(this._getState(nextProps.items, nextProps.query));
+        }
+    };
+    ToolboxSmall.prototype.render = function () {
+        var itemsNotFound = (this.state.featuredGroup.items.length === 0 &&
+            this.state.alphabeticalGroup.items.length === 0);
+        var expandButtonProps = {
+            ariaLabel: _ToolboxSmallStrings_resx__WEBPACK_IMPORTED_MODULE_8__["default"].ToolboxExpandButtonAriaLabel,
+            iconProps: { iconName: 'fullScreen' },
+            onClick: this.props.onExpandToolbox,
+            title: _ToolboxSmallStrings_resx__WEBPACK_IMPORTED_MODULE_8__["default"].ToolboxExpandButtonTitle
+        };
+        var toolboxSmallContent = (react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_toolboxChrome__WEBPACK_IMPORTED_MODULE_4__["ToolboxChrome"], { onSearch: this.props.onFilter, onChange: this.props.onFilterDebounce, onEscape: this.props.onCloseToolbox, searchQuery: this.props.query, farButton: expandButtonProps, className: _ToolboxSmall_module_scss__WEBPACK_IMPORTED_MODULE_7__["default"].calloutContent },
+            react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["FocusZone"], { direction: _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["FocusZoneDirection"].horizontal, isCircularNavigation: true },
+                this._renderGroup(this.state.featuredGroup),
+                this._renderGroup(this.state.alphabeticalGroup),
+                itemsNotFound && this._itemsNotFound)));
+        return (react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_toolboxCallout__WEBPACK_IMPORTED_MODULE_3__["ToolboxCallout"], { onDismiss: this.props.onDismiss, target: this.props.calloutTarget, className: this.props.className, directionalHint: this.props.calloutDirectionalHint }, toolboxSmallContent));
+    };
+    ToolboxSmall.prototype._renderGroup = function (group) {
+        var _this = this;
+        if (group.items.length === 0) {
+            return false;
+        }
+        var items = group.items.map(function (item) {
+            return react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_toolboxItem__WEBPACK_IMPORTED_MODULE_6__["ToolboxItemSmall"], { key: item.id, item: item, onClick: _this._handleClickItem });
+        });
+        return (react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_toolboxGroup__WEBPACK_IMPORTED_MODULE_5__["ToolboxGroupSmall"], { key: group.groupId, groupName: group.title, hasHeader: true }, items));
+    };
+    Object.defineProperty(ToolboxSmall.prototype, "_itemsNotFound", {
+        get: function () {
+            return (react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("span", { className: _ToolboxSmall_module_scss__WEBPACK_IMPORTED_MODULE_7__["default"].noResults }, _ToolboxSmallStrings_resx__WEBPACK_IMPORTED_MODULE_8__["default"].ToolboxNoItemsFound));
+        },
+        enumerable: true,
+        configurable: true
+    });
+    ToolboxSmall.prototype._handleClickItem = function (toolboxItemId) {
+        this.props.onClickItem(toolboxItemId, {
+            size: "Small" ,
+            query: this.props.query
+        });
+    };
+    ToolboxSmall.prototype._getState = function (items, query) {
+        var featuredGroup = Object(_toolboxGroup__WEBPACK_IMPORTED_MODULE_5__["getFeaturedGroup"])(items);
+        var alphabeticalGroup = Object(_toolboxGroup__WEBPACK_IMPORTED_MODULE_5__["getAlphabeticalGroup"])(items);
+        return {
+            alphabeticalGroup: alphabeticalGroup,
+            featuredGroup: featuredGroup
+        };
+    };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["autobind"]
+    ], ToolboxSmall.prototype, "_handleClickItem", null);
+    return ToolboxSmall;
+}(react__WEBPACK_IMPORTED_MODULE_2__["PureComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmall.module.css":
+/*!**************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmall.module.css ***!
+  \**************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./ToolboxSmall.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmall.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmall.module.scss.js":
+/*!******************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmall.module.scss.js ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./ToolboxSmall.module.css */ "../../libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmall.module.css");
+var styles = {
+    noResults: 'noResults_0e4facae',
+    calloutContent: 'calloutContent_0e4facae'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmallAnimationLayer.js":
+/*!********************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmallAnimationLayer.js ***!
+  \********************************************************************************************************/
+/*! exports provided: ToolboxSmallAnimationLayer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToolboxSmallAnimationLayer", function() { return ToolboxSmallAnimationLayer; });
+/* harmony import */ var _toolboxAnimation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../toolboxAnimation */ "../../libraries/sp-canvas-toolbox/lib/toolboxAnimation/index.js");
+/* harmony import */ var _ToolboxSmallSearchLayer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ToolboxSmallSearchLayer */ "../../libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmallSearchLayer.js");
+
+
+var ToolboxSmallAnimationLayer = Object(_toolboxAnimation__WEBPACK_IMPORTED_MODULE_0__["animation"])(_ToolboxSmallSearchLayer__WEBPACK_IMPORTED_MODULE_1__["ToolboxSmallSearchLayer"], 3 );
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmallSearchLayer.js":
+/*!*****************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmallSearchLayer.js ***!
+  \*****************************************************************************************************/
+/*! exports provided: ToolboxSmallSearchLayer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ToolboxSmallSearchLayer", function() { return ToolboxSmallSearchLayer; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _toolboxSearch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../toolboxSearch */ "../../libraries/sp-canvas-toolbox/lib/toolboxSearch/index.js");
+/* harmony import */ var _ToolboxSmall__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ToolboxSmall */ "../../libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmall.js");
+
+
+
+
+function renderToolbox(props, searchContext) {
+    return (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_ToolboxSmall__WEBPACK_IMPORTED_MODULE_3__["ToolboxSmall"], tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, props, { ref: undefined, query: searchContext.query, items: searchContext.items, onFilter: function (query) { return searchContext.onFilterItems(query,  false, 'Small'); }, onFilterDebounce: function (query) { return searchContext.onFilterItems(query,  true, 'Small'); } })));
+}
+function ToolboxSmallSearchLayer(props) {
+    return (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_toolboxSearch__WEBPACK_IMPORTED_MODULE_2__["SearchConsumer"], null, function (searchContext) { return renderToolbox(props, searchContext); }));
+}
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmallStrings.resx.js":
+/*!******************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmallStrings.resx.js ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var key = '_CZsUWMvZilAKKAfwQSdzKQ';
+var allStrings = ( false) ?
+    undefined :
+    __webpack_require__(/*! resx-strings */ "resx-strings");
+var strings = allStrings[key];
+/* harmony default export */ __webpack_exports__["default"] = (strings);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas-toolbox/lib/toolboxSmall/index.js":
+/*!***********************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas-toolbox/lib/toolboxSmall/index.js ***!
+  \***********************************************************************************/
+/*! exports provided: ToolboxSmall */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ToolboxSmallAnimationLayer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ToolboxSmallAnimationLayer */ "../../libraries/sp-canvas-toolbox/lib/toolboxSmall/ToolboxSmallAnimationLayer.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ToolboxSmall", function() { return _ToolboxSmallAnimationLayer__WEBPACK_IMPORTED_MODULE_0__["ToolboxSmallAnimationLayer"]; });
+
+
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=4.4_a13066de45d8c2426928.js.map

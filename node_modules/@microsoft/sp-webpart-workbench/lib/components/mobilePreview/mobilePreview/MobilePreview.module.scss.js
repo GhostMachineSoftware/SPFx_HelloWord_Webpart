@@ -1,0 +1,6 @@
+require("./MobilePreview.module.css");
+var styles = {
+    mobilePreviewContainer: 'mobilePreviewContainer_6634bab5',
+    mobilePreviewDeviceContainer: 'mobilePreviewDeviceContainer_6634bab5'
+};
+export default styles;

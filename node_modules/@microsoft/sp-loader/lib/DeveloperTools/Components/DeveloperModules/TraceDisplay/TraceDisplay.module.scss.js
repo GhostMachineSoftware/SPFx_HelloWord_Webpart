@@ -1,0 +1,6 @@
+require("./TraceDisplay.module.css");
+var styles = {
+    container: 'container_3d282470',
+    traceListContainer: 'traceListContainer_3d282470'
+};
+export default styles;

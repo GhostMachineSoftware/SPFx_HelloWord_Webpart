@@ -1,0 +1,899 @@
+(window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] = window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] || []).push([[8],{
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragZone.module.css":
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragZone.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".dragIconContainer_298a3ffc{position:absolute;top:0;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;text-align:center;font-size:32px;color:\"[theme:neutralLighterAlt, default: #f8f8f8]\";pointer-events:none}.dragIconContainer_298a3ffc,.dragIconContainer_298a3ffc .dragIcon_298a3ffc{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.dragIconContainer_298a3ffc .dragIcon_298a3ffc{width:50px;height:50px;background-color:\"[theme:themePrimary, default: #0078d4]\";-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.dragIconContainer_298a3ffc .dragIcon_298a3ffc .ms-Icon{font-size:32px;padding:9px}.dragIconContainer_298a3ffc .dragText_298a3ffc{height:22px;padding:4px;max-width:200px;font-size:15px!important;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;background-color:rgba(0,0,0,.5);color:#fff;font-family:Segoe UI Light WestEuropean,Segoe UI Light,Segoe WP Light,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif}.dragIconContainer_298a3ffc .singleColumn_298a3ffc:before{content:\"\\F1D3\"}.dragIconContainer_298a3ffc .doubleColumn_298a3ffc:before{content:\"\\F1D4\"}.dragIconContainer_298a3ffc .tripleColumn_298a3ffc:before{content:\"\\F1D5\"}.dragIconContainer_298a3ffc .columnLeftTwoThirds_298a3ffc:before{content:\"\\F1D6\"}.dragIconContainer_298a3ffc .columnRightTwoThirds_298a3ffc:before{content:\"\\F1D7\"}.disabledArea_298a3ffc{position:relative}.disabledArea_298a3ffc:before{background-color:\"[theme:neutralSecondary, default: #666666]\";content:\"\";display:block;position:absolute;height:100%;width:100%;z-index:100;opacity:.6}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../libraries/content-handler/lib/ContentHandler.js":
+/*!*****************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/content-handler/lib/ContentHandler.js ***!
+  \*****************************************************************************/
+/*! exports provided: ContentHandler */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContentHandler", function() { return ContentHandler; });
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @microsoft/sp-core-library */ "@microsoft/sp-core-library");
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ms_sp_component_utilities_lib_UrlUtility__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ms/sp-component-utilities/lib/UrlUtility */ "../../libraries/sp-component-utilities/lib/UrlUtility.js");
+
+
+var ContentHandler =  (function () {
+    function ContentHandler() {
+    }
+    ContentHandler.getWebPartType = function (data) {
+        var webPartType = "None" ;
+        if (data instanceof (Blob) && data.type) {
+            if (data.type.match(ContentHandler.dataTypeImageRegExp)) {
+                webPartType = "Image" ;
+            }
+            else if (data.type.match(ContentHandler.dataTypeFileRegExp)) {
+                webPartType = "Document" ;
+            }
+        }
+        else if (_ms_sp_component_utilities_lib_UrlUtility__WEBPACK_IMPORTED_MODULE_1__["default"].isYoutubeURL(data)) {
+            webPartType = "YouTube" ;
+        }
+        else if (_ms_sp_component_utilities_lib_UrlUtility__WEBPACK_IMPORTED_MODULE_1__["default"].isStreamURL(data)) {
+            webPartType = "Stream" ;
+        }
+        else if (_ms_sp_component_utilities_lib_UrlUtility__WEBPACK_IMPORTED_MODULE_1__["default"].isValidURL(data)) {
+            webPartType = "LinkPreview" ;
+        }
+        return webPartType;
+    };
+    ContentHandler.getWebPartProperties = function (webPartType, data) {
+        var id = _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__["Guid"].newGuid().toString();
+        switch (webPartType) {
+            case "Image" :
+                return { id: id, imageBlob: data, linkUrl: '' };
+            case "Document" :
+                return { id: id, externalFile: data };
+            case "YouTube" :
+                return { id: id, embedCode: data };
+            case "Stream" :
+                return { id: id, videoSource: data, isStream: true };
+            case "LinkPreview" :
+                return { id: id, url: data, linkPreviewComponentMode: 2 };
+        }
+        return undefined;
+    };
+    ContentHandler.dataTypeImageRegExp = RegExp('^image/');
+    ContentHandler.dataTypeFileRegExp = RegExp('^application/|^video/');
+    return ContentHandler;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../libraries/content-handler/lib/index.js":
+/*!********************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/content-handler/lib/index.js ***!
+  \********************************************************************/
+/*! exports provided: ContentHandler */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ContentHandler__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ContentHandler */ "../../libraries/content-handler/lib/ContentHandler.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ContentHandler", function() { return _ContentHandler__WEBPACK_IMPORTED_MODULE_0__["ContentHandler"]; });
+
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragIcon.js":
+/*!*****************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragIcon.js ***!
+  \*****************************************************************************************************************/
+/*! exports provided: CanvasDragIcon */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CanvasDragIcon", function() { return CanvasDragIcon; });
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _canvasControl__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../canvasControl */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/canvasControl/index.js");
+/* harmony import */ var _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../loc/CanvasStrings.resx */ "../../libraries/sp-canvas/lib/sp-canvas/loc/CanvasStrings.resx.js");
+/* harmony import */ var _CanvasDragZone_resx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CanvasDragZone.resx */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragZone.resx.js");
+/* harmony import */ var _CanvasDragZone_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./CanvasDragZone.module.scss */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragZone.module.scss.js");
+
+
+
+
+
+var CanvasDragIcon =  (function () {
+    function CanvasDragIcon() {
+        this._icon = this._getDefaultIcon();
+    }
+    CanvasDragIcon._extractLabelFromRTE = function (control) {
+        var domParser = new DOMParser();
+        var docToParse = domParser.parseFromString(control.innerHTML || '', 'text/html');
+        var element = docToParse.firstElementChild && docToParse.firstElementChild;
+        return (element && element.innerText) || _CanvasDragZone_resx__WEBPACK_IMPORTED_MODULE_3__["default"].DragIconFallbackRTEText;
+    };
+    Object.defineProperty(CanvasDragIcon.prototype, "HTMLIcon", {
+        get: function () {
+            return this._icon;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    CanvasDragIcon.prototype.setMoveIconBasedOnControl = function (control) {
+        if (!control) {
+            return;
+        }
+        var iconControl = this._getTagByInternalId(CanvasDragIcon.ICON_INTERNAL_ID);
+        var textControl = this._getTagByInternalId(CanvasDragIcon.TEXT_INTERNAL_ID);
+        if (control.controlType === _canvasControl__WEBPACK_IMPORTED_MODULE_1__["CanvasControlType"].RTE) {
+            iconControl.className = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_0__["getIconClassName"])('Font');
+            textControl.innerText = CanvasDragIcon._extractLabelFromRTE(control);
+        }
+        else if (control.controlType === _canvasControl__WEBPACK_IMPORTED_MODULE_1__["CanvasControlType"].WebPartZone) {
+            if (control &&
+                control.webPartManifest &&
+                control.webPartManifest.preconfiguredEntries &&
+                control.webPartManifest.preconfiguredEntries.length > 0) {
+                var entry = control.webPartManifest.preconfiguredEntries[0]; 
+                iconControl.className = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_0__["getIconClassName"])(entry.officeFabricIconFontName);
+            }
+            textControl.innerText = control && control.webPartData && control.webPartData.title;
+        }
+        this._className = iconControl.className;
+        this._innerText = textControl.innerText || textControl.innerHTML;
+    };
+    CanvasDragIcon.prototype.setMoveIconBasedOnZone = function (zone) {
+        if (!zone) {
+            return;
+        }
+        var iconControl = this._getTagByInternalId(CanvasDragIcon.ICON_INTERNAL_ID);
+        var textControl = this._getTagByInternalId(CanvasDragIcon.TEXT_INTERNAL_ID);
+        if (!iconControl || !textControl) {
+            return;
+        }
+        iconControl.className = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_0__["getIconClassName"])('Edit');
+        var text;
+        switch (zone.layoutType) {
+            case _canvasControl__WEBPACK_IMPORTED_MODULE_1__["CanvasControlType"].FullWidth:
+                text = _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_2__["default"].ToolboxFullWidthColumnPart;
+                iconControl.className = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_0__["getIconClassName"])('FullWidth');
+                break;
+            case _canvasControl__WEBPACK_IMPORTED_MODULE_1__["CanvasControlType"].OneColumn:
+                text = _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_2__["default"].ToolboxOneColumnPart;
+                iconControl.className = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_0__["getIconClassName"])('SingleColumn');
+                break;
+            case _canvasControl__WEBPACK_IMPORTED_MODULE_1__["CanvasControlType"].OneThirdColumnLeft:
+                text = _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_2__["default"].ToolboxOneThirdLeftColumnPart;
+                iconControl.className = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_0__["getIconClassName"])('ColumnRightTwoThirds');
+                break;
+            case _canvasControl__WEBPACK_IMPORTED_MODULE_1__["CanvasControlType"].OneThirdColumnRight:
+                text = _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_2__["default"].ToolboxOneThirdRightColumnPart;
+                iconControl.className = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_0__["getIconClassName"])('ColumnLeftTwoThirds');
+                break;
+            case _canvasControl__WEBPACK_IMPORTED_MODULE_1__["CanvasControlType"].ThreeColumns:
+                text = _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_2__["default"].ToolboxThreeColumnPart;
+                iconControl.className = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_0__["getIconClassName"])('TripleColumn');
+                break;
+            case _canvasControl__WEBPACK_IMPORTED_MODULE_1__["CanvasControlType"].TwoColumns:
+                text = _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_2__["default"].ToolboxTwoColumnPart;
+                iconControl.className = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_0__["getIconClassName"])('DoubleColumn');
+                break;
+            default:
+                text = '';
+                if (true) {
+                    throw new Error('A new layout has been added, need to add drag icon string');
+                }
+        }
+        textControl.innerText = text;
+        this._className = iconControl.className;
+        this._innerText = text;
+    };
+    CanvasDragIcon.prototype.setDisallowedIcon = function () {
+        var iconControl = this._getTagByInternalId(CanvasDragIcon.ICON_INTERNAL_ID);
+        var textControl = this._getTagByInternalId(CanvasDragIcon.TEXT_INTERNAL_ID);
+        iconControl.className = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_0__["getIconClassName"])('StatusErrorFull');
+        textControl.innerText = _CanvasDragZone_resx__WEBPACK_IMPORTED_MODULE_3__["default"].DragZoneMoveNotAllowed;
+    };
+    CanvasDragIcon.prototype.setToPreviousState = function () {
+        var iconControl = this._getTagByInternalId(CanvasDragIcon.ICON_INTERNAL_ID);
+        var textControl = this._getTagByInternalId(CanvasDragIcon.TEXT_INTERNAL_ID);
+        iconControl.className = this._className;
+        textControl.innerText = this._innerText;
+    };
+    CanvasDragIcon.prototype._getDefaultIcon = function () {
+        var dragIcon = document.createElement('div');
+        dragIcon.className = _CanvasDragZone_module_scss__WEBPACK_IMPORTED_MODULE_4__["default"].dragIconContainer;
+        var iconContainer = document.createElement('div');
+        iconContainer.className = _CanvasDragZone_module_scss__WEBPACK_IMPORTED_MODULE_4__["default"].dragIcon;
+        var iconElement = document.createElement('i');
+        iconElement.setAttribute(CanvasDragIcon.DATA_INTERNAL_ID, CanvasDragIcon.ICON_INTERNAL_ID);
+        iconContainer.appendChild(iconElement);
+        var textContainer = document.createElement('div');
+        textContainer.className = _CanvasDragZone_module_scss__WEBPACK_IMPORTED_MODULE_4__["default"].dragText;
+        textContainer.classList.add('ms-fontSize-m');
+        textContainer.setAttribute(CanvasDragIcon.DATA_INTERNAL_ID, CanvasDragIcon.TEXT_INTERNAL_ID);
+        dragIcon.appendChild(iconContainer);
+        dragIcon.appendChild(textContainer);
+        document.body.appendChild(dragIcon);
+        return dragIcon;
+    };
+    CanvasDragIcon.prototype._getTagByInternalId = function (internalId) {
+        return this._icon.querySelector("[" + CanvasDragIcon.DATA_INTERNAL_ID + "='" + internalId + "']");
+    };
+    CanvasDragIcon.ICON_INTERNAL_ID = 'iconControl';
+    CanvasDragIcon.TEXT_INTERNAL_ID = 'textControl';
+    CanvasDragIcon.DATA_INTERNAL_ID = 'data-internal-id';
+    return CanvasDragIcon;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragZone.module.css":
+/*!*************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragZone.module.css ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./CanvasDragZone.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragZone.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragZone.module.scss.js":
+/*!*****************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragZone.module.scss.js ***!
+  \*****************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./CanvasDragZone.module.css */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragZone.module.css");
+var styles = {
+    dragIconContainer: 'dragIconContainer_298a3ffc',
+    dragIcon: 'dragIcon_298a3ffc',
+    dragText: 'dragText_298a3ffc',
+    singleColumn: 'singleColumn_298a3ffc',
+    doubleColumn: 'doubleColumn_298a3ffc',
+    tripleColumn: 'tripleColumn_298a3ffc',
+    columnLeftTwoThirds: 'columnLeftTwoThirds_298a3ffc',
+    columnRightTwoThirds: 'columnRightTwoThirds_298a3ffc',
+    disabledArea: 'disabledArea_298a3ffc'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragZone.resx.js":
+/*!**********************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragZone.resx.js ***!
+  \**********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var key = '_+b5qGTPD+RXDByAXIV1Ykg';
+var allStrings = ( false) ?
+    undefined :
+    __webpack_require__(/*! resx-strings */ "resx-strings");
+var strings = allStrings[key];
+/* harmony default export */ __webpack_exports__["default"] = (strings);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasSectionDragZoneUtils.js":
+/*!*****************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasSectionDragZoneUtils.js ***!
+  \*****************************************************************************************************************************/
+/*! exports provided: CanvasSectionDragZoneUtils */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CanvasSectionDragZoneUtils", function() { return CanvasSectionDragZoneUtils; });
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @microsoft/sp-diagnostics */ "@microsoft/sp-diagnostics");
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _CanvasDragZoneConstants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CanvasDragZoneConstants */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragZoneConstants.js");
+/* harmony import */ var _CanvasDragIcon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CanvasDragIcon */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragIcon.js");
+/* harmony import */ var _CanvasDragZone_resx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CanvasDragZone.resx */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragZone.resx.js");
+
+
+
+
+var SECTION_DRAG_ZONE_STRINGS = {
+    handleTitle: '',
+    moveStarted: _CanvasDragZone_resx__WEBPACK_IMPORTED_MODULE_3__["default"].DragZoneMoveStarted,
+    moveComplete: _CanvasDragZone_resx__WEBPACK_IMPORTED_MODULE_3__["default"].DragZoneMoveCompleteZone,
+    moveCancelled: _CanvasDragZone_resx__WEBPACK_IMPORTED_MODULE_3__["default"].DragZoneMoveCancelled,
+    moveNotAllowed: _CanvasDragZone_resx__WEBPACK_IMPORTED_MODULE_3__["default"].DragZoneMoveNotAllowedAriaLabel,
+    moveInsideLevel: [_CanvasDragZone_resx__WEBPACK_IMPORTED_MODULE_3__["default"].DragZoneMoveInsideLevelControl]
+};
+var CanvasSectionDragZoneUtils =  (function () {
+    function CanvasSectionDragZoneUtils(getStore) {
+        var _this = this;
+        this._dragIcon = new _CanvasDragIcon__WEBPACK_IMPORTED_MODULE_2__["CanvasDragIcon"]();
+        this.getDragZoneProps = function () {
+            return {
+                treeLevelTagsBottomUp: [_CanvasDragZoneConstants__WEBPACK_IMPORTED_MODULE_1__["CanvasDragZoneConstants"].zoneDragTag],
+                dropPositionOffsetBottomPx: _CanvasDragZoneConstants__WEBPACK_IMPORTED_MODULE_1__["CanvasDragZoneConstants"].LINE_OFFSET_BOTTOM,
+                dropPositionOffsetTopPx: _CanvasDragZoneConstants__WEBPACK_IMPORTED_MODULE_1__["CanvasDragZoneConstants"].LINE_OFFSET_TOP,
+                onMoved: _this._onZoneMoved,
+                onMoveStart: _this._onZoneMoveStart,
+                canDropOnEmptyParent: false,
+                dragHandleTag: _CanvasDragZoneConstants__WEBPACK_IMPORTED_MODULE_1__["CanvasDragZoneConstants"].zoneDragHandleTag,
+                icon: _this._dragIcon.HTMLIcon,
+                dragZoneStrings: SECTION_DRAG_ZONE_STRINGS,
+                scrollIntoView: _this._store.scrollIntoView
+            };
+        };
+        this._onZoneMoveStart = function (position) {
+            _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__["_EngagementLogger"].logEvent('Canvas.MoveZone.Click');
+            if (!CanvasSectionDragZoneUtils._isValidZonePosition(position)) {
+                return;
+            }
+            var layout = _this._store.canvasLayout;
+            var zones = layout.zones;
+            var oldZone = zones[position[0]];
+            _this._dragIcon.setMoveIconBasedOnZone(oldZone);
+        };
+        this._onZoneMoved = function (oldPosition, newPosition) {
+            if (oldPosition === newPosition ||
+                !CanvasSectionDragZoneUtils._isValidZonePosition(oldPosition) ||
+                !CanvasSectionDragZoneUtils._isValidZonePosition(newPosition) ||
+                oldPosition[0] === newPosition[0] - 1 ||
+                oldPosition[0] === newPosition[0]) {
+                return;
+            }
+            var moveMonitor = new _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__["_QosMonitor"]('CanvasZoneMove');
+            var layout = _this._store.canvasLayout;
+            var zones = layout.zones;
+            try {
+                var oldIndex = oldPosition[0];
+                var newIndex = newPosition[0];
+                var oldZone = zones[oldIndex];
+                var newZoneIndex = 0;
+                if (newIndex < zones.length) {
+                    newZoneIndex = zones[newIndex].index;
+                }
+                else {
+                    newZoneIndex = zones[zones.length - 1].index + 1;
+                }
+                layout.moveZone(oldZone, newZoneIndex);
+                moveMonitor.writeSuccess();
+            }
+            catch (err) {
+                moveMonitor.writeUnexpectedFailure('ExceptionMovingZone', err);
+            }
+        };
+        this._getStore = getStore;
+    }
+    CanvasSectionDragZoneUtils._isValidZonePosition = function (position) {
+        return position && position.length === 1;
+    };
+    Object.defineProperty(CanvasSectionDragZoneUtils.prototype, "_store", {
+        get: function () {
+            return this._getStore();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    return CanvasSectionDragZoneUtils;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasWebPartDragZoneUtils.js":
+/*!*****************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasWebPartDragZoneUtils.js ***!
+  \*****************************************************************************************************************************/
+/*! exports provided: CanvasWebPartDragZoneUtils */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CanvasWebPartDragZoneUtils", function() { return CanvasWebPartDragZoneUtils; });
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @microsoft/sp-diagnostics */ "@microsoft/sp-diagnostics");
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/sp-lodash-subset */ "@microsoft/sp-lodash-subset");
+/* harmony import */ var _microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _CanvasDragZoneConstants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CanvasDragZoneConstants */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragZoneConstants.js");
+/* harmony import */ var _common_Flights__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../common/Flights */ "../../libraries/sp-canvas/lib/sp-canvas/common/Flights.js");
+/* harmony import */ var _CanvasDragIcon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./CanvasDragIcon */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragIcon.js");
+/* harmony import */ var _canvasLayout_index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../canvasLayout/index */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/canvasLayout/index.js");
+/* harmony import */ var _webPartFactory_index__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../webPartFactory/index */ "../../libraries/sp-canvas/lib/sp-canvas/webPartFactory/index.js");
+/* harmony import */ var _CanvasDragZone_resx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./CanvasDragZone.resx */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragZone.resx.js");
+/* harmony import */ var _CanvasDragZone_module_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./CanvasDragZone.module.scss */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasDragZone.module.scss.js");
+
+
+
+
+
+
+
+
+
+var WEB_PART_DRAG_ZONE_STRINGS = {
+    handleTitle: '',
+    moveStarted: _CanvasDragZone_resx__WEBPACK_IMPORTED_MODULE_7__["default"].DragZoneMoveStarted,
+    moveComplete: _CanvasDragZone_resx__WEBPACK_IMPORTED_MODULE_7__["default"].DragZoneMoveComplete,
+    moveCancelled: _CanvasDragZone_resx__WEBPACK_IMPORTED_MODULE_7__["default"].DragZoneMoveCancelled,
+    moveNotAllowed: _CanvasDragZone_resx__WEBPACK_IMPORTED_MODULE_7__["default"].DragZoneMoveNotAllowedAriaLabel,
+    moveInsideLevel: [
+        _CanvasDragZone_resx__WEBPACK_IMPORTED_MODULE_7__["default"].DragZoneMoveInsideLevelControl,
+        _CanvasDragZone_resx__WEBPACK_IMPORTED_MODULE_7__["default"].DragZoneMoveInsideLevelSection,
+        _CanvasDragZone_resx__WEBPACK_IMPORTED_MODULE_7__["default"].DragZoneMoveInsideLevelZone
+    ]
+};
+var CanvasWebPartDragZoneUtils =  (function () {
+    function CanvasWebPartDragZoneUtils(getStore) {
+        var _this = this;
+        this._dragIcon = new _CanvasDragIcon__WEBPACK_IMPORTED_MODULE_4__["CanvasDragIcon"]();
+        this.getDragZoneProps = function () {
+            return {
+                treeLevelTagsBottomUp: [
+                    _CanvasDragZoneConstants__WEBPACK_IMPORTED_MODULE_2__["CanvasDragZoneConstants"].controlZoneDragTag,
+                    _CanvasDragZoneConstants__WEBPACK_IMPORTED_MODULE_2__["CanvasDragZoneConstants"].sectionDragTag,
+                    _CanvasDragZoneConstants__WEBPACK_IMPORTED_MODULE_2__["CanvasDragZoneConstants"].zoneDragTag
+                ],
+                dropPositionOffsetBottomPx: _CanvasDragZoneConstants__WEBPACK_IMPORTED_MODULE_2__["CanvasDragZoneConstants"].LINE_OFFSET_BOTTOM,
+                dropPositionOffsetTopPx: _CanvasDragZoneConstants__WEBPACK_IMPORTED_MODULE_2__["CanvasDragZoneConstants"].LINE_OFFSET_TOP,
+                onMoved: _this._onWebPartMoved,
+                onMoveStart: _this._onWebPartMoveStart,
+                onDropFromExternalSource: _this._handleDropFromExternalSource,
+                getDropEffectFromDragEvent: _this._getDropEffectFromDragEvent,
+                canDropOnEmptyParent: true,
+                dragHandleTag: _CanvasDragZoneConstants__WEBPACK_IMPORTED_MODULE_2__["CanvasDragZoneConstants"].webPartDragHandleTag,
+                icon: _this._dragIcon.HTMLIcon,
+                dragZoneStrings: WEB_PART_DRAG_ZONE_STRINGS,
+                disallowedTag: _CanvasDragZoneConstants__WEBPACK_IMPORTED_MODULE_2__["CanvasDragZoneConstants"].fullWidthSectionTag,
+                disallowedClassName: _CanvasDragZone_module_scss__WEBPACK_IMPORTED_MODULE_8__["default"].disabledArea,
+                scrollIntoView: _this._store.scrollIntoView,
+                onMoving: _this._onWebPartMoving
+            };
+        };
+        this._onWebPartMoveStart = function (position) {
+            _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__["_EngagementLogger"].logEvent('Canvas.MoveControl.Click');
+            if (!CanvasWebPartDragZoneUtils._isValidWebpartPosition(position)) {
+                return;
+            }
+            if (_common_Flights__WEBPACK_IMPORTED_MODULE_3__["Flights"].isCanvasVerticalSectionFlightEnabled()) {
+                var layoutIndex = _this._store.selectedLayoutIndex;
+                CanvasWebPartDragZoneUtils._fixPositionForVerticalSection(position, layoutIndex);
+                _this._previouslySelectedLayoutIndex = layoutIndex;
+            }
+            var control = _this._getControlFromDragZonePosition(position);
+            if (control) {
+                _this._dragIcon.setMoveIconBasedOnControl(control);
+            }
+        };
+        this._onWebPartMoving = function (disallowed) {
+            if (disallowed) {
+                _this._dragIcon.setDisallowedIcon();
+            }
+            else {
+                _this._dragIcon.setToPreviousState();
+            }
+        };
+        this._onWebPartMoved = function (oldPosition, newPosition) {
+            if ((oldPosition === newPosition && _this._isSameLayout()) ||
+                !CanvasWebPartDragZoneUtils._isValidWebpartPosition(oldPosition) ||
+                !CanvasWebPartDragZoneUtils._isValidWebpartPosition(newPosition) ||
+                (CanvasWebPartDragZoneUtils._droppedOnTheSamePosition(oldPosition, newPosition) && _this._isSameLayout())) {
+                return;
+            }
+            var moveMonitor = new _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__["_QosMonitor"]('CanvasControlMove');
+            try {
+                if (_common_Flights__WEBPACK_IMPORTED_MODULE_3__["Flights"].isCanvasVerticalSectionFlightEnabled()) {
+                    CanvasWebPartDragZoneUtils._fixPositionForVerticalSection(newPosition, _this._store.selectedLayoutIndex);
+                    CanvasWebPartDragZoneUtils._fixPositionForVerticalSection(oldPosition, _this._previouslySelectedLayoutIndex);
+                }
+                var oldControl = _this._getControlFromDragZonePosition(oldPosition, true);
+                if (!oldControl) {
+                    throw new Error('ControlNotFound');
+                }
+                var newCanvasPosition = _this._getNewPositionFromDragZonePosition(newPosition);
+                if (_common_Flights__WEBPACK_IMPORTED_MODULE_3__["Flights"].isCanvasVerticalSectionFlightEnabled()) {
+                    oldControl.position = _canvasLayout_index__WEBPACK_IMPORTED_MODULE_5__["CanvasLayout"].cloneMerge(oldControl.position, {
+                        layoutIndex: _this._previouslySelectedLayoutIndex
+                    });
+                }
+                _this._store.moveControl(oldControl, newCanvasPosition);
+                moveMonitor.writeSuccess();
+            }
+            catch (err) {
+                moveMonitor.writeUnexpectedFailure('ExceptionMovingControl', err);
+            }
+        };
+        this._handleDropFromExternalSource = function (data, droppedPosition, droppedAtTheEndOfSection) {
+            _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__["_EngagementLogger"].logEvent('Canvas.HandleDropFromExternal.Drop');
+            var controlPosition = _this._getNewPositionFromDragZonePosition(droppedPosition, droppedAtTheEndOfSection);
+            if (data instanceof DataTransferItemList) {
+                for (var i = 0; i < data.length; i++) {
+                    _this._addDroppedDataToCanvas(data[i].getAsFile(), controlPosition);
+                }
+            }
+        };
+        this._getDropEffectFromDragEvent = function (evt) {
+            var dragEventDropEffect = 'all';
+            var data = evt && evt.dataTransfer && evt.dataTransfer.items;
+            if (data instanceof DataTransferItemList) {
+                for (var i = 0; i < data.length; i++) {
+                    var dataItem = data[i];
+                    if (!dataItem || !dataItem.type || !dataItem.type.match(RegExp('^image/|^application/|^video/'))) {
+                        dragEventDropEffect = 'none';
+                        break;
+                    }
+                }
+            }
+            return dragEventDropEffect;
+        };
+        this._getNewPositionFromDragZonePosition = function (position, addAtTheEnd) {
+            var zone = CanvasWebPartDragZoneUtils._getZoneFromDragZonePosition(position, _this._store.canvasLayout);
+            var section = zone && CanvasWebPartDragZoneUtils._getSectionFromDragZonePosition(position, zone);
+            var controlIndex = position[0];
+            if (section.controls.length === 0) {
+                controlIndex = 1;
+            }
+            else if (controlIndex === section.controls.length || addAtTheEnd) {
+                controlIndex = section.controls[section.controls.length - 1].position.controlIndex + 1;
+            }
+            else {
+                controlIndex = section.controls[controlIndex].position.controlIndex;
+            }
+            var newCanvasPosition = {
+                controlIndex: controlIndex,
+                sectionIndex: section.index,
+                sectionFactor: section.factor,
+                zoneIndex: zone.index,
+                layoutIndex: _this._store.selectedLayoutIndex
+            };
+            return newCanvasPosition;
+        };
+        this._getControlFromDragZonePosition = function (position, isWebPartMoved) {
+            var layout = _this._store.canvasLayout;
+            if (_common_Flights__WEBPACK_IMPORTED_MODULE_3__["Flights"].isCanvasVerticalSectionFlightEnabled() && isWebPartMoved) {
+                layout = _this._store.canvasLayouts.get(_this._previouslySelectedLayoutIndex);
+            }
+            var zone = CanvasWebPartDragZoneUtils._getZoneFromDragZonePosition(position, layout);
+            var section = CanvasWebPartDragZoneUtils._getSectionFromDragZonePosition(position, zone);
+            var ctrlIdx = position[0];
+            if (!section.controls || section.controls.length <= ctrlIdx) {
+                return undefined;
+            }
+            else {
+                return section.controls[ctrlIdx];
+            }
+        };
+        this._addDroppedDataToCanvas = function (data, controlPosition) {
+            var dropMonitor = new _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__["_QosMonitor"]('CanvasOnDropFromExternalSource');
+            try {
+                var webPartResult = _webPartFactory_index__WEBPACK_IMPORTED_MODULE_6__["WebPartFactory"].getWebPart(data, _this._store);
+                if (webPartResult.webPartResultType === "SUCCESS" ) {
+                    webPartResult.webPartDataProps.position = Object(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_1__["clone"])(controlPosition);
+                    _this._store.addControlToCanvas(webPartResult.webPartDataProps, true , !_common_Flights__WEBPACK_IMPORTED_MODULE_3__["Flights"].isPageUndoRedoFlightEnabled() );
+                    dropMonitor.writeSuccess();
+                }
+                else if (webPartResult.webPartResultType === "FileTypeNotSupported" ) {
+                    dropMonitor.writeExpectedFailure(webPartResult.webPartResultType);
+                }
+                else {
+                    dropMonitor.writeUnexpectedFailure(webPartResult.webPartResultType);
+                }
+            }
+            catch (err) {
+                dropMonitor.writeUnexpectedFailure('ExceptionDragAndDrop', err);
+            }
+        };
+        this._isSameLayout = function () {
+            return (!_common_Flights__WEBPACK_IMPORTED_MODULE_3__["Flights"].isCanvasVerticalSectionFlightEnabled() ||
+                _this._store.selectedLayoutIndex === _this._previouslySelectedLayoutIndex);
+        };
+        this._getStore = getStore;
+    }
+    CanvasWebPartDragZoneUtils._isValidWebpartPosition = function (position) {
+        return position && position.length === 3;
+    };
+    CanvasWebPartDragZoneUtils._droppedOnTheSamePosition = function (oldPosition, newPosition) {
+        var oldControlIndex = oldPosition[0], oldSectionIndex = oldPosition[1], oldZoneIndex = oldPosition[2];
+        var newControlIndex = newPosition[0], newSectionIndex = newPosition[1], newZoneIndex = newPosition[2];
+        return (oldZoneIndex === newZoneIndex &&
+            oldSectionIndex === newSectionIndex &&
+            (oldControlIndex === newControlIndex - 1 || oldControlIndex === newControlIndex));
+    };
+    CanvasWebPartDragZoneUtils._getZoneFromDragZonePosition = function (position, layout) {
+        var zoneIndex = position[2];
+        var zone = layout.zones && layout.zones.length > zoneIndex && layout.zones[zoneIndex];
+        if (!zone) {
+            throw new Error("ZoneNotFound, zoneIndex: " + zoneIndex);
+        }
+        return zone;
+    };
+    CanvasWebPartDragZoneUtils._getSectionFromDragZonePosition = function (position, zone) {
+        var sectionIndex = position[1];
+        var section = zone.sections && zone.sections.length > sectionIndex && zone.sections[sectionIndex];
+        if (!section) {
+            throw new Error('SectionNotFound, sectionIndex: ${sectionIndex}');
+        }
+        return section;
+    };
+    CanvasWebPartDragZoneUtils._fixPositionForVerticalSection = function (position, selectedLayoutIndex) {
+        if (selectedLayoutIndex === _canvasLayout_index__WEBPACK_IMPORTED_MODULE_5__["CanvasLayout"].verticalLayoutIndex) {
+            position[2] = 0;
+        }
+    };
+    Object.defineProperty(CanvasWebPartDragZoneUtils.prototype, "_store", {
+        get: function () {
+            return this._getStore();
+        },
+        enumerable: true,
+        configurable: true
+    });
+    return CanvasWebPartDragZoneUtils;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/index-edit.js":
+/*!*************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/index-edit.js ***!
+  \*************************************************************************************************************/
+/*! exports provided: CanvasSectionDragZoneUtils, CanvasWebPartDragZoneUtils */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CanvasSectionDragZoneUtils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CanvasSectionDragZoneUtils */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasSectionDragZoneUtils.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CanvasSectionDragZoneUtils", function() { return _CanvasSectionDragZoneUtils__WEBPACK_IMPORTED_MODULE_0__["CanvasSectionDragZoneUtils"]; });
+
+/* harmony import */ var _CanvasWebPartDragZoneUtils__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CanvasWebPartDragZoneUtils */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasDragZone/CanvasWebPartDragZoneUtils.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CanvasWebPartDragZoneUtils", function() { return _CanvasWebPartDragZoneUtils__WEBPACK_IMPORTED_MODULE_1__["CanvasWebPartDragZoneUtils"]; });
+
+
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/webPartFactory/WebPartFactory.js":
+/*!************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/webPartFactory/WebPartFactory.js ***!
+  \************************************************************************************************/
+/*! exports provided: WebPartFactory */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebPartFactory", function() { return WebPartFactory; });
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @microsoft/sp-core-library */ "@microsoft/sp-core-library");
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/sp-diagnostics */ "@microsoft/sp-diagnostics");
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _ms_content_handler__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ms/content-handler */ "../../libraries/content-handler/lib/index.js");
+
+
+
+var WebPartFactory =  (function () {
+    function WebPartFactory() {
+    }
+    WebPartFactory.shouldExcludeFromWebPartUpdate = function (control) {
+        var addedFromPersistedData = control.addedFromPersistedData, webPartManifest = control.webPartManifest;
+        if (!webPartManifest || addedFromPersistedData) {
+            return false;
+        }
+        switch (webPartManifest.id) {
+            case (WebPartFactory._getManifestId("Image" )):
+                return !!control.webPartData.properties.imageBlob;
+            case (WebPartFactory._getManifestId("YouTube" )):
+                return !control.webPartData.properties.cachedEmbedCode;
+            case (WebPartFactory._getManifestId("Document" )):
+                return !control.webPartData.properties.uniqueId;
+            default:
+                return false;
+        }
+    };
+    WebPartFactory.getWebPart = function (data, store) {
+        var monitor = new _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_1__["_QosMonitor"]('ContentHandler.getWebPart');
+        var webPartType = _ms_content_handler__WEBPACK_IMPORTED_MODULE_2__["ContentHandler"].getWebPartType(data);
+        if (webPartType === "None" ) {
+            monitor.writeExpectedFailure("FileTypeNotSupported" );
+            return { webPartResultType: "FileTypeNotSupported"  };
+        }
+        var manifestId = this._getManifestId(webPartType);
+        var itemPropsWebPart = store.getToolBoxItem(manifestId);
+        if (!itemPropsWebPart) {
+            monitor.writeUnexpectedFailure("CanvasStoreError" , undefined, { manifestId: manifestId });
+            return { webPartResultType: "CanvasStoreError"  };
+        }
+        itemPropsWebPart.webPartData.properties = _ms_content_handler__WEBPACK_IMPORTED_MODULE_2__["ContentHandler"].getWebPartProperties(webPartType, data);
+        if (!itemPropsWebPart.webPartData.properties) {
+            monitor.writeUnexpectedFailure("UnexpectedError" , undefined, { manifestId: manifestId });
+            return { webPartResultType: "UnexpectedError"  };
+        }
+        monitor.writeSuccess();
+        return { webPartDataProps: itemPropsWebPart, webPartResultType: "SUCCESS"  };
+    };
+    WebPartFactory._getManifestId = function (webPartType) {
+        return WebPartFactory._webPartToManifestDict.get(webPartType).toString();
+    };
+    WebPartFactory._webPartToManifestDict = new Map([
+        ["Image" , _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__["Guid"].parse('d1d91016-032f-456d-98a4-721247c305e8')],
+        ["YouTube" , _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__["Guid"].parse('544dd15b-cf3c-441b-96da-004d5a8cea1d')],
+        ["Document" , _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__["Guid"].parse('b7dd04e1-19ce-4b24-9132-b60a1c2b910d')],
+        ["LinkPreview" , _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__["Guid"].parse('6410b3b6-d440-4663-8744-378976dc041e')],
+        ["Stream" , _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__["Guid"].parse('275c0095-a77e-4f6d-a2a0-6a7626911518')]
+    ]);
+    return WebPartFactory;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/webPartFactory/index.js":
+/*!***************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/webPartFactory/index.js ***!
+  \***************************************************************************************/
+/*! exports provided: WebPartFactory */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _WebPartFactory__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./WebPartFactory */ "../../libraries/sp-canvas/lib/sp-canvas/webPartFactory/WebPartFactory.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WebPartFactory", function() { return _WebPartFactory__WEBPACK_IMPORTED_MODULE_0__["WebPartFactory"]; });
+
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-component-utilities/lib/UrlUtility.js":
+/*!********************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-component-utilities/lib/UrlUtility.js ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @ms/odsp-utilities-bundle */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/@ms/odsp-utilities-bundle/5.0.61/node_modules/@ms/odsp-utilities-bundle/lib/index.js");
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _common_KillSwitches__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./common/KillSwitches */ "../../libraries/sp-component-utilities/lib/common/KillSwitches.js");
+
+
+var UrlUtility =  (function () {
+    function UrlUtility() {
+    }
+    UrlUtility.ensureSchema = function (url, validSchemas, defaultSchema) {
+        if (defaultSchema === void 0) { defaultSchema = 'https'; }
+        if (!url || !url.trim()) {
+            return '';
+        }
+        var uri = new _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_0__["Uri"](url);
+        var scheme = uri.getScheme();
+        if (!scheme) {
+            if (defaultSchema.toLowerCase() === 'mailto') {
+                return "mailto:" + url;
+            }
+            return defaultSchema + "://" + url;
+        }
+        else {
+            if (validSchemas
+                && !validSchemas.some(function (validSchema) { return validSchema.toLocaleLowerCase() === scheme.toLocaleLowerCase(); })) {
+                return undefined;
+            }
+            return url;
+        }
+    };
+    UrlUtility.isValidURL = function (embedCode) {
+        var srcProtocolRegExp =  true ? /^https:\/\//i : undefined;
+        return srcProtocolRegExp.test(embedCode);
+    };
+    UrlUtility.isYoutubeURL = function (embedCode) {
+        var youtubeURLRegExp = _common_KillSwitches__WEBPACK_IMPORTED_MODULE_1__["KillSwitches"].newYoutubeUrlRegexKS.isActivated()
+            ? /^https:\/\/(www.youtube.com\/.*|youtu.be\/.*)/i
+            : /^https:\/\/(www.youtube.com\/watch\?v\=.*|youtu.be\/.*)/i;
+        return youtubeURLRegExp.test(embedCode);
+    };
+    UrlUtility.isStreamURL = function (embedCode) {
+        var streamURLRegExp = /^https:\/\/.*microsoftstream.*/i;
+        return streamURLRegExp.test(embedCode);
+    };
+    UrlUtility.isSwayURL = function (embedCode) {
+        var swayURLRegExp = /^https:\/\/sway.com\/.*/i;
+        return swayURLRegExp.test(embedCode);
+    };
+    UrlUtility.isApprovedURL = function (embedCode, approvedDomains) {
+        if (approvedDomains.length === 0) {
+            return true;
+        }
+        for (var _i = 0, approvedDomains_1 = approvedDomains; _i < approvedDomains_1.length; _i++) {
+            var domain = approvedDomains_1[_i];
+            var srcProtocolRegExp = new RegExp('^https://' + domain, 'i');
+            if (srcProtocolRegExp.test(embedCode)) {
+                return true;
+            }
+        }
+        return false;
+    };
+    UrlUtility.startsWithHttp = function (embedCode) {
+        var srcProtocolRegExp = /^http:\/\//i;
+        return srcProtocolRegExp.test(embedCode);
+    };
+    UrlUtility.getHostnameFromUrl = function (url) {
+        var hostname = '';
+        if (url) {
+            var regExpResult = /^\s*(http:\/\/|\/\/|https:\/\/)[^\/]+/i.exec(url);
+            if (regExpResult && regExpResult.length) {
+                hostname = regExpResult[0].replace(/^\s*(http:\/\/|\/\/|https:\/\/)/i, '');
+            }
+        }
+        return hostname;
+    };
+    return UrlUtility;
+}());
+/* harmony default export */ __webpack_exports__["default"] = (UrlUtility);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-component-utilities/lib/common/KillSwitches.js":
+/*!*****************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-component-utilities/lib/common/KillSwitches.js ***!
+  \*****************************************************************************************/
+/*! exports provided: KillSwitches */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "KillSwitches", function() { return KillSwitches; });
+/* harmony import */ var _performance_KillSwitch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../performance/KillSwitch */ "../../libraries/sp-component-utilities/lib/performance/KillSwitch.js");
+
+var KillSwitches =  (function () {
+    function KillSwitches() {
+    }
+    KillSwitches.newYoutubeUrlRegexKS = new _performance_KillSwitch__WEBPACK_IMPORTED_MODULE_0__["KillSwitch"]('93326c3b-13a0-4ea5-9979-87eddec6d21a');
+    return KillSwitches;
+}());
+
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=8.8_6bfcef6354a8179d6b3a.js.map

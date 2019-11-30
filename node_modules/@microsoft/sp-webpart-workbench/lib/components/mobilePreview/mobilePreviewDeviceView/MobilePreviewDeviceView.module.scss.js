@@ -1,0 +1,9 @@
+require("./MobilePreviewDeviceView.module.css");
+var styles = {
+    mobilePreviewDevice: 'mobilePreviewDevice_bdbef490',
+    mobilePreviewPortrait: 'mobilePreviewPortrait_bdbef490',
+    mobilePreviewLandscape: 'mobilePreviewLandscape_bdbef490',
+    mobilePreviewTablet: 'mobilePreviewTablet_bdbef490',
+    mobilePreviewIframe: 'mobilePreviewIframe_bdbef490'
+};
+export default styles;

@@ -1,0 +1,169 @@
+(window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] = window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] || []).push([[16],{
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-rte/lib/toolbar/toolbar/Toolbar.css":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!C:/agent/1/_work/20/s/libraries/sp-rte/lib/toolbar/toolbar/Toolbar.css ***!
+  \******************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".CanvasControlToolbar{position:absolute;top:0;width:32px;z-index:1}[dir=ltr] .CanvasControlToolbar{left:-40px}[dir=rtl] .CanvasControlToolbar{right:-40px}[dir=ltr] .CanvasControlToolbar{padding-right:10px}[dir=rtl] .CanvasControlToolbar{padding-left:10px}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-rte/lib/toolbar/toolbar/Toolbar.css":
+/*!******************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-rte/lib/toolbar/toolbar/Toolbar.css ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./Toolbar.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-rte/lib/toolbar/toolbar/Toolbar.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "../../libraries/sp-rte/lib/toolbar/toolbar/Toolbar.js":
+/*!*****************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-rte/lib/toolbar/toolbar/Toolbar.js ***!
+  \*****************************************************************************/
+/*! exports provided: Toolbar */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Toolbar", function() { return Toolbar; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @microsoft/sp-diagnostics */ "@microsoft/sp-diagnostics");
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _toolbarButton_ToolbarButton__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../toolbarButton/ToolbarButton */ "../../libraries/sp-rte/lib/toolbar/toolbarButton/ToolbarButton.js");
+/* harmony import */ var _Toolbar_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Toolbar.scss */ "../../libraries/sp-rte/lib/toolbar/toolbar/Toolbar.scss.js");
+
+
+
+
+
+
+var Toolbar =  (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](Toolbar, _super);
+    function Toolbar(props) {
+        var _this = _super.call(this, props) || this;
+        _this._directionalHint = _this.props.directionalHint;
+        return _this;
+    }
+    Toolbar.prototype.componentDidMount = function () {
+        if (this.props.toolbarDidMount) {
+            this.props.toolbarDidMount(this);
+        }
+    };
+    Toolbar.prototype.render = function () {
+        var _this = this;
+        var _a = this.props, className = _a.className, fixedPosition = _a.fixedPosition;
+        return (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_3__["FocusZone"], { isCircularNavigation: true },
+            react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", { className: className || 'CanvasControlToolbar', style: fixedPosition, role: 'toolbar', ref: function (ref) { return (_this._domElement = ref); } },
+                this._configurationButton,
+                this._moveHandle,
+                this._duplicateButton,
+                this._deleteButton)));
+    };
+    Toolbar.prototype.getHeight = function () {
+        return this._domElement ? this._domElement.clientHeight : 0;
+    };
+    Object.defineProperty(Toolbar.prototype, "toolBarElement", {
+        get: function () {
+            return this._domElement;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Toolbar.prototype, "_deleteButton", {
+        get: function () {
+            if (!this.props.deleteButton) {
+                return false;
+            }
+            var _a = this.props.deleteButton, title = _a.title, onClick = _a.onClick;
+            return (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_toolbarButton_ToolbarButton__WEBPACK_IMPORTED_MODULE_4__["ToolbarButton"], { canBeActive: false, fabricIconKey: 'Trash', onClick: onClick, title: title, automationId: 'deleteButton', directionalHint: this._directionalHint }));
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Toolbar.prototype, "_configurationButton", {
+        get: function () {
+            if (!this.props.configurationButton) {
+                return undefined;
+            }
+            var _a = this.props.configurationButton, fabricIconKey = _a.fabricIconKey, title = _a.title, onClick = _a.onClick;
+            return (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_toolbarButton_ToolbarButton__WEBPACK_IMPORTED_MODULE_4__["ToolbarButton"], { canBeActive: false, fabricIconKey: fabricIconKey + "Edit", onClick: onClick, title: title, automationId: 'configureButton', directionalHint: this._directionalHint }));
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Toolbar.prototype, "_moveHandle", {
+        get: function () {
+            if (!this.props.moveButton) {
+                return undefined;
+            }
+            var _a = this.props.moveButton, dragHandleTag = _a.dragHandleTag, title = _a.title;
+            return (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_toolbarButton_ToolbarButton__WEBPACK_IMPORTED_MODULE_4__["ToolbarButton"], { canBeActive: false, fabricIconKey: 'Move', title: title, automationId: 'moveButton', dragHandleTag: dragHandleTag, directionalHint: this._directionalHint, onMouseDown: function () { return _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_2__["_EngagementLogger"].logEvent('Webpart.Button.Drag'); } }));
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Toolbar.prototype, "_duplicateButton", {
+        get: function () {
+            if (!this.props.duplicateButton) {
+                return undefined;
+            }
+            var title = this.props.duplicateButton.title;
+            return (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_toolbarButton_ToolbarButton__WEBPACK_IMPORTED_MODULE_4__["ToolbarButton"], { fabricIconKey: 'Copy', onClick: this.props.duplicateButton.onClick, title: title, directionalHint: this._directionalHint }));
+        },
+        enumerable: true,
+        configurable: true
+    });
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_3__["autobind"]
+    ], Toolbar.prototype, "getHeight", null);
+    return Toolbar;
+}(react__WEBPACK_IMPORTED_MODULE_1__["Component"]));
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-rte/lib/toolbar/toolbar/Toolbar.scss.js":
+/*!**********************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-rte/lib/toolbar/toolbar/Toolbar.scss.js ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./Toolbar.css */ "../../libraries/sp-rte/lib/toolbar/toolbar/Toolbar.css");
+var styles = {};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=16.16_4df2ca26c6e0efd24d57.js.map

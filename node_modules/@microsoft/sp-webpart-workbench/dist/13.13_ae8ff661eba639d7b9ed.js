@@ -1,0 +1,223 @@
+(window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] = window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] || []).push([[13],{
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-anchor/lib/anchorZone/AnchorZone.module.css":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!C:/agent/1/_work/20/s/libraries/sp-anchor/lib/anchorZone/AnchorZone.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".anchorLink_0a0687a1{opacity:0;text-decoration:none;outline:0}.anchorLink_0a0687a1:focus,:focus>.anchorLink_0a0687a1,:hover>.anchorLink_0a0687a1{-webkit-transition:.1s linear;transition:.1s linear;opacity:1}.anchorIcon_0a0687a1{font-style:normal;font-weight:400;font-size:16px}[dir=ltr] .anchorIcon_0a0687a1{margin-left:8px}[dir=rtl] .anchorIcon_0a0687a1{margin-right:8px}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-anchor/lib/anchorZone/AnchorZone.js":
+/*!******************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-anchor/lib/anchorZone/AnchorZone.js ***!
+  \******************************************************************************/
+/*! exports provided: AnchorZone */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AnchorZone", function() { return AnchorZone; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @microsoft/sp-core-library */ "@microsoft/sp-core-library");
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @microsoft/sp-diagnostics */ "@microsoft/sp-diagnostics");
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ms/odsp-utilities-bundle */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/@ms/odsp-utilities-bundle/5.0.61/node_modules/@ms/odsp-utilities-bundle/lib/index.js");
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _AnchorZone_module_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./AnchorZone.module.scss */ "../../libraries/sp-anchor/lib/anchorZone/AnchorZone.module.scss.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+
+
+var ANCHOR_ID_ATTRIBUTE_NAME = 'data-sp-anchor-id';
+var AnchorZone =  (function (_super) {
+    __extends(AnchorZone, _super);
+    function AnchorZone() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this._addAnchorIcon = function (anchoredElement, anchorId) {
+            if (!anchoredElement.lastElementChild || !AnchorZone._isElementAnchorIcon(anchoredElement.lastElementChild)) {
+                anchoredElement.appendChild(AnchorZone._anchorIconElement);
+            }
+            if (_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["_SPKillSwitch"].isActivated(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["Guid"].parse('b6178978-6ed6-4103-b9e1-6e2800f92198'), '2019/6/11', 'Apply anchor id to target element')) {
+                _this._updateAnchorAttributes(anchoredElement.lastElementChild, anchorId);
+            }
+            else {
+                _this._updateAnchorTargetAttributes(anchoredElement, anchorId);
+            }
+        };
+        _this._updateAnchorAttributes = function (anchor, anchorId) {
+            var targetUri = new _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4__["Uri"](window.location.href);
+            targetUri.setFragment(encodeURIComponent(anchorId));
+            var href = targetUri.toString();
+            anchor.setAttribute(ANCHOR_ID_ATTRIBUTE_NAME, anchorId);
+            anchor.setAttribute('id', anchorId);
+            anchor.setAttribute('href', href);
+            anchor.setAttribute('target', '_self');
+        };
+        _this._updateAnchorTargetAttributes = function (targetElement, anchorId) {
+            var anchor = targetElement.lastElementChild;
+            var targetUri = new _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4__["Uri"](window.location.href);
+            targetUri.setFragment(encodeURIComponent(anchorId));
+            var href = targetUri.toString();
+            targetElement.setAttribute('id', anchorId);
+            anchor.setAttribute(ANCHOR_ID_ATTRIBUTE_NAME, anchorId);
+            anchor.setAttribute('href', href);
+            anchor.setAttribute('target', '_self');
+            anchor.onclick = function () { _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__["_EngagementLogger"].logEvent('AnchorZone.ClickAnchor'); };
+        };
+        _this._removeAnchorIcon = function (anchoredElement, anchorId) {
+            if (anchoredElement.lastElementChild && AnchorZone._isElementAnchorIcon(anchoredElement.lastElementChild)) {
+                anchoredElement.removeChild(anchoredElement.lastElementChild);
+            }
+        };
+        return _this;
+    }
+    Object.defineProperty(AnchorZone, "_anchorIconElement", {
+        get: function () {
+            if (!AnchorZone._anchorIconElementCache) {
+                var anchorIcon = document.createElement('i');
+                anchorIcon.className = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["css"])(_AnchorZone_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].anchorIcon, Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["getIconClassName"])('Link'));
+                anchorIcon.setAttribute('aria-hidden', 'true');
+                AnchorZone._anchorIconElementCache = document.createElement('a');
+                AnchorZone._anchorIconElementCache.classList.add(_AnchorZone_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].anchorLink);
+                AnchorZone._anchorIconElementCache.appendChild(anchorIcon);
+            }
+            return AnchorZone._anchorIconElementCache.cloneNode(true);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    AnchorZone._isElementAnchorIcon = function (element) {
+        return element.hasAttribute(ANCHOR_ID_ATTRIBUTE_NAME) &&
+            element.classList.contains(_AnchorZone_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].anchorLink);
+    };
+    AnchorZone.prototype.componentDidMount = function () {
+        this._registerAnchors();
+    };
+    AnchorZone.prototype.componentWillUnmount = function () {
+        this._unregister(this.props.componentId);
+    };
+    AnchorZone.prototype.render = function () {
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { ref: this._resolveRef('_wrapperElement') }, this.props.children));
+    };
+    AnchorZone.prototype._registerAnchors = function () {
+        var _this = this;
+        if (this._wrapperElement) {
+            var anchorElements = [].slice.call(this._wrapperElement.querySelectorAll(this.props.anchorElementSelector));
+            this._register(this.props.componentId, anchorElements.map(function (anchorElement, index) { return ({
+                suggestedAnchorId: _this.props.suggestAnchorId ? _this.props.suggestAnchorId(anchorElement, index) : anchorElement.innerText,
+                anchorTargetElement: anchorElement,
+                onReceiveAnchorId: _this._addAnchorIcon,
+                onDisposeAnchorId: _this._removeAnchorIcon
+            }); }));
+        }
+    };
+    AnchorZone.prototype._register = function (uniqueId, anchorList) {
+        var eventArgs = {
+            action: "Register" ,
+            uniqueId: uniqueId,
+            anchorList: anchorList
+        };
+        _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["_SPEventManager"].instance.raiseEvent('anchorEvent', eventArgs);
+    };
+    AnchorZone.prototype._unregister = function (uniqueId) {
+        var eventArgs = {
+            action: "Unregister" ,
+            uniqueId: uniqueId
+        };
+        _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["_SPEventManager"].instance.raiseEvent('anchorEvent', eventArgs);
+    };
+    return AnchorZone;
+}(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["BaseComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-anchor/lib/anchorZone/AnchorZone.module.css":
+/*!**************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-anchor/lib/anchorZone/AnchorZone.module.css ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./AnchorZone.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-anchor/lib/anchorZone/AnchorZone.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "../../libraries/sp-anchor/lib/anchorZone/AnchorZone.module.scss.js":
+/*!******************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-anchor/lib/anchorZone/AnchorZone.module.scss.js ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./AnchorZone.module.css */ "../../libraries/sp-anchor/lib/anchorZone/AnchorZone.module.css");
+var styles = {
+    anchorLink: 'anchorLink_0a0687a1',
+    anchorIcon: 'anchorIcon_0a0687a1'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-anchor/lib/anchorZone/index.js":
+/*!*************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-anchor/lib/anchorZone/index.js ***!
+  \*************************************************************************/
+/*! exports provided: AnchorZone */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _AnchorZone__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AnchorZone */ "../../libraries/sp-anchor/lib/anchorZone/AnchorZone.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AnchorZone", function() { return _AnchorZone__WEBPACK_IMPORTED_MODULE_0__["AnchorZone"]; });
+
+
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=13.13_ae8ff661eba639d7b9ed.js.map

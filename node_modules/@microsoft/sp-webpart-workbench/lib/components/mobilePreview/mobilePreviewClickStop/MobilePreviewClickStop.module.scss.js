@@ -1,0 +1,7 @@
+require("./MobilePreviewClickStop.module.css");
+var styles = {
+    clickStop: 'clickStop_868f3d66',
+    clickStopSelected: 'clickStopSelected_868f3d66',
+    navBarItem: 'navBarItem_868f3d66'
+};
+export default styles;

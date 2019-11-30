@@ -1,0 +1,354 @@
+(window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] = window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] || []).push([[14],{
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolboxHint/LayoutCanvasToolboxHint.css":
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolboxHint/LayoutCanvasToolboxHint.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".CanvasToolboxHint{background:0 0;border:none;cursor:pointer;height:23px;opacity:0;overflow:visible;outline:0;padding:0;position:relative;-webkit-transition:all .3s ease;transition:all .3s ease;color:\"[theme:neutralTertiary, default: #a6a6a6]\"}.CanvasToolboxHint:not(.AlignedHint){width:100%}.CanvasToolboxHint:first-of-type.ZoneHint.pushDownHint+.CanvasZoneContainer--nonselected .CanvasZoneToolbar-clean,.CanvasToolboxHint:first-of-type.ZoneHint.pushDownHint+.CanvasZoneContainer--selected .CanvasZoneToolbar-clean{top:16px}.CanvasToolboxHint:first-of-type.ZoneHint.pushDownHint.ZoneHint-clean{top:7px}.CanvasToolboxHint:first-of-type.ZoneHint.pushDownHint .CanvasToolboxHint-plusButton.CanvasToolboxHint-plusButtonZone{top:12px}.CanvasToolboxHint .CanvasToolboxHint-plusButtonWrapper .CanvasToolboxHint-plusButton{border-radius:50%;padding:0;position:relative;text-align:center;z-index:1;-webkit-transition:all .3s ease;transition:all .3s ease}.CanvasToolboxHint .CanvasToolboxHint-plusButtonWrapper .CanvasToolboxHint-plusButton.CanvasToolboxHint-plusButtonZone{font-size:14px;height:23px;line-height:23px;width:23px}.CanvasToolboxHint .CanvasToolboxHint-plusButtonWrapper .CanvasToolboxHint-plusButton.CanvasToolboxHint-plusButtonZone-clean{color:\"[theme:bodyText, default: #333333]\";opacity:1;border-radius:0;font-size:14px;height:32px;line-height:32px;width:32px}[dir=ltr] .CanvasToolboxHint .CanvasToolboxHint-plusButtonWrapper .CanvasToolboxHint-plusButton.CanvasToolboxHint-plusButtonZone-clean{left:-23px}[dir=rtl] .CanvasToolboxHint .CanvasToolboxHint-plusButtonWrapper .CanvasToolboxHint-plusButton.CanvasToolboxHint-plusButtonZone-clean{right:-23px}.CanvasToolboxHint .CanvasToolboxHint-plusButtonWrapper .CanvasToolboxHint-plusButton.CanvasToolboxHint-plusButtonSection{font-size:14px;height:23px;line-height:23px;top:0;width:23px}[dir=ltr] .CanvasToolboxHint .CanvasToolboxHint-plusButtonWrapper .CanvasToolboxHint-plusButton.CanvasToolboxHint-plusButtonSection{left:calc(50% - 11.5px)}[dir=rtl] .CanvasToolboxHint .CanvasToolboxHint-plusButtonWrapper .CanvasToolboxHint-plusButton.CanvasToolboxHint-plusButtonSection{right:calc(50% - 11.5px)}.CanvasToolboxHint .CanvasToolboxHint-plusButtonWrapper .CanvasToolboxHint-plusButton .ms-Icon{position:relative}.CanvasToolboxHint:after{border-top-width:1px;border-top-style:dashed;content:\"\";height:1px;position:absolute;top:12px;width:100%;-webkit-transition:all .3s ease;transition:all .3s ease}[dir=ltr] .CanvasToolboxHint:after{left:0}[dir=rtl] .CanvasToolboxHint:after{right:0}.CanvasToolboxHint.ZoneHint{margin-top:-11.5px;top:-9px}[dir=ltr] .CanvasToolboxHint.ZoneHint:not(.AlignedHint){left:-11.5px}[dir=rtl] .CanvasToolboxHint.ZoneHint:not(.AlignedHint){right:-11.5px}.CanvasToolboxHint.ZoneHint:after{top:27px;margin-top:-15.5px}[dir=ltr] .CanvasToolboxHint.ZoneHint:after{left:12px}[dir=rtl] .CanvasToolboxHint.ZoneHint:after{right:12px}.CanvasToolboxHint.ZoneHint.ZoneHint-clean:after{top:36px;margin-top:-20px}.CanvasToolboxHint.ZoneHint .CanvasToolboxHint-plusButtonWrapper{top:-26px}[dir=ltr] .CanvasToolboxHint.ZoneHint .CanvasToolboxHint-plusButtonWrapper{left:-11.5px}[dir=rtl] .CanvasToolboxHint.ZoneHint .CanvasToolboxHint-plusButtonWrapper{right:-11.5px}.CanvasToolboxHint.ZoneHint .CanvasToolboxHint-plusButton:not(.CanvasToolboxHint-plusButtonZone-clean){-webkit-box-shadow:0 0 2px 4px \"[theme:neutralLighter, default: #f4f4f4]\";box-shadow:0 0 2px 4px \"[theme:neutralLighter, default: #f4f4f4]\";background-color:\"[theme:neutralTertiary, default: #a6a6a6]\";color:\"[theme:white, default: #ffffff]\"}.CanvasToolboxHint.ZoneHint:focus:after,.CanvasToolboxHint.ZoneHint:hover:after{border-top-color:\"[theme:themePrimary, default: #0078d4]\"}.CanvasToolboxHint.ZoneHint:focus .CanvasToolboxHint-plusButton,.CanvasToolboxHint.ZoneHint:hover .CanvasToolboxHint-plusButton{background-color:\"[theme:themePrimary, default: #0078d4]\"}.CanvasToolboxHint.ZoneHint:focus .CanvasToolboxHint-plusButton.CanvasToolboxHint-plusButtonZone-clean,.CanvasToolboxHint.ZoneHint:hover .CanvasToolboxHint-plusButton.CanvasToolboxHint-plusButtonZone-clean{color:\"[theme:white, default: #ffffff]\"}.CanvasToolboxHint.ZoneHint.zone-active-clean:after{border-top-color:\"[theme:neutralTertiary, default: #a6a6a6]\"}.CanvasToolboxHint.ZoneHint.zone-selected:after{border-top-color:\"[theme:themePrimary, default: #0078d4]\"}.CanvasToolboxHint.ZoneHint.zone-active-clean+.CanvasZoneContainer--selected:before{color:\"[theme:neutralTertiary, default: #a6a6a6]\"}.CanvasToolboxHint.ZoneHint.zone-active-clean:after,.CanvasToolboxHint.ZoneHint.zone-selected:after{border-top-width:1px;border-top-style:solid}.CanvasToolboxHint.ZoneHint.zone-active-clean .CanvasToolboxHint-plusButton,.CanvasToolboxHint.ZoneHint.zone-selected .CanvasToolboxHint-plusButton{background-color:\"[theme:themePrimary, default: #0078d4]\";opacity:1}.CanvasToolboxHint.ZoneHint.zone-active-clean .CanvasToolboxHint-plusButton.CanvasToolboxHint-plusButtonZone-clean,.CanvasToolboxHint.ZoneHint.zone-selected .CanvasToolboxHint-plusButton.CanvasToolboxHint-plusButtonZone-clean{background:0 0;color:\"[theme:bodyText, default: #333333]\"}.CanvasToolboxHint.ZoneHint.zone-active-clean:focus .CanvasToolboxHint-plusButtonZone-clean,.CanvasToolboxHint.ZoneHint.zone-active-clean:hover .CanvasToolboxHint-plusButtonZone-clean,.CanvasToolboxHint.ZoneHint.zone-selected:focus .CanvasToolboxHint-plusButtonZone-clean,.CanvasToolboxHint.ZoneHint.zone-selected:hover .CanvasToolboxHint-plusButtonZone-clean{border-radius:0;opacity:1;background-color:\"[theme:themePrimary, default: #0078d4]\";color:\"[theme:white, default: #ffffff]\"}.CanvasToolboxHint.ZoneHint.zone-active-clean+.CanvasZoneContainer--nonselected:before,.CanvasToolboxHint.ZoneHint.zone-selected+.CanvasZoneContainer--nonselected:before{border-top:none}.CanvasToolboxHint.SectionHint .CanvasToolboxHint-plusButton{opacity:1}.CanvasToolboxHint.SectionHint:after{border-top-width:1px;border-top-style:solid;top:12px}.Canvas>.CanvasToolboxHint:first-of-type:nth-last-of-type(1),.Canvas>.CanvasToolboxHint:first-of-type:nth-last-of-type(1) .CanvasToolboxHint-plusButton,.CanvasToolboxHint.is-visible,.CanvasToolboxHint.zone-active .CanvasToolboxHint-plusButton,.CanvasToolboxHint:focus,.CanvasToolboxHint:focus .CanvasToolboxHint-plusButton,.CanvasToolboxHint:hover,.CanvasToolboxHint:hover .CanvasToolboxHint-plusButton,.EmptyCanvasHint button.CanvasToolboxHint:first-of-type{opacity:1}.EmptyCanvasHint.withVerticalSection button.CanvasToolboxHint:first-of-type{top:-15px}.CanvasSection:hover button.CanvasToolboxHint:first-of-type:nth-last-of-type(1),.CanvasZone--selected button.CanvasToolboxHint:first-of-type:nth-last-of-type(1){opacity:1}@media screen and (-ms-high-contrast:active){.CanvasToolboxHint{color:#1aebff}.CanvasToolboxHint:focus .CanvasToolboxHint-plusButton{border:3px dotted #1aebff;-webkit-box-sizing:content-box;box-sizing:content-box}}@media screen and (-ms-high-contrast:black-on-white){.CanvasToolboxHint{color:#37006e}.CanvasToolboxHint:focus .CanvasToolboxHint-plusButton{border:3px dotted #1aebff;-webkit-box-sizing:content-box;box-sizing:content-box}}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolboxHint/CanvasToolboxHint.js":
+/*!***********************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolboxHint/CanvasToolboxHint.js ***!
+  \***********************************************************************************************************************/
+/*! exports provided: CanvasToolboxHint */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CanvasToolboxHint", function() { return CanvasToolboxHint; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var office_ui_fabric_react_lib_components_Tooltip_Tooltip__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! office-ui-fabric-react/lib/components/Tooltip/Tooltip */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Tooltip/Tooltip.js");
+/* harmony import */ var office_ui_fabric_react_lib_components_Tooltip_Tooltip__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(office_ui_fabric_react_lib_components_Tooltip_Tooltip__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-dom */ "react-dom");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @microsoft/sp-diagnostics */ "@microsoft/sp-diagnostics");
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @microsoft/sp-core-library */ "@microsoft/sp-core-library");
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ms/odsp-utilities-bundle */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/@ms/odsp-utilities-bundle/5.0.61/node_modules/@ms/odsp-utilities-bundle/lib/index.js");
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _a11y_CanvasA11yConstants__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../a11y/CanvasA11yConstants */ "../../libraries/sp-canvas/lib/sp-canvas/a11y/CanvasA11yConstants.js");
+/* harmony import */ var _common_Flights__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../common/Flights */ "../../libraries/sp-canvas/lib/sp-canvas/common/Flights.js");
+/* harmony import */ var _common_CanvasAlignmentStyles_styles__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../../common/CanvasAlignmentStyles.styles */ "../../libraries/sp-canvas/lib/sp-canvas/common/CanvasAlignmentStyles.styles.js");
+/* harmony import */ var _LayoutCanvasToolboxHint_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./LayoutCanvasToolboxHint.scss */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolboxHint/LayoutCanvasToolboxHint.scss.js");
+/* harmony import */ var _common_KillSwitches__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../common/KillSwitches */ "../../libraries/sp-canvas/lib/sp-canvas/common/KillSwitches.js");
+/* harmony import */ var _CanvasToolboxHint_styles__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./CanvasToolboxHint.styles */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolboxHint/CanvasToolboxHint.styles.js");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var CanvasToolboxHint =  (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](CanvasToolboxHint, _super);
+    function CanvasToolboxHint(props) {
+        var _this = _super.call(this, props) || this;
+        _this._handlePlusButtonRef = function (ref) {
+            if (ref && !_this.state.plusButtonRendered) {
+                _this.setState({
+                    plusButtonRendered: true
+                });
+            }
+            _this._canvasToolPlusButton = ref;
+        };
+        _this._handleClick = function () {
+            var store = _this.props.store;
+            store.selectedControlId = undefined;
+            if (_this.props.layout && _this.props.layout.zoneIndex) {
+                store.selectedZoneIndex = _this.props.layout.zoneIndex;
+            }
+            var logPrefix = _this._isWebpartHint ? 'WebPart' : 'Section';
+            _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_4__["_EngagementLogger"].logEvent(logPrefix + "Hint.Click");
+            if (_this._canvasToolPlusButton) {
+                store.openToolbox(_this.props.layout, _this._isWebpartHint ? "WebPart"  : "Section" , _this._canvasToolPlusButton, 
+                _this.props.isVisible ? undefined : _this._handleToolboxClose);
+            }
+            setTimeout(function () {
+                return _this.setState({
+                    isVisible: true
+                });
+            });
+        };
+        _this._handleToolboxClose = function () {
+            _this.setState({
+                isVisible: false
+            });
+        };
+        CanvasToolboxHint._isCleanSelectionModel = props.store.canvasFields.isCleanSelectionEnabled;
+        _this.state = _this._getState(props);
+        return _this;
+    }
+    CanvasToolboxHint._offsetRight = function (elem, withVerticalSection) {
+        var clientWidth = elem.clientWidth, offsetLeft = elem.offsetLeft, parentElement = elem.parentElement;
+        var offsetRight;
+        if (!parentElement || !parentElement.offsetParent) {
+            _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_4__["_TraceLogger"].logError(CanvasToolboxHint._logSource, new Error('_offsetRight: element is detached'));
+            return 0;
+        }
+        if (withVerticalSection) {
+            offsetRight = parentElement.offsetParent.clientWidth - parentElement.clientWidth - parentElement.offsetLeft;
+        }
+        else {
+            offsetRight = parentElement.offsetParent.clientWidth - clientWidth - parentElement.offsetLeft - offsetLeft;
+        }
+        return offsetRight;
+    };
+    CanvasToolboxHint._isTouchEnabled = function () {
+        var platform = new _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_7__["PlatformDetection"]();
+        return platform.isAndroid || platform.isIOS;
+    };
+    CanvasToolboxHint.prototype.componentDidMount = function () {
+        this._setFocus();
+    };
+    CanvasToolboxHint.prototype.componentDidUpdate = function () {
+        this._setFocus();
+        if (_common_Flights__WEBPACK_IMPORTED_MODULE_9__["Flights"].isCanvasVerticalSectionFlightEnabled() &&
+            !_common_KillSwitches__WEBPACK_IMPORTED_MODULE_12__["KillSwitches"].isFixOffsetForVerticalSectionKillSwitchActivated() &&
+            this.state.offset !== this._offset) {
+            this.setState({
+                offset: this._offset
+            });
+        }
+    };
+    CanvasToolboxHint.prototype.componentWillReceiveProps = function (nextProps) {
+        if (nextProps.isVisible !== this.props.isVisible) {
+            this.setState(this._getState(nextProps));
+        }
+    };
+    CanvasToolboxHint.prototype.render = function () {
+        var _this = this;
+        var _a = this.props, adjacentZoneState = _a.adjacentZoneState, ariaLabel = _a.ariaLabel, isRootScrollableElement = _a.isRootScrollableElement, layout = _a.layout, shouldCenterAlign = _a.shouldCenterAlign, theme = _a.theme, type = _a.type;
+        var emphasisClassNames;
+        if (theme) {
+            emphasisClassNames = _CanvasToolboxHint_styles__WEBPACK_IMPORTED_MODULE_13__["CanvasToolboxHintStyles"].getClassNames({
+                root: 'CanvasToolboxHintEmphasis',
+                theme: theme
+            });
+        }
+        var store = this.props.store;
+        var toolboxOpenPosition = store.canvasFields.toolboxOpenPosition;
+        var isZoneSelected = !!toolboxOpenPosition && toolboxOpenPosition.sectionIndex === layout.sectionIndex;
+        var hintClassName = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_5__["css"])('CanvasToolboxHint', emphasisClassNames ? emphasisClassNames.root : undefined, {
+            'is-visible': this.state.isVisible,
+            'zone-selected': adjacentZoneState === 3  || isZoneSelected,
+            'zone-active': !CanvasToolboxHint._isCleanSelectionModel
+                && adjacentZoneState === 2 ,
+            'zone-active-clean': CanvasToolboxHint._isCleanSelectionModel
+                && adjacentZoneState === 2 ,
+            pushDownHint: !!isRootScrollableElement
+        });
+        var hintButtonWrapperClassName = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_5__["css"])('CanvasToolboxHint-plusButtonWrapper', {
+            centerAlign: !!shouldCenterAlign
+        });
+        var buttonTypeClassName;
+        switch (type) {
+            case 1 :
+                hintClassName = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_5__["css"])(hintClassName, 'ZoneHint', { 'ZoneHint-clean': CanvasToolboxHint._isCleanSelectionModel });
+                buttonTypeClassName = CanvasToolboxHint._isCleanSelectionModel ?
+                    'CanvasToolboxHint-plusButtonZone-clean' : 'CanvasToolboxHint-plusButtonZone';
+                break;
+            case 2 :
+                hintClassName = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_5__["css"])(hintClassName, 'SectionHint');
+                buttonTypeClassName = 'CanvasToolboxHint-plusButtonSection';
+                break;
+            case 0 :
+            default:
+                break;
+        }
+        var plusButtonClassName = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_5__["css"])('CanvasToolboxHint-plusButton', buttonTypeClassName, emphasisClassNames ? emphasisClassNames.plusButton : undefined);
+        var classNames;
+        if (_common_Flights__WEBPACK_IMPORTED_MODULE_9__["Flights"].isCanvasVerticalSectionFlightEnabled() && type === 1 ) {
+            classNames = _common_CanvasAlignmentStyles_styles__WEBPACK_IMPORTED_MODULE_10__["CanvasAlignmentStyles"].getHintClassNames({
+                root: hintClassName,
+                offset: !_common_KillSwitches__WEBPACK_IMPORTED_MODULE_12__["KillSwitches"].isFixOffsetForVerticalSectionKillSwitchActivated() ? -this.state.offset : this._offset
+            });
+        }
+        if (store.displayMode !== _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_6__["DisplayMode"].Edit) {
+            return false;
+        }
+        else {
+            var tooltip = !CanvasToolboxHint._isTouchEnabled() &&
+                this.state.isTooltipVisible && (react__WEBPACK_IMPORTED_MODULE_2__["createElement"](office_ui_fabric_react_lib_components_Tooltip_Tooltip__WEBPACK_IMPORTED_MODULE_1__["Tooltip"], { content: ariaLabel, targetElement: this._canvasToolPlusButton, calloutProps: { gapSpace: 1 }, directionalHint: CanvasToolboxHint._isCleanSelectionModel ? _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_5__["DirectionalHint"].rightCenter : undefined }));
+            return (react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("button", { "aria-haspopup": true, "aria-label": ariaLabel, className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_5__["css"])(hintClassName, _common_Flights__WEBPACK_IMPORTED_MODULE_9__["Flights"].isCanvasVerticalSectionFlightEnabled() && classNames ? classNames.root : undefined), "data-automation-id": this._isWebpartHint ? 'toolboxHint-webPart' : 'toolboxHint-zone', "data-sp-a11y-class": _a11y_CanvasA11yConstants__WEBPACK_IMPORTED_MODULE_8__["canvasA11yClasses"].toolboxHint, onClick: this._handleClick, onFocus: function () { return _this._toggleTooltip(true); }, onBlur: function () { return _this._toggleTooltip(false); }, onMouseEnter: function () { return _this._toggleTooltip(true); }, onMouseLeave: function () { return _this._toggleTooltip(false); } },
+                react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", { className: hintButtonWrapperClassName },
+                    react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", { className: plusButtonClassName, ref: this._handlePlusButtonRef },
+                        react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_5__["Icon"], { iconName: 'Add' }))),
+                tooltip));
+        }
+    };
+    Object.defineProperty(CanvasToolboxHint.prototype, "_offset", {
+        get: function () {
+            if (this._domNode) {
+                if (Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_5__["getRTL"])()) {
+                    return CanvasToolboxHint._offsetRight(this._domNode, true);
+                }
+                else if (this._domNode.parentElement) {
+                    return this._domNode.parentElement.offsetLeft;
+                }
+            }
+            return 0;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    CanvasToolboxHint.prototype.focus = function () {
+        var _this = this;
+        window.setTimeout(function () {
+            if (_this._domNode) {
+                _this._domNode.focus();
+            }
+        }, 0);
+    };
+    CanvasToolboxHint.prototype._setFocus = function () {
+        this._domNode = react_dom__WEBPACK_IMPORTED_MODULE_3__["findDOMNode"](this);
+        if (this.props.shouldFocus) {
+            this.focus();
+        }
+    };
+    CanvasToolboxHint.prototype._getState = function (props) {
+        return {
+            isVisible: !!props.isVisible,
+            plusButtonRendered: false,
+            isTooltipVisible: false,
+            offset: !_common_KillSwitches__WEBPACK_IMPORTED_MODULE_12__["KillSwitches"].isFixOffsetForVerticalSectionKillSwitchActivated() ? this._offset : undefined
+        };
+    };
+    CanvasToolboxHint.prototype._toggleTooltip = function (isTooltipVisible) {
+        if (this.state.isTooltipVisible !== isTooltipVisible) {
+            this.setState({ isTooltipVisible: isTooltipVisible });
+        }
+    };
+    Object.defineProperty(CanvasToolboxHint.prototype, "_isWebpartHint", {
+        get: function () {
+            return !!(this.props.layout && this.props.layout.sectionIndex);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    CanvasToolboxHint._logSource = _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_4__["_LogSource"].create('CanvasToolboxHint');
+    return CanvasToolboxHint;
+}(react__WEBPACK_IMPORTED_MODULE_2__["Component"]));
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolboxHint/CanvasToolboxHint.styles.js":
+/*!******************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolboxHint/CanvasToolboxHint.styles.js ***!
+  \******************************************************************************************************************************/
+/*! exports provided: CanvasToolboxHintStyles */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CanvasToolboxHintStyles", function() { return CanvasToolboxHintStyles; });
+/* harmony import */ var _common_StyleHelpers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../common/StyleHelpers */ "../../libraries/sp-canvas/lib/sp-canvas/common/StyleHelpers.js");
+
+var CanvasToolboxHintStyles =  (function () {
+    function CanvasToolboxHintStyles() {
+    }
+    CanvasToolboxHintStyles.getClassNames = function (props) {
+        return Object(_common_StyleHelpers__WEBPACK_IMPORTED_MODULE_0__["getClassNames"])(CanvasToolboxHintStyles._getStyles, props);
+    };
+    CanvasToolboxHintStyles._getStyles = function (props) {
+        var theme = props.theme, root = props.root;
+        var palette = theme.palette;
+        return {
+            root: [
+                root,
+                {
+                    selectors: {
+                        '&::after': {
+                            borderTopColor: palette.neutralTertiary
+                        },
+                        '&:hover::after, &:focus::after': {
+                            borderTopColor: palette.themePrimary
+                        },
+                        '&:hover .CanvasToolboxHint-plusButton, &:focus .CanvasToolboxHint-plusButton': {
+                            backgroundColor: palette.themePrimary,
+                            boxShadow: '0 0 4px 0 ' + palette.themeDark,
+                            color: palette.white
+                        }
+                    }
+                }
+            ],
+            plusButton: [
+                'CanvasToolboxHintEmphasis-plusButton',
+                {
+                    backgroundColor: palette.neutralTertiary,
+                    boxShadow: '0 0 4px 0 ' + palette.blackTranslucent40,
+                    color: palette.white
+                }
+            ]
+        };
+    };
+    return CanvasToolboxHintStyles;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolboxHint/LayoutCanvasToolboxHint.css":
+/*!******************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolboxHint/LayoutCanvasToolboxHint.css ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./LayoutCanvasToolboxHint.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolboxHint/LayoutCanvasToolboxHint.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolboxHint/LayoutCanvasToolboxHint.scss.js":
+/*!**********************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolboxHint/LayoutCanvasToolboxHint.scss.js ***!
+  \**********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./LayoutCanvasToolboxHint.css */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolboxHint/LayoutCanvasToolboxHint.css");
+var styles = {};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=14.14_ae2f562733bc063be31c.js.map

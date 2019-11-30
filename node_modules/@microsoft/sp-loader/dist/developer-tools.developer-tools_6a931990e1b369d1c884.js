@@ -1,0 +1,2691 @@
+(window["webpackJsonp_1c6c9123_7aac_41f3_a376_3caea41ed83f_1_9_1"] = window["webpackJsonp_1c6c9123_7aac_41f3_a376_3caea41ed83f_1_9_1"] || []).push([["developer-tools"],{
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/LoadingOrErrorModule/LoadingOrErrorModule.module.css":
+/*!*************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./lib/DeveloperTools/Components/DeveloperModules/LoadingOrErrorModule/LoadingOrErrorModule.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".loadingModule_44ff50a0,.module_44ff50a0{text-align:center;vertical-align:middle;height:100%;display:table;width:100%;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default}.errorText_44ff50a0,.loadingModule_44ff50a0>div{display:table-cell;text-align:center;vertical-align:middle}.errorText_44ff50a0{font-size:17px;font-weight:300}.screenReaderErrorMessage_44ff50a0{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestDetails/ManifestDetails.module.css":
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestDetails/ManifestDetails.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".container_1812d3d7{display:block;height:100%}.manifestIdHeading_1812d3d7{font-size:large}.manifestTextBox_1812d3d7{width:100%;height:calc(100% - 3em);resize:none;border:none;outline:0}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestManager.module.css":
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestManager.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".container_ae8a8547{height:100%}.manifestListContainer_ae8a8547{border-right:2px solid gray;height:100%;width:500px;overflow-y:auto;overflow-x:hidden;float:left}.manifestDetailsContainer_ae8a8547{height:100%;padding:5px;overflow-x:hidden;overflow-y:auto}.noManifestSelectedContainer_ae8a8547{text-align:center;position:relative;font-size:30px;color:gray;display:table;width:100%;height:calc(100% - 10px);-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default}.noManifestSelectedContainer_ae8a8547>div{display:table-cell;text-align:center;vertical-align:middle}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.module.css":
+/*!*********************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".performanceDisplayContainer_a9cacc4b{position:absolute;width:100%;height:100%;overflow-y:scroll}.graphContainer_a9cacc4b{float:left;width:calc(100% - 1em);border:1px solid}.errorMessage_a9cacc4b{text-align:center;position:relative;top:50%;font-size:25px}.msFontColorRedDark_a9cacc4b{color:#a80000}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraph.module.css":
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraph.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".container_e27349df{display:block;height:100%;width:100%}.tableDelimiter_e27349df{position:relative;float:left;width:100%;border-spacing:0;z-index:1}.thDelimiter_e27349df{height:100%;padding:5px;border:0;border-right:1px solid #c8c8c8;border-bottom:1px solid #767676;width:10%;text-align:right;vertical-align:text-top;font-weight:400;font-size:small;position:relative}.tableRowPerfList_e27349df{border:1px solid #767676;padding:5px;height:25px;-webkit-box-sizing:border-box;box-sizing:border-box}.tableRowRightLight_e27349df{border-right:1px solid #c8c8c8}.tableRowName_e27349df{min-width:250px;max-width:250px}.tableRowDuration_e27349df{min-width:70px;max-width:70px}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraphItem/PerformanceGraphItem.module.css":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraphItem/PerformanceGraphItem.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".bar_247e761e{height:13px;margin:0;margin-top:-6px;position:absolute}.bar_247e761e,.tableRowPerfList_247e761e{-webkit-box-sizing:border-box;box-sizing:border-box}.tableRowPerfList_247e761e{border:1px solid #767676;padding:5px;height:25px}.tableRowBottomLight_247e761e{border-bottom:1px solid #c8c8c8}.tableRowRightLight_247e761e{border-right:1px solid #c8c8c8}.tdDelimiter_247e761e{width:10%;border-spacing:0;z-index:1;border:1px solid #c8c8c8;border-top:0;border-left:0}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceHeader.module.css":
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceHeader.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".headerTable_aa6b7018{border:1px solid #767676;border-right:0;width:calc(100% - 1em);margin-bottom:10px;margin-top:5px;border-collapse:collapse}.headerTableRows_aa6b7018{text-align:center;border-right:1px solid #767676;border-bottom:1px solid #767676}.hint_aa6b7018{font-size:12px;margin:5px}.infoIcon_aa6b7018{margin-right:5px}.msThemeLighter_aa6b7018{background-color:#deecf9}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceLegend/PerformanceLegend.module.css":
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceLegend/PerformanceLegend.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".legend_39453fd9{border:1px solid #767676;border-collapse:collapse;position:relative;margin:auto;margin-bottom:10px}.legendCells_39453fd9{border:1px solid #767676;padding:2px 10px}.colorSquare_39453fd9{height:13px;width:13px;float:left;position:relative;margin-right:7px;top:3px}.msBlue_39453fd9{background-color:#0078d4}.msBlueMid_39453fd9{background-color:#00188f}.msPurpleLight_39453fd9{background-color:#b4a0ff}.msTealLight_39453fd9{background-color:#00b294}.msThemeTertiary_39453fd9{background-color:#71afe5}.msLightGreen_39453fd9{background-color:#77f70f}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.module.css":
+/*!*********************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".container_3d282470{height:100%}.traceListContainer_3d282470{height:100%;width:100%;float:left}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceList.module.css":
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceList.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "ul{padding:0}li{display:inline-table}.container_f5b519e4{height:100%;padding:0}.traceListItemsContainer_f5b519e4{height:80%;padding:0;overflow-y:auto;margin-top:0;margin-bottom:0}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListHeader/TraceListHeader.module.css":
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListHeader/TraceListHeader.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".container_24968ab4{display:block;margin-top:0;margin-bottom:0}.displayNone_24968ab4{display:none}.displayBlock_24968ab4{display:block}.filterRow_24968ab4{width:100%}.filterButton_24968ab4{background:0 0;border:none;cursor:pointer;padding:13px 5px;font-size:1.25em;color:#2f4f4f}.filterOverlay_24968ab4{height:60%;width:20%;clear:left;position:absolute;z-index:200;background:#fff;border:solid;border-color:#696969;border-width:1px;overflow-y:auto}.headerText_24968ab4{float:left}.levelFilterOverlay_24968ab4{height:60%;width:10%;clear:left;position:absolute;z-index:200;background:#fff;border:solid;border-color:#696969;border-width:1px;overflow-y:auto}.level_24968ab4{width:5%}.message_24968ab4{width:40%}.scope_24968ab4,.source_24968ab4{width:20%}.timestamp_24968ab4{width:15%}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListItem/TraceListItem.module.css":
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListItem/TraceListItem.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".container_6175b78d{display:block}.blueBackground_6175b78d{background:\"[theme:themeLighter, default: #deecf9]\"}.itemDetails_6175b78d{padding:0}.itemDetails_6175b78d li{display:inline-table}.verbose_6175b78d{width:5%;color:\"[theme:yellow, default: #ffb900]\"}.info_6175b78d{width:5%;color:\"[theme:orangeLighter, default: #ff8c00]\"}.warning_6175b78d{width:5%;color:\"[theme:orangeLight, default: #ea4300]\"}.error_6175b78d{width:5%;color:\"[theme:red, default: #e81123]\"}.message_6175b78d{width:40%}.scope_6175b78d,.source_6175b78d{width:20%}.timestamp_6175b78d{width:15%}.redText_6175b78d{color:\"[theme:red, default: #e81123]\"}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperToolsConsole.module.css":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./lib/DeveloperTools/Components/DeveloperToolsConsole.module.css ***!
+  \************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".container_a4a15380{position:fixed;bottom:0;width:100%;background-color:#fff;opacity:.9;z-index:2147483647}.toolsArea_a4a15380{position:absolute;bottom:0;top:5px;width:100%}.toolsArea_a4a15380>div{height:100%}.toolsArea_a4a15380>div .ms-Pivot{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.toolsArea_a4a15380>div>div+div{padding:0 5px 5px;height:calc(100% - 50px);position:absolute;width:calc(100% - 10px)}.toolsArea_a4a15380>div>div+div>div{height:100%}.resizeBar_a4a15380{background-color:#2f4f4f;width:100%;height:5px;cursor:ns-resize}.closeButton_a4a15380{position:absolute!important;right:0;top:0}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/LoadingOrErrorModule/LoadingOrErrorModule.js":
+/*!*****************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/LoadingOrErrorModule/LoadingOrErrorModule.js ***!
+  \*****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./lib/DeveloperTools/FBWrappers/FakeReact.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var office_ui_fabric_react_lib_Spinner__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! office-ui-fabric-react/lib/Spinner */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Spinner.js");
+/* harmony import */ var office_ui_fabric_react_lib_Utilities__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! office-ui-fabric-react/lib/Utilities */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Utilities.js");
+/* harmony import */ var _LoadingOrErrorModule_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./LoadingOrErrorModule.module.scss */ "./lib/DeveloperTools/Components/DeveloperModules/LoadingOrErrorModule/LoadingOrErrorModule.module.scss.js");
+/* harmony import */ var _LoadingOrErrorModule_resx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./LoadingOrErrorModule.resx */ "./lib/DeveloperTools/Components/DeveloperModules/LoadingOrErrorModule/LoadingOrErrorModule.resx.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+
+var LoadingOrErrorModule =  (function (_super) {
+    __extends(LoadingOrErrorModule, _super);
+    function LoadingOrErrorModule(props) {
+        return _super.call(this, props) || this;
+    }
+    LoadingOrErrorModule.prototype.componentDidMount = function () {
+        var _this = this;
+        this.props.tab.loadComponent()
+            .then(function () {
+            _this.forceUpdate();
+        })
+            .catch(function (error) {
+            _this.forceUpdate();
+        });
+    };
+    LoadingOrErrorModule.prototype.render = function () {
+        var tab = this.props.tab;
+        if (tab.isLoading) {
+            return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _LoadingOrErrorModule_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].loadingModule },
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"](office_ui_fabric_react_lib_Spinner__WEBPACK_IMPORTED_MODULE_1__["Spinner"], { type: office_ui_fabric_react_lib_Spinner__WEBPACK_IMPORTED_MODULE_1__["SpinnerType"].large, label: _LoadingOrErrorModule_resx__WEBPACK_IMPORTED_MODULE_4__["default"].developerToolsTabLoadingText }));
+        }
+        else if (tab.loadError || !tab.component) {
+            var errorMessage = tab.loadError || _LoadingOrErrorModule_resx__WEBPACK_IMPORTED_MODULE_4__["default"].developerToolsTabLoadingUnknownError;
+            return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _LoadingOrErrorModule_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].module },
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { "aria-live": 'assertive', className: _LoadingOrErrorModule_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].screenReaderErrorMessage, "data-automation-id": 'error-message' }, errorMessage),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", { className: Object(office_ui_fabric_react_lib_Utilities__WEBPACK_IMPORTED_MODULE_2__["css"])('ms-TextField-errorMessage', _LoadingOrErrorModule_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].errorText) }, errorMessage));
+        }
+        else {
+            return react__WEBPACK_IMPORTED_MODULE_0__["createElement"](tab.component);
+        }
+    };
+    return LoadingOrErrorModule;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+/* harmony default export */ __webpack_exports__["default"] = (LoadingOrErrorModule);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/LoadingOrErrorModule/LoadingOrErrorModule.module.css":
+/*!*************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/LoadingOrErrorModule/LoadingOrErrorModule.module.css ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./LoadingOrErrorModule.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/LoadingOrErrorModule/LoadingOrErrorModule.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/LoadingOrErrorModule/LoadingOrErrorModule.module.scss.js":
+/*!*****************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/LoadingOrErrorModule/LoadingOrErrorModule.module.scss.js ***!
+  \*****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./LoadingOrErrorModule.module.css */ "./lib/DeveloperTools/Components/DeveloperModules/LoadingOrErrorModule/LoadingOrErrorModule.module.css");
+var styles = {
+    module: 'module_44ff50a0',
+    loadingModule: 'loadingModule_44ff50a0',
+    errorText: 'errorText_44ff50a0',
+    screenReaderErrorMessage: 'screenReaderErrorMessage_44ff50a0'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/LoadingOrErrorModule/LoadingOrErrorModule.resx.js":
+/*!**********************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/LoadingOrErrorModule/LoadingOrErrorModule.resx.js ***!
+  \**********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var key = '_SxImp5ewsUToxeAHBkB+pw';
+var allStrings = ( false) ?
+    undefined :
+    __webpack_require__(/*! resx-strings */ "resx-strings");
+var strings = allStrings[key];
+/* harmony default export */ __webpack_exports__["default"] = (strings);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestDetails/ManifestDetails.js":
+/*!***********************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestDetails/ManifestDetails.js ***!
+  \***********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./lib/DeveloperTools/FBWrappers/FakeReact.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ManifestDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ManifestDetails.module.scss */ "./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestDetails/ManifestDetails.module.scss.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+var ManifestDetails =  (function (_super) {
+    __extends(ManifestDetails, _super);
+    function ManifestDetails() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    ManifestDetails.prototype.render = function () {
+        var manifest = this.props.manifest.debugManifest || this.props.manifest.manifest;
+        var manifestText = manifest ? JSON.stringify(manifest, undefined, 2) : '';
+        return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _ManifestDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].container },
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _ManifestDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].manifestIdHeading }, this.props.manifest.id),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("textarea", { className: _ManifestDetails_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].manifestTextBox, readOnly: true, value: manifestText }));
+    };
+    return ManifestDetails;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+/* harmony default export */ __webpack_exports__["default"] = (ManifestDetails);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestDetails/ManifestDetails.module.css":
+/*!*******************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestDetails/ManifestDetails.module.css ***!
+  \*******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./ManifestDetails.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestDetails/ManifestDetails.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestDetails/ManifestDetails.module.scss.js":
+/*!***********************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestDetails/ManifestDetails.module.scss.js ***!
+  \***********************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./ManifestDetails.module.css */ "./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestDetails/ManifestDetails.module.css");
+var styles = {
+    container: 'container_1812d3d7',
+    manifestIdHeading: 'manifestIdHeading_1812d3d7',
+    manifestTextBox: 'manifestTextBox_1812d3d7'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestManager.js":
+/*!*******************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestManager.js ***!
+  \*******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./lib/DeveloperTools/FBWrappers/FakeReact.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var office_ui_fabric_react_lib_DetailsList__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! office-ui-fabric-react/lib/DetailsList */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/DetailsList.js");
+/* harmony import */ var _stores_ManifestStore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../../../stores/ManifestStore */ "./lib/stores/ManifestStore.js");
+/* harmony import */ var _utilities_normalizeComponentId__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../../../utilities/normalizeComponentId */ "./lib/utilities/normalizeComponentId.js");
+/* harmony import */ var _ManifestDetails_ManifestDetails__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ManifestDetails/ManifestDetails */ "./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestDetails/ManifestDetails.js");
+/* harmony import */ var _ManifestManager_module_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ManifestManager.module.scss */ "./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestManager.module.scss.js");
+/* harmony import */ var _ManifestManager_resx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ManifestManager.resx */ "./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestManager.resx.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+
+
+
+var ManifestManager =  (function (_super) {
+    __extends(ManifestManager, _super);
+    function ManifestManager(props) {
+        var _this = _super.call(this, props) || this;
+        _this._selection = new office_ui_fabric_react_lib_DetailsList__WEBPACK_IMPORTED_MODULE_1__["Selection"]({
+            getKey: function (item) { return item.id; },
+            onSelectionChanged: function () {
+                var selectedModule = _this._selection.getSelection()[0];
+                if (!selectedModule) {
+                    ManifestManager._selectedManifestId = undefined;
+                }
+                else {
+                    ManifestManager._selectedManifestId = Object(_utilities_normalizeComponentId__WEBPACK_IMPORTED_MODULE_3__["default"])(selectedModule.id, selectedModule.version);
+                }
+                _this.setState(_this.getUpdatedState());
+            }
+        });
+        _this.state = _this.getUpdatedState();
+        return _this;
+    }
+    ManifestManager.prototype.render = function () {
+        var selectedManifest = this.state.selectedManifest;
+        var manifestDetailsBox = selectedManifest
+            ? react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_ManifestDetails_ManifestDetails__WEBPACK_IMPORTED_MODULE_4__["default"], { manifest: selectedManifest })
+            : react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _ManifestManager_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].noManifestSelectedContainer },
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, _ManifestManager_resx__WEBPACK_IMPORTED_MODULE_6__["default"].noManifestSelected));
+        var columns = [{
+                key: 'alias',
+                name: 'alias',
+                fieldName: 'alias',
+                minWidth: 100,
+                maxWidth: 150,
+                onRender: function (item) { return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", null, (item.debugManifest || item.manifest).alias); }
+            },
+            {
+                key: 'id',
+                name: 'id',
+                fieldName: 'id',
+                minWidth: 300,
+                maxWidth: 300
+            }];
+        return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _ManifestManager_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].container },
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _ManifestManager_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].manifestListContainer },
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"](office_ui_fabric_react_lib_DetailsList__WEBPACK_IMPORTED_MODULE_1__["DetailsList"], { items: this.state.manifests, columns: columns, isHeaderVisible: false, selectionMode: office_ui_fabric_react_lib_DetailsList__WEBPACK_IMPORTED_MODULE_1__["SelectionMode"].single, selection: this._selection, setKey: 'set', constrainMode: office_ui_fabric_react_lib_DetailsList__WEBPACK_IMPORTED_MODULE_1__["ConstrainMode"].unconstrained })),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _ManifestManager_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].manifestDetailsContainer }, manifestDetailsBox));
+    };
+    ManifestManager.prototype.getUpdatedState = function () {
+        var manifestMap = _stores_ManifestStore__WEBPACK_IMPORTED_MODULE_2__["default"].instance._getManifestMap();
+        var manifests = [];
+        manifestMap.forEach(function (entry) { return manifests.push(entry); });
+        return {
+            manifests: manifests,
+            selectedManifest: ManifestManager._selectedManifestId ?
+                manifestMap.get(ManifestManager._selectedManifestId) :
+                undefined
+        };
+    };
+    ManifestManager._selectedManifestId = undefined;
+    return ManifestManager;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+/* harmony default export */ __webpack_exports__["default"] = (ManifestManager);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestManager.module.css":
+/*!***************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestManager.module.css ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./ManifestManager.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestManager.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestManager.module.scss.js":
+/*!*******************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestManager.module.scss.js ***!
+  \*******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./ManifestManager.module.css */ "./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestManager.module.css");
+var styles = {
+    container: 'container_ae8a8547',
+    manifestListContainer: 'manifestListContainer_ae8a8547',
+    manifestDetailsContainer: 'manifestDetailsContainer_ae8a8547',
+    noManifestSelectedContainer: 'noManifestSelectedContainer_ae8a8547'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestManager.resx.js":
+/*!************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestManager.resx.js ***!
+  \************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var key = '_sovI4qDAUPMnD4jg3Vsyfg';
+var allStrings = ( false) ?
+    undefined :
+    __webpack_require__(/*! resx-strings */ "resx-strings");
+var strings = allStrings[key];
+/* harmony default export */ __webpack_exports__["default"] = (strings);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.js":
+/*!*************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.js ***!
+  \*************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./lib/DeveloperTools/FBWrappers/FakeReact.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/sp-core-library */ "@microsoft/sp-core-library");
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _PerformanceDisplay_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PerformanceDisplay.module.scss */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.module.scss.js");
+/* harmony import */ var _PerformanceGraph_PerformanceGraph__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PerformanceGraph/PerformanceGraph */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraph.js");
+/* harmony import */ var _PerformanceHeader_PerformanceHeader__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./PerformanceHeader/PerformanceHeader */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceHeader.js");
+/* harmony import */ var _DataProviders_PerformanceDisplayStateProvider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../DataProviders/PerformanceDisplayStateProvider */ "./lib/DeveloperTools/DataProviders/PerformanceDisplayStateProvider.js");
+/* harmony import */ var _ms_sp_telemetry__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ms/sp-telemetry */ "@ms/sp-telemetry");
+/* harmony import */ var _ms_sp_telemetry__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_ms_sp_telemetry__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./PerformanceDisplay.resx */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.resx.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+
+
+
+
+var PerformanceDisplay =  (function (_super) {
+    __extends(PerformanceDisplay, _super);
+    function PerformanceDisplay(props) {
+        var _this = _super.call(this, props) || this;
+        _this._setState = function () {
+            _this.setState(Object(_DataProviders_PerformanceDisplayStateProvider__WEBPACK_IMPORTED_MODULE_5__["getState"])());
+        };
+        _this.state = Object(_DataProviders_PerformanceDisplayStateProvider__WEBPACK_IMPORTED_MODULE_5__["getState"])();
+        return _this;
+    }
+    PerformanceDisplay.prototype.componentDidMount = function () {
+        _ms_sp_telemetry__WEBPACK_IMPORTED_MODULE_6__["_PerformanceLogger"].addListener(this._setState);
+    };
+    PerformanceDisplay.prototype.componentWillUnmount = function () {
+        _ms_sp_telemetry__WEBPACK_IMPORTED_MODULE_6__["_PerformanceLogger"].removeListener(this._setState);
+    };
+    PerformanceDisplay.prototype.render = function () {
+        if (this.state.errorMessage) {
+            var errorMessageClass = [_PerformanceDisplay_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].errorMessage, _PerformanceDisplay_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].msFontColorRedDark].join(' ');
+            return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: errorMessageClass },
+                _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_7__["default"].GeneralErrorMessage,
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("br", null),
+                _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_1__["Text"].format(_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_7__["default"].ErrorMessagePrefix, this.state.errorMessage)));
+        }
+        else {
+            return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _PerformanceDisplay_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].performanceDisplayContainer },
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_PerformanceHeader_PerformanceHeader__WEBPACK_IMPORTED_MODULE_4__["default"], { perfItems: this.state.perfItems, overallDuration: this.state.eupl }),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _PerformanceDisplay_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].graphContainer },
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_PerformanceGraph_PerformanceGraph__WEBPACK_IMPORTED_MODULE_3__["default"], { perfItems: this.state.perfItems, startTime: this.state.startTime, overallDuration: this.state.eupl }))));
+        }
+    };
+    return PerformanceDisplay;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+/* harmony default export */ __webpack_exports__["default"] = (PerformanceDisplay);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.module.css":
+/*!*********************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.module.css ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./PerformanceDisplay.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.module.scss.js":
+/*!*************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.module.scss.js ***!
+  \*************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./PerformanceDisplay.module.css */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.module.css");
+var styles = {
+    performanceDisplayContainer: 'performanceDisplayContainer_a9cacc4b',
+    graphContainer: 'graphContainer_a9cacc4b',
+    errorMessage: 'errorMessage_a9cacc4b',
+    msFontColorRedDark: 'msFontColorRedDark_a9cacc4b'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.resx.js":
+/*!******************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.resx.js ***!
+  \******************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var key = '_g7G0QHJ5bQYlxe+lk+DcxA';
+var allStrings = ( false) ?
+    undefined :
+    __webpack_require__(/*! resx-strings */ "resx-strings");
+var strings = allStrings[key];
+/* harmony default export */ __webpack_exports__["default"] = (strings);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraph.js":
+/*!****************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraph.js ***!
+  \****************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./lib/DeveloperTools/FBWrappers/FakeReact.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _PerformanceGraph_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PerformanceGraph.module.scss */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraph.module.scss.js");
+/* harmony import */ var _PerformanceGraphItem_PerformanceGraphItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PerformanceGraphItem/PerformanceGraphItem */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraphItem/PerformanceGraphItem.js");
+/* harmony import */ var _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../PerformanceDisplay.resx */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.resx.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+var PerformanceGraph =  (function (_super) {
+    __extends(PerformanceGraph, _super);
+    function PerformanceGraph(props) {
+        var _this = _super.call(this, props) || this;
+        _this._scale = Math.ceil(_this.props.overallDuration / 100) * 100;
+        return _this;
+    }
+    PerformanceGraph.prototype.render = function () {
+        var _this = this;
+        var graphBars = [];
+        this.props.perfItems.map(function (item) {
+            graphBars.push(react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_PerformanceGraphItem_PerformanceGraphItem__WEBPACK_IMPORTED_MODULE_2__["default"], { key: item.id, perfItem: item, startTime: _this.props.startTime, overallDuration: _this._scale }));
+        });
+        var delimiters = [];
+        for (var i = 1; i <= 10; i++) {
+            delimiters.push(react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("th", { key: i, className: _PerformanceGraph_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].thDelimiter }, i * (this._scale / 10)));
+        }
+        var nameStyle = [
+            _PerformanceGraph_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].tableRowPerfList,
+            _PerformanceGraph_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].tableRowRightLight,
+            _PerformanceGraph_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].tableRowName
+        ].join(' ');
+        var durationStyle = [_PerformanceGraph_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].tableRowPerfList, _PerformanceGraph_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].tableRowDuration].join(' ');
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _PerformanceGraph_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].container },
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("table", { className: _PerformanceGraph_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].tableDelimiter },
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("thead", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("tr", null,
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("th", { className: nameStyle }, _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_3__["default"].ItemsColumnHeader),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("th", { className: durationStyle }, _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_3__["default"].DurationColumnHeader),
+                        delimiters)),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("tbody", null, graphBars))));
+    };
+    return PerformanceGraph;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+/* harmony default export */ __webpack_exports__["default"] = (PerformanceGraph);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraph.module.css":
+/*!************************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraph.module.css ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./PerformanceGraph.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraph.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraph.module.scss.js":
+/*!****************************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraph.module.scss.js ***!
+  \****************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./PerformanceGraph.module.css */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraph.module.css");
+var styles = {
+    container: 'container_e27349df',
+    tableDelimiter: 'tableDelimiter_e27349df',
+    thDelimiter: 'thDelimiter_e27349df',
+    tableRowPerfList: 'tableRowPerfList_e27349df',
+    tableRowRightLight: 'tableRowRightLight_e27349df',
+    tableRowName: 'tableRowName_e27349df',
+    tableRowDuration: 'tableRowDuration_e27349df'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraphItem/PerformanceGraphItem.js":
+/*!*****************************************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraphItem/PerformanceGraphItem.js ***!
+  \*****************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./lib/DeveloperTools/FBWrappers/FakeReact.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/sp-core-library */ "@microsoft/sp-core-library");
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _PerformanceGraphItem_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PerformanceGraphItem.module.scss */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraphItem/PerformanceGraphItem.module.scss.js");
+/* harmony import */ var _PerformanceHeader_PerformanceLegend_PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../PerformanceHeader/PerformanceLegend/PerformanceLegend.module.scss */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceLegend/PerformanceLegend.module.scss.js");
+/* harmony import */ var _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../PerformanceDisplay.resx */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.resx.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+
+var PerformanceGraphItem =  (function (_super) {
+    __extends(PerformanceGraphItem, _super);
+    function PerformanceGraphItem(props) {
+        var _this = _super.call(this, props) || this;
+        _this._drawGraphBar = _this._drawGraphBar.bind(_this);
+        return _this;
+    }
+    PerformanceGraphItem.prototype.render = function () {
+        var nameStyle = [
+            _PerformanceGraphItem_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].tableRowPerfList,
+            _PerformanceGraphItem_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].tableRowBottomLight,
+            _PerformanceGraphItem_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].tableRowRightLight
+        ].join(' ');
+        var durationStyle = [_PerformanceGraphItem_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].tableRowPerfList, _PerformanceGraphItem_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].tableRowBottomLight].join(' ');
+        var graphBar = [];
+        var perfItem = this.props.perfItem;
+        if (perfItem.breakdown) {
+            graphBar.push(this._drawGraphBar(perfItem.breakdown.render.startVal, perfItem.breakdown.render.duration, _PerformanceHeader_PerformanceLegend_PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].msBlueMid, _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].RenderTimeLegendLabel + " " + perfItem.breakdown.render.duration + " ms"));
+            if (perfItem.breakdown.modulesLoaded) {
+                graphBar.push(this._drawGraphBar(perfItem.breakdown.modulesLoaded.startVal, perfItem.breakdown.modulesLoaded.duration, _PerformanceHeader_PerformanceLegend_PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].msBlue, _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].ModuleLoadingTimeLabel + " " + perfItem.breakdown.modulesLoaded.duration + " ms"));
+            }
+            if (perfItem.breakdown.lazyLoading) {
+                graphBar.push(this._drawGraphBar(perfItem.breakdown.lazyLoading.startVal, perfItem.breakdown.lazyLoading.duration, _PerformanceHeader_PerformanceLegend_PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].msLightGreen, _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].ModuleLazyLoadingDelayLabel + " " + perfItem.breakdown.lazyLoading.duration + " ms"));
+            }
+            if (perfItem.breakdown.init) {
+                graphBar.push(this._drawGraphBar(perfItem.breakdown.init.startVal, perfItem.breakdown.init.duration, _PerformanceHeader_PerformanceLegend_PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].msPurpleLight, _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].InitializationTimeLabel + " " + perfItem.breakdown.init.duration + " ms"));
+            }
+            if (perfItem.breakdown.dataFetch) {
+                for (var _i = 0, _a = perfItem.breakdown.dataFetch; _i < _a.length; _i++) {
+                    var apiCall = _a[_i];
+                    graphBar.push(this._drawGraphBar(apiCall.startVal, apiCall.duration, _PerformanceHeader_PerformanceLegend_PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].msTealLight, _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].DataFetchTimeLabel + " " + apiCall.duration + " ms"));
+                }
+            }
+        }
+        else {
+            graphBar.push(this._drawGraphBar(perfItem.startVal, perfItem.duration, _PerformanceHeader_PerformanceLegend_PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].msThemeTertiary, perfItem.name + " " + perfItem.duration + " ms"));
+        }
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("tr", null,
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: nameStyle }, this.props.perfItem.name),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: durationStyle }, _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_1__["Text"].format(_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].MillisecondsUnitLabel, this.props.perfItem.duration)),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceGraphItem_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].tdDelimiter }, graphBar),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceGraphItem_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].tdDelimiter }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceGraphItem_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].tdDelimiter }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceGraphItem_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].tdDelimiter }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceGraphItem_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].tdDelimiter }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceGraphItem_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].tdDelimiter }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceGraphItem_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].tdDelimiter }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceGraphItem_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].tdDelimiter }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceGraphItem_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].tdDelimiter }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceGraphItem_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].tdDelimiter })));
+    };
+    PerformanceGraphItem.prototype._drawGraphBar = function (startVal, duration, barColor, tooltip) {
+        var leftVal = ((startVal - this.props.startTime) / this.props.overallDuration);
+        var widthVal = (duration / this.props.overallDuration);
+        var nameTableWidth = '320px';
+        var barStyling = {
+            left: "calc(" + leftVal + " * (100% - " + nameTableWidth + ") + " + nameTableWidth + ")",
+            width: "calc(" + widthVal + " * (100% - " + nameTableWidth + "))"
+        };
+        var barClass = [_PerformanceGraphItem_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].bar, barColor].join(' ');
+        return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { key: "" + leftVal + widthVal, className: barClass, style: barStyling, title: tooltip });
+    };
+    return PerformanceGraphItem;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+/* harmony default export */ __webpack_exports__["default"] = (PerformanceGraphItem);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraphItem/PerformanceGraphItem.module.css":
+/*!*************************************************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraphItem/PerformanceGraphItem.module.css ***!
+  \*************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./PerformanceGraphItem.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraphItem/PerformanceGraphItem.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraphItem/PerformanceGraphItem.module.scss.js":
+/*!*****************************************************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraphItem/PerformanceGraphItem.module.scss.js ***!
+  \*****************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./PerformanceGraphItem.module.css */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceGraph/PerformanceGraphItem/PerformanceGraphItem.module.css");
+var styles = {
+    bar: 'bar_247e761e',
+    tableRowPerfList: 'tableRowPerfList_247e761e',
+    tableRowBottomLight: 'tableRowBottomLight_247e761e',
+    tableRowRightLight: 'tableRowRightLight_247e761e',
+    tdDelimiter: 'tdDelimiter_247e761e'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceHeader.js":
+/*!******************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceHeader.js ***!
+  \******************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./lib/DeveloperTools/FBWrappers/FakeReact.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/sp-core-library */ "@microsoft/sp-core-library");
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _PerformanceLegend_PerformanceLegend__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PerformanceLegend/PerformanceLegend */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceLegend/PerformanceLegend.js");
+/* harmony import */ var _PerformanceHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./PerformanceHeader.module.scss */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceHeader.module.scss.js");
+/* harmony import */ var _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../PerformanceDisplay.resx */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.resx.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+
+var PerformanceHeader =  (function (_super) {
+    __extends(PerformanceHeader, _super);
+    function PerformanceHeader(props) {
+        var _this = _super.call(this, props) || this;
+        _this._serverResponse = 0;
+        _this._appStart = 0;
+        _this._renderPageDuration = 0;
+        _this._renderWebparts = 0;
+        _this._hasWebParts = false;
+        _this._getPerfTimings = _this._getPerfTimings.bind(_this);
+        return _this;
+    }
+    PerformanceHeader.prototype.render = function () {
+        this._getPerfTimings();
+        var legend = undefined;
+        if (this._hasWebParts) {
+            legend = react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_PerformanceLegend_PerformanceLegend__WEBPACK_IMPORTED_MODULE_2__["default"], null);
+        }
+        var tableStyle = [_PerformanceHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].headerTable, _PerformanceHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].msThemeLighter].join(' ');
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null,
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", { className: _PerformanceHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].hint }, _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].PerformanceDataHint),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("table", { className: tableStyle },
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("thead", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("tr", null,
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("th", { className: _PerformanceHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].headerTableRows }, _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].ServerResponseLabel),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("th", { className: _PerformanceHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].headerTableRows }, _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].AppLoadLabel),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("th", { className: _PerformanceHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].headerTableRows }, _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].PageRenderLabel),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("th", { className: _PerformanceHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].headerTableRows }, _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].RenderWebPartsLabel),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("th", { className: _PerformanceHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].headerTableRows }, _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].TotalRenderTimeLabel))),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("tbody", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("tr", null,
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].headerTableRows }, _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_1__["Text"].format(_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].MillisecondsUnitLabel, this._serverResponse)),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].headerTableRows }, _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_1__["Text"].format(_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].MillisecondsUnitLabel, this._appStart)),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].headerTableRows }, _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_1__["Text"].format(_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].MillisecondsUnitLabel, this._renderPageDuration)),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].headerTableRows }, this._hasWebParts
+                            ? _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_1__["Text"].format(_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].MillisecondsUnitLabel, this._renderWebparts)
+                            : _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].NAPlaceholder),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].headerTableRows }, _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_1__["Text"].format(_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].MillisecondsUnitLabel, this.props.overallDuration))))),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null, legend)));
+    };
+    PerformanceHeader.prototype._getPerfTimings = function () {
+        var renderPageStart = Infinity;
+        var renderPageEnd = 0;
+        var webPartStart = Infinity;
+        var webPartEnd = 0;
+        this._hasWebParts = false;
+        for (var _i = 0, _a = this.props.perfItems; _i < _a.length; _i++) {
+            var item = _a[_i];
+            if (item.id === 'w3cResponseEnd') {
+                this._serverResponse = item.duration;
+            }
+            else if (item.id === 'appStart') {
+                this._appStart = item.duration;
+            }
+            else if ((item.id).indexOf('Component') > -1) {
+                if (item.startVal < renderPageStart) {
+                    renderPageStart = item.startVal;
+                }
+                if ((item.duration + item.startVal) > (renderPageEnd)) {
+                    renderPageEnd = item.duration + item.startVal;
+                }
+            }
+            else if ((item.id).indexOf('WebPart') > -1) {
+                this._hasWebParts = true;
+                if (item.startVal < webPartStart) {
+                    webPartStart = item.startVal;
+                }
+                if ((item.duration + item.startVal) > (webPartEnd)) {
+                    webPartEnd = item.duration + item.startVal;
+                }
+            }
+        }
+        this._renderPageDuration = renderPageEnd - renderPageStart;
+        this._renderWebparts = webPartEnd - webPartStart;
+    };
+    return PerformanceHeader;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+/* harmony default export */ __webpack_exports__["default"] = (PerformanceHeader);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceHeader.module.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceHeader.module.css ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./PerformanceHeader.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceHeader.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceHeader.module.scss.js":
+/*!******************************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceHeader.module.scss.js ***!
+  \******************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./PerformanceHeader.module.css */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceHeader.module.css");
+var styles = {
+    headerTable: 'headerTable_aa6b7018',
+    headerTableRows: 'headerTableRows_aa6b7018',
+    hint: 'hint_aa6b7018',
+    infoIcon: 'infoIcon_aa6b7018',
+    msThemeLighter: 'msThemeLighter_aa6b7018'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceLegend/PerformanceLegend.js":
+/*!************************************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceLegend/PerformanceLegend.js ***!
+  \************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./lib/DeveloperTools/FBWrappers/FakeReact.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PerformanceLegend.module.scss */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceLegend/PerformanceLegend.module.scss.js");
+/* harmony import */ var _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../PerformanceDisplay.resx */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.resx.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+var PerformanceLegend =  (function (_super) {
+    __extends(PerformanceLegend, _super);
+    function PerformanceLegend() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    PerformanceLegend.prototype.render = function () {
+        var legendBlue = [_PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].colorSquare, _PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].msBlue].join(' ');
+        var legendPurple = [_PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].colorSquare, _PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].msPurpleLight].join(' ');
+        var legendDarkBlue = [_PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].colorSquare, _PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].msBlueMid].join(' ');
+        var legendTeal = [_PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].colorSquare, _PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].msTealLight].join(' ');
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("table", { className: _PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].legend },
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("tbody", null,
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("tr", null,
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].legendCells },
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: legendBlue }),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", null, _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].ModulesLoadedLegendLabel)),
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].legendCells },
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: legendPurple }),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", null, _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].InitializationLegendLabel)),
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].legendCells },
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: legendDarkBlue }),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", null, _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].RenderTimeLegendLabel)),
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("td", { className: _PerformanceLegend_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].legendCells },
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: legendTeal }),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("span", null, _PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].DataFetchLegendLabel))))));
+    };
+    return PerformanceLegend;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+/* harmony default export */ __webpack_exports__["default"] = (PerformanceLegend);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceLegend/PerformanceLegend.module.css":
+/*!********************************************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceLegend/PerformanceLegend.module.css ***!
+  \********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./PerformanceLegend.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceLegend/PerformanceLegend.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceLegend/PerformanceLegend.module.scss.js":
+/*!************************************************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceLegend/PerformanceLegend.module.scss.js ***!
+  \************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./PerformanceLegend.module.css */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceHeader/PerformanceLegend/PerformanceLegend.module.css");
+var styles = {
+    legend: 'legend_39453fd9',
+    legendCells: 'legendCells_39453fd9',
+    colorSquare: 'colorSquare_39453fd9',
+    msBlue: 'msBlue_39453fd9',
+    msBlueMid: 'msBlueMid_39453fd9',
+    msPurpleLight: 'msPurpleLight_39453fd9',
+    msTealLight: 'msTealLight_39453fd9',
+    msThemeTertiary: 'msThemeTertiary_39453fd9',
+    msLightGreen: 'msLightGreen_39453fd9'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.js":
+/*!*************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.js ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./lib/DeveloperTools/FBWrappers/FakeReact.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _TraceDisplay_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TraceDisplay.module.scss */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.module.scss.js");
+/* harmony import */ var _Stores_TraceDisplayStore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../../Stores/TraceDisplayStore */ "./lib/DeveloperTools/Stores/TraceDisplayStore.js");
+/* harmony import */ var _TraceList_TraceList__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./TraceList/TraceList */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceList.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+var TraceDisplay =  (function (_super) {
+    __extends(TraceDisplay, _super);
+    function TraceDisplay(props) {
+        var _this = _super.call(this, props) || this;
+        _this._setState = function () {
+            _this.setState({
+                filter: _Stores_TraceDisplayStore__WEBPACK_IMPORTED_MODULE_2__["default"].currentFilter
+            });
+        };
+        _this.state = {
+            filter: _Stores_TraceDisplayStore__WEBPACK_IMPORTED_MODULE_2__["default"].currentFilter
+        };
+        return _this;
+    }
+    TraceDisplay.prototype.componentDidMount = function () {
+        _Stores_TraceDisplayStore__WEBPACK_IMPORTED_MODULE_2__["default"].addListener(this._setState);
+    };
+    TraceDisplay.prototype.componentWillUnmount = function () {
+        _Stores_TraceDisplayStore__WEBPACK_IMPORTED_MODULE_2__["default"].removeListener(this._setState);
+    };
+    TraceDisplay.prototype.render = function () {
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _TraceDisplay_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].container },
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _TraceDisplay_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].traceListContainer },
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_TraceList_TraceList__WEBPACK_IMPORTED_MODULE_3__["default"], { allTraces: _Stores_TraceDisplayStore__WEBPACK_IMPORTED_MODULE_2__["default"].traces, filters: this.state.filter }))));
+    };
+    return TraceDisplay;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+/* harmony default export */ __webpack_exports__["default"] = (TraceDisplay);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.module.css":
+/*!*********************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.module.css ***!
+  \*********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./TraceDisplay.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.module.scss.js":
+/*!*************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.module.scss.js ***!
+  \*************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./TraceDisplay.module.css */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.module.css");
+var styles = {
+    container: 'container_3d282470',
+    traceListContainer: 'traceListContainer_3d282470'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.resx.js":
+/*!******************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.resx.js ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var key = '_gqinlPQb8HZprTeCpwNz2w';
+var allStrings = ( false) ?
+    undefined :
+    __webpack_require__(/*! resx-strings */ "resx-strings");
+var strings = allStrings[key];
+/* harmony default export */ __webpack_exports__["default"] = (strings);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/CsvRenderer.js":
+/*!**********************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/CsvRenderer.js ***!
+  \**********************************************************************************************/
+/*! exports provided: triggerCsvDownload */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "triggerCsvDownload", function() { return triggerCsvDownload; });
+/* harmony import */ var _Stores_TraceDisplayStore__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../Stores/TraceDisplayStore */ "./lib/DeveloperTools/Stores/TraceDisplayStore.js");
+/* harmony import */ var _traceFormatting__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./traceFormatting */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/traceFormatting.js");
+/* harmony import */ var _TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../TraceDisplay.resx */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.resx.js");
+
+
+
+var HEADER = 'data:text/csv;charset=utf-8';
+var NEWLINE = '\n';
+var FILENAME = 'spfx_trace_logs.csv';
+function triggerCsvDownload(traces) {
+    var tracesLength = traces.length;
+    if (tracesLength === 0) {
+        return;
+    }
+    var csvContent = _generateCsvContent(traces);
+    var link = document.createElement('a');
+    link.setAttribute('href', encodeURI(HEADER + "," + csvContent));
+    link.setAttribute('download', FILENAME);
+    link.setAttribute('data-automation-id', 'trace-csv-download-anchor');
+    document.body.appendChild(link);
+    link.click(); 
+    document.body.removeChild(link);
+}
+function _generateCsvContent(traces) {
+    var headerLine = [
+        _TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].TimestampHeaderLabel,
+        _TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].LevelHeaderLabel,
+        _TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].ScopeHeaderLabel,
+        _TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].SourceHeaderLabel,
+        _TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].MessageHeaderLabel
+    ].map(_escapeCsvField).join(',');
+    return "" + headerLine + NEWLINE + traces.map(_generateCsvLine).join(NEWLINE);
+}
+function _generateCsvLine(trace) {
+    var logEventArray = [
+        Object(_traceFormatting__WEBPACK_IMPORTED_MODULE_1__["formatTimestamp"])(trace.timestamp),
+        (trace.level) ? _Stores_TraceDisplayStore__WEBPACK_IMPORTED_MODULE_0__["LogLevel"][trace.level] : ' ',
+        trace.source,
+        (trace.message) ? trace.message : ((trace.error) ? trace.error.message : ' ')
+    ];
+    return logEventArray.map(_escapeCsvField).join(',');
+}
+function _escapeCsvField(rawField) {
+    if (!rawField) {
+        return ''; 
+    }
+    var escapedField = rawField.replace(/(")/g, '""'); 
+    if (escapedField.match(/([,"\n])/)) { 
+        escapedField = "\"" + escapedField + "\""; 
+    }
+    return escapedField;
+}
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceList.js":
+/*!********************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceList.js ***!
+  \********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./lib/DeveloperTools/FBWrappers/FakeReact.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Stores_TraceDisplayStore__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../Stores/TraceDisplayStore */ "./lib/DeveloperTools/Stores/TraceDisplayStore.js");
+/* harmony import */ var _TraceListHeader_TraceListHeader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TraceListHeader/TraceListHeader */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListHeader/TraceListHeader.js");
+/* harmony import */ var _TraceListItem_TraceListItem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./TraceListItem/TraceListItem */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListItem/TraceListItem.js");
+/* harmony import */ var _CsvRenderer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./CsvRenderer */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/CsvRenderer.js");
+/* harmony import */ var _TraceList_module_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./TraceList.module.scss */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceList.module.scss.js");
+/* harmony import */ var _TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../TraceDisplay.resx */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.resx.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+
+
+
+var TraceList =  (function (_super) {
+    __extends(TraceList, _super);
+    function TraceList() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    TraceList.prototype.render = function () {
+        var _this = this;
+        var idCounter = 0;
+        var displayedTraces = [];
+        var levelFilters = this.props.filters.level;
+        var scopeFilters = this.props.filters.scope;
+        var sourceFilters = this.props.filters.source;
+        if (!this.props.allTraces) {
+            return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", null,
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_TraceListHeader_TraceListHeader__WEBPACK_IMPORTED_MODULE_2__["default"], { filters: this.props.filters }),
+                _TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_6__["default"].EmptyTraceData);
+        }
+        this.props.allTraces.forEach(function (trace) {
+            if (levelFilters[_Stores_TraceDisplayStore__WEBPACK_IMPORTED_MODULE_1__["LogLevel"][trace.level]] === false) {
+                return;
+            }
+            if (trace.scope) {
+                _this._addFilterLabel(trace.scope.id, scopeFilters);
+                if (!scopeFilters[trace.scope.id]) {
+                    return;
+                }
+            }
+            else if (scopeFilters.none === false) {
+                return;
+            }
+            if (trace.source) {
+                _this._addFilterLabel(trace.source, sourceFilters);
+                if (!sourceFilters[trace.source]) {
+                    return;
+                }
+            }
+            displayedTraces.push(react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_TraceListItem_TraceListItem__WEBPACK_IMPORTED_MODULE_3__["default"], { key: idCounter, id: idCounter, trace: trace }));
+            idCounter++;
+        });
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _TraceList_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].container },
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("button", { onClick: function () { return Object(_CsvRenderer__WEBPACK_IMPORTED_MODULE_4__["triggerCsvDownload"])(_this.props.allTraces); } }, _TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_6__["default"].ExportCSVButtonLabel),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_TraceListHeader_TraceListHeader__WEBPACK_IMPORTED_MODULE_2__["default"], { filters: this.props.filters }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", { className: _TraceList_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].traceListItemsContainer }, displayedTraces)));
+    };
+    TraceList.prototype._addFilterLabel = function (filterLabel, multiFilter) {
+        if (filterLabel && !(filterLabel in multiFilter)) {
+            multiFilter[filterLabel] = true;
+        }
+    };
+    return TraceList;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+/* harmony default export */ __webpack_exports__["default"] = (TraceList);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceList.module.css":
+/*!****************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceList.module.css ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./TraceList.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceList.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceList.module.scss.js":
+/*!********************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceList.module.scss.js ***!
+  \********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./TraceList.module.css */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceList.module.css");
+var styles = {
+    container: 'container_f5b519e4',
+    traceListItemsContainer: 'traceListItemsContainer_f5b519e4'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListHeader/TraceListHeader.js":
+/*!******************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListHeader/TraceListHeader.js ***!
+  \******************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./lib/DeveloperTools/FBWrappers/FakeReact.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var office_ui_fabric_react_lib_Styling__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! office-ui-fabric-react/lib/Styling */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Styling.js");
+/* harmony import */ var _Stores_TraceDisplayStore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../Stores/TraceDisplayStore */ "./lib/DeveloperTools/Stores/TraceDisplayStore.js");
+/* harmony import */ var _TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./TraceListHeader.module.scss */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListHeader/TraceListHeader.module.scss.js");
+/* harmony import */ var _TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../TraceDisplay.resx */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.resx.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+
+var TraceListHeader =  (function (_super) {
+    __extends(TraceListHeader, _super);
+    function TraceListHeader(props) {
+        var _this = _super.call(this, props) || this;
+        _this._handleFilterChange = _this._handleFilterChange.bind(_this);
+        _this.state = {
+            filterToggles: { level: false, scope: false, source: false }
+        };
+        return _this;
+    }
+    TraceListHeader.prototype.render = function () {
+        var _this = this;
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", { className: _TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].container },
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", { className: _TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].timestamp }, _TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].TimestampHeaderLabel),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", { className: _TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].level },
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", { role: 'button', onClick: function () { return _this._toggleFilterStateForColumn('level'); }, className: _TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].headerText }, _TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].LevelHeaderLabel),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("button", { onClick: function () { return _this._toggleFilterStateForColumn('level'); }, className: [_TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].filterButton, Object(office_ui_fabric_react_lib_Styling__WEBPACK_IMPORTED_MODULE_1__["getIconClassName"])('Filter')].join(' ') }),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: this._getFilterStyleForColumn('level'), id: 'levelFilterDropdown' }, Object.keys(this.props.filters.level).map(function (id) {
+                    return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { key: id, className: _TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].filterRow },
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("input", { type: 'checkbox', name: 'level '.concat(id), "aria-checked": _this.props.filters.level[id], checked: _this.props.filters.level[id], onChange: _this._handleFilterChange }),
+                        id);
+                }))),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", { className: _TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].scope },
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", { role: 'button', onClick: function () { return _this._toggleFilterStateForColumn('scope'); }, className: _TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].headerText }, _TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].ScopeHeaderLabel),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("button", { onClick: function () { return _this._toggleFilterStateForColumn('scope'); }, className: [_TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].filterButton, Object(office_ui_fabric_react_lib_Styling__WEBPACK_IMPORTED_MODULE_1__["getIconClassName"])('Filter')].join(' ') }),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: this._getFilterStyleForColumn('scope'), id: 'scopeFilterDropdown' }, Object.keys(this.props.filters.scope).map(function (id) {
+                    return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { key: id, className: _TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].filterRow },
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("input", { type: 'checkbox', name: 'scope '.concat(id), "aria-checked": _this.props.filters.scope[id], checked: _this.props.filters.scope[id], onChange: _this._handleFilterChange }),
+                        id);
+                }))),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", { className: _TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].source },
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", { role: 'button', onClick: function () { return _this._toggleFilterStateForColumn('source'); }, className: _TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].headerText }, _TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].SourceHeaderLabel),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("button", { onClick: function () { return _this._toggleFilterStateForColumn('source'); }, className: [_TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].filterButton, Object(office_ui_fabric_react_lib_Styling__WEBPACK_IMPORTED_MODULE_1__["getIconClassName"])('Filter')].join(' ') }),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: this._getFilterStyleForColumn('source'), id: 'sourceFilterDropdown' }, Object.keys(this.props.filters.source).map(function (id) {
+                    return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { key: id, className: _TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].filterRow },
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("input", { type: 'checkbox', name: 'source '.concat(id), "aria-checked": _this.props.filters.source[id], checked: _this.props.filters.source[id], onChange: _this._handleFilterChange }),
+                        id);
+                }))),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", { className: _TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].message }, _TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_4__["default"].MessageHeaderLabel)));
+    };
+    TraceListHeader.prototype._getFilterStyleForColumn = function (columnId) {
+        var filterStyle = this.state.filterToggles[columnId]
+            ? _TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].displayBlock
+            : _TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].displayNone;
+        return [_TraceListHeader_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].filterOverlay, filterStyle].join(' ');
+    };
+    TraceListHeader.prototype._toggleFilterStateForColumn = function (columnId) {
+        var filterToggles = { level: false, scope: false, source: false };
+        for (var toggle in this.state.filterToggles) {
+            if (this.state.filterToggles.hasOwnProperty(toggle)) {
+                var value = this.state.filterToggles[toggle];
+                filterToggles[toggle] = columnId === toggle ? !value : value;
+            }
+        }
+        this.setState({ filterToggles: filterToggles });
+    };
+    TraceListHeader.prototype._handleFilterChange = function (event) {
+        var all = 'all';
+        var name = 'name';
+        var eventTargetNameAttribute = event.target.getAttribute(name) || '';
+        var filterDetailsTuple = eventTargetNameAttribute.split(' ');
+        var filterType = filterDetailsTuple[0];
+        var filterSubType = filterDetailsTuple[1];
+        var subfilters = this.props.filters[filterType];
+        if (filterSubType === all) {
+            subfilters[all] = !subfilters[all];
+            Object.keys(subfilters).forEach(function (element, count, array) {
+                subfilters[element] = subfilters[all];
+            });
+        }
+        else {
+            subfilters[all] = false;
+            subfilters[filterSubType] = !subfilters[filterSubType];
+            var allTrue_1 = true;
+            Object.keys(subfilters).forEach(function (key) {
+                if (key !== all && subfilters[key] === false) {
+                    allTrue_1 = false;
+                }
+            });
+            if (allTrue_1) {
+                subfilters[all] = true;
+            }
+        }
+        _Stores_TraceDisplayStore__WEBPACK_IMPORTED_MODULE_2__["TraceDisplayStore"].instance.applyTraceFilter(this.props.filters);
+    };
+    return TraceListHeader;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+/* harmony default export */ __webpack_exports__["default"] = (TraceListHeader);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListHeader/TraceListHeader.module.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListHeader/TraceListHeader.module.css ***!
+  \**************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./TraceListHeader.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListHeader/TraceListHeader.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListHeader/TraceListHeader.module.scss.js":
+/*!******************************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListHeader/TraceListHeader.module.scss.js ***!
+  \******************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./TraceListHeader.module.css */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListHeader/TraceListHeader.module.css");
+var styles = {
+    container: 'container_24968ab4',
+    displayNone: 'displayNone_24968ab4',
+    displayBlock: 'displayBlock_24968ab4',
+    filterRow: 'filterRow_24968ab4',
+    filterButton: 'filterButton_24968ab4',
+    filterOverlay: 'filterOverlay_24968ab4',
+    headerText: 'headerText_24968ab4',
+    levelFilterOverlay: 'levelFilterOverlay_24968ab4',
+    level: 'level_24968ab4',
+    message: 'message_24968ab4',
+    source: 'source_24968ab4',
+    scope: 'scope_24968ab4',
+    timestamp: 'timestamp_24968ab4'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListItem/TraceListItem.js":
+/*!**************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListItem/TraceListItem.js ***!
+  \**************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./lib/DeveloperTools/FBWrappers/FakeReact.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _TraceListItem_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TraceListItem.module.scss */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListItem/TraceListItem.module.scss.js");
+/* harmony import */ var _Stores_TraceDisplayStore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../Stores/TraceDisplayStore */ "./lib/DeveloperTools/Stores/TraceDisplayStore.js");
+/* harmony import */ var _traceFormatting__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../traceFormatting */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/traceFormatting.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+var TraceListItem =  (function (_super) {
+    __extends(TraceListItem, _super);
+    function TraceListItem() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    TraceListItem.prototype.render = function () {
+        var styleDeclarations;
+        var message;
+        styleDeclarations = [_TraceListItem_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].container];
+        if (this.props.id % 2 === 0) {
+            styleDeclarations.push(_TraceListItem_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].blueBackground);
+        }
+        if (Number(this.props.trace.level) === _Stores_TraceDisplayStore__WEBPACK_IMPORTED_MODULE_2__["LogLevel"].error) {
+            message = this.props.trace.error ? this.props.trace.error.message : this.props.trace.message;
+            styleDeclarations.push(_TraceListItem_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].redText);
+        }
+        else {
+            message = this.props.trace.message;
+        }
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", { key: this.props.id, className: styleDeclarations.join(' ') },
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("ul", { className: _TraceListItem_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].itemDetails },
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", { className: _TraceListItem_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].timestamp }, Object(_traceFormatting__WEBPACK_IMPORTED_MODULE_3__["formatTimestamp"])(this.props.trace.timestamp)),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", { className: _TraceListItem_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"][_Stores_TraceDisplayStore__WEBPACK_IMPORTED_MODULE_2__["LogLevel"][this.props.trace.level]] }, _Stores_TraceDisplayStore__WEBPACK_IMPORTED_MODULE_2__["LogLevel"][this.props.trace.level]),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", { className: _TraceListItem_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].scope }, this.props.trace.scope ? this.props.trace.scope.id : undefined),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", { className: _TraceListItem_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].source }, this.props.trace.source),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("li", { className: _TraceListItem_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].message }, message))));
+    };
+    return TraceListItem;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+/* harmony default export */ __webpack_exports__["default"] = (TraceListItem);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListItem/TraceListItem.module.css":
+/*!**********************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListItem/TraceListItem.module.css ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./TraceListItem.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListItem/TraceListItem.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListItem/TraceListItem.module.scss.js":
+/*!**************************************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListItem/TraceListItem.module.scss.js ***!
+  \**************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./TraceListItem.module.css */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/TraceListItem/TraceListItem.module.css");
+var styles = {
+    container: 'container_6175b78d',
+    blueBackground: 'blueBackground_6175b78d',
+    itemDetails: 'itemDetails_6175b78d',
+    verbose: 'verbose_6175b78d',
+    info: 'info_6175b78d',
+    warning: 'warning_6175b78d',
+    error: 'error_6175b78d',
+    message: 'message_6175b78d',
+    source: 'source_6175b78d',
+    scope: 'scope_6175b78d',
+    timestamp: 'timestamp_6175b78d',
+    redText: 'redText_6175b78d'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/traceFormatting.js":
+/*!**************************************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceList/traceFormatting.js ***!
+  \**************************************************************************************************/
+/*! exports provided: formatTimestamp */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "formatTimestamp", function() { return formatTimestamp; });
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @microsoft/sp-core-library */ "@microsoft/sp-core-library");
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../TraceDisplay.resx */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.resx.js");
+
+
+function formatTimestamp(time) {
+    var date = new Date(time);
+    return _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__["Text"].format(_TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_1__["default"].TimestampFormat, 
+ date.getUTCFullYear(), 
+ leftPadZeros(date.getUTCMonth() + 1, 2), 
+ leftPadZeros(date.getUTCDate(), 2), 
+ leftPadZeros(date.getUTCHours(), 2), 
+ leftPadZeros(date.getUTCMinutes(), 2), 
+ leftPadZeros(date.getUTCSeconds(), 2), 
+ leftPadZeros(date.getUTCMilliseconds(), 3));
+}
+function leftPadZeros(value, minLength) {
+    var result = value.toString();
+    for (var i = result.length; i < minLength; i++) {
+        result = "0" + result;
+    }
+    return result;
+}
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperToolsConsole.js":
+/*!****************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperToolsConsole.js ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./lib/DeveloperTools/FBWrappers/FakeReact.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var office_ui_fabric_react_lib_Pivot__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! office-ui-fabric-react/lib/Pivot */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Pivot.js");
+/* harmony import */ var office_ui_fabric_react_lib_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! office-ui-fabric-react/lib/Button */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Button.js");
+/* harmony import */ var _Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../Stores/DeveloperToolsConsoleStore */ "./lib/DeveloperTools/Stores/DeveloperToolsConsoleStore.js");
+/* harmony import */ var _DeveloperModules_LoadingOrErrorModule_LoadingOrErrorModule__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./DeveloperModules/LoadingOrErrorModule/LoadingOrErrorModule */ "./lib/DeveloperTools/Components/DeveloperModules/LoadingOrErrorModule/LoadingOrErrorModule.js");
+/* harmony import */ var _DeveloperToolsConsole_module_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./DeveloperToolsConsole.module.scss */ "./lib/DeveloperTools/Components/DeveloperToolsConsole.module.scss.js");
+/* harmony import */ var _DeveloperTools_resx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../DeveloperTools.resx */ "./lib/DeveloperTools/DeveloperTools.resx.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+
+
+
+var DeveloperToolsConsole =  (function (_super) {
+    __extends(DeveloperToolsConsole, _super);
+    function DeveloperToolsConsole(props) {
+        var _this = _super.call(this, props) || this;
+        _this._onDrag = function (e) {
+            var mouseEvent = e; 
+            if (mouseEvent.pageY !== 0) {
+                var clientHeight = document.documentElement.clientHeight;
+                var height = (clientHeight - mouseEvent.pageY) / clientHeight;
+                _Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_3__["default"].resizeConsole(height);
+            }
+        };
+        _this._setState = function () {
+            _this.setState({
+                topPosition: _Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_3__["default"].height,
+                visible: _Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_3__["default"].visible,
+                tabs: _Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_3__["default"].tabs,
+                selectedTabId: _Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_3__["default"].selectedTabId
+            });
+        };
+        _this.state = {
+            topPosition: _Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_3__["default"].height,
+            visible: _Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_3__["default"].visible,
+            tabs: _Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_3__["default"].tabs,
+            selectedTabId: _Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_3__["default"].selectedTabId
+        };
+        return _this;
+    }
+    DeveloperToolsConsole.prototype.componentDidMount = function () {
+        _Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_3__["default"].addListener(this._setState);
+    };
+    DeveloperToolsConsole.prototype.componentWillUnmount = function () {
+        _Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_3__["default"].removeListener(this._setState);
+    };
+    DeveloperToolsConsole.prototype.render = function () {
+        var RENDER_NOTHING = null; 
+        if (this.state.visible) {
+            var tabs = this.state.tabs.map(function (tab, id) {
+                return react__WEBPACK_IMPORTED_MODULE_0__["createElement"](office_ui_fabric_react_lib_Pivot__WEBPACK_IMPORTED_MODULE_1__["PivotItem"], { linkText: tab.title },
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_DeveloperModules_LoadingOrErrorModule_LoadingOrErrorModule__WEBPACK_IMPORTED_MODULE_4__["default"], { tab: tab }));
+            });
+            return react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _DeveloperToolsConsole_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].container, style: { height: this.state.topPosition * 100 + "%" } },
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _DeveloperToolsConsole_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].resizeBar, draggable: true, onDrag: this._onDrag }),
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _DeveloperToolsConsole_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].toolsArea },
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"](office_ui_fabric_react_lib_Pivot__WEBPACK_IMPORTED_MODULE_1__["Pivot"], { linkSize: office_ui_fabric_react_lib_Pivot__WEBPACK_IMPORTED_MODULE_1__["PivotLinkSize"].normal, linkFormat: office_ui_fabric_react_lib_Pivot__WEBPACK_IMPORTED_MODULE_1__["PivotLinkFormat"].links }, tabs),
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"](office_ui_fabric_react_lib_Button__WEBPACK_IMPORTED_MODULE_2__["IconButton"], { className: _DeveloperToolsConsole_module_scss__WEBPACK_IMPORTED_MODULE_5__["default"].closeButton, iconProps: { iconName: 'Cancel' }, title: _DeveloperTools_resx__WEBPACK_IMPORTED_MODULE_6__["default"].closeDeveloperToolsAriaLabel, ariaLabel: _DeveloperTools_resx__WEBPACK_IMPORTED_MODULE_6__["default"].closeDeveloperToolsAriaLabel, onClick: function () { return _Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_3__["default"].showHideConsole(false); } })));
+        }
+        else {
+            return RENDER_NOTHING;
+        }
+    };
+    return DeveloperToolsConsole;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]));
+/* harmony default export */ __webpack_exports__["default"] = (DeveloperToolsConsole);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperToolsConsole.module.css":
+/*!************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperToolsConsole.module.css ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./DeveloperToolsConsole.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!./lib/DeveloperTools/Components/DeveloperToolsConsole.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Components/DeveloperToolsConsole.module.scss.js":
+/*!****************************************************************************!*\
+  !*** ./lib/DeveloperTools/Components/DeveloperToolsConsole.module.scss.js ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./DeveloperToolsConsole.module.css */ "./lib/DeveloperTools/Components/DeveloperToolsConsole.module.css");
+var styles = {
+    container: 'container_a4a15380',
+    toolsArea: 'toolsArea_a4a15380',
+    resizeBar: 'resizeBar_a4a15380',
+    closeButton: 'closeButton_a4a15380'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/DataProviders/PerformanceDisplayStateProvider.js":
+/*!*****************************************************************************!*\
+  !*** ./lib/DeveloperTools/DataProviders/PerformanceDisplayStateProvider.js ***!
+  \*****************************************************************************/
+/*! exports provided: getState */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getState", function() { return getState; });
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @microsoft/sp-core-library */ "@microsoft/sp-core-library");
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ms_sp_telemetry__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ms/sp-telemetry */ "@ms/sp-telemetry");
+/* harmony import */ var _ms_sp_telemetry__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_ms_sp_telemetry__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Components_DeveloperModules_PerformanceDisplay_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.resx */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.resx.js");
+
+
+
+function getState() {
+    var perfItems = [];
+    var toReturn = {
+        perfItems: perfItems,
+        startTime: 0,
+        eupl: 0
+    };
+    try {
+        var data = _ms_sp_telemetry__WEBPACK_IMPORTED_MODULE_1__["_PerformanceLogger"].getPerformanceData(); 
+        if (!data || !data.W3cNavigationStart || !data.EUPL) {
+            toReturn.errorMessage = _Components_DeveloperModules_PerformanceDisplay_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].ErrorAccessingPerfDataErrorMessage;
+            console.debug(toReturn.errorMessage); 
+            return toReturn;
+        }
+        toReturn.startTime = 0;
+        toReturn.eupl = data.EUPL;
+        var euplBreakdown = void 0;
+        try {
+            euplBreakdown = JSON.parse(data.EUPLBreakdown);
+        }
+        catch (error) {  }
+        if (!euplBreakdown) {
+            toReturn.errorMessage = _Components_DeveloperModules_PerformanceDisplay_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].ErrorParsingPercievedLatencyErrorMessage;
+            console.debug(toReturn.errorMessage); 
+            return toReturn;
+        }
+        var apiCallsData = void 0;
+        try {
+            apiCallsData = JSON.parse(data.APICalls);
+        }
+        catch (error) {  }
+        if (!apiCallsData) {
+            toReturn.errorMessage = _Components_DeveloperModules_PerformanceDisplay_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].ErrorParsingApiDataErrorMessage;
+            console.debug(toReturn.errorMessage); 
+            return toReturn;
+        }
+        if (data.W3cRedirectStart && data.W3cRedirectEnd) {
+            perfItems.push({
+                id: 'RedirectResponse',
+                name: _Components_DeveloperModules_PerformanceDisplay_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].RedirectResponseLabel,
+                startVal: data.W3cRedirectStart - data.W3cNavigationStart,
+                duration: (data.W3cRedirectEnd - data.W3cRedirectStart),
+                breakdown: undefined
+            });
+        }
+        perfItems.push({
+            id: 'w3cResponseEnd',
+            name: _Components_DeveloperModules_PerformanceDisplay_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].ServerResponseLabel,
+            startVal: data.W3cRequestStart - data.W3cNavigationStart,
+            duration: data.W3cResponseEnd - data.W3cRequestStart,
+            breakdown: undefined
+        });
+        if (euplBreakdown.appStart) {
+            perfItems.push({
+                id: 'appStart',
+                name: _Components_DeveloperModules_PerformanceDisplay_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].ApplicationInitializationLabel,
+                startVal: data.W3cResponseEnd - data.W3cNavigationStart,
+                duration: euplBreakdown.appStart - (data.W3cResponseEnd - data.W3cNavigationStart),
+                breakdown: undefined
+            });
+        }
+        if (euplBreakdown.spLoaderStart) {
+            perfItems.push({
+                id: 'scriptFetchEval',
+                name: _Components_DeveloperModules_PerformanceDisplay_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].ScriptFetchEvalLabel,
+                startVal: data.W3cResponseEnd - data.W3cNavigationStart,
+                duration: euplBreakdown.spLoaderStart - (data.W3cResponseEnd - data.W3cNavigationStart),
+                breakdown: undefined
+            });
+        }
+        if (euplBreakdown.spLoaderStart && euplBreakdown.appStart) {
+            perfItems.push({
+                id: 'spLoaderStart',
+                name: _Components_DeveloperModules_PerformanceDisplay_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].SpLoaderStartLabel,
+                startVal: euplBreakdown.spLoaderStart,
+                duration: euplBreakdown.appStart - euplBreakdown.spLoaderStart,
+                breakdown: undefined
+            });
+        }
+        var apiCalls = {};
+        var endVals = {};
+        for (var _i = 0, apiCallsData_1 = apiCallsData; _i < apiCallsData_1.length; _i++) {
+            var apiCall = apiCallsData_1[_i];
+            if (apiCall.name && apiCall.name.indexOf('WebPart') > -1) {
+                if (!apiCalls[apiCall.name]) {
+                    apiCalls[apiCall.name] = [];
+                    endVals[apiCall.name] = 0;
+                }
+                apiCalls[apiCall.name].push({
+                    startVal: apiCall.startTime,
+                    duration: apiCall.duration
+                });
+                endVals[apiCall.name] = Math.max(apiCall.startTime + apiCall.duration, endVals[apiCall.name]);
+            }
+        }
+        for (var i = 1; i <= 10; i++) {
+            var webPart = data["Control" + i + "Id"];
+            var renderEnd = data["Control" + i + "RenderTime"];
+            var renderStart = euplBreakdown[webPart + ".start"];
+            if (!webPart || isNaN(renderStart) || isNaN(renderEnd)) {
+                continue;
+            }
+            var initTime = euplBreakdown[webPart + ".init"];
+            var moduleLoadedTime = euplBreakdown[webPart + ".modulesLoaded"];
+            var loadingDelayed = euplBreakdown[webPart + ".loadingDelayed"];
+            var inViewportLoading = euplBreakdown[webPart + ".inViewportLoading"];
+            var wpBreakdown = {
+                dataFetch: apiCalls[webPart] || [],
+                render: {
+                    startVal: inViewportLoading || initTime || moduleLoadedTime || renderStart,
+                    duration: renderEnd - (inViewportLoading || initTime || moduleLoadedTime || renderStart)
+                }
+            };
+            if (moduleLoadedTime && initTime) {
+                if (!isNaN(moduleLoadedTime)) {
+                    wpBreakdown.modulesLoaded = {
+                        startVal: renderStart,
+                        duration: moduleLoadedTime - renderStart
+                    };
+                }
+                if (!isNaN(initTime)) {
+                    wpBreakdown.init = {
+                        startVal: inViewportLoading || moduleLoadedTime,
+                        duration: initTime - (inViewportLoading || moduleLoadedTime)
+                    };
+                }
+                if (!isNaN(inViewportLoading) && !isNaN(loadingDelayed)) {
+                    wpBreakdown.lazyLoading = {
+                        startVal: loadingDelayed,
+                        duration: inViewportLoading - loadingDelayed
+                    };
+                }
+            }
+            perfItems.push({
+                id: webPart,
+                name: "" + _getReadableWebpartName(webPart.replace('Load.', '')),
+                startVal: renderStart,
+                duration: renderEnd - renderStart,
+                breakdown: wpBreakdown
+            });
+        }
+        return toReturn;
+    }
+    catch (error) {
+        toReturn.errorMessage = _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__["Text"].format(_Components_DeveloperModules_PerformanceDisplay_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_2__["default"].UnkownPerformanceDataErrorMessage, error);
+        console.debug(toReturn.errorMessage); 
+        return toReturn;
+    }
+}
+function _getReadableWebpartName(id) {
+    if (id.indexOf('WebPart.') === -1) {
+        return id;
+    }
+    try {
+        var readableWebPartName = id.split('.')[1];
+        return readableWebPartName;
+    }
+    catch (error) {
+        return id;
+    }
+}
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/DeveloperTools.js":
+/*!**********************************************!*\
+  !*** ./lib/DeveloperTools/DeveloperTools.js ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./lib/DeveloperTools/FBWrappers/FakeReact.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./lib/DeveloperTools/FBWrappers/FakeReactDOM.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Models_DeveloperToolsTab__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Models/DeveloperToolsTab */ "./lib/DeveloperTools/Models/DeveloperToolsTab.js");
+/* harmony import */ var _Components_DeveloperToolsConsole__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Components/DeveloperToolsConsole */ "./lib/DeveloperTools/Components/DeveloperToolsConsole.js");
+/* harmony import */ var _Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Stores/DeveloperToolsConsoleStore */ "./lib/DeveloperTools/Stores/DeveloperToolsConsoleStore.js");
+
+
+
+
+
+var DeveloperTools =  (function () {
+    function DeveloperTools() {
+    }
+    Object.defineProperty(DeveloperTools, "instance", {
+        get: function () {
+            if (!this._instance) {
+                this._instance = new DeveloperTools();
+            }
+            return this._instance;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    DeveloperTools.prototype.initialize = function () {
+        var developerToolsDiv = document.createElement('div');
+        document.body.appendChild(developerToolsDiv);
+        react_dom__WEBPACK_IMPORTED_MODULE_1__["render"](react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_Components_DeveloperToolsConsole__WEBPACK_IMPORTED_MODULE_3__["default"]), developerToolsDiv);
+    };
+    DeveloperTools.prototype.toggleDeveloperTools = function () {
+        _Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_4__["default"].showHideConsole(!_Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_4__["default"].visible);
+    };
+    DeveloperTools.prototype.showHideDeveloperTools = function (show) {
+        _Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_4__["default"].showHideConsole(show);
+    };
+    DeveloperTools.prototype.registerDeveloperToolsTab = function (developerToolsTab) {
+        var tab = new _Models_DeveloperToolsTab__WEBPACK_IMPORTED_MODULE_2__["default"](developerToolsTab);
+        _Stores_DeveloperToolsConsoleStore__WEBPACK_IMPORTED_MODULE_4__["default"].registerTab(tab);
+    };
+    return DeveloperTools;
+}());
+/* harmony default export */ __webpack_exports__["default"] = (DeveloperTools);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/DeveloperTools.resx.js":
+/*!***************************************************!*\
+  !*** ./lib/DeveloperTools/DeveloperTools.resx.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var key = '_RPELcTeq3ZByqi3N5dt18w';
+var allStrings = ( false) ?
+    undefined :
+    __webpack_require__(/*! resx-strings */ "resx-strings");
+var strings = allStrings[key];
+/* harmony default export */ __webpack_exports__["default"] = (strings);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Models/DeveloperToolsTab.js":
+/*!********************************************************!*\
+  !*** ./lib/DeveloperTools/Models/DeveloperToolsTab.js ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _DeveloperTools_resx__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../DeveloperTools.resx */ "./lib/DeveloperTools/DeveloperTools.resx.js");
+
+var DeveloperToolsTab =  (function () {
+    function DeveloperToolsTab(parameters) {
+        var _this = this;
+        this._isLoading = false;
+        this.loadComponent = function () {
+            if (!_this._componentInitializer) {
+                return Promise.resolve(undefined);
+            }
+            if (!_this._componentInitializerPromise) {
+                _this._isLoading = true;
+                _this._componentInitializerPromise =
+                    new Promise(_this._componentInitializer)
+                        .then(function (component) {
+                        _this._isLoading = false;
+                        _this._component = component;
+                    })
+                        .catch(function (error) {
+                        _this._isLoading = false;
+                        _this._loadError = error;
+                    });
+            }
+            return _this._componentInitializerPromise;
+        };
+        this._title = parameters.title;
+        var componentParameters = parameters;
+        var promiseParameters = parameters;
+        if (promiseParameters.componentInitializer) {
+            this._componentInitializer = promiseParameters.componentInitializer;
+            this._isLoading = true;
+        }
+        else if (componentParameters.component) {
+            this._component = componentParameters.component;
+        }
+        else {
+            throw new Error(_DeveloperTools_resx__WEBPACK_IMPORTED_MODULE_0__["default"].missingDeveloperToolsTabInitFunctionError);
+        }
+    }
+    Object.defineProperty(DeveloperToolsTab.prototype, "title", {
+        get: function () {
+            return this._title;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DeveloperToolsTab.prototype, "isLoading", {
+        get: function () {
+            return this._isLoading;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DeveloperToolsTab.prototype, "component", {
+        get: function () {
+            return this._component;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DeveloperToolsTab.prototype, "loadError", {
+        get: function () {
+            return this._loadError;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    return DeveloperToolsTab;
+}());
+/* harmony default export */ __webpack_exports__["default"] = (DeveloperToolsTab);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Stores/BaseStore.js":
+/*!************************************************!*\
+  !*** ./lib/DeveloperTools/Stores/BaseStore.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var BaseStore =  (function () {
+    function BaseStore() {
+        this._isDisposed = false;
+        this._listeners = [];
+        this._isDisposed = false;
+    }
+    BaseStore.prototype.addListener = function (listener) {
+        if (!this._isDisposed) {
+            this._listeners.push(listener);
+        }
+    };
+    BaseStore.prototype.removeListener = function (listener) {
+        if (!this._isDisposed) {
+            var listenerIdx = this._listeners.indexOf(listener);
+            if (listenerIdx > -1) {
+                this._listeners.splice(listenerIdx, 1);
+            }
+        }
+    };
+    BaseStore.prototype.removeAllListeners = function () {
+        this._listeners = [];
+    };
+    BaseStore.prototype.count = function () {
+        return !this._isDisposed ? this._listeners.length : 0;
+    };
+    BaseStore.prototype.emitChange = function () {
+        if (!this._isDisposed) {
+            this._listeners.forEach(function (listener) { return listener(); });
+        }
+    };
+    BaseStore.prototype.dispose = function () {
+        if (!this._isDisposed) {
+            this._listeners.splice(0);
+            this._listeners = [];
+            this._isDisposed = true;
+        }
+    };
+    return BaseStore;
+}());
+/* harmony default export */ __webpack_exports__["default"] = (BaseStore);
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Stores/DeveloperToolsConsoleStore.js":
+/*!*****************************************************************!*\
+  !*** ./lib/DeveloperTools/Stores/DeveloperToolsConsoleStore.js ***!
+  \*****************************************************************/
+/*! exports provided: DeveloperToolsConsoleStore, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DeveloperToolsConsoleStore", function() { return DeveloperToolsConsoleStore; });
+/* harmony import */ var _BaseStore__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./BaseStore */ "./lib/DeveloperTools/Stores/BaseStore.js");
+/* harmony import */ var _Components_DeveloperModules_ManifestManager_ManifestManager__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../Components/DeveloperModules/ManifestManager/ManifestManager */ "./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestManager.js");
+/* harmony import */ var _Components_DeveloperModules_PerformanceDisplay_PerformanceDisplay__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.js");
+/* harmony import */ var _Components_DeveloperModules_TraceDisplay_TraceDisplay__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../Components/DeveloperModules/TraceDisplay/TraceDisplay */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.js");
+/* harmony import */ var _Models_DeveloperToolsTab__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../Models/DeveloperToolsTab */ "./lib/DeveloperTools/Models/DeveloperToolsTab.js");
+/* harmony import */ var _Components_DeveloperModules_ManifestManager_ManifestManager_resx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../Components/DeveloperModules/ManifestManager/ManifestManager.resx */ "./lib/DeveloperTools/Components/DeveloperModules/ManifestManager/ManifestManager.resx.js");
+/* harmony import */ var _Components_DeveloperModules_PerformanceDisplay_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./../Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.resx */ "./lib/DeveloperTools/Components/DeveloperModules/PerformanceDisplay/PerformanceDisplay.resx.js");
+/* harmony import */ var _Components_DeveloperModules_TraceDisplay_TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../Components/DeveloperModules/TraceDisplay/TraceDisplay.resx */ "./lib/DeveloperTools/Components/DeveloperModules/TraceDisplay/TraceDisplay.resx.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+
+
+
+
+
+
+var DEFAULT_HEIGHT = 1 / 4;
+var MIN_HEIGHT = 1 / 6;
+var MAX_HEIGHT = 3 / 4;
+var DeveloperToolsConsoleStore =  (function (_super) {
+    __extends(DeveloperToolsConsoleStore, _super);
+    function DeveloperToolsConsoleStore() {
+        var _this = _super.call(this) || this;
+        _this._height = DEFAULT_HEIGHT;
+        _this._visible = false;
+        _this._selectedTabId = 0;
+        _this._tabs = [
+            new _Models_DeveloperToolsTab__WEBPACK_IMPORTED_MODULE_4__["default"]({
+                title: _Components_DeveloperModules_TraceDisplay_TraceDisplay_resx__WEBPACK_IMPORTED_MODULE_7__["default"].TabTitle,
+                component: _Components_DeveloperModules_TraceDisplay_TraceDisplay__WEBPACK_IMPORTED_MODULE_3__["default"]
+            }),
+            new _Models_DeveloperToolsTab__WEBPACK_IMPORTED_MODULE_4__["default"]({
+                title: _Components_DeveloperModules_PerformanceDisplay_PerformanceDisplay_resx__WEBPACK_IMPORTED_MODULE_6__["default"].TabTitle,
+                component: _Components_DeveloperModules_PerformanceDisplay_PerformanceDisplay__WEBPACK_IMPORTED_MODULE_2__["default"]
+            }),
+            new _Models_DeveloperToolsTab__WEBPACK_IMPORTED_MODULE_4__["default"]({
+                title: _Components_DeveloperModules_ManifestManager_ManifestManager_resx__WEBPACK_IMPORTED_MODULE_5__["default"].tabTitle,
+                component: _Components_DeveloperModules_ManifestManager_ManifestManager__WEBPACK_IMPORTED_MODULE_1__["default"]
+            })
+        ];
+        return _this;
+    }
+    Object.defineProperty(DeveloperToolsConsoleStore, "instance", {
+        get: function () {
+            if (!this._instance) {
+                this._instance = new DeveloperToolsConsoleStore();
+            }
+            return this._instance;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DeveloperToolsConsoleStore.prototype, "height", {
+        get: function () {
+            return this._height;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DeveloperToolsConsoleStore.prototype, "visible", {
+        get: function () {
+            return this._visible;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DeveloperToolsConsoleStore.prototype, "selectedTabId", {
+        get: function () {
+            return this._selectedTabId;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(DeveloperToolsConsoleStore.prototype, "tabs", {
+        get: function () {
+            return this._tabs;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    DeveloperToolsConsoleStore.prototype.resizeConsole = function (height) {
+        var newHeight = this._height;
+        if (height >= MAX_HEIGHT) {
+            newHeight = MAX_HEIGHT;
+        }
+        else if (height <= MIN_HEIGHT) {
+            newHeight = MIN_HEIGHT;
+        }
+        else {
+            newHeight = height;
+        }
+        if (newHeight !== this._height) {
+            this._height = newHeight;
+            this.emitChange();
+        }
+    };
+    DeveloperToolsConsoleStore.prototype.showHideConsole = function (show) {
+        if (this._visible !== show) {
+            this._visible = show;
+            this.emitChange();
+        }
+    };
+    DeveloperToolsConsoleStore.prototype.registerTab = function (tab) {
+        this._tabs.push(tab);
+        if (this._tabs.length === 1) {
+            this._selectedTabId = 0;
+        }
+        this.emitChange();
+    };
+    return DeveloperToolsConsoleStore;
+}(_BaseStore__WEBPACK_IMPORTED_MODULE_0__["default"]));
+
+/* harmony default export */ __webpack_exports__["default"] = (DeveloperToolsConsoleStore.instance); 
+
+
+/***/ }),
+
+/***/ "./lib/DeveloperTools/Stores/TraceDisplayStore.js":
+/*!********************************************************!*\
+  !*** ./lib/DeveloperTools/Stores/TraceDisplayStore.js ***!
+  \********************************************************/
+/*! exports provided: LogLevel, TraceDisplayStore, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LogLevel", function() { return LogLevel; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TraceDisplayStore", function() { return TraceDisplayStore; });
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @microsoft/sp-diagnostics */ "@microsoft/sp-diagnostics");
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _BaseStore__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BaseStore */ "./lib/DeveloperTools/Stores/BaseStore.js");
+var __extends = (undefined && undefined.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+
+
+var LogLevel;
+(function (LogLevel) {
+    LogLevel[LogLevel["all"] = 0] = "all";
+    LogLevel[LogLevel["verbose"] = 1] = "verbose";
+    LogLevel[LogLevel["info"] = 2] = "info";
+    LogLevel[LogLevel["warning"] = 3] = "warning";
+    LogLevel[LogLevel["error"] = 4] = "error";
+})(LogLevel || (LogLevel = {}));
+var TraceDisplayStore =  (function (_super) {
+    __extends(TraceDisplayStore, _super);
+    function TraceDisplayStore() {
+        var _this = _super.call(this) || this;
+        _this._filter = {
+            level: { all: true, verbose: true, info: true, warning: true, error: true, none: true },
+            source: { all: true, none: true },
+            scope: { all: true, none: true }
+        };
+        _this._traces = [];
+        return _this;
+    }
+    Object.defineProperty(TraceDisplayStore, "instance", {
+        get: function () {
+            if (!this._instance) {
+                this._instance = new TraceDisplayStore();
+            }
+            return this._instance;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(TraceDisplayStore.prototype, "traces", {
+        get: function () {
+            var _this = this;
+            var data = _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__["_LogEvent"].logManager.events;
+            this._traces = [];
+            if (data) {
+                data.forEach(function (value) {
+                    if (value) {
+                        _this._traces.push(value);
+                    }
+                });
+            }
+            return this._traces;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(TraceDisplayStore.prototype, "currentFilter", {
+        get: function () {
+            return this._filter;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    TraceDisplayStore.prototype.applyTraceFilter = function (filter) {
+        this._filter = filter;
+        this.emitChange();
+    };
+    return TraceDisplayStore;
+}(_BaseStore__WEBPACK_IMPORTED_MODULE_1__["default"]));
+
+/* harmony default export */ __webpack_exports__["default"] = (TraceDisplayStore.instance);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=developer-tools.developer-tools_6a931990e1b369d1c884.js.map

@@ -1,0 +1,5 @@
+require("./debugComponents.module.css");
+var styles = {
+    dialogContainer: 'dialogContainer_fb73798b'
+};
+export default styles;

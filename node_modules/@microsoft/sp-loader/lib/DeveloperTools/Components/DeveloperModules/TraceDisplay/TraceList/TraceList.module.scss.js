@@ -1,0 +1,6 @@
+require("./TraceList.module.css");
+var styles = {
+    container: 'container_f5b519e4',
+    traceListItemsContainer: 'traceListItemsContainer_f5b519e4'
+};
+export default styles;

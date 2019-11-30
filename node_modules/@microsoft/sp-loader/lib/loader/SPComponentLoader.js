@@ -1,0 +1,50 @@
+import { cloneDeep } from '@microsoft/sp-lodash-subset';
+var SPComponentLoader =  (function () {
+    function SPComponentLoader() {
+    }
+    SPComponentLoader._initialize = function (componentLoader) {
+        SPComponentLoader._instance = componentLoader;
+    };
+    SPComponentLoader._startApplication = function (preloadedData) {
+        return SPComponentLoader._instance._startApplication(preloadedData);
+    };
+    SPComponentLoader.loadCss = function (url) {
+        return SPComponentLoader._instance.loadCss(url);
+    };
+    SPComponentLoader.loadScript = function (url, options) {
+        return SPComponentLoader._instance.loadScript(url, options);
+    };
+    SPComponentLoader.loadComponent = function (manifest) {
+        return SPComponentLoader._instance.loadComponent(manifest);
+    };
+    SPComponentLoader.loadComponentById = function (id, version) {
+        return SPComponentLoader._instance.loadComponentById(id, version);
+    };
+    SPComponentLoader.registerManifests = function (manifests) {
+        return SPComponentLoader._instance.registerManifests(manifests);
+    };
+    SPComponentLoader._getManifestReferences = function () {
+        return SPComponentLoader._instance._manifestReferences;
+    };
+    SPComponentLoader.getManifests = function () {
+        var retVal = [];
+        SPComponentLoader._instance._manifestReferences.forEach(function (manifest) {
+            retVal.push(cloneDeep(manifest));
+        });
+        return retVal;
+    };
+    SPComponentLoader.tryGetLoadedComponent = function (manifest) {
+        return SPComponentLoader._instance.tryGetLoadedComponent(manifest);
+    };
+    SPComponentLoader.tryGetManifestById = function (id, version) {
+        return SPComponentLoader._instance.tryGetManifestById(id, version);
+    };
+    SPComponentLoader.requestManifest = function (id, version) {
+        return SPComponentLoader._instance.requestManifest(id, version);
+    };
+    SPComponentLoader._loadDebugManifestsForWorkbench = function (manifestsFileUrl) {
+        return SPComponentLoader._instance._loadDebugManifestsForWorkbench(manifestsFileUrl);
+    };
+    return SPComponentLoader;
+}());
+export { SPComponentLoader };

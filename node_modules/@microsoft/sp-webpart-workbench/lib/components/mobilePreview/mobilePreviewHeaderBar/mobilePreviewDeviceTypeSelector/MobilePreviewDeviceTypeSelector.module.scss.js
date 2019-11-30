@@ -1,0 +1,6 @@
+require("./MobilePreviewDeviceTypeSelector.module.css");
+var styles = {
+    mobilePreviewDeviceIcon: 'mobilePreviewDeviceIcon_f2293c3f',
+    navBarItemRight: 'navBarItemRight_f2293c3f'
+};
+export default styles;

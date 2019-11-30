@@ -1,0 +1,1261 @@
+(window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] = window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] || []).push([[9],{
+
+/***/ "../../libraries/content-handler/lib/ContentHandler.js":
+/*!*****************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/content-handler/lib/ContentHandler.js ***!
+  \*****************************************************************************/
+/*! exports provided: ContentHandler */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContentHandler", function() { return ContentHandler; });
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @microsoft/sp-core-library */ "@microsoft/sp-core-library");
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ms_sp_component_utilities_lib_UrlUtility__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ms/sp-component-utilities/lib/UrlUtility */ "../../libraries/sp-component-utilities/lib/UrlUtility.js");
+
+
+var ContentHandler =  (function () {
+    function ContentHandler() {
+    }
+    ContentHandler.getWebPartType = function (data) {
+        var webPartType = "None" ;
+        if (data instanceof (Blob) && data.type) {
+            if (data.type.match(ContentHandler.dataTypeImageRegExp)) {
+                webPartType = "Image" ;
+            }
+            else if (data.type.match(ContentHandler.dataTypeFileRegExp)) {
+                webPartType = "Document" ;
+            }
+        }
+        else if (_ms_sp_component_utilities_lib_UrlUtility__WEBPACK_IMPORTED_MODULE_1__["default"].isYoutubeURL(data)) {
+            webPartType = "YouTube" ;
+        }
+        else if (_ms_sp_component_utilities_lib_UrlUtility__WEBPACK_IMPORTED_MODULE_1__["default"].isStreamURL(data)) {
+            webPartType = "Stream" ;
+        }
+        else if (_ms_sp_component_utilities_lib_UrlUtility__WEBPACK_IMPORTED_MODULE_1__["default"].isValidURL(data)) {
+            webPartType = "LinkPreview" ;
+        }
+        return webPartType;
+    };
+    ContentHandler.getWebPartProperties = function (webPartType, data) {
+        var id = _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__["Guid"].newGuid().toString();
+        switch (webPartType) {
+            case "Image" :
+                return { id: id, imageBlob: data, linkUrl: '' };
+            case "Document" :
+                return { id: id, externalFile: data };
+            case "YouTube" :
+                return { id: id, embedCode: data };
+            case "Stream" :
+                return { id: id, videoSource: data, isStream: true };
+            case "LinkPreview" :
+                return { id: id, url: data, linkPreviewComponentMode: 2 };
+        }
+        return undefined;
+    };
+    ContentHandler.dataTypeImageRegExp = RegExp('^image/');
+    ContentHandler.dataTypeFileRegExp = RegExp('^application/|^video/');
+    return ContentHandler;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../libraries/content-handler/lib/index.js":
+/*!********************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/content-handler/lib/index.js ***!
+  \********************************************************************/
+/*! exports provided: ContentHandler */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ContentHandler__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ContentHandler */ "../../libraries/content-handler/lib/ContentHandler.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ContentHandler", function() { return _ContentHandler__WEBPACK_IMPORTED_MODULE_0__["ContentHandler"]; });
+
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasStore/CanvasStoreEditActions.js":
+/*!**********************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasStore/CanvasStoreEditActions.js ***!
+  \**********************************************************************************************************************/
+/*! exports provided: CanvasStoreEditActions */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CanvasStoreEditActions", function() { return CanvasStoreEditActions; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @microsoft/sp-core-library */ "@microsoft/sp-core-library");
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @microsoft/sp-diagnostics */ "@microsoft/sp-diagnostics");
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @microsoft/sp-lodash-subset */ "@microsoft/sp-lodash-subset");
+/* harmony import */ var _microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _microsoft_sp_page_context__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @microsoft/sp-page-context */ "@microsoft/sp-page-context");
+/* harmony import */ var _microsoft_sp_page_context__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_page_context__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _ms_sp_component_utilities__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ms/sp-component-utilities */ "../../libraries/sp-component-utilities/lib/index.js");
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ms/odsp-utilities-bundle */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/@ms/odsp-utilities-bundle/5.0.61/node_modules/@ms/odsp-utilities-bundle/lib/index.js");
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _common_KillSwitches__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../common/KillSwitches */ "../../libraries/sp-canvas/lib/sp-canvas/common/KillSwitches.js");
+/* harmony import */ var _canvasStore__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../canvasStore */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/canvasStore/index.js");
+/* harmony import */ var _canvasControl__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../canvasControl */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/canvasControl/index.js");
+/* harmony import */ var _canvasLayout__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../canvasLayout */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/canvasLayout/index.js");
+/* harmony import */ var _a11y_CanvasA11yConstants__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../a11y/CanvasA11yConstants */ "../../libraries/sp-canvas/lib/sp-canvas/a11y/CanvasA11yConstants.js");
+/* harmony import */ var _canvasComponent__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../canvasComponent */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/canvasComponent/index.js");
+/* harmony import */ var _shouldExcludeFromToolbox__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./shouldExcludeFromToolbox */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasStore/shouldExcludeFromToolbox.js");
+/* harmony import */ var _canvasSection__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../canvasSection */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/canvasSection/index.js");
+/* harmony import */ var _common_ComponentPerfLogger__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../../common/ComponentPerfLogger */ "../../libraries/sp-canvas/lib/sp-canvas/common/ComponentPerfLogger.js");
+/* harmony import */ var _common_Flights__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../../common/Flights */ "../../libraries/sp-canvas/lib/sp-canvas/common/Flights.js");
+/* harmony import */ var _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../../loc/CanvasStrings.resx */ "../../libraries/sp-canvas/lib/sp-canvas/loc/CanvasStrings.resx.js");
+/* harmony import */ var _webPartFactory_WebPartFactory__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../../../webPartFactory/WebPartFactory */ "../../libraries/sp-canvas/lib/sp-canvas/webPartFactory/WebPartFactory.js");
+/* harmony import */ var _canvasToolbox_CanvasToolbox__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../canvasToolbox/CanvasToolbox */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolbox/CanvasToolbox.js");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var SECTION_ITEM_GROUPID = '19ede092-2988-4759-9b2f-5396b160ce68';
+var CanvasStoreEditActions =  (function () {
+    function CanvasStoreEditActions() {
+    }
+    CanvasStoreEditActions._isWebPartSerializationV1Enabled = function () {
+        return _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["_SPFlight"].isEnabled(974 );
+    };
+    CanvasStoreEditActions.addRTEInCanvas = function (rteCanvasControl, store, shouldPersistData) {
+        if (shouldPersistData === void 0) { shouldPersistData = true; }
+        var spaceNormalizedInnerHtml;
+        var shouldAddRTE;
+        if (rteCanvasControl.innerHTML) {
+            spaceNormalizedInnerHtml = rteCanvasControl.innerHTML.replace(CanvasStoreEditActions._REMOVE_HTMLTAGS_REGEX, '');
+            spaceNormalizedInnerHtml = spaceNormalizedInnerHtml.replace(CanvasStoreEditActions._REMOVE_SPACES_REGEX, '');
+            shouldAddRTE = spaceNormalizedInnerHtml !== '';
+        }
+        if (shouldAddRTE) {
+            store.addControlToCanvas(rteCanvasControl, true, shouldPersistData);
+        }
+    };
+    CanvasStoreEditActions.getToolBoxItem = function (canvasFields, id) {
+        var toolboxItems = CanvasStoreEditActions
+            .getToolboxItems(canvasFields, "WebPart" , _canvasLayout__WEBPACK_IMPORTED_MODULE_11__["undefinedControlPosition"]);
+        var currentIndex = Object(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_4__["findIndex"])(toolboxItems, function (toolboxItem) {
+            return id === toolboxItem.itemProps.webPartId;
+        });
+        if (currentIndex !== -1) {
+            return Object(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_4__["clone"])(toolboxItems[currentIndex].itemProps);
+        }
+        return undefined;
+    };
+    CanvasStoreEditActions.getEventName = function (eventName) {
+        return "Canvas." + eventName + ".Click";
+    };
+    CanvasStoreEditActions.getSectionToolboxItems = function (canvasFields, position) {
+        var items = [
+            {
+                description: _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].ToolboxOneColumnPart,
+                displayName: _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].ToolboxOneColumnPart,
+                itemProps: CanvasStoreEditActions._createSectionItemProps(_canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].OneColumn, position),
+                key: 'SingleColumnSectionToolboxItem',
+                msIconName: 'SingleColumn',
+                groupId: SECTION_ITEM_GROUPID
+            },
+            {
+                description: _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].ToolboxTwoColumnPart,
+                displayName: _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].ToolboxTwoColumnPart,
+                itemProps: CanvasStoreEditActions._createSectionItemProps(_canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].TwoColumns, position),
+                key: 'DoubleColumnSectionToolboxItem',
+                msIconName: 'DoubleColumn',
+                groupId: SECTION_ITEM_GROUPID
+            },
+            {
+                description: _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].ToolboxThreeColumnPart,
+                displayName: _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].ToolboxThreeColumnPart,
+                itemProps: CanvasStoreEditActions._createSectionItemProps(_canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].ThreeColumns, position),
+                key: 'TripleColumnSectionToolboxItem',
+                msIconName: 'TripleColumn',
+                groupId: SECTION_ITEM_GROUPID
+            },
+            {
+                description: _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].ToolboxOneThirdLeftColumnPart,
+                displayName: _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].ToolboxOneThirdLeftColumnPart,
+                itemProps: CanvasStoreEditActions._createSectionItemProps(_canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].OneThirdColumnLeft, position),
+                key: 'ColumnRightTwoThirdsSectionToolboxItem',
+                msIconName: 'ColumnRightTwoThirds',
+                groupId: SECTION_ITEM_GROUPID
+            },
+            {
+                description: _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].ToolboxOneThirdRightColumnPart,
+                displayName: _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].ToolboxOneThirdRightColumnPart,
+                itemProps: CanvasStoreEditActions._createSectionItemProps(_canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].OneThirdColumnRight, position),
+                key: 'ColumnLeftTwoThirdsSectionToolboxItem',
+                msIconName: 'ColumnLeftTwoThirds',
+                groupId: SECTION_ITEM_GROUPID
+            }
+        ];
+        if (canvasFields.siteSupportsFullWidth) {
+            items.push({
+                description: !canvasFields.canAddFullWidthSection ? _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].ToolboxFullWidthColumnTooltipText : '',
+                displayName: _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].ToolboxFullWidthColumnPart,
+                itemProps: CanvasStoreEditActions._createSectionItemProps(_canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].FullWidth, position),
+                key: 'FullWidthSectionToolboxItem',
+                msIconName: 'FullWidth',
+                groupId: SECTION_ITEM_GROUPID,
+                disabled: !canvasFields.canAddFullWidthSection
+            });
+        }
+        if (_common_Flights__WEBPACK_IMPORTED_MODULE_17__["Flights"].isCanvasVerticalSectionCreationFlightEnabled()) {
+            items.push({
+                description: !canvasFields.canAddVerticalSection ? _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].ToolboxVerticalColumnToolTipText : '',
+                displayName: _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].ToolboxVerticalColumnPart,
+                itemProps: this._createSectionItemProps(_canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].OneColumn, CanvasStoreEditActions._verticalSectionToolboxPosition),
+                key: 'VerticalSectionToolboxItem',
+                msIconName: 'ColumnVerticalSection',
+                groupId: SECTION_ITEM_GROUPID,
+                disabled: !canvasFields.canAddVerticalSection
+            });
+        }
+        return items;
+    };
+    CanvasStoreEditActions.getToolboxItems = function (canvasFields, type, position) {
+        if (type === "Section" ) {
+            return CanvasStoreEditActions.getSectionToolboxItems(canvasFields, position);
+        }
+        var qos = _canvasStore__WEBPACK_IMPORTED_MODULE_9__["CanvasStoreCommonActions"].createQosScope('LoadWebPartsInToolbox');
+        try {
+            var toolboxItems_1 = [];
+            _canvasStore__WEBPACK_IMPORTED_MODULE_9__["CanvasStoreCommonActions"].getManifestMap(canvasFields).forEach(
+            function (manifest, cid) {
+                if (Object(_shouldExcludeFromToolbox__WEBPACK_IMPORTED_MODULE_14__["shouldExcludeFromToolbox"])(manifest, canvasFields.pageContext)) {
+                    return;
+                }
+                var i = 0;
+                for (var _i = 0, _a = manifest.preconfiguredEntries; _i < _a.length; _i++) {
+                    var entry = _a[_i];
+                    var itemProps = {
+                        controlType: _canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].WebPartZone,
+                        id: undefined,
+                        position: _canvasLayout__WEBPACK_IMPORTED_MODULE_11__["undefinedControlPosition"],
+                        webPartId: cid,
+                        webPartData: CanvasStoreEditActions._extractWebPartData(manifest, entry),
+                        webPartManifest: manifest
+                    };
+                    var iconUrl = entry.iconImageUrl;
+                    if (iconUrl && !_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["UrlUtilities"].isDataUrl(iconUrl)) {
+                        iconUrl = _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["UrlUtilities"].resolve(iconUrl, manifest.loaderConfig.internalModuleBaseUrls[0]);
+                    }
+                    var displayName = entry.title.default;
+                    if (itemProps.webPartManifest &&
+                        itemProps.webPartManifest.id === '31e9537e-f9dc-40a4-8834-0e3b7df418bc') {
+                        displayName = _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].YammerHighlightsWebpartTitle;
+                    }
+                    var toolboxItem = {
+                        itemProps: itemProps,
+                        description: entry.description.default,
+                        displayName: displayName,
+                        msIconName: entry.officeFabricIconFontName,
+                        imageSrc: iconUrl,
+                        key: manifest.id + "_" + i++,
+                        groupId: entry.groupId
+                    };
+                    if (type !== "FullWidth"  || _canvasSection__WEBPACK_IMPORTED_MODULE_15__["CanvasFullWidthSection"].isFullWidthControl(itemProps)) {
+                        toolboxItems_1.push(toolboxItem);
+                    }
+                }
+            });
+            qos.writeSuccess();
+            return toolboxItems_1;
+        }
+        catch (err) {
+            _canvasStore__WEBPACK_IMPORTED_MODULE_9__["CanvasStoreCommonActions"].handleMonitoredException(qos, err);
+            return [];
+        }
+    };
+    CanvasStoreEditActions.tryMatchContentHandlerAndSplit = function (innerHTML, position, data, store) {
+        var pasteMonitor = new _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__["_QosMonitor"]('RTEOnPasteFromExternalSource');
+        var tryGetWebPartResult = _webPartFactory_WebPartFactory__WEBPACK_IMPORTED_MODULE_19__["WebPartFactory"].getWebPart(data, store);
+        if (tryGetWebPartResult.webPartResultType !== "SUCCESS" ) {
+            if (tryGetWebPartResult.webPartResultType === "FileTypeNotSupported" ) {
+                pasteMonitor.writeExpectedFailure(tryGetWebPartResult.webPartResultType);
+            }
+            else {
+                pasteMonitor.writeUnexpectedFailure(tryGetWebPartResult.webPartResultType);
+            }
+            return;
+        }
+        pasteMonitor.writeSuccess();
+        var webPartProps = tryGetWebPartResult.webPartDataProps;
+        var rteCanvasContent = {
+            controlType: _canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].RTE,
+            id: _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["Guid"].newGuid().toString(),
+            position: _canvasLayout__WEBPACK_IMPORTED_MODULE_11__["undefinedControlPosition"],
+            innerHTML: innerHTML
+        };
+        this._addRTEAndWebPart(position, rteCanvasContent, webPartProps, store);
+    };
+    CanvasStoreEditActions.createImageWebPartAndSplitRTE = function (innerHTML, imageSource, position, store) {
+        var monitor = new _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__["_QosMonitor"]('RTEOnCreateImageWebPartAndSplitRTE');
+        var imageWebPartManifestId = 'd1d91016-032f-456d-98a4-721247c305e8';
+        try {
+            var itemPropsImageWebPart = Object(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_4__["cloneDeep"])(CanvasStoreEditActions.getToolBoxItem(store.canvasFields, imageWebPartManifestId));
+            if (itemPropsImageWebPart) {
+                itemPropsImageWebPart.webPartData.properties.imageBlob = imageSource;
+                itemPropsImageWebPart.webPartData.id = _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["Guid"].newGuid().toString();
+                var rteCanvasControl = {
+                    controlType: _canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].RTE,
+                    id: _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["Guid"].newGuid().toString(),
+                    position: _canvasLayout__WEBPACK_IMPORTED_MODULE_11__["undefinedControlPosition"],
+                    innerHTML: innerHTML
+                };
+                CanvasStoreEditActions._addRTEAndWebPart(position, rteCanvasControl, itemPropsImageWebPart, store);
+            }
+            monitor.writeSuccess();
+        }
+        catch (e) {
+            monitor.writeUnexpectedFailure('FailedToGetItemPropsImageWebPart', e);
+        }
+    };
+    CanvasStoreEditActions._addRTEAndWebPart = function (position, rteCanvasControl, itemPropsWebPart, store) {
+        var controls = store.canvasLayout.fetchAllControls();
+        var currentIndex = Object(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_4__["findIndex"])(controls, function (control) {
+            return (position.zoneIndex === control.position.zoneIndex &&
+                position.sectionIndex === control.position.sectionIndex &&
+                position.controlIndex === control.position.controlIndex &&
+                position.sectionFactor === control.position.sectionFactor);
+        });
+        var nextIndex = currentIndex + 1;
+        var nextControlPosition;
+        if (nextIndex < controls.length &&
+            controls[nextIndex].position.zoneIndex === position.zoneIndex &&
+            controls[nextIndex].position.sectionIndex === position.sectionIndex) {
+            nextControlPosition = controls[nextIndex].position;
+            itemPropsWebPart.position = Object(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_4__["clone"])(nextControlPosition);
+            store.addControlToCanvas(itemPropsWebPart, true , !_common_Flights__WEBPACK_IMPORTED_MODULE_17__["Flights"].isPageUndoRedoFlightEnabled() );
+            rteCanvasControl.position = Object(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_4__["clone"])(nextControlPosition);
+            CanvasStoreEditActions.addRTEInCanvas(rteCanvasControl, store, !_common_Flights__WEBPACK_IMPORTED_MODULE_17__["Flights"].isPageUndoRedoFlightEnabled() );
+        }
+        else {
+            nextControlPosition = {
+                zoneIndex: position.zoneIndex,
+                sectionIndex: position.sectionIndex,
+                sectionFactor: position.sectionFactor,
+                controlIndex: position.controlIndex === undefined ? undefined : position.controlIndex + 1,
+                layoutIndex: position.layoutIndex
+            };
+            rteCanvasControl.position = Object(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_4__["clone"])(nextControlPosition);
+            CanvasStoreEditActions.addRTEInCanvas(rteCanvasControl, store, !_common_Flights__WEBPACK_IMPORTED_MODULE_17__["Flights"].isPageUndoRedoFlightEnabled() );
+            itemPropsWebPart.position = Object(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_4__["clone"])(nextControlPosition);
+            store.addControlToCanvas(itemPropsWebPart, true , !_common_Flights__WEBPACK_IMPORTED_MODULE_17__["Flights"].isPageUndoRedoFlightEnabled() );
+        }
+    };
+    CanvasStoreEditActions._markWebPartDeletion = function (canvasFields, control) {
+        canvasFields.webPartManager.onWebPartDelete(control.id);
+        var webPartData = control.webPartData;
+        if (webPartData && _canvasStore__WEBPACK_IMPORTED_MODULE_9__["EUPL_APPROVED_WEB_PARTS"].has(webPartData.id)) {
+            canvasFields.euplApprovedWebpartCount--;
+        }
+    };
+    CanvasStoreEditActions._renderAfterDeletionAndAdjustFocus = function (canvasFields, position, onDelete) {
+        var elementToFocusOnDismiss = CanvasStoreEditActions._findHintBeforePosition(canvasFields, position);
+        onDelete();
+        var confirmationMessage = _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_7__["StringHelper"].format(_loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].DeleteConfirmationLabel, _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].SectionAriaLabel);
+        canvasFields.a11yManager.alert(confirmationMessage);
+        canvasFields.render(function () {
+            if (elementToFocusOnDismiss) {
+                elementToFocusOnDismiss.focus();
+            }
+        });
+        canvasFields.handleCanvasChanged();
+    };
+    CanvasStoreEditActions._extractWebPartData = function (manifest, 
+    entry 
+    ) {
+        var webPartData = {
+            id: manifest.id,
+            instanceId: undefined,
+            title: entry.title.default,
+            description: entry.description.default,
+            dataVersion: entry.dataVersion,
+            properties: entry.properties
+        };
+        return webPartData;
+    };
+    CanvasStoreEditActions._createSectionItemProps = function (controlType, position) {
+        return {
+            controlType: controlType,
+            position: position,
+            id: undefined 
+        };
+    };
+    CanvasStoreEditActions._scroll = function (canvasFields, start, end, duration, time) {
+        if (time === void 0) { time = 0; }
+        var diff = end - start;
+        var deltaTime = 20;
+        if (time < duration) {
+            requestAnimationFrame(function () {
+                time += deltaTime;
+                canvasFields.scrollableParent.scrollTop = CanvasStoreEditActions._calculateEasing(time, start, diff, duration);
+                CanvasStoreEditActions._scroll(canvasFields, start, end, duration, time);
+            });
+        }
+    };
+    CanvasStoreEditActions._scrollElementIntoView = function (canvasFields, frameBottom, element, duration, margin, parentClientRect, elementClientRect) {
+        var scrollPosition = elementClientRect.bottom - canvasFields.canvasElement.getBoundingClientRect().top;
+        var frameTop = Math.max(0, parentClientRect.top);
+        var offset = frameTop - frameBottom + canvasFields.scrollThreshold + margin;
+        var newScrollTop = scrollPosition + offset + canvasFields.scrollThreshold;
+        CanvasStoreEditActions._scroll(canvasFields, canvasFields.scrollableParent.scrollTop, newScrollTop, duration);
+    };
+    CanvasStoreEditActions._findHintBeforePosition = function (canvasFields, position) {
+        var isZone = position.controlIndex === undefined && position.zoneIndex !== undefined;
+        var elementToDelete;
+        if (isZone) {
+            elementToDelete = canvasFields.a11yManager.getElementByA11yId(Object(_a11y_CanvasA11yConstants__WEBPACK_IMPORTED_MODULE_12__["getCanvasZoneA11yId"])(position.zoneIndex.toString()));
+        }
+        else {
+            var control = _common_Flights__WEBPACK_IMPORTED_MODULE_17__["Flights"].isCanvasVerticalSectionFlightEnabled()
+                ? canvasFields.getControl(position)
+                : canvasFields.canvasLayout.fetchControl(position);
+            elementToDelete = control
+                ? canvasFields.a11yManager.getElementByA11yId(Object(_a11y_CanvasA11yConstants__WEBPACK_IMPORTED_MODULE_12__["getControlZoneA11yId"])(control.id))
+                : undefined;
+        }
+        if (elementToDelete) {
+            var hints = canvasFields.a11yManager.getElementsByA11yClass(_a11y_CanvasA11yConstants__WEBPACK_IMPORTED_MODULE_12__["canvasA11yClasses"].toolboxHint);
+            for (var i = 0; i < hints.length - 1; i++) {
+                var isHintBeforeZone = (elementToDelete.compareDocumentPosition(hints[i]) & Node.DOCUMENT_POSITION_PRECEDING) !== 0;
+                var isNextHintAfterZone = (elementToDelete.compareDocumentPosition(hints[i + 1]) &
+                    (Node.DOCUMENT_POSITION_FOLLOWING | Node.DOCUMENT_POSITION_CONTAINED_BY)) !==
+                    0;
+                if (isHintBeforeZone && isNextHintAfterZone) {
+                    return hints[i];
+                }
+            }
+        }
+        return undefined;
+    };
+    CanvasStoreEditActions._openDialogMessage = function (canvasFields, title, message, onConfirmation, onDismiss, shouldRender) {
+        if (!_common_KillSwitches__WEBPACK_IMPORTED_MODULE_8__["KillSwitches"].isReUseDialogUtilityKSActivated()) {
+            _ms_sp_component_utilities__WEBPACK_IMPORTED_MODULE_6__["DialogUtility"].showConfirmationDialog(title, false,  onConfirmation, onDismiss, message, true );
+        }
+        else {
+            canvasFields.dialogProps = {
+                message: message,
+                onConfirmation: onConfirmation,
+                onDismiss: onDismiss,
+                title: title,
+                isOpen: true
+            };
+            if (shouldRender) {
+                canvasFields.render();
+            }
+        }
+    };
+    CanvasStoreEditActions._calculateEasing = function (time, start, diff, duration) {
+        time /= duration / 2;
+        if (time < 1) {
+            return (diff / 2) * time * time + start;
+        }
+        else {
+            --time;
+            return (-diff / 2) * (time * (time - 2) - 1) + start;
+        }
+    };
+    CanvasStoreEditActions._cloneControl = function (control) {
+        var duplicateControlData = control.serialize();
+        duplicateControlData.addedFromPersistedData = true;
+        var newId = _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["Guid"].newGuid().toString();
+        duplicateControlData.id = newId;
+        if (duplicateControlData.controlType === _canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].WebPartZone) {
+            duplicateControlData.webPartData.instanceId = newId;
+        }
+        return duplicateControlData;
+    };
+    CanvasStoreEditActions._verticalSectionToolboxPosition = Object(_canvasComponent__WEBPACK_IMPORTED_MODULE_13__["CreateEmptyZoneLayout"])(1, 
+    1, 
+    undefined, 
+    _canvasLayout__WEBPACK_IMPORTED_MODULE_11__["CanvasLayout"].verticalLayoutIndex);
+    CanvasStoreEditActions._REMOVE_HTMLTAGS_REGEX = new RegExp(/<([^>]+)>|&nbsp;/g);
+    CanvasStoreEditActions._REMOVE_SPACES_REGEX = new RegExp(/\\s+/g);
+    CanvasStoreEditActions.openToolbox = function (canvasFields, type, position, target, onClose) {
+        var qos = new _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__["_QosMonitor"]('Canvas.openToolbox');
+        _common_ComponentPerfLogger__WEBPACK_IMPORTED_MODULE_16__["ComponentPerfLogger"].getInstance().start('ToolboxRender', 'ToolboxComponentDownload');
+        var items = [];
+        var errorMessage;
+        try {
+            items = CanvasStoreEditActions.getToolboxItems(canvasFields, type, position);
+        }
+        catch (e) {
+            errorMessage = _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].ToolboxErrorMessage;
+        }
+        var toolboxProps = {
+            items: errorMessage ? new Error(errorMessage) : items,
+            onClickItem: function (itemProps) {
+                return CanvasStoreEditActions.handleToolboxItemClick(canvasFields, itemProps);
+            },
+            onCloseToolbox: function () {
+                canvasFields.toolboxOpenPosition = undefined;
+                if (onClose) {
+                    onClose();
+                }
+            },
+            a11yManager: canvasFields.a11yManager,
+            siteSupportsFullWidth: canvasFields.siteSupportsFullWidth,
+            cultureName: canvasFields.serviceScope.consume(_microsoft_sp_page_context__WEBPACK_IMPORTED_MODULE_5__["PageContext"].serviceKey).cultureInfo.currentUICultureName,
+            componentPerfLogger: _common_ComponentPerfLogger__WEBPACK_IMPORTED_MODULE_16__["ComponentPerfLogger"].getInstance()
+        };
+        canvasFields.toolboxOpenPosition = position;
+        _canvasToolbox_CanvasToolbox__WEBPACK_IMPORTED_MODULE_20__["CanvasToolbox"].render(toolboxProps)
+            .then(function (ref) {
+            _common_ComponentPerfLogger__WEBPACK_IMPORTED_MODULE_16__["ComponentPerfLogger"].getInstance().markStage('ToolboxRender', 'ToolboxChunkDownload');
+            if (type === "WebPart" ) {
+                ref.openWebPartToolbox(position, target, _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["DirectionalHint"].bottomCenter);
+            }
+            else {
+                ref.openSectionToolbox(position, target, _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["DirectionalHint"].rightTopEdge);
+            }
+            qos.writeSuccess();
+        })
+            .catch(function (error) { return qos.writeUnexpectedFailure(error); });
+    };
+    CanvasStoreEditActions.closeToolbox = function (canvasFields) {
+        _canvasToolbox_CanvasToolbox__WEBPACK_IMPORTED_MODULE_20__["CanvasToolbox"].close();
+        canvasFields.toolboxOpenPosition = undefined;
+    };
+    CanvasStoreEditActions.handleConfigureButtonClicked = function (canvasFields, id) {
+        _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__["_EngagementLogger"].logEvent(CanvasStoreEditActions.getEventName('ConfigureControl'));
+        var isCurrentlySelected = canvasFields.selectedControlIdInternal === id;
+        var controlComponent = canvasFields.getControlComponentById(id);
+        if (controlComponent) {
+            controlComponent.handleConfigureButtonClicked(isCurrentlySelected);
+            canvasFields.selectedControlIdInternal = id;
+            canvasFields.editedZoneIndex = undefined; 
+            canvasFields.render();
+        }
+    };
+    CanvasStoreEditActions.handleDuplicateControlButtonClicked = function (canvasFields, id) {
+        _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__["_EngagementLogger"].logEvent(CanvasStoreEditActions.getEventName('DuplicateControl'));
+        var canvasControl = canvasFields.getControlComponentById(id);
+        if (!canvasControl) {
+            return;
+        }
+        var duplicateControlData = CanvasStoreEditActions._cloneControl(canvasControl);
+        var newLayoutIndex = _canvasLayout__WEBPACK_IMPORTED_MODULE_11__["CanvasLayout"].generateNewLayoutIndex(canvasFields.canvasLayout
+            .fetchZone(duplicateControlData.position.zoneIndex)
+            .fetchAllControls()
+            .filter(function (control) { return control.position.sectionIndex === duplicateControlData.position.sectionIndex; })
+            .map(function (control) {
+            return { index: control.position.controlIndex };
+        }), duplicateControlData.position.controlIndex, true);
+        duplicateControlData.position = tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, duplicateControlData.position, { controlIndex: newLayoutIndex });
+        _canvasStore__WEBPACK_IMPORTED_MODULE_9__["CanvasStoreCommonActions"].addControlToCanvas(canvasFields, duplicateControlData, true);
+    };
+    CanvasStoreEditActions.handleDuplicateZoneButtonClicked = function (canvasFields, id) {
+        _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__["_EngagementLogger"].logEvent(CanvasStoreEditActions.getEventName('DuplicateZone'));
+        var originalZone = canvasFields.canvasLayout.fetchZone(+id);
+        var newLayoutIndex = _canvasLayout__WEBPACK_IMPORTED_MODULE_11__["CanvasLayout"].generateNewLayoutIndex(canvasFields.canvasLayout.zones, originalZone.index, true);
+        originalZone.fetchAllControls(true).forEach(function (control) {
+            var canvasControl = canvasFields.getControlComponentById(control.id);
+            if (canvasControl) {
+                var duplicateControlData = CanvasStoreEditActions._cloneControl(canvasControl);
+                duplicateControlData.position = tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, duplicateControlData.position, { zoneIndex: newLayoutIndex });
+                _canvasStore__WEBPACK_IMPORTED_MODULE_9__["CanvasStoreCommonActions"].addControlToCanvas(canvasFields, duplicateControlData, false);
+            }
+            else if (!_common_KillSwitches__WEBPACK_IMPORTED_MODULE_8__["KillSwitches"].addEmptySectionToZoneMap.isActivated() && !control.id && !control.controlType) {
+                var duplicateControlData = tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, control);
+                duplicateControlData.position = tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, duplicateControlData.position, { zoneIndex: newLayoutIndex });
+                _canvasStore__WEBPACK_IMPORTED_MODULE_9__["CanvasStoreCommonActions"].addControlToCanvas(canvasFields, duplicateControlData, false);
+            }
+        });
+        canvasFields.render();
+        canvasFields.handleCanvasChanged();
+    };
+    CanvasStoreEditActions.handleConfigureZoneButtonClicked = function (canvasFields, id, zoneFocusHandler) {
+        _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__["_EngagementLogger"].logEvent(CanvasStoreEditActions.getEventName('ConfigureZone'));
+        var isCurrentlySelected = canvasFields.editedZoneIndex === id;
+        void canvasFields.propertyPaneLoader
+            .propertyPane
+            .then(function (propertyPaneController) {
+            propertyPaneController.requestAction(id, isCurrentlySelected ? 3  : 1 );
+        });
+        canvasFields.editedZoneIndex = id;
+        canvasFields.editedZoneFocusHandler = zoneFocusHandler;
+    };
+    CanvasStoreEditActions.handleDeleteControlButtonClicked = function (canvasFields, position) {
+        _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__["_EngagementLogger"].logEvent(CanvasStoreEditActions.getEventName('DeleteControl'));
+        if (_common_Flights__WEBPACK_IMPORTED_MODULE_17__["Flights"].isCanvasVerticalSectionFlightEnabled()) {
+            canvasFields.selectedLayoutIndex = position.layoutIndex;
+        }
+        var selectedControl = canvasFields.getControl(position);
+        void canvasFields.propertyPaneLoader
+            .propertyPane
+            .then(function (propertyPaneController) {
+            var consumerId = selectedControl.controlType === _canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].WebPartZone
+                ? canvasFields.selectedControlIdInternal
+                : undefined;
+            propertyPaneController.requestAction(consumerId);
+        });
+        canvasFields.selectedControlIdInternal = selectedControl.id;
+        if (_common_Flights__WEBPACK_IMPORTED_MODULE_17__["Flights"].isPageUndoRedoFlightEnabled()) {
+            CanvasStoreEditActions._deleteControl(canvasFields, position);
+        }
+        else {
+            canvasFields.positionCandidateForDeletion = position;
+            CanvasStoreEditActions._openDialogMessage(canvasFields, _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].DeleteConfirmationDialogTitle, _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].DeleteConfirmationDialogMessage, function () { return CanvasStoreEditActions._handleDeleteControlDialogConfirmationDeprecated(canvasFields); }, function () { return CanvasStoreEditActions._handleDeleteControlDialogDismissDeprecated(canvasFields); }, true);
+        }
+    };
+    CanvasStoreEditActions.handleDeleteZoneButtonClicked = function (canvasFields, position) {
+        _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__["_EngagementLogger"].logEvent(CanvasStoreEditActions.getEventName('DeleteZone'));
+        if (_common_Flights__WEBPACK_IMPORTED_MODULE_17__["Flights"].isPageUndoRedoFlightEnabled()) {
+            CanvasStoreEditActions._deleteZone(canvasFields, position);
+        }
+        else {
+            canvasFields.zoneDeleteQos = _canvasStore__WEBPACK_IMPORTED_MODULE_9__["CanvasStoreCommonActions"].createQosScope('DeleteZone');
+            canvasFields.selectedControlIdInternal = undefined;
+            canvasFields.positionCandidateForDeletion = position;
+            CanvasStoreEditActions._openDialogMessage(canvasFields, _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].DeleteConfirmationDialogTitle, _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].DeleteZoneConfirmationDialogMessage, function () { return CanvasStoreEditActions._handleDeleteZoneDialogConfirmationDeprecated(canvasFields); }, function () { return CanvasStoreEditActions._handleDeleteZoneDialogDismissDeprecated(canvasFields); }, true);
+        }
+    };
+    CanvasStoreEditActions.handleToolboxItemClick = function (canvasFields, itemProps) {
+        var isZone = !(itemProps.controlType === _canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].RTE || itemProps.controlType === _canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].WebPartZone);
+        var extraData = {};
+        if (isZone && itemProps.position.layoutIndex === _canvasLayout__WEBPACK_IMPORTED_MODULE_11__["CanvasLayout"].verticalLayoutIndex) {
+            var eventNameVS = 'VerticalSection';
+            extraData.alias = eventNameVS;
+            _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__["_EngagementLogger"].logEvent(CanvasStoreEditActions.getEventName(eventNameVS));
+        }
+        var qos = _canvasStore__WEBPACK_IMPORTED_MODULE_9__["CanvasStoreCommonActions"].createQosScope('ToolboxItemClicked');
+        if (canvasFields.displayMode === _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["DisplayMode"].Edit) {
+            canvasFields.selectedControlIdInternal = itemProps.id = _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["Guid"].newGuid().toString();
+            _canvasStore__WEBPACK_IMPORTED_MODULE_9__["CanvasStoreCommonActions"].addControlToCanvas(canvasFields, itemProps);
+            if (_common_Flights__WEBPACK_IMPORTED_MODULE_17__["Flights"].isCanvasVerticalSectionCreationFlightEnabled() &&
+                itemProps.position.layoutIndex === _canvasLayout__WEBPACK_IMPORTED_MODULE_11__["CanvasLayout"].verticalLayoutIndex) {
+                canvasFields.webPartManager.notifyWebPartContainerResize();
+            }
+            if (isZone) {
+                canvasFields.selectedZoneIndex = itemProps.position.zoneIndex;
+            }
+            canvasFields.render();
+            if (!_common_Flights__WEBPACK_IMPORTED_MODULE_17__["Flights"].isPageUndoRedoFlightEnabled() || itemProps.controlType !== _canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].WebPartZone) {
+                canvasFields.handleCanvasChanged();
+            }
+            qos.writeSuccess(extraData);
+        }
+        else {
+            var error = new Error('handleToolboxItemClicked invoked in read mode');
+            qos.writeUnexpectedFailure('ReadMode', error, extraData);
+        }
+    };
+    CanvasStoreEditActions.pollActiveElement = function (canvasFields) {
+        var activeElement = document.activeElement;
+        if (activeElement && activeElement.tagName !== 'IFRAME') {
+            window.clearInterval(canvasFields.pollId);
+        }
+        else if (canvasFields.oldActiveElement !== activeElement && canvasFields.hoveredControlId) {
+            canvasFields.oldActiveElement = activeElement;
+            canvasFields.selectedControlIdInternal = canvasFields.hoveredControlId;
+        }
+    };
+    CanvasStoreEditActions.scrollIntoView = function (canvasFields, type, element, duration, margin, allowScrollUp) {
+        if (margin === void 0) { margin = 0; }
+        if (!canvasFields.scrollableParent || !element) {
+            return;
+        }
+        var parentClientRect = canvasFields.scrollableParent.getBoundingClientRect();
+        var viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+        var frameBottom = Math.min(viewportHeight, parentClientRect.bottom);
+        var elementClientRect = element.getBoundingClientRect();
+        if ((type === 'partial' ? elementClientRect.bottom : elementClientRect.top) > frameBottom ||
+            (allowScrollUp && frameBottom > elementClientRect.top)) {
+            CanvasStoreEditActions._scrollElementIntoView(canvasFields, frameBottom, element, duration, margin, parentClientRect, elementClientRect);
+        }
+    };
+    CanvasStoreEditActions.reclaimFocus = function (canvasFields) {
+        var selectedControlId = canvasFields.selectedControlIdInternal;
+        if (selectedControlId) {
+            var controlComponent = canvasFields.getControlComponentById(selectedControlId);
+            if (controlComponent) {
+                controlComponent.focus();
+            }
+        }
+        else if (canvasFields.editedZoneIndex && canvasFields.editedZoneFocusHandler) {
+            canvasFields.editedZoneFocusHandler();
+        }
+    };
+    CanvasStoreEditActions.handleWindowBlur = function (canvasFields, e) {
+        if (canvasFields.displayMode === _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["DisplayMode"].Edit &&
+            canvasFields.hoveredControlId &&
+            document.activeElement &&
+            document.activeElement.tagName === 'IFRAME') {
+            canvasFields.selectedControlIdInternal = canvasFields.hoveredControlId;
+            canvasFields.oldActiveElement = document.activeElement;
+            window.clearInterval(canvasFields.pollId);
+            canvasFields.pollId = window.setInterval(function () { return CanvasStoreEditActions.pollActiveElement(canvasFields); }, 250);
+        }
+    };
+    CanvasStoreEditActions.updateControl = function (canvasFields, newCanvasControl) {
+        var layoutIndex = newCanvasControl.position.layoutIndex;
+        var layout = layoutIndex ? canvasFields.canvasLayouts.get(layoutIndex) : canvasFields.canvasLayout;
+        return layout.updateControl(newCanvasControl);
+    };
+    CanvasStoreEditActions.handleRteChanged = function (canvasFields, newCanvasControl, newSelection) {
+        var hasControlUpdated = CanvasStoreEditActions.updateControl(canvasFields, newCanvasControl);
+        if (hasControlUpdated) {
+            canvasFields.handleCanvasChanged({
+                selectedControlId: newCanvasControl.id,
+                selectedRteState: {
+                    selection: newSelection
+                }
+            });
+        }
+    };
+    CanvasStoreEditActions.handleWebPartChanged = function (canvasFields, wpInstanceId) {
+        var handleCanvasChanged = canvasFields.handleCanvasChanged;
+        var newCanvasControl = canvasFields.getControlComponentById(wpInstanceId).serialize();
+        var shouldSkipUpdate = newCanvasControl.controlType === _canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].WebPartZone &&
+            _webPartFactory_WebPartFactory__WEBPACK_IMPORTED_MODULE_19__["WebPartFactory"].shouldExcludeFromWebPartUpdate(newCanvasControl);
+        if (!shouldSkipUpdate) {
+            newCanvasControl.addedFromPersistedData = true;
+            var hasControlUpdated = CanvasStoreEditActions.updateControl(canvasFields, newCanvasControl);
+            if (hasControlUpdated) {
+                canvasFields.render();
+                handleCanvasChanged({
+                    selectedControlId: wpInstanceId
+                });
+            }
+        }
+    };
+    CanvasStoreEditActions._deleteControl = function (canvasFields, position) {
+        var qos = _canvasStore__WEBPACK_IMPORTED_MODULE_9__["CanvasStoreCommonActions"].createQosScope('DeleteWebPart');
+        try {
+            var control = canvasFields.getControl(position);
+            if (control && _canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].WebPartZone === control.controlType) {
+                CanvasStoreEditActions._markWebPartDeletion(canvasFields, control);
+            }
+            CanvasStoreEditActions._renderAfterDeletionAndAdjustFocus(canvasFields, position, function () { return canvasFields.canvasLayout.removeControl(position); });
+        }
+        catch (err) {
+            _canvasStore__WEBPACK_IMPORTED_MODULE_9__["CanvasStoreCommonActions"].handleMonitoredException(qos, err);
+        }
+    };
+    CanvasStoreEditActions._deleteZone = function (canvasFields, position) {
+        var zoneDeleteQos = _canvasStore__WEBPACK_IMPORTED_MODULE_9__["CanvasStoreCommonActions"].createQosScope('DeleteZone');
+        try {
+            var zone = canvasFields.canvasLayout.fetchZone(position.zoneIndex);
+            zone.fetchAllControls()
+                .forEach(function (control) {
+                if (control.controlType === _canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].WebPartZone) {
+                    CanvasStoreEditActions._markWebPartDeletion(canvasFields, control);
+                }
+            });
+            CanvasStoreEditActions._renderAfterDeletionAndAdjustFocus(canvasFields, position, function () { return canvasFields.canvasLayout.removeZone(position.zoneIndex); });
+            if (_common_Flights__WEBPACK_IMPORTED_MODULE_17__["Flights"].isCanvasVerticalSectionCreationFlightEnabled() &&
+                position.layoutIndex === _canvasLayout__WEBPACK_IMPORTED_MODULE_11__["CanvasLayout"].verticalLayoutIndex) {
+                canvasFields.selectedLayoutIndex = _canvasLayout__WEBPACK_IMPORTED_MODULE_11__["CanvasLayout"].firstLayoutIndex;
+                canvasFields.webPartManager.notifyWebPartContainerResize();
+            }
+            zoneDeleteQos.writeSuccess();
+        }
+        catch (err) {
+            _canvasStore__WEBPACK_IMPORTED_MODULE_9__["CanvasStoreCommonActions"].handleMonitoredException(canvasFields.zoneDeleteQos, err);
+        }
+    };
+    CanvasStoreEditActions._deleteControlDeprecated = function (canvasFields, layout) {
+        canvasFields.deletedControlLayout = layout;
+        var control = canvasFields.getControl(canvasFields.deletedControlLayout);
+        if (control && _canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].WebPartZone === control.controlType) {
+            canvasFields.webPartsCount--;
+            var webPartData = control.webPartData;
+            if (webPartData && _canvasStore__WEBPACK_IMPORTED_MODULE_9__["EUPL_APPROVED_WEB_PARTS"].has(webPartData.id)) {
+                canvasFields.euplApprovedWebpartCount--;
+            }
+        }
+        canvasFields.canvasLayout.removeControl(canvasFields.deletedControlLayout);
+        if (canvasFields.canvasControls.length === 0) {
+            void canvasFields.propertyPaneLoader
+                .propertyPane
+                .then(function (propertyPaneController) {
+                propertyPaneController.requestAction(undefined, 2 );
+            });
+        }
+        canvasFields.render();
+        canvasFields.handleCanvasChanged();
+    };
+    CanvasStoreEditActions._handleDeleteControlDialogConfirmationDeprecated = function (canvasFields) {
+        var qos = _canvasStore__WEBPACK_IMPORTED_MODULE_9__["CanvasStoreCommonActions"].createQosScope('DeleteWebPart');
+        var selectedControl;
+        try {
+            selectedControl = canvasFields.getControl(canvasFields.positionCandidateForDeletion);
+            if (selectedControl.controlType === _canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].WebPartZone) {
+                var controlComponent = canvasFields.getControlComponentById(selectedControl.id);
+                controlComponent.handleDeleteButtonClicked();
+            }
+            CanvasStoreEditActions._closeDialogMessageDeprecated(canvasFields, false, _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].WebPartAriaLabel);
+            var qosData = void 0;
+            if (!_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["_SPKillSwitch"].isActivated(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["Guid"].parse('c2f3c612-9a07-441d-ab4e-f06d2b5268af'), '02/26/2019', 'Log web part delete extra info.')) {
+                var control = canvasFields.getControl(canvasFields.positionCandidateForDeletion);
+                if (control && _canvasControl__WEBPACK_IMPORTED_MODULE_10__["CanvasControlType"].WebPartZone === control.controlType) {
+                    qosData = { alias: control.id };
+                }
+            }
+            CanvasStoreEditActions._deleteControlDeprecated(canvasFields, canvasFields.positionCandidateForDeletion);
+            qos.writeSuccess(qosData);
+        }
+        catch (err) {
+            _canvasStore__WEBPACK_IMPORTED_MODULE_9__["CanvasStoreCommonActions"].handleMonitoredException(qos, err, selectedControl);
+        }
+    };
+    CanvasStoreEditActions._handleDeleteControlDialogDismissDeprecated = function (canvasFields) {
+        canvasFields.positionCandidateForDeletion = _canvasLayout__WEBPACK_IMPORTED_MODULE_11__["undefinedControlPosition"];
+        CanvasStoreEditActions._closeDialogMessageDeprecated(canvasFields, true);
+    };
+    CanvasStoreEditActions._handleDeleteZoneDialogConfirmationDeprecated = function (canvasFields) {
+        try {
+            canvasFields.canvasLayout.removeZone(canvasFields.positionCandidateForDeletion.zoneIndex);
+            CanvasStoreEditActions._closeDialogMessageDeprecated(canvasFields, true, _loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].SectionAriaLabel);
+            if (!_common_KillSwitches__WEBPACK_IMPORTED_MODULE_8__["KillSwitches"].isReUseDialogUtilityKSActivated()) {
+                canvasFields.render();
+                canvasFields.handleCanvasChanged();
+            }
+            if (_common_Flights__WEBPACK_IMPORTED_MODULE_17__["Flights"].isCanvasVerticalSectionCreationFlightEnabled() &&
+                canvasFields.positionCandidateForDeletion.layoutIndex === _canvasLayout__WEBPACK_IMPORTED_MODULE_11__["CanvasLayout"].verticalLayoutIndex) {
+                canvasFields.webPartManager.notifyWebPartContainerResize();
+            }
+            canvasFields.zoneDeleteQos.writeSuccess();
+        }
+        catch (err) {
+            _canvasStore__WEBPACK_IMPORTED_MODULE_9__["CanvasStoreCommonActions"].handleMonitoredException(canvasFields.zoneDeleteQos, err);
+        }
+    };
+    CanvasStoreEditActions._handleDeleteZoneDialogDismissDeprecated = function (canvasFields) {
+        try {
+            canvasFields.positionCandidateForDeletion = _canvasLayout__WEBPACK_IMPORTED_MODULE_11__["undefinedControlPosition"];
+            CanvasStoreEditActions._closeDialogMessageDeprecated(canvasFields, true);
+            canvasFields.zoneDeleteQos.writeSuccess();
+        }
+        catch (err) {
+            _canvasStore__WEBPACK_IMPORTED_MODULE_9__["CanvasStoreCommonActions"].handleMonitoredException(canvasFields.zoneDeleteQos, err);
+        }
+    };
+    CanvasStoreEditActions._closeDialogMessageDeprecated = function (canvasFields, shouldRender, label) {
+        if (!_common_KillSwitches__WEBPACK_IMPORTED_MODULE_8__["KillSwitches"].isReUseDialogUtilityKSActivated()) {
+        }
+        else {
+            canvasFields.dialogProps.isOpen = false;
+            if (canvasFields.positionCandidateForDeletion &&
+                canvasFields.positionCandidateForDeletion !== _canvasLayout__WEBPACK_IMPORTED_MODULE_11__["undefinedControlPosition"]) {
+                canvasFields.dialogProps.elementToFocusOnDismiss = CanvasStoreEditActions._findHintBeforePosition(canvasFields, canvasFields.positionCandidateForDeletion);
+            }
+            if (shouldRender) {
+                canvasFields.render();
+            }
+        }
+        if (label) {
+            var confirmationMessage = _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_7__["StringHelper"].format(_loc_CanvasStrings_resx__WEBPACK_IMPORTED_MODULE_18__["default"].DeleteConfirmationLabel, label);
+            canvasFields.a11yManager.alert(confirmationMessage);
+        }
+    };
+    return CanvasStoreEditActions;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasStore/shouldExcludeFromToolbox.js":
+/*!************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasStore/shouldExcludeFromToolbox.js ***!
+  \************************************************************************************************************************/
+/*! exports provided: shouldExcludeFromToolbox */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "shouldExcludeFromToolbox", function() { return shouldExcludeFromToolbox; });
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @microsoft/sp-core-library */ "@microsoft/sp-core-library");
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__);
+
+var CONNECTORS_ID = '893a257e-9c92-49bc-8a36-2f6bb058da34';
+var O365_VIDEO_ID = '275c0095-a77e-4f6d-a2a0-6a7626911518';
+var LINK_PREVIEW_ID = '6410b3b6-d440-4663-8744-378976dc041e';
+var PLANNER_ID = '39c4c1c2-63fa-41be-8cc2-f6c0b49b253d';
+var SAVED_FOR_LATER_ID = '9ac82c99-6122-45e3-8fc6-b83d3cf1c0a8';
+var ONPREM_EXCLUDE_WEBPART_FROM_TOOLBOX = new Set([O365_VIDEO_ID, LINK_PREVIEW_ID]);
+var EXCLUDE_WEBPART_FROM_TOOLBOX = new Set([SAVED_FOR_LATER_ID]);
+var SAVED_FOR_LATER_FLIGHT = 1468; 
+var GROUP_ONLY_PARTS = new Set([CONNECTORS_ID, PLANNER_ID]);
+function shouldExcludeFromToolbox(manifest, pageContext) {
+    if (false) {}
+    if (!_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__["_SPFlight"].isEnabled(SAVED_FOR_LATER_FLIGHT) && EXCLUDE_WEBPART_FROM_TOOLBOX.has(manifest.id)) {
+        return true;
+    }
+    return manifest.hiddenFromToolbox ||
+        missingRequiredGroup(manifest, pageContext) ||
+        _missingSupportSharePointWebPart(manifest);
+}
+function missingRequiredGroup(manifest, pageContext) {
+    var hasGroup = Boolean(pageContext && pageContext.site && pageContext.site.group && pageContext.site.group.id);
+    return !hasGroup && GROUP_ONLY_PARTS.has(manifest.id);
+}
+function _missingSupportSharePointWebPart(manifest) {
+    if (!manifest.supportedHosts) {
+        return false;
+    }
+    var missingSupportedHost = true;
+    for (var _i = 0, _a = manifest.supportedHosts; _i < _a.length; _i++) {
+        var supportedHost = _a[_i];
+        if (supportedHost === 'SharePointWebPart') {
+            missingSupportedHost = false;
+            break;
+        }
+    }
+    return missingSupportedHost;
+}
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolbox/CanvasToolbox.js":
+/*!***************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolbox/CanvasToolbox.js ***!
+  \***************************************************************************************************************/
+/*! exports provided: CanvasToolbox */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CanvasToolbox", function() { return CanvasToolbox; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "react-dom");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _DeferredCanvasToolbox__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./DeferredCanvasToolbox */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/canvasToolbox/DeferredCanvasToolbox.js");
+
+
+
+
+var CanvasToolbox =  (function () {
+    function CanvasToolbox() {
+    }
+    CanvasToolbox.render = function (toolboxProps) {
+        return new Promise(function (resolve) {
+            var toolboxComponent = react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_DeferredCanvasToolbox__WEBPACK_IMPORTED_MODULE_3__["DeferredToolboxComponent"], {
+                deferredProps: tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, toolboxProps, { instanceRef: function (instance) { return resolve(CanvasToolbox._toolboxRef = instance); } })
+            });
+            react_dom__WEBPACK_IMPORTED_MODULE_2__["render"](toolboxComponent, CanvasToolbox._toolboxContainer);
+            if (CanvasToolbox._toolboxRef) {
+                resolve(CanvasToolbox._toolboxRef);
+            }
+        });
+    };
+    CanvasToolbox.close = function () {
+        if (CanvasToolbox._toolboxRef) {
+            CanvasToolbox._toolboxRef.closeToolbox();
+        }
+    };
+    Object.defineProperty(CanvasToolbox, "_toolboxContainer", {
+        get: function () {
+            if (!CanvasToolbox._toolboxContainerInternal ||
+                !document.body.contains(CanvasToolbox._toolboxContainerInternal)) {
+                CanvasToolbox._toolboxContainerInternal = document.createElement('div');
+                document.body.appendChild(CanvasToolbox._toolboxContainerInternal);
+            }
+            return CanvasToolbox._toolboxContainerInternal;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    return CanvasToolbox;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/common/ComponentPerfLogger.js":
+/*!*********************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/common/ComponentPerfLogger.js ***!
+  \*********************************************************************************************/
+/*! exports provided: ComponentPerfLogger */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ComponentPerfLogger", function() { return ComponentPerfLogger; });
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @microsoft/sp-diagnostics */ "@microsoft/sp-diagnostics");
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ms/odsp-utilities-bundle */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/@ms/odsp-utilities-bundle/5.0.61/node_modules/@ms/odsp-utilities-bundle/lib/index.js");
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_1__);
+
+
+var ComponentPerfLogger =  (function () {
+    function ComponentPerfLogger() {
+        this._scenarioQoS = new Map();
+    }
+    ComponentPerfLogger.getInstance = function () {
+        if (!ComponentPerfLogger._instance) {
+            ComponentPerfLogger._instance = new ComponentPerfLogger();
+        }
+        return ComponentPerfLogger._instance;
+    };
+    ComponentPerfLogger.prototype.start = function (scenarioName, firstStageName) {
+        var scenarioQoS = this._scenarioQoS.get(scenarioName);
+        if (scenarioQoS) {
+            _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__["_TraceLogger"].logVerbose(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__["_LogSource"].create('ComponentPerfLogger.start'), _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_1__["StringHelper"].format('duplicate call ComponentPerfLogger.start={0} or scenario={1} name duplicated.', scenarioName, firstStageName));
+            var latestQoS = scenarioQoS[scenarioQoS.length - 1];
+            latestQoS.writeExpectedFailure('CallStartDuplicate');
+            this._scenarioQoS.delete(scenarioName);
+        }
+        this._scenarioQoS.set(scenarioName, [
+            new _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__["_QosMonitor"](this._generateQoSName(scenarioName, firstStageName))
+        ]);
+    };
+    ComponentPerfLogger.prototype.markStage = function (scenarioName, stageName) {
+        var scenarioQoS = this._scenarioQoS.get(scenarioName);
+        if (!scenarioQoS || scenarioQoS.length <= 0) {
+            var error = new Error(_ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_1__["StringHelper"].format('Wrong usage: should call start first with scenarioName={0} and stageName={1}', scenarioName, stageName));
+            _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__["_TraceLogger"].logError(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__["_LogSource"].create('ComponentPerfLogger.markStage'), error);
+            return false;
+        }
+        var latestQoS = scenarioQoS[scenarioQoS.length - 1];
+        latestQoS.writeSuccess();
+        var newStageQoS = new _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__["_QosMonitor"](this._generateQoSName(scenarioName, stageName));
+        scenarioQoS.push(newStageQoS);
+        return true;
+    };
+    ComponentPerfLogger.prototype.end = function (scenarioName) {
+        var scenarioQoS = this._scenarioQoS.get(scenarioName);
+        if (!scenarioQoS || scenarioQoS.length <= 0) {
+            var error = new Error('Wrong usage: should call start first with scenarioName=' + scenarioName);
+            _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__["_TraceLogger"].logError(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_0__["_LogSource"].create('ComponentPerfLogger.end'), error);
+            return false;
+        }
+        var lastQoS = scenarioQoS[scenarioQoS.length - 1];
+        lastQoS.writeSuccess();
+        this._scenarioQoS.delete(scenarioName);
+        return true;
+    };
+    ComponentPerfLogger.prototype._generateQoSName = function (prefixName, lastName) {
+        return 'Perf.' + prefixName + '.' + lastName;
+    };
+    return ComponentPerfLogger;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/webPartFactory/WebPartFactory.js":
+/*!************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/webPartFactory/WebPartFactory.js ***!
+  \************************************************************************************************/
+/*! exports provided: WebPartFactory */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebPartFactory", function() { return WebPartFactory; });
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @microsoft/sp-core-library */ "@microsoft/sp-core-library");
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/sp-diagnostics */ "@microsoft/sp-diagnostics");
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _ms_content_handler__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ms/content-handler */ "../../libraries/content-handler/lib/index.js");
+
+
+
+var WebPartFactory =  (function () {
+    function WebPartFactory() {
+    }
+    WebPartFactory.shouldExcludeFromWebPartUpdate = function (control) {
+        var addedFromPersistedData = control.addedFromPersistedData, webPartManifest = control.webPartManifest;
+        if (!webPartManifest || addedFromPersistedData) {
+            return false;
+        }
+        switch (webPartManifest.id) {
+            case (WebPartFactory._getManifestId("Image" )):
+                return !!control.webPartData.properties.imageBlob;
+            case (WebPartFactory._getManifestId("YouTube" )):
+                return !control.webPartData.properties.cachedEmbedCode;
+            case (WebPartFactory._getManifestId("Document" )):
+                return !control.webPartData.properties.uniqueId;
+            default:
+                return false;
+        }
+    };
+    WebPartFactory.getWebPart = function (data, store) {
+        var monitor = new _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_1__["_QosMonitor"]('ContentHandler.getWebPart');
+        var webPartType = _ms_content_handler__WEBPACK_IMPORTED_MODULE_2__["ContentHandler"].getWebPartType(data);
+        if (webPartType === "None" ) {
+            monitor.writeExpectedFailure("FileTypeNotSupported" );
+            return { webPartResultType: "FileTypeNotSupported"  };
+        }
+        var manifestId = this._getManifestId(webPartType);
+        var itemPropsWebPart = store.getToolBoxItem(manifestId);
+        if (!itemPropsWebPart) {
+            monitor.writeUnexpectedFailure("CanvasStoreError" , undefined, { manifestId: manifestId });
+            return { webPartResultType: "CanvasStoreError"  };
+        }
+        itemPropsWebPart.webPartData.properties = _ms_content_handler__WEBPACK_IMPORTED_MODULE_2__["ContentHandler"].getWebPartProperties(webPartType, data);
+        if (!itemPropsWebPart.webPartData.properties) {
+            monitor.writeUnexpectedFailure("UnexpectedError" , undefined, { manifestId: manifestId });
+            return { webPartResultType: "UnexpectedError"  };
+        }
+        monitor.writeSuccess();
+        return { webPartDataProps: itemPropsWebPart, webPartResultType: "SUCCESS"  };
+    };
+    WebPartFactory._getManifestId = function (webPartType) {
+        return WebPartFactory._webPartToManifestDict.get(webPartType).toString();
+    };
+    WebPartFactory._webPartToManifestDict = new Map([
+        ["Image" , _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__["Guid"].parse('d1d91016-032f-456d-98a4-721247c305e8')],
+        ["YouTube" , _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__["Guid"].parse('544dd15b-cf3c-441b-96da-004d5a8cea1d')],
+        ["Document" , _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__["Guid"].parse('b7dd04e1-19ce-4b24-9132-b60a1c2b910d')],
+        ["LinkPreview" , _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__["Guid"].parse('6410b3b6-d440-4663-8744-378976dc041e')],
+        ["Stream" , _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_0__["Guid"].parse('275c0095-a77e-4f6d-a2a0-6a7626911518')]
+    ]);
+    return WebPartFactory;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-component-utilities/lib/UrlUtility.js":
+/*!********************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-component-utilities/lib/UrlUtility.js ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @ms/odsp-utilities-bundle */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/@ms/odsp-utilities-bundle/5.0.61/node_modules/@ms/odsp-utilities-bundle/lib/index.js");
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _common_KillSwitches__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./common/KillSwitches */ "../../libraries/sp-component-utilities/lib/common/KillSwitches.js");
+
+
+var UrlUtility =  (function () {
+    function UrlUtility() {
+    }
+    UrlUtility.ensureSchema = function (url, validSchemas, defaultSchema) {
+        if (defaultSchema === void 0) { defaultSchema = 'https'; }
+        if (!url || !url.trim()) {
+            return '';
+        }
+        var uri = new _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_0__["Uri"](url);
+        var scheme = uri.getScheme();
+        if (!scheme) {
+            if (defaultSchema.toLowerCase() === 'mailto') {
+                return "mailto:" + url;
+            }
+            return defaultSchema + "://" + url;
+        }
+        else {
+            if (validSchemas
+                && !validSchemas.some(function (validSchema) { return validSchema.toLocaleLowerCase() === scheme.toLocaleLowerCase(); })) {
+                return undefined;
+            }
+            return url;
+        }
+    };
+    UrlUtility.isValidURL = function (embedCode) {
+        var srcProtocolRegExp =  true ? /^https:\/\//i : undefined;
+        return srcProtocolRegExp.test(embedCode);
+    };
+    UrlUtility.isYoutubeURL = function (embedCode) {
+        var youtubeURLRegExp = _common_KillSwitches__WEBPACK_IMPORTED_MODULE_1__["KillSwitches"].newYoutubeUrlRegexKS.isActivated()
+            ? /^https:\/\/(www.youtube.com\/.*|youtu.be\/.*)/i
+            : /^https:\/\/(www.youtube.com\/watch\?v\=.*|youtu.be\/.*)/i;
+        return youtubeURLRegExp.test(embedCode);
+    };
+    UrlUtility.isStreamURL = function (embedCode) {
+        var streamURLRegExp = /^https:\/\/.*microsoftstream.*/i;
+        return streamURLRegExp.test(embedCode);
+    };
+    UrlUtility.isSwayURL = function (embedCode) {
+        var swayURLRegExp = /^https:\/\/sway.com\/.*/i;
+        return swayURLRegExp.test(embedCode);
+    };
+    UrlUtility.isApprovedURL = function (embedCode, approvedDomains) {
+        if (approvedDomains.length === 0) {
+            return true;
+        }
+        for (var _i = 0, approvedDomains_1 = approvedDomains; _i < approvedDomains_1.length; _i++) {
+            var domain = approvedDomains_1[_i];
+            var srcProtocolRegExp = new RegExp('^https://' + domain, 'i');
+            if (srcProtocolRegExp.test(embedCode)) {
+                return true;
+            }
+        }
+        return false;
+    };
+    UrlUtility.startsWithHttp = function (embedCode) {
+        var srcProtocolRegExp = /^http:\/\//i;
+        return srcProtocolRegExp.test(embedCode);
+    };
+    UrlUtility.getHostnameFromUrl = function (url) {
+        var hostname = '';
+        if (url) {
+            var regExpResult = /^\s*(http:\/\/|\/\/|https:\/\/)[^\/]+/i.exec(url);
+            if (regExpResult && regExpResult.length) {
+                hostname = regExpResult[0].replace(/^\s*(http:\/\/|\/\/|https:\/\/)/i, '');
+            }
+        }
+        return hostname;
+    };
+    return UrlUtility;
+}());
+/* harmony default export */ __webpack_exports__["default"] = (UrlUtility);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-component-utilities/lib/common/KillSwitches.js":
+/*!*****************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-component-utilities/lib/common/KillSwitches.js ***!
+  \*****************************************************************************************/
+/*! exports provided: KillSwitches */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "KillSwitches", function() { return KillSwitches; });
+/* harmony import */ var _performance_KillSwitch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../performance/KillSwitch */ "../../libraries/sp-component-utilities/lib/performance/KillSwitch.js");
+
+var KillSwitches =  (function () {
+    function KillSwitches() {
+    }
+    KillSwitches.newYoutubeUrlRegexKS = new _performance_KillSwitch__WEBPACK_IMPORTED_MODULE_0__["KillSwitch"]('93326c3b-13a0-4ea5-9979-87eddec6d21a');
+    return KillSwitches;
+}());
+
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=9.9_f7238a899c67c293bc41.js.map

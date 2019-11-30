@@ -1,0 +1,7 @@
+require("./MobilePreviewClickStopBar.module.css");
+var styles = {
+    clickStopNavBar: 'clickStopNavBar_04c65b53',
+    navBarItems: 'navBarItems_04c65b53',
+    mobilePreviewDeviceTitle: 'mobilePreviewDeviceTitle_04c65b53'
+};
+export default styles;

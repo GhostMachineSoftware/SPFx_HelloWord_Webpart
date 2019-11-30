@@ -1,0 +1,26 @@
+(window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] = window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] || []).push([[25],{
+
+/***/ "../../libraries/sp-telemetry/lib/ariaWebJsWrapper.js":
+/*!****************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-telemetry/lib/ariaWebJsWrapper.js ***!
+  \****************************************************************************/
+/*! exports provided: ariaWebJsWrapper */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ariaWebJsWrapper", function() { return ariaWebJsWrapper; });
+/* harmony import */ var _ms_utilities_ariawebjs_wrapper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @ms/utilities-ariawebjs-wrapper */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/@ms/utilities-ariawebjs-wrapper/0.4.5/node_modules/@ms/utilities-ariawebjs-wrapper/lib-esm/index.js");
+
+var ariaWebJsWrapper = {
+    EventProperties: _ms_utilities_ariawebjs_wrapper__WEBPACK_IMPORTED_MODULE_0__["AriaWebJsEventProperties"],
+    Exception: _ms_utilities_ariawebjs_wrapper__WEBPACK_IMPORTED_MODULE_0__["AriaWebJsMockException"],
+    Logger: _ms_utilities_ariawebjs_wrapper__WEBPACK_IMPORTED_MODULE_0__["AriaWebJsLogger"],
+    LogManager: _ms_utilities_ariawebjs_wrapper__WEBPACK_IMPORTED_MODULE_0__["AriaWebJsLogManager"]
+};
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=25.25_aa7d16ddab2e26d64a0c.js.map

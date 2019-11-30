@@ -1,0 +1,1394 @@
+(window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] = window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] || []).push([[6],{
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Overlay.js":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Overlay.js ***!
+  \******************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/Overlay.js
+var pkg = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+module.exports = {}
+for (var key in pkg) {
+  if (pkg.hasOwnProperty(key)) {
+    module.exports[key] = pkg[key];
+  }
+}
+Object.defineProperty(module.exports, "__esModule", { value: true });
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Callout/index.js":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Callout/index.js ***!
+  \***********************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/components/Callout/index.js
+var pkg = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+module.exports = {}
+for (var key in pkg) {
+  if (pkg.hasOwnProperty(key)) {
+    module.exports[key] = pkg[key];
+  }
+}
+Object.defineProperty(module.exports, "__esModule", { value: true });
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/FocusTrapZone/index.js":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/FocusTrapZone/index.js ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/components/FocusTrapZone/index.js
+var pkg = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+module.exports = {}
+for (var key in pkg) {
+  if (pkg.hasOwnProperty(key)) {
+    module.exports[key] = pkg[key];
+  }
+}
+Object.defineProperty(module.exports, "__esModule", { value: true });
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Icon/index.js":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Icon/index.js ***!
+  \********************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/components/Icon/index.js
+var pkg = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+module.exports = pkg.workaround_IconIndex;
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.base.js":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.base.js ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/components/Modal/Modal.base.js
+module.exports = __webpack_require__(/*! !C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.base.js");
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.js":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.js ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/components/Modal/Modal.js
+module.exports = __webpack_require__(/*! !C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.js");
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.styles.js":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.styles.js ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/components/Modal/Modal.styles.js
+module.exports = __webpack_require__(/*! !C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.styles.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.styles.js");
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Popup/index.js":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Popup/index.js ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/components/Popup/index.js
+var pkg = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+module.exports = pkg.workaround_PopupIndex;
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.base.js":
+/*!**********************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.base.js ***!
+  \**********************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/components/SearchBox/SearchBox.base.js
+module.exports = __webpack_require__(/*! !C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.base.js");
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.js":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.js ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/components/SearchBox/SearchBox.js
+module.exports = __webpack_require__(/*! !C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.js");
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.styles.js":
+/*!************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.styles.js ***!
+  \************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/components/SearchBox/SearchBox.styles.js
+module.exports = __webpack_require__(/*! !C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.styles.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.styles.js");
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/DraggableZone.js":
+/*!************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/DraggableZone.js ***!
+  \************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/utilities/DraggableZone/DraggableZone.js
+module.exports = __webpack_require__(/*! !C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/DraggableZone.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/DraggableZone.js");
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/DraggableZone.styles.js":
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/DraggableZone.styles.js ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/utilities/DraggableZone/DraggableZone.styles.js
+module.exports = __webpack_require__(/*! !C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/DraggableZone.styles.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/DraggableZone.styles.js");
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/index.js":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/index.js ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/utilities/DraggableZone/index.js
+module.exports = __webpack_require__(/*! !C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/index.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/index.js");
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/decorators/withResponsiveMode.js":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/decorators/withResponsiveMode.js ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/utilities/decorators/withResponsiveMode.js
+var pkg = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+module.exports = pkg.workaround_withResponsiveMode;
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.base.js":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.base.js ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: ModalBase */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ModalBase", function() { return ModalBase; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Utilities */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Utilities.js");
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Utilities__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _FocusTrapZone_index__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../FocusTrapZone/index */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/FocusTrapZone/index.js");
+/* harmony import */ var _FocusTrapZone_index__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_FocusTrapZone_index__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Modal_styles__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Modal.styles */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.styles.js");
+/* harmony import */ var _Modal_styles__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Modal_styles__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _Overlay__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../Overlay */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Overlay.js");
+/* harmony import */ var _Overlay__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Overlay__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _Layer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../Layer */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Layer.js");
+/* harmony import */ var _Layer__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_Layer__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _Popup_index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Popup/index */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Popup/index.js");
+/* harmony import */ var _Popup_index__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_Popup_index__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _utilities_decorators_withResponsiveMode__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../utilities/decorators/withResponsiveMode */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/decorators/withResponsiveMode.js");
+/* harmony import */ var _utilities_decorators_withResponsiveMode__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_utilities_decorators_withResponsiveMode__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _Callout_index__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../Callout/index */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Callout/index.js");
+/* harmony import */ var _Callout_index__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_Callout_index__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _Icon_index__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../Icon/index */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Icon/index.js");
+/* harmony import */ var _Icon_index__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_Icon_index__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _utilities_DraggableZone_index__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../utilities/DraggableZone/index */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/index.js");
+/* harmony import */ var _utilities_DraggableZone_index__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_utilities_DraggableZone_index__WEBPACK_IMPORTED_MODULE_11__);
+
+
+
+
+
+
+
+
+
+
+
+
+// @TODO - need to change this to a panel whenever the breakpoint is under medium (verify the spec)
+var DefaultLayerProps = {
+    eventBubblingEnabled: false
+};
+var getClassNames = Object(_Utilities__WEBPACK_IMPORTED_MODULE_2__["classNamesFunction"])();
+var ModalBase = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](ModalBase, _super);
+    function ModalBase(props) {
+        var _this = _super.call(this, props) || this;
+        _this._focusTrapZone = react__WEBPACK_IMPORTED_MODULE_1__["createRef"]();
+        // Allow the user to scroll within the modal but not on the body
+        _this._allowScrollOnModal = function (elt) {
+            if (elt) {
+                Object(_Utilities__WEBPACK_IMPORTED_MODULE_2__["allowScrollOnElement"])(elt, _this._events);
+            }
+            else {
+                _this._events.off(_this._scrollableContent);
+            }
+            _this._scrollableContent = elt;
+        };
+        _this._onModalContextMenuClose = function () {
+            _this.setState({ isModalMenuOpen: false });
+        };
+        _this._onModalClose = function () {
+            _this._lastSetX = 0;
+            _this._lastSetY = 0;
+            _this.setState({
+                isModalMenuOpen: false,
+                isInKeyboardMoveMode: false,
+                isOpen: false,
+                x: 0,
+                y: 0
+            });
+            // Call the onDismiss callback
+            if (_this.props.onDismissed) {
+                _this.props.onDismissed();
+            }
+        };
+        _this._onDragStart = function () {
+            _this.setState({ isModalMenuOpen: false, isInKeyboardMoveMode: false });
+        };
+        _this._onDrag = function (_, ui) {
+            var _a = _this.state, x = _a.x, y = _a.y;
+            _this.setState({ x: x + ui.delta.x, y: y + ui.delta.y });
+        };
+        _this._onDragStop = function () {
+            _this.focus();
+        };
+        _this._onDialogKeyUp = function (event) {
+            // Need to handle the CTRL + ALT + SPACE key during keyup due to FireFox bug:
+            // https://bugzilla.mozilla.org/show_bug.cgi?id=1220143
+            // Otherwise it would continue to fire a click even if the event was cancelled
+            // during mouseDown.
+            if (event.altKey && event.ctrlKey && event.keyCode === _Utilities__WEBPACK_IMPORTED_MODULE_2__["KeyCodes"].space) {
+                _this.setState({ isModalMenuOpen: !_this.state.isModalMenuOpen });
+                event.preventDefault();
+                event.stopPropagation();
+            }
+        };
+        _this._onDialogKeyDown = function (event) {
+            if (event.altKey && event.ctrlKey && event.keyCode === _Utilities__WEBPACK_IMPORTED_MODULE_2__["KeyCodes"].space) {
+                // CTRL + ALT + SPACE is handled during keyUp
+                event.preventDefault();
+                event.stopPropagation();
+                return;
+            }
+            if (_this.state.isModalMenuOpen && (event.altKey || event.keyCode === _Utilities__WEBPACK_IMPORTED_MODULE_2__["KeyCodes"].escape)) {
+                _this.setState({ isModalMenuOpen: false });
+            }
+            if (_this.state.isInKeyboardMoveMode && (event.keyCode === _Utilities__WEBPACK_IMPORTED_MODULE_2__["KeyCodes"].escape || event.keyCode === _Utilities__WEBPACK_IMPORTED_MODULE_2__["KeyCodes"].enter)) {
+                _this.setState({ isInKeyboardMoveMode: false });
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            if (_this.state.isInKeyboardMoveMode) {
+                var handledEvent = true;
+                var delta = _this._getMoveDelta(event);
+                switch (event.keyCode) {
+                    case _Utilities__WEBPACK_IMPORTED_MODULE_2__["KeyCodes"].escape:
+                        _this.setState({ x: _this._lastSetX, y: _this._lastSetY });
+                    case _Utilities__WEBPACK_IMPORTED_MODULE_2__["KeyCodes"].enter: {
+                        _this._lastSetX = 0;
+                        _this._lastSetY = 0;
+                        _this.setState({ isInKeyboardMoveMode: false });
+                        break;
+                    }
+                    case _Utilities__WEBPACK_IMPORTED_MODULE_2__["KeyCodes"].up: {
+                        _this.setState({
+                            y: _this.state.y - delta
+                        });
+                        break;
+                    }
+                    case _Utilities__WEBPACK_IMPORTED_MODULE_2__["KeyCodes"].down: {
+                        _this.setState({
+                            y: _this.state.y + delta
+                        });
+                        break;
+                    }
+                    case _Utilities__WEBPACK_IMPORTED_MODULE_2__["KeyCodes"].left: {
+                        _this.setState({
+                            x: _this.state.x - delta
+                        });
+                        break;
+                    }
+                    case _Utilities__WEBPACK_IMPORTED_MODULE_2__["KeyCodes"].right: {
+                        _this.setState({
+                            x: _this.state.x + delta
+                        });
+                        break;
+                    }
+                    default: {
+                        handledEvent = false;
+                    }
+                }
+                if (handledEvent) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+            }
+        };
+        _this._onEnterKeyboardMoveMode = function () {
+            _this._lastSetX = _this.state.x;
+            _this._lastSetY = _this.state.y;
+            _this.setState({ isInKeyboardMoveMode: true, isModalMenuOpen: false });
+        };
+        _this._onExitKeyboardMoveMode = function () {
+            _this._lastSetX = 0;
+            _this._lastSetY = 0;
+            _this.setState({ isInKeyboardMoveMode: false });
+        };
+        _this.state = {
+            id: Object(_Utilities__WEBPACK_IMPORTED_MODULE_2__["getId"])('Modal'),
+            isOpen: props.isOpen,
+            isVisible: props.isOpen,
+            hasBeenOpened: props.isOpen,
+            x: 0,
+            y: 0
+        };
+        _this._lastSetX = 0;
+        _this._lastSetY = 0;
+        _this._warnDeprecations({
+            onLayerDidMount: 'layerProps.onLayerDidMount'
+        });
+        return _this;
+    }
+    ModalBase.prototype.componentWillReceiveProps = function (newProps) {
+        clearTimeout(this._onModalCloseTimer);
+        // Opening the dialog
+        if (newProps.isOpen) {
+            if (!this.state.isOpen) {
+                // First Open
+                this.setState({
+                    isOpen: true
+                });
+            }
+            else {
+                // Modal has been opened
+                // Reopen during closing
+                this.setState({
+                    hasBeenOpened: true,
+                    isVisible: true
+                });
+                if (newProps.topOffsetFixed) {
+                    var dialogMain = document.getElementsByClassName('ms-Dialog-main');
+                    var modalRectangle = void 0;
+                    if (dialogMain.length > 0) {
+                        modalRectangle = dialogMain[0].getBoundingClientRect();
+                        this.setState({
+                            modalRectangleTop: modalRectangle.top
+                        });
+                    }
+                }
+            }
+        }
+        // Closing the dialog
+        if (!newProps.isOpen && this.state.isOpen) {
+            this._onModalCloseTimer = this._async.setTimeout(this._onModalClose, parseFloat(_Modal_styles__WEBPACK_IMPORTED_MODULE_4__["animationDuration"]) * 1000);
+            this.setState({
+                isVisible: false
+            });
+        }
+    };
+    ModalBase.prototype.componentDidUpdate = function (prevProps, prevState) {
+        if (!prevProps.isOpen && !prevState.isVisible) {
+            this.setState({
+                isVisible: true
+            });
+        }
+    };
+    ModalBase.prototype.render = function () {
+        var _a = this.props, className = _a.className, containerClassName = _a.containerClassName, scrollableContentClassName = _a.scrollableContentClassName, elementToFocusOnDismiss = _a.elementToFocusOnDismiss, firstFocusableSelector = _a.firstFocusableSelector, forceFocusInsideTrap = _a.forceFocusInsideTrap, ignoreExternalFocusing = _a.ignoreExternalFocusing, isBlocking = _a.isBlocking, isClickableOutsideFocusTrap = _a.isClickableOutsideFocusTrap, isDarkOverlay = _a.isDarkOverlay, onDismiss = _a.onDismiss, layerProps = _a.layerProps, responsiveMode = _a.responsiveMode, titleAriaId = _a.titleAriaId, styles = _a.styles, subtitleAriaId = _a.subtitleAriaId, theme = _a.theme, topOffsetFixed = _a.topOffsetFixed, onLayerDidMount = _a.onLayerDidMount, isModeless = _a.isModeless, dragOptions = _a.dragOptions;
+        var _b = this.state, isOpen = _b.isOpen, isVisible = _b.isVisible, hasBeenOpened = _b.hasBeenOpened, modalRectangleTop = _b.modalRectangleTop, x = _b.x, y = _b.y, isInKeyboardMoveMode = _b.isInKeyboardMoveMode;
+        if (!isOpen) {
+            return null;
+        }
+        var layerClassName = layerProps === undefined ? '' : layerProps.className;
+        var classNames = getClassNames(styles, {
+            theme: theme,
+            className: className,
+            containerClassName: containerClassName,
+            scrollableContentClassName: scrollableContentClassName,
+            isOpen: isOpen,
+            isVisible: isVisible,
+            hasBeenOpened: hasBeenOpened,
+            modalRectangleTop: modalRectangleTop,
+            topOffsetFixed: topOffsetFixed,
+            isModeless: isModeless,
+            layerClassName: layerClassName,
+            isDefaultDragHandle: dragOptions && !dragOptions.dragHandleSelector
+        });
+        var mergedLayerProps = tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, DefaultLayerProps, this.props.layerProps, { onLayerDidMount: layerProps && layerProps.onLayerDidMount ? layerProps.onLayerDidMount : onLayerDidMount, insertFirst: isModeless, className: classNames.layer });
+        var modalContent = (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_FocusTrapZone_index__WEBPACK_IMPORTED_MODULE_3__["FocusTrapZone"], { componentRef: this._focusTrapZone, className: classNames.main, elementToFocusOnDismiss: elementToFocusOnDismiss, isClickableOutsideFocusTrap: isModeless || isClickableOutsideFocusTrap || !isBlocking, ignoreExternalFocusing: ignoreExternalFocusing, forceFocusInsideTrap: isModeless ? !isModeless : forceFocusInsideTrap, firstFocusableSelector: firstFocusableSelector, focusPreviouslyFocusedInnerElement: true, onKeyDown: dragOptions ? this._onDialogKeyDown : undefined, onKeyUp: dragOptions ? this._onDialogKeyUp : undefined, onBlur: isInKeyboardMoveMode ? this._onExitKeyboardMoveMode : undefined },
+            dragOptions && isInKeyboardMoveMode && (react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", { className: classNames.keyboardMoveIconContainer }, dragOptions.keyboardMoveIconProps ? (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_Icon_index__WEBPACK_IMPORTED_MODULE_10__["Icon"], tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, dragOptions.keyboardMoveIconProps))) : (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_Icon_index__WEBPACK_IMPORTED_MODULE_10__["Icon"], { iconName: "move", className: classNames.keyboardMoveIcon })))),
+            react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", { ref: this._allowScrollOnModal, className: classNames.scrollableContent, "data-is-scrollable": true },
+                dragOptions && this.state.isModalMenuOpen && (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](dragOptions.menu, { items: [
+                        { key: 'move', text: dragOptions.moveMenuItemText, onClick: this._onEnterKeyboardMoveMode },
+                        { key: 'close', text: dragOptions.closeMenuItemText, onClick: this._onModalClose }
+                    ], onDismiss: this._onModalContextMenuClose, alignTargetEdge: true, coverTarget: true, directionalHint: _Callout_index__WEBPACK_IMPORTED_MODULE_9__["DirectionalHint"].topLeftEdge, directionalHintFixed: true, shouldFocusOnMount: true, target: this._scrollableContent })),
+                this.props.children)));
+        // @temp tuatology - Will adjust this to be a panel at certain breakpoints
+        if (responsiveMode >= _utilities_decorators_withResponsiveMode__WEBPACK_IMPORTED_MODULE_8__["ResponsiveMode"].small) {
+            return (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_Layer__WEBPACK_IMPORTED_MODULE_6__["Layer"], tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, mergedLayerProps),
+                react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_Popup_index__WEBPACK_IMPORTED_MODULE_7__["Popup"], { role: isModeless || !isBlocking ? 'dialog' : 'alertdialog', "aria-modal": !isModeless, ariaLabelledBy: titleAriaId, ariaDescribedBy: subtitleAriaId, onDismiss: onDismiss },
+                    react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", { className: classNames.root },
+                        !isModeless && react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_Overlay__WEBPACK_IMPORTED_MODULE_5__["Overlay"], { isDarkThemed: isDarkOverlay, onClick: isBlocking ? undefined : onDismiss }),
+                        dragOptions ? (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_utilities_DraggableZone_index__WEBPACK_IMPORTED_MODULE_11__["DraggableZone"], { handleSelector: dragOptions.dragHandleSelector || "." + classNames.main.split(' ')[0], preventDragSelector: "button", onStart: this._onDragStart, onDragChange: this._onDrag, onStop: this._onDragStop, position: { x: x, y: y } }, modalContent)) : (modalContent)))));
+        }
+        return null;
+    };
+    ModalBase.prototype.focus = function () {
+        if (this._focusTrapZone.current) {
+            this._focusTrapZone.current.focus();
+        }
+    };
+    ModalBase.prototype._getMoveDelta = function (event) {
+        var delta = 10;
+        if (event.shiftKey) {
+            if (!event.ctrlKey) {
+                delta = 50;
+            }
+        }
+        else if (event.ctrlKey) {
+            delta = 1;
+        }
+        return delta;
+    };
+    ModalBase.defaultProps = {
+        isOpen: false,
+        isDarkOverlay: true,
+        isBlocking: false,
+        className: '',
+        containerClassName: ''
+    };
+    ModalBase = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        _utilities_decorators_withResponsiveMode__WEBPACK_IMPORTED_MODULE_8__["withResponsiveMode"]
+    ], ModalBase);
+    return ModalBase;
+}(_Utilities__WEBPACK_IMPORTED_MODULE_2__["BaseComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.js":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.js ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: Modal */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Modal", function() { return Modal; });
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Utilities */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Utilities.js");
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Utilities__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Modal_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Modal.base */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.base.js");
+/* harmony import */ var _Modal_base__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Modal_base__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Modal_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Modal.styles */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.styles.js");
+/* harmony import */ var _Modal_styles__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Modal_styles__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+var Modal = Object(_Utilities__WEBPACK_IMPORTED_MODULE_0__["styled"])(_Modal_base__WEBPACK_IMPORTED_MODULE_1__["ModalBase"], _Modal_styles__WEBPACK_IMPORTED_MODULE_2__["getStyles"], undefined, {
+    scope: 'Modal'
+});
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.styles.js":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Modal/Modal.styles.js ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: animationDuration, getStyles */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "animationDuration", function() { return animationDuration; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStyles", function() { return getStyles; });
+/* harmony import */ var _Styling__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Styling */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Styling.js");
+/* harmony import */ var _Styling__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Styling__WEBPACK_IMPORTED_MODULE_0__);
+
+var animationDuration = _Styling__WEBPACK_IMPORTED_MODULE_0__["AnimationVariables"].durationValue2;
+var globalClassNames = {
+    root: 'ms-Modal',
+    main: 'ms-Dialog-main',
+    scrollableContent: 'ms-Modal-scrollableContent',
+    isOpen: 'is-open',
+    layer: 'ms-Modal-Layer'
+};
+var getStyles = function (props) {
+    var className = props.className, containerClassName = props.containerClassName, scrollableContentClassName = props.scrollableContentClassName, isOpen = props.isOpen, isVisible = props.isVisible, hasBeenOpened = props.hasBeenOpened, modalRectangleTop = props.modalRectangleTop, theme = props.theme, topOffsetFixed = props.topOffsetFixed, isModeless = props.isModeless, layerClassName = props.layerClassName, isDefaultDragHandle = props.isDefaultDragHandle;
+    var palette = theme.palette;
+    var classNames = Object(_Styling__WEBPACK_IMPORTED_MODULE_0__["getGlobalClassNames"])(globalClassNames, theme);
+    return {
+        root: [
+            classNames.root,
+            theme.fonts.medium,
+            {
+                backgroundColor: 'transparent',
+                position: isModeless ? 'absolute' : 'fixed',
+                height: '100%',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                opacity: 0,
+                pointerEvents: 'none',
+                transition: "opacity " + animationDuration
+            },
+            topOffsetFixed &&
+                hasBeenOpened && {
+                alignItems: 'flex-start'
+            },
+            isOpen && classNames.isOpen,
+            isVisible && {
+                opacity: 1,
+                pointerEvents: 'auto'
+            },
+            className
+        ],
+        main: [
+            classNames.main,
+            {
+                boxShadow: '0 0 5px 0 rgba(0, 0, 0, 0.4)',
+                backgroundColor: palette.white,
+                boxSizing: 'border-box',
+                position: 'relative',
+                textAlign: 'left',
+                outline: '3px solid transparent',
+                maxHeight: '100%',
+                overflowY: 'auto',
+                zIndex: isModeless ? _Styling__WEBPACK_IMPORTED_MODULE_0__["ZIndexes"].Layer : undefined
+            },
+            topOffsetFixed &&
+                hasBeenOpened && {
+                top: modalRectangleTop
+            },
+            isDefaultDragHandle && {
+                cursor: 'move'
+            },
+            containerClassName
+        ],
+        scrollableContent: [
+            classNames.scrollableContent,
+            {
+                overflowY: 'auto',
+                flexGrow: 1,
+                maxHeight: '100vh',
+                selectors: (_a = {},
+                    _a['@supports (-webkit-overflow-scrolling: touch)'] = {
+                        maxHeight: window.innerHeight
+                    },
+                    _a)
+            },
+            scrollableContentClassName
+        ],
+        layer: isModeless && [
+            layerClassName,
+            classNames.layer,
+            {
+                position: 'static',
+                width: 'unset',
+                height: 'unset'
+            }
+        ],
+        keyboardMoveIconContainer: {
+            position: 'absolute',
+            display: 'flex',
+            justifyContent: 'center',
+            width: '100%',
+            padding: '3px 0px'
+        },
+        keyboardMoveIcon: {
+            fontSize: '24px',
+            width: '24px'
+        }
+    };
+    var _a;
+};
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.base.js":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.base.js ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: SearchBoxBase */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SearchBoxBase", function() { return SearchBoxBase; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Utilities */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Utilities.js");
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Utilities__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Button */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Button.js");
+/* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Button__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Icon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Icon */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Icon.js");
+/* harmony import */ var _Icon__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Icon__WEBPACK_IMPORTED_MODULE_4__);
+
+
+
+
+
+var getClassNames = Object(_Utilities__WEBPACK_IMPORTED_MODULE_2__["classNamesFunction"])();
+var SearchBoxBase = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](SearchBoxBase, _super);
+    function SearchBoxBase(props) {
+        var _this = _super.call(this, props) || this;
+        _this._rootElement = react__WEBPACK_IMPORTED_MODULE_1__["createRef"]();
+        _this._inputElement = react__WEBPACK_IMPORTED_MODULE_1__["createRef"]();
+        _this._onClickFocus = function () {
+            var inputElement = _this._inputElement.current;
+            if (inputElement) {
+                _this.focus();
+                inputElement.selectionStart = inputElement.selectionEnd = 0;
+            }
+        };
+        _this._onFocusCapture = function (ev) {
+            _this.setState({
+                hasFocus: true
+            });
+            _this._events.on(ev.currentTarget, 'blur', _this._onBlur, true);
+            if (_this.props.onFocus) {
+                _this.props.onFocus(ev);
+            }
+        };
+        _this._onClearClick = function (ev) {
+            var clearButtonProps = _this.props.clearButtonProps;
+            if (clearButtonProps && clearButtonProps.onClick) {
+                clearButtonProps.onClick(ev);
+            }
+            if (!ev.defaultPrevented) {
+                _this._onClear(ev);
+            }
+        };
+        _this._onKeyDown = function (ev) {
+            switch (ev.which) {
+                case _Utilities__WEBPACK_IMPORTED_MODULE_2__["KeyCodes"].escape:
+                    _this.props.onEscape && _this.props.onEscape(ev);
+                    if (!ev.defaultPrevented) {
+                        _this._onClear(ev);
+                    }
+                    break;
+                case _Utilities__WEBPACK_IMPORTED_MODULE_2__["KeyCodes"].enter:
+                    if (_this.props.onSearch) {
+                        _this.props.onSearch(_this.state.value);
+                        break;
+                    }
+                    // if we don't handle the enter press then we shouldn't prevent default
+                    return;
+                default:
+                    _this.props.onKeyDown && _this.props.onKeyDown(ev);
+                    if (!ev.defaultPrevented) {
+                        return;
+                    }
+            }
+            // We only get here if the keypress has been handled,
+            // or preventDefault was called in case of default keyDown handler
+            ev.preventDefault();
+            ev.stopPropagation();
+        };
+        _this._onBlur = function (ev) {
+            _this._events.off(_this._rootElement.current, 'blur');
+            _this.setState({
+                hasFocus: false
+            });
+            if (_this.props.onBlur) {
+                _this.props.onBlur(ev);
+            }
+        };
+        _this._onInputChange = function (ev) {
+            var value = ev.target.value;
+            if (value === _this._latestValue) {
+                return;
+            }
+            _this._latestValue = value;
+            _this.setState({ value: value });
+            _this._callOnChange(value);
+        };
+        _this._warnDeprecations({
+            labelText: 'placeholder',
+            defaultValue: 'value'
+        });
+        _this._latestValue = props.value || '';
+        _this.state = {
+            value: _this._latestValue,
+            hasFocus: false,
+            id: Object(_Utilities__WEBPACK_IMPORTED_MODULE_2__["getId"])('SearchBox')
+        };
+        return _this;
+    }
+    SearchBoxBase.prototype.componentWillReceiveProps = function (newProps) {
+        if (newProps.value !== undefined) {
+            this._latestValue = newProps.value;
+            // If the user passes in null, substitute an empty string
+            // (passing null is not allowed per typings, but users might do it anyway)
+            this.setState({
+                value: newProps.value || ''
+            });
+        }
+    };
+    SearchBoxBase.prototype.render = function () {
+        var _a = this.props, ariaLabel = _a.ariaLabel, placeholder = _a.placeholder, className = _a.className, disabled = _a.disabled, underlined = _a.underlined, styles = _a.styles, labelText = _a.labelText, theme = _a.theme, clearButtonProps = _a.clearButtonProps, disableAnimation = _a.disableAnimation, iconProps = _a.iconProps;
+        var _b = this.state, value = _b.value, hasFocus = _b.hasFocus, id = _b.id;
+        var placeholderValue = labelText === undefined ? placeholder : labelText;
+        var classNames = getClassNames(styles, {
+            theme: theme,
+            className: className,
+            underlined: underlined,
+            hasFocus: hasFocus,
+            disabled: disabled,
+            hasInput: value.length > 0,
+            disableAnimation: disableAnimation
+        });
+        var nativeProps = Object(_Utilities__WEBPACK_IMPORTED_MODULE_2__["getNativeProps"])(this.props, _Utilities__WEBPACK_IMPORTED_MODULE_2__["inputProperties"], ['id', 'className', 'placeholder', 'onFocus', 'onBlur', 'value']);
+        return (react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", { ref: this._rootElement, className: classNames.root, onFocusCapture: this._onFocusCapture },
+            react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", { className: classNames.iconContainer, onClick: this._onClickFocus, "aria-hidden": true },
+                react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_Icon__WEBPACK_IMPORTED_MODULE_4__["Icon"], tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({ iconName: "Search" }, iconProps, { className: classNames.icon }))),
+            react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("input", tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, nativeProps, { id: id, className: classNames.field, placeholder: placeholderValue, onChange: this._onInputChange, onInput: this._onInputChange, onKeyDown: this._onKeyDown, value: value, disabled: disabled, "aria-label": ariaLabel ? ariaLabel : placeholder, ref: this._inputElement })),
+            value.length > 0 && (react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", { className: classNames.clearButton },
+                react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_Button__WEBPACK_IMPORTED_MODULE_3__["IconButton"], tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({ styles: { root: { height: 'auto' }, icon: { fontSize: '12px' } }, iconProps: { iconName: 'Clear' } }, clearButtonProps, { onClick: this._onClearClick }))))));
+    };
+    /**
+     * Sets focus to the search box input field
+     */
+    SearchBoxBase.prototype.focus = function () {
+        if (this._inputElement.current) {
+            this._inputElement.current.focus();
+        }
+    };
+    /**
+     * Returns whether or not the SearchBox has focus
+     */
+    SearchBoxBase.prototype.hasFocus = function () {
+        return !!this.state.hasFocus;
+    };
+    SearchBoxBase.prototype._onClear = function (ev) {
+        this.props.onClear && this.props.onClear(ev);
+        if (!ev.defaultPrevented) {
+            this._latestValue = '';
+            this.setState({
+                value: ''
+            });
+            this._callOnChange('');
+            ev.stopPropagation();
+            ev.preventDefault();
+            this.focus();
+        }
+    };
+    SearchBoxBase.prototype._callOnChange = function (newValue) {
+        var _a = this.props, onChange = _a.onChange, onChanged = _a.onChanged;
+        // Call @deprecated method.
+        if (onChanged) {
+            onChanged(newValue);
+        }
+        if (onChange) {
+            onChange(newValue);
+        }
+    };
+    SearchBoxBase.defaultProps = {
+        disableAnimation: false,
+        clearButtonProps: { ariaLabel: 'Clear text' }
+    };
+    return SearchBoxBase;
+}(_Utilities__WEBPACK_IMPORTED_MODULE_2__["BaseComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.js":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.js ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: SearchBox */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SearchBox", function() { return SearchBox; });
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Utilities */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Utilities.js");
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Utilities__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _SearchBox_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SearchBox.base */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.base.js");
+/* harmony import */ var _SearchBox_base__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_SearchBox_base__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _SearchBox_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SearchBox.styles */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.styles.js");
+/* harmony import */ var _SearchBox_styles__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_SearchBox_styles__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+var SearchBox = Object(_Utilities__WEBPACK_IMPORTED_MODULE_0__["styled"])(_SearchBox_base__WEBPACK_IMPORTED_MODULE_1__["SearchBoxBase"], _SearchBox_styles__WEBPACK_IMPORTED_MODULE_2__["getStyles"], undefined, { scope: 'SearchBox' });
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.styles.js":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SearchBox/SearchBox.styles.js ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: getStyles */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStyles", function() { return getStyles; });
+/* harmony import */ var _Styling__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Styling */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Styling.js");
+/* harmony import */ var _Styling__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Styling__WEBPACK_IMPORTED_MODULE_0__);
+
+function getStyles(props) {
+    var theme = props.theme, underlined = props.underlined, disabled = props.disabled, hasFocus = props.hasFocus, className = props.className, hasInput = props.hasInput, disableAnimation = props.disableAnimation;
+    var palette = theme.palette, fonts = theme.fonts, semanticColors = theme.semanticColors;
+    return {
+        root: [
+            'ms-SearchBox',
+            fonts.medium,
+            _Styling__WEBPACK_IMPORTED_MODULE_0__["normalize"],
+            {
+                color: palette.neutralPrimary,
+                backgroundColor: semanticColors.inputBackground,
+                display: 'flex',
+                flexDirection: 'row',
+                flexWrap: 'nowrap',
+                alignItems: 'stretch',
+                // The 1px top and bottom padding ensure the input field does not overlap the border
+                padding: '1px 0 1px 4px',
+                border: "1px solid " + palette.neutralTertiary,
+                height: 32,
+                selectors: (_a = {},
+                    _a[_Styling__WEBPACK_IMPORTED_MODULE_0__["HighContrastSelector"]] = {
+                        border: '1px solid WindowText'
+                    },
+                    _a[':hover'] = {
+                        borderColor: palette.neutralDark,
+                        selectors: (_b = {},
+                            _b[_Styling__WEBPACK_IMPORTED_MODULE_0__["HighContrastSelector"]] = {
+                                borderColor: 'Highlight'
+                            },
+                            _b)
+                    },
+                    _a[':hover $iconContainer'] = {
+                        color: palette.themeDark
+                    },
+                    _a)
+            },
+            hasFocus && [
+                'is-active',
+                {
+                    borderColor: palette.themePrimary,
+                    selectors: (_c = {
+                            ':hover': {
+                                borderColor: palette.themePrimary
+                            }
+                        },
+                        _c[_Styling__WEBPACK_IMPORTED_MODULE_0__["HighContrastSelector"]] = {
+                            borderColor: 'Highlight'
+                        },
+                        _c)
+                }
+            ],
+            disabled && [
+                'is-disabled',
+                {
+                    borderColor: palette.neutralLighter,
+                    backgroundColor: palette.neutralLighter,
+                    pointerEvents: 'none',
+                    cursor: 'default'
+                }
+            ],
+            underlined && [
+                'is-underlined',
+                {
+                    borderWidth: '0 0 1px 0',
+                    // Underlined SearchBox has a larger padding left to vertically align with the waffle in product
+                    padding: '1px 0 1px 8px'
+                }
+            ],
+            underlined &&
+                disabled && {
+                backgroundColor: 'transparent'
+            },
+            hasInput && 'can-clear',
+            className
+        ],
+        iconContainer: [
+            'ms-SearchBox-iconContainer',
+            {
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                flexShrink: 0,
+                fontSize: 16,
+                width: 32,
+                textAlign: 'center',
+                color: palette.themePrimary,
+                cursor: 'text'
+            },
+            hasFocus && {
+                width: 4
+            },
+            disabled && {
+                color: palette.neutralTertiary
+            },
+            !disableAnimation && {
+                transition: "width " + _Styling__WEBPACK_IMPORTED_MODULE_0__["AnimationVariables"].durationValue1
+            }
+        ],
+        icon: [
+            'ms-SearchBox-icon',
+            {
+                opacity: 1
+            },
+            hasFocus && {
+                opacity: 0
+            },
+            !disableAnimation && {
+                transition: "opacity " + _Styling__WEBPACK_IMPORTED_MODULE_0__["AnimationVariables"].durationValue1 + " 0s"
+            }
+        ],
+        clearButton: [
+            'ms-SearchBox-clearButton',
+            {
+                display: 'flex',
+                flexDirection: 'row',
+                alignItems: 'stretch',
+                cursor: 'pointer',
+                flexBasis: '32px',
+                flexShrink: 0,
+                padding: 1,
+                color: palette.themePrimary
+            }
+        ],
+        field: [
+            'ms-SearchBox-field',
+            _Styling__WEBPACK_IMPORTED_MODULE_0__["normalize"],
+            {
+                backgroundColor: 'transparent',
+                border: 'none',
+                outline: 'none',
+                fontWeight: 'inherit',
+                fontFamily: 'inherit',
+                fontSize: 'inherit',
+                color: palette.neutralPrimary,
+                flex: '1 1 0px',
+                // The default implicit value of 'auto' prevents the input from shrinking. Setting min-width to
+                // 0px allows the input element to shrink to fit the container.
+                minWidth: '0px',
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+                // This padding forces the text placement to round up.
+                paddingBottom: 0.5,
+                // This removes the IE specific clear button in the input since we implimented our own
+                selectors: {
+                    '::-ms-clear': {
+                        display: 'none'
+                    },
+                    '::placeholder': {
+                        color: semanticColors.inputPlaceholderText,
+                        opacity: 1
+                    },
+                    ':-ms-input-placeholder': {
+                        color: semanticColors.inputPlaceholderText
+                    }
+                }
+            },
+            disabled && {
+                color: palette.neutralTertiary
+            }
+        ]
+    };
+    var _a, _b, _c;
+}
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/DraggableZone.js":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/DraggableZone.js ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: DraggableZone */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DraggableZone", function() { return DraggableZone; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _DraggableZone_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./DraggableZone.styles */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/DraggableZone.styles.js");
+/* harmony import */ var _DraggableZone_styles__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_DraggableZone_styles__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Utilities */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Utilities.js");
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Utilities__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+var eventMapping = {
+    touch: {
+        start: 'touchstart',
+        move: 'touchmove',
+        stop: 'touchend'
+    },
+    mouse: {
+        start: 'mousedown',
+        move: 'mousemove',
+        stop: 'mouseup'
+    }
+};
+var DraggableZone = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](DraggableZone, _super);
+    function DraggableZone(props) {
+        var _this = _super.call(this, props) || this;
+        _this._currentEventType = eventMapping.mouse;
+        _this._events = [];
+        _this._onMouseDown = function (event) {
+            var onMouseDown = react__WEBPACK_IMPORTED_MODULE_1__["Children"].only(_this.props.children).props.onMouseDown;
+            if (onMouseDown) {
+                onMouseDown(event);
+            }
+            _this._currentEventType = eventMapping.mouse;
+            return _this._onDragStart(event);
+        };
+        _this._onMouseUp = function (event) {
+            var onMouseUp = react__WEBPACK_IMPORTED_MODULE_1__["Children"].only(_this.props.children).props.onMouseUp;
+            if (onMouseUp) {
+                onMouseUp(event);
+            }
+            _this._currentEventType = eventMapping.mouse;
+            return _this._onDragStop(event);
+        };
+        _this._onTouchStart = function (event) {
+            var onTouchStart = react__WEBPACK_IMPORTED_MODULE_1__["Children"].only(_this.props.children).props.onTouchStart;
+            if (onTouchStart) {
+                onTouchStart(event);
+            }
+            _this._currentEventType = eventMapping.touch;
+            return _this._onDragStart(event);
+        };
+        _this._onTouchEnd = function (event) {
+            var onTouchEnd = react__WEBPACK_IMPORTED_MODULE_1__["Children"].only(_this.props.children).props.onTouchEnd;
+            if (onTouchEnd) {
+                onTouchEnd(event);
+            }
+            _this._currentEventType = eventMapping.touch;
+            _this._onDragStop(event);
+        };
+        _this._onDragStart = function (event) {
+            // Only handle left click for dragging
+            if (typeof event.button === 'number' && event.button !== 0) {
+                return false;
+            }
+            // If the target doesn't match the handleSelector OR
+            // if the target does match the preventDragSelector, bail out
+            if ((_this.props.handleSelector && !_this._matchesSelector(event.target, _this.props.handleSelector)) ||
+                (_this.props.preventDragSelector && _this._matchesSelector(event.target, _this.props.preventDragSelector))) {
+                return;
+            }
+            // Remember the touch identifier if this is a touch event so we can
+            // distinguish between individual touches in multitouch scenarios
+            // by remembering which touch point we were given
+            _this._touchId = _this._getTouchId(event);
+            var position = _this._getControlPosition(event);
+            if (position === undefined) {
+                return;
+            }
+            var dragData = _this._createDragDataFromPosition(position);
+            _this.props.onStart && _this.props.onStart(event, dragData);
+            _this.setState({
+                isDragging: true,
+                lastPosition: position
+            });
+            // hook up the appropriate mouse/touch events to the body to ensure
+            // smooth dragging
+            _this._events = [
+                Object(_Utilities__WEBPACK_IMPORTED_MODULE_3__["on"])(document.body, _this._currentEventType.move, _this._onDrag),
+                Object(_Utilities__WEBPACK_IMPORTED_MODULE_3__["on"])(document.body, _this._currentEventType.stop, _this._onDragStop)
+            ];
+        };
+        _this._onDrag = function (event) {
+            // Prevent scrolling on mobile devices
+            if (event.type === 'touchmove') {
+                event.preventDefault();
+            }
+            var position = _this._getControlPosition(event);
+            if (!position) {
+                return;
+            }
+            // create the updated drag data from the position data
+            var updatedData = _this._createUpdatedDragData(_this._createDragDataFromPosition(position));
+            var updatedPosition = updatedData.position;
+            _this.props.onDragChange && _this.props.onDragChange(event, updatedData);
+            _this.setState({
+                position: updatedPosition,
+                lastPosition: position
+            });
+        };
+        _this._onDragStop = function (event) {
+            if (!_this.state.isDragging) {
+                return;
+            }
+            var position = _this._getControlPosition(event);
+            if (!position) {
+                return;
+            }
+            var baseDragData = _this._createDragDataFromPosition(position);
+            // Set dragging to false and reset the lastPosition
+            _this.setState({
+                isDragging: false,
+                lastPosition: undefined
+            });
+            _this.props.onStop && _this.props.onStop(event, baseDragData);
+            if (_this.props.position) {
+                _this.setState({
+                    position: _this.props.position
+                });
+            }
+            // Remove event handlers
+            _this._events.forEach(function (dispose) { return dispose(); });
+        };
+        _this.state = {
+            isDragging: false,
+            position: _this.props.position || { x: 0, y: 0 },
+            lastPosition: undefined
+        };
+        return _this;
+    }
+    DraggableZone.prototype.componentDidUpdate = function (prevProps) {
+        if (this.props.position && (!prevProps.position || this.props.position !== prevProps.position)) {
+            this.setState({ position: this.props.position });
+        }
+    };
+    DraggableZone.prototype.componentWillUnmount = function () {
+        this._events.forEach(function (dispose) { return dispose(); });
+    };
+    DraggableZone.prototype.render = function () {
+        var child = react__WEBPACK_IMPORTED_MODULE_1__["Children"].only(this.props.children);
+        var props = child.props;
+        var position = this.props.position;
+        var _a = this.state, statePosition = _a.position, isDragging = _a.isDragging;
+        var x = statePosition.x;
+        var y = statePosition.y;
+        if (position && !isDragging) {
+            x = position.x;
+            y = position.y;
+        }
+        return react__WEBPACK_IMPORTED_MODULE_1__["cloneElement"](child, {
+            style: tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, props.style, { transform: "translate(" + x + "px, " + y + "px)" }),
+            className: Object(_DraggableZone_styles__WEBPACK_IMPORTED_MODULE_2__["getClassNames"])(props.className, this.state.isDragging).root,
+            onMouseDown: this._onMouseDown,
+            onMouseUp: this._onMouseUp,
+            onTouchStart: this._onTouchStart,
+            onTouchEnd: this._onTouchEnd
+        });
+    };
+    /**
+     * Get the control position based off the event that fired
+     * @param event - The event to get offsets from
+     */
+    DraggableZone.prototype._getControlPosition = function (event) {
+        var touchObj = this._getActiveTouch(event);
+        // did we get the right touch?
+        if (this._touchId !== undefined && !touchObj) {
+            return undefined;
+        }
+        var eventToGetOffset = touchObj || event;
+        return {
+            x: eventToGetOffset.clientX,
+            y: eventToGetOffset.clientY
+        };
+    };
+    /**
+     * Get the active touch point that we have saved from the event's TouchList
+     * @param event - The event used to get the TouchList for the active touch point
+     */
+    DraggableZone.prototype._getActiveTouch = function (event) {
+        return ((event.targetTouches && this._findTouchInTouchList(event.targetTouches)) ||
+            (event.changedTouches && this._findTouchInTouchList(event.changedTouches)));
+    };
+    /**
+     * Get the initial touch identifier associated with the given event
+     * @param event - The event that contains the TouchList
+     */
+    DraggableZone.prototype._getTouchId = function (event) {
+        var touch = (event.targetTouches && event.targetTouches[0]) || (event.changedTouches && event.changedTouches[0]);
+        if (touch) {
+            return touch.identifier;
+        }
+    };
+    /**
+     * Returns if an element (or any of the element's parents) match the given selector
+     */
+    DraggableZone.prototype._matchesSelector = function (element, selector) {
+        if (!element || element === document.body) {
+            return false;
+        }
+        /* tslint:disable-next-line:no-string-literal */
+        var matchesSelectorFn = element.matches || element.webkitMatchesSelector || element['msMatchesSelector'] /* for IE */;
+        if (!matchesSelectorFn) {
+            return false;
+        }
+        return matchesSelectorFn.call(element, selector) || this._matchesSelector(element.parentElement, selector);
+    };
+    /**
+     * Attempts to find the Touch that matches the identifier  we stored in dragStart
+     * @param touchList The TouchList to look for the stored identifier from dragStart
+     */
+    DraggableZone.prototype._findTouchInTouchList = function (touchList) {
+        if (this._touchId === undefined) {
+            return;
+        }
+        for (var i = 0; i < touchList.length; i++) {
+            if (touchList[i].identifier === this._touchId) {
+                return touchList[i];
+            }
+        }
+        return undefined;
+    };
+    /**
+     * Create DragData based off of the last known position and the new position passed in
+     * @param position The new position as part of the drag
+     */
+    DraggableZone.prototype._createDragDataFromPosition = function (position) {
+        var lastPosition = this.state.lastPosition;
+        // If we have no lastPosition, use the given position
+        // for last position
+        if (lastPosition === undefined) {
+            return {
+                delta: { x: 0, y: 0 },
+                lastPosition: position,
+                position: position
+            };
+        }
+        return {
+            delta: {
+                x: position.x - lastPosition.x,
+                y: position.y - lastPosition.y
+            },
+            lastPosition: lastPosition,
+            position: position
+        };
+    };
+    /**
+     * Creates an updated DragData based off the current position and given baseDragData
+     * @param baseDragData The base DragData (gotten from _createDragDataFromPosition) used to calculate the updated positions
+     */
+    DraggableZone.prototype._createUpdatedDragData = function (baseDragData) {
+        var position = this.state.position;
+        return {
+            position: {
+                x: position.x + baseDragData.delta.x,
+                y: position.y + baseDragData.delta.y
+            },
+            delta: baseDragData.delta,
+            lastPosition: position
+        };
+    };
+    return DraggableZone;
+}(react__WEBPACK_IMPORTED_MODULE_1__["Component"]));
+
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/DraggableZone.styles.js":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/DraggableZone.styles.js ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: getClassNames */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getClassNames", function() { return getClassNames; });
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Utilities */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Utilities.js");
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Utilities__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Styling__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Styling */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Styling.js");
+/* harmony import */ var _Styling__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Styling__WEBPACK_IMPORTED_MODULE_1__);
+
+
+var getClassNames = Object(_Utilities__WEBPACK_IMPORTED_MODULE_0__["memoizeFunction"])(function (className, isDragging) {
+    return {
+        root: Object(_Styling__WEBPACK_IMPORTED_MODULE_1__["mergeStyles"])(className, isDragging && {
+            touchAction: 'none',
+            selectors: {
+                '& *': {
+                    userSelect: 'none'
+                }
+            }
+        })
+    };
+});
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/index.js":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/index.js ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _DraggableZone__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DraggableZone */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/DraggableZone.js");
+/* harmony import */ var _DraggableZone__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_DraggableZone__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _DraggableZone__WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _DraggableZone__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _DraggableZone_styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DraggableZone.styles */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/utilities/DraggableZone/DraggableZone.styles.js");
+/* harmony import */ var _DraggableZone_styles__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_DraggableZone_styles__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _DraggableZone_styles__WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _DraggableZone_styles__WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=6.6_e31d77a2a5f6b2c31d29.js.map

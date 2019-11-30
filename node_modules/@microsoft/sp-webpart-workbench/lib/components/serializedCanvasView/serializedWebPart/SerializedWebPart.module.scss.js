@@ -1,0 +1,5 @@
+require("./SerializedWebPart.module.css");
+var styles = {
+    serializedWebPartItem: 'serializedWebPartItem_0c56850c'
+};
+export default styles;

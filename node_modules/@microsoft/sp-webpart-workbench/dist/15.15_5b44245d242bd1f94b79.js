@@ -1,0 +1,146 @@
+(window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] = window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] || []).push([[15],{
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-rte/lib/rte/formattingbar/SPRteFormattingBar.css":
+/*!*******************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!C:/agent/1/_work/20/s/libraries/sp-rte/lib/rte/formattingbar/SPRteFormattingBar.css ***!
+  \*******************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".rteFlyout-visible{position:absolute;z-index:2;-webkit-box-shadow:0 0 5px 0 #c8c8c8;box-shadow:0 0 5px 0 #c8c8c8;top:-45px;font-weight:400}@media (max-width:720px){.rteFlyout-visible .rteFlyout-button{padding:10px;font-size:11px}}.rteFlyout-visible .rteFlyout-button:hover{background:#0078d4}.rteFlyout-visible .rteFlyout-button .ms-Icon{padding:13px;color:#767676;font-size:14px!important}.rteFlyout-visible .rteFlyout-button:hover .ms-Icon{color:#fff}.rteFlyout-visible .rteFlyout-button img{vertical-align:middle;display:inline-block}.rteFlyout-visible .stack-panel-class{background:\"[theme:neutralPrimary, default: #333333]\"}.rteFlyout-button{background-color:transparent;border-width:0;padding:0;cursor:pointer!important}.stack-panel-class{white-space:nowrap}.SPRteFormattingBar{-webkit-animation-name:ms-fadeIn,ms-slideUpIn10;animation-name:ms-fadeIn,ms-slideUpIn10;-webkit-animation-duration:167ms;animation-duration:167ms;-webkit-animation-timing-function:cubic-bezier(.1,.25,.75,.9);animation-timing-function:cubic-bezier(.1,.25,.75,.9);-webkit-animation-fill-mode:both;animation-fill-mode:both;display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;background-color:\"[theme:neutralPrimary, default: #333333]\";-webkit-transition:all 367ms cubic-bezier(.1,.9,.2,1);transition:all 367ms cubic-bezier(.1,.9,.2,1);min-width:418px;max-width:none}@media (prefers-reduced-motion:reduce){.SPRteFormattingBar{-webkit-animation:none;animation:none}}[dir=ltr] .SPRteFormattingBar .ToolbarButton,[dir=ltr] .SPRteFormattingBar .ToolbarSubmenu{float:left}[dir=rtl] .SPRteFormattingBar .ToolbarButton,[dir=rtl] .SPRteFormattingBar .ToolbarSubmenu{float:right}.SPRteFormattingBar.faded{display:none}.SPRteFormattingBar-divider{height:16px;margin-top:8px;width:0;border-right:1px solid}[dir=ltr] .SPRteFormattingBar-divider{float:left}[dir=rtl] .SPRteFormattingBar-divider{float:right}.msIcon_h2_temp:after{content:\"H2\";font-size:16px;font-style:normal;font-weight:600}.button_quote_temp .ms-Icon{font-size:28px!important;font-weight:100;line-height:1.7!important}.formattingBarFocusZone{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;width:100%}.button_linkRemove_temp .ms-Icon:after{content:\"x\";font-family:Arial}[dir=ltr] .button_linkRemove_temp .ms-Icon:after{margin-left:-5px}[dir=rtl] .button_linkRemove_temp .ms-Icon:after{margin-right:-5px}[dir=ltr] .button_linkRemove_temp .ms-Icon:after{margin-right:5px}[dir=rtl] .button_linkRemove_temp .ms-Icon:after{margin-left:5px}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-rte/lib/rte/formattingbar/SPRteFormattingBar.css":
+/*!*******************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-rte/lib/rte/formattingbar/SPRteFormattingBar.css ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./SPRteFormattingBar.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-rte/lib/rte/formattingbar/SPRteFormattingBar.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "../../libraries/sp-rte/lib/rte/formattingbar/SPRteFormattingBar.js":
+/*!******************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-rte/lib/rte/formattingbar/SPRteFormattingBar.js ***!
+  \******************************************************************************************/
+/*! exports provided: SPRteFormattingBar */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SPRteFormattingBar", function() { return SPRteFormattingBar; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _SPRteFormattingBar_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./SPRteFormattingBar.scss */ "../../libraries/sp-rte/lib/rte/formattingbar/SPRteFormattingBar.scss.js");
+/* harmony import */ var _loc_RteStrings_resx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../loc/RteStrings.resx */ "../../libraries/sp-rte/lib/rte/loc/RteStrings.resx.js");
+
+
+
+
+
+var SPRteFormattingBar =  (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](SPRteFormattingBar, _super);
+    function SPRteFormattingBar(props) {
+        var _this = _super.call(this, props) || this;
+        _this._domNodeRef = react__WEBPACK_IMPORTED_MODULE_2__["createRef"]();
+        _this.state = {
+            isFaded: false
+        };
+        return _this;
+    }
+    SPRteFormattingBar.prototype.componentDidMount = function () {
+        if (this.props.onKeyDown) {
+            this._domNode.addEventListener('keydown', this.props.onKeyDown);
+        }
+    };
+    SPRteFormattingBar.prototype.componentWillReceiveProps = function (nextProps) {
+        var oldPosition = this.props.position;
+        var newPosition = nextProps.position;
+        if (oldPosition && newPosition && oldPosition.top !== newPosition.top) {
+            this.setState({
+                isFaded: true
+            });
+        }
+    };
+    SPRteFormattingBar.prototype.componentDidUpdate = function () {
+        var _this = this;
+        if (this.state.isFaded) {
+            this._clearTimeOut();
+            this._fadeFormatBarTimeOut = this._async.setTimeout(function () {
+                _this.setState({
+                    isFaded: false
+                });
+            }, 300);
+        }
+    };
+    SPRteFormattingBar.prototype.componentWillUnmount = function () {
+        this._clearTimeOut();
+    };
+    SPRteFormattingBar.prototype.render = function () {
+        var style = this.props.position;
+        var className = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["css"])('SPRteFormattingBar', 'rteFlyout-visible', 'stack-panel-class', {
+            faded: this.state.isFaded
+        });
+        return (react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", { role: 'toolbar', "aria-label": _loc_RteStrings_resx__WEBPACK_IMPORTED_MODULE_4__["default"].FormattingBarAccessibleLabel, className: className, ref: this._domNodeRef, style: style, "data-automation-id": 'toolbar' },
+            react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["FocusZone"], { isCircularNavigation: true, className: 'formattingBarFocusZone' }, this.props.buttons)));
+    };
+    Object.defineProperty(SPRteFormattingBar.prototype, "_domNode", {
+        get: function () {
+            return this._domNodeRef.current;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    SPRteFormattingBar.prototype._clearTimeOut = function () {
+        if (this._fadeFormatBarTimeOut) {
+            clearTimeout(this._fadeFormatBarTimeOut);
+            this._fadeFormatBarTimeOut = undefined;
+        }
+    };
+    return SPRteFormattingBar;
+}(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["BaseComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-rte/lib/rte/formattingbar/SPRteFormattingBar.scss.js":
+/*!***********************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-rte/lib/rte/formattingbar/SPRteFormattingBar.scss.js ***!
+  \***********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./SPRteFormattingBar.css */ "../../libraries/sp-rte/lib/rte/formattingbar/SPRteFormattingBar.css");
+var styles = {};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=15.15_5b44245d242bd1f94b79.js.map

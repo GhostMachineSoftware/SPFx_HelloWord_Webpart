@@ -1,0 +1,8 @@
+require("./DebugPrompt.module.css");
+var styles = {
+    warningText: 'warningText_b085db47',
+    calloutFadeIn: 'calloutFadeIn_b085db47',
+    callout: 'callout_b085db47',
+    calloutText: 'calloutText_b085db47'
+};
+export default styles;

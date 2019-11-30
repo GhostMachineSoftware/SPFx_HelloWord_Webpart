@@ -1,0 +1,8 @@
+require("./LoadingOrErrorModule.module.css");
+var styles = {
+    module: 'module_44ff50a0',
+    loadingModule: 'loadingModule_44ff50a0',
+    errorText: 'errorText_44ff50a0',
+    screenReaderErrorMessage: 'screenReaderErrorMessage_44ff50a0'
+};
+export default styles;

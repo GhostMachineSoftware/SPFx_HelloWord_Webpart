@@ -1,0 +1,116 @@
+(window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] = window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] || []).push([[18],{
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Dialog.js":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Dialog.js ***!
+  \*****************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/Dialog.js
+var pkg = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+module.exports = {}
+for (var key in pkg) {
+  if (pkg.hasOwnProperty(key)) {
+    module.exports[key] = pkg[key];
+  }
+}
+Object.defineProperty(module.exports, "__esModule", { value: true });
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/confirmationDialog/ConfirmationDialog.js":
+/*!*************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/confirmationDialog/ConfirmationDialog.js ***!
+  \*************************************************************************************************************************/
+/*! exports provided: ConfirmationDialog */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ConfirmationDialog", function() { return ConfirmationDialog; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var office_ui_fabric_react_lib_Dialog__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! office-ui-fabric-react/lib/Dialog */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Dialog.js");
+/* harmony import */ var office_ui_fabric_react_lib_Dialog__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(office_ui_fabric_react_lib_Dialog__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ms/odsp-utilities-bundle */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/@ms/odsp-utilities-bundle/5.0.61/node_modules/@ms/odsp-utilities-bundle/lib/index.js");
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _ConfirmationDialog_resx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ConfirmationDialog.resx */ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/confirmationDialog/ConfirmationDialog.resx.js");
+
+
+
+
+
+
+var ConfirmationDialog =  (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](ConfirmationDialog, _super);
+    function ConfirmationDialog() {
+        var _this = _super !== null && _super.apply(this, arguments) || this;
+        _this._handleDismissed = function () {
+            var a11yManager = _this.props.store.a11yManager;
+            var elementToFocusOnDismiss = _this.props.elementToFocusOnDismiss;
+            if (a11yManager && elementToFocusOnDismiss) {
+                a11yManager.focusTo(elementToFocusOnDismiss);
+            }
+        };
+        return _this;
+    }
+    ConfirmationDialog.prototype.componentDidUpdate = function (prevProps) {
+        if (this.props.isOpen && !prevProps.isOpen) {
+            var a11yManager = this.props.store.a11yManager;
+            if (a11yManager) {
+                a11yManager.alert(this._dialogDescription);
+            }
+        }
+    };
+    ConfirmationDialog.prototype.render = function () {
+        var _a = this.props, isOpen = _a.isOpen, message = _a.message, onConfirmation = _a.onConfirmation, onDismiss = _a.onDismiss, title = _a.title, elementToFocusOnDismiss = _a.elementToFocusOnDismiss;
+        return (react__WEBPACK_IMPORTED_MODULE_2__["createElement"](office_ui_fabric_react_lib_Dialog__WEBPACK_IMPORTED_MODULE_1__["Dialog"], { hidden: !isOpen, onDismiss: onDismiss, dialogContentProps: {
+                title: title,
+                subText: message
+            }, modalProps: {
+                onDismissed: elementToFocusOnDismiss ? this._handleDismissed : undefined
+            }, firstFocusableSelector: 'confirmButton', closeButtonAriaLabel: _ConfirmationDialog_resx__WEBPACK_IMPORTED_MODULE_5__["default"].CloseButtonAriaLabel, ignoreExternalFocusing: !!elementToFocusOnDismiss },
+            react__WEBPACK_IMPORTED_MODULE_2__["createElement"](office_ui_fabric_react_lib_Dialog__WEBPACK_IMPORTED_MODULE_1__["DialogFooter"], null,
+                react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_3__["PrimaryButton"], { onClick: onConfirmation, ariaLabel: _ConfirmationDialog_resx__WEBPACK_IMPORTED_MODULE_5__["default"].YesButtonLabel, "data-automation-id": 'yesButton', className: 'confirmButton', text: _ConfirmationDialog_resx__WEBPACK_IMPORTED_MODULE_5__["default"].YesButtonLabel }),
+                react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_3__["DefaultButton"], { onClick: onDismiss, ariaLabel: _ConfirmationDialog_resx__WEBPACK_IMPORTED_MODULE_5__["default"].NoButtonLabel, "data-automation-id": 'cancelButton', text: _ConfirmationDialog_resx__WEBPACK_IMPORTED_MODULE_5__["default"].NoButtonLabel }))));
+    };
+    Object.defineProperty(ConfirmationDialog.prototype, "_dialogDescription", {
+        get: function () {
+            var _a = this.props, title = _a.title, message = _a.message;
+            return _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4__["StringHelper"].format(_ConfirmationDialog_resx__WEBPACK_IMPORTED_MODULE_5__["default"].DialogDescription, title, message);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    return ConfirmationDialog;
+}(react__WEBPACK_IMPORTED_MODULE_2__["Component"]));
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/confirmationDialog/ConfirmationDialog.resx.js":
+/*!******************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/canvas/editChunk/confirmationDialog/ConfirmationDialog.resx.js ***!
+  \******************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var key = '_UeXD60TZFDaB0+z1tiJy0w';
+var allStrings = ( false) ?
+    undefined :
+    __webpack_require__(/*! resx-strings */ "resx-strings");
+var strings = allStrings[key];
+/* harmony default export */ __webpack_exports__["default"] = (strings);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=18.18_634aac69e4c5ed3cb03a.js.map

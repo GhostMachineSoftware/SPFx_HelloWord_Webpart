@@ -1,0 +1,7 @@
+require("./MobilePreviewURLEntry.module.css");
+var styles = {
+    mobilePreviewURLbar: 'mobilePreviewURLbar_bda7d8ad',
+    mobilePreviewTextfield: 'mobilePreviewTextfield_bda7d8ad',
+    mobilePreviewURLbutton: 'mobilePreviewURLbutton_bda7d8ad'
+};
+export default styles;

@@ -1,0 +1,1396 @@
+(window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] = window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] || []).push([[7],{
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorPicker.module.css":
+/*!**************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorPicker.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".pickerCallout_7ad0ac6a{width:166px}.pickerLabel_7ad0ac6a{display:block;margin-left:6px}.pickerLabel_7ad0ac6a.isRTL_7ad0ac6a{margin-right:6px}[dir=ltr] .buttonLabel_7ad0ac6a{padding-left:10px}[dir=rtl] .buttonLabel_7ad0ac6a{padding-right:10px}.previewSvg_7ad0ac6a{width:20px;height:20px}.previewSvg_7ad0ac6a.border_7ad0ac6a{border:1px solid}.defaultSvg_7ad0ac6a{padding:2px;border:1px solid}.defaultSvg_7ad0ac6a.fillDefaultColor_7ad0ac6a{fill:\"[theme:white, default: #ffffff]\"}.defaultSvg_7ad0ac6a.fillThemeColor_7ad0ac6a{fill:\"[theme:neutralPrimary, default: #333333]\";border:none}.defaultSvg_7ad0ac6a.selected_7ad0ac6a{width:12px;height:12px;border:4px solid}.colorPickerButton_7ad0ac6a{background:0 0;padding-left:4px;padding-right:12px}.previewRectangle_7ad0ac6a{width:100%;height:100%}.previewIcon_7ad0ac6a{font-size:7px;padding-top:8px}[dir=ltr] .previewIcon_7ad0ac6a{padding-left:7px}[dir=rtl] .previewIcon_7ad0ac6a{padding-right:7px}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPaneButton.module.css":
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPaneButton.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".sprtePropertyPaneButton_28d0f207{background:0 0;border:none}.sprtePropertyPaneButton_28d0f207.iconButton_28d0f207:hover{background-color:\"[theme:neutralLight, default: #eaeaea]\"}.sprtePropertyPaneButton_28d0f207.iconButton_28d0f207:active{background-color:\"[theme:neutralQuaternaryAlt, default: #dadada]\"}.sprtePropertyPaneButton_28d0f207.iconButton_28d0f207{width:40px;height:40px;padding:0}.sprtePropertyPaneButton_28d0f207.imageButton_28d0f207{width:56px;height:56px;min-width:56px;padding:0}.sprtePropertyPaneButton_28d0f207 i{font-size:20px}.sprtePropertyPaneButton_28d0f207.tableButtonInPane_28d0f207 i{font-size:24px}.sprtePropertyPaneButton_28d0f207.sprtePropertyPaneButtonActive_28d0f207{color:\"[theme:themePrimary, default: #0078d4]\";background-color:\"[theme:neutralQuaternaryAlt, default: #dadada]\"}.sprtePropertyPaneButton_28d0f207:hover{color:\"[theme:themePrimary, default: #0078d4]\"}.sprtePropertyPaneButton_28d0f207.textButton_28d0f207{background:\"[theme:themePrimary, default: #0078d4]\";color:\"[theme:white, default: #ffffff]\"}.sprtePropertyPaneButton_28d0f207.textButton_28d0f207.disabled_28d0f207{background:\"[theme:neutralTertiary, default: #a6a6a6]\"}.sprtePropertyPaneButton_28d0f207.textButton_28d0f207:hover{background:\"[theme:themePrimary, default: #0078d4]\"}.sprtePropertyPaneButtonImage_28d0f207{height:40px;background-color:\"[theme:white, default: #ffffff]\"}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas/lib/sp-canvas/spRte/tableIcons/TableIcons.module.css":
+/*!******************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/tableIcons/TableIcons.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".themeableSvgTableIcon_9341a896{width:40px;height:40px}.cls1_9341a896,.cls6_9341a896{fill:none}.cls1_9341a896,.cls2_9341a896,.cls3_9341a896{stroke:\"[theme:neutralPrimary, default: #333333]\"}.cls2_9341a896,.cls4_9341a896{fill:\"[theme:neutralLighterAlt, default: #f8f8f8]\"}.cls3_9341a896{fill:\"[theme:neutralPrimary, default: #333333]\"}.cls4_9341a896{stroke:\"[theme:neutralLighterAlt, default: #f8f8f8]\";stroke-width:.6px}.cls5_9341a896{stroke:none}.deleteTable_9341a896.cls1_9341a896{fill:\"[theme:neutralTertiary, default: #a6a6a6]\";stroke:\"[theme:neutralPrimary, default: #333333]\"}.deleteTable_9341a896.cls2_9341a896{fill:\"[theme:neutralPrimary, default: #333333]\";stroke:none}.deleteTable_9341a896.cls3_9341a896,.deleteTable_9341a896.cls6_9341a896{fill:none}.deleteTable_9341a896.cls3_9341a896{stroke:\"[theme:neutralTertiaryAlt, default: #c8c8c8]\"}.deleteTable_9341a896.cls4_9341a896{fill:\"[theme:neutralLighterAlt, default: #f8f8f8]\";stroke:\"[theme:neutralLighterAlt, default: #f8f8f8]\";stroke-width:.6px}.deleteTable_9341a896.cls5_9341a896{stroke:none}.neutralPrimaryIcon_9341a896,.neutralRows_9341a896{fill:\"[theme:neutralPrimary, default: #333333]\"}.neutralRows_9341a896{opacity:.2}.neutralLeftColumn_9341a896{opacity:.5;fill:\"[theme:neutralPrimary, default: #333333]\"}.themePrimaryIcon_9341a896,.themeRows_9341a896{fill:\"[theme:themePrimary, default: #0078d4]\"}.themeRows_9341a896{opacity:.2}.themeLeftColumn_9341a896{opacity:.5;fill:\"[theme:themePrimary, default: #0078d4]\"}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/ColorPickerGroup.js":
+/*!******************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/ColorPickerGroup.js ***!
+  \******************************************************************************************************/
+/*! exports provided: ColorPickerGroup */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ColorPickerGroup", function() { return ColorPickerGroup; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var office_ui_fabric_react_lib_components_SwatchColorPicker_SwatchColorPicker__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! office-ui-fabric-react/lib/components/SwatchColorPicker/SwatchColorPicker */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/SwatchColorPicker/SwatchColorPicker.js");
+/* harmony import */ var office_ui_fabric_react_lib_components_SwatchColorPicker_SwatchColorPicker__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(office_ui_fabric_react_lib_components_SwatchColorPicker_SwatchColorPicker__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SPRteColorPicker.module.scss */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorPicker.module.scss.js");
+
+
+
+
+
+var ColorPickerGroup =  (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](ColorPickerGroup, _super);
+    function ColorPickerGroup(props) {
+        return _super.call(this, props) || this;
+    }
+    ColorPickerGroup.prototype.render = function () {
+        var _a;
+        var _b = this.props, dataAutomationId = _b.dataAutomationId, groupText = _b.groupText, groupColors = _b.groupColors, onColorChanged = _b.onColorChanged, selectedColor = _b.selectedColor;
+        var pickerLabelCss = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["css"])(_SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_4__["default"].pickerLabel, (_a = {}, _a[_SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_4__["default"].isRTL] = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["getRTL"])(), _a));
+        return (react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("div", null,
+            react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("label", { htmlFor: groupText, className: pickerLabelCss }, groupText),
+            react__WEBPACK_IMPORTED_MODULE_3__["createElement"](office_ui_fabric_react_lib_components_SwatchColorPicker_SwatchColorPicker__WEBPACK_IMPORTED_MODULE_2__["SwatchColorPicker"], { "data-automation-id": dataAutomationId, id: groupText, key: groupText, columnCount: 5, cellShape: 'square', onColorChanged: onColorChanged, colorCells: groupColors, selectedId: selectedColor })));
+    };
+    return ColorPickerGroup;
+}(react__WEBPACK_IMPORTED_MODULE_3__["Component"]));
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorGroups.js":
+/*!******************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorGroups.js ***!
+  \******************************************************************************************************/
+/*! exports provided: SPRteColorGroups */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SPRteColorGroups", function() { return SPRteColorGroups; });
+/* harmony import */ var _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./SPRtePropertyPane.resx */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPane.resx.js");
+
+var SPRteColorGroups =  (function () {
+    function SPRteColorGroups() {
+    }
+    SPRteColorGroups.getSelectedColor = function (colors, selectedColor) {
+        var filteredArray = colors.filter(function (colorProp) { return colorProp.color === selectedColor; });
+        return filteredArray[0] && filteredArray[0].color;
+    };
+    SPRteColorGroups.buildFontColorMap = function (theme) {
+        var palette = theme.palette;
+        return new Map([
+            [palette.redDark, 'RedDark'],
+            [palette.red, 'Red'],
+            [palette.yellow, 'Yellow'],
+            [palette.yellowLight, 'YellowLight'],
+            [palette.greenLight, 'GreenLight'],
+            [palette.green, 'Green'],
+            [palette.blueLight, 'BlueLight'],
+            [palette.blue, 'Blue'],
+            [palette.blueDark, 'BlueDark'],
+            [palette.purple, 'Purple'],
+            [palette.neutralPrimary, 'NeutralPrimary'],
+            [palette.neutralSecondary, 'NeutralSecondary'],
+            [palette.neutralTertiary, 'NeutralTertiary'],
+            [palette.neutralDark, 'NeutralDark'],
+            [palette.neutralPrimaryAlt, 'NeutralPrimaryAlt'],
+            [palette.themeDark, 'ThemeDark'],
+            [palette.themeDarker, 'ThemeDarker'],
+            [palette.themeDarkAlt, 'ThemeDarkAlt'],
+            [palette.themePrimary, 'ThemePrimary'],
+            [palette.themeSecondary, 'ThemeSecondary']
+        ] );
+    };
+    Object.defineProperty(SPRteColorGroups, "HighlightColorMap", {
+        get: function () {
+            return new Map([
+                ["#FFFF00" , 'Yellow'],
+                ["#00FF00" , 'Green'],
+                ["#00FFFF" , 'Aqua'],
+                ["#FF00FF" , 'Magenta'],
+                ["#0000FF" , 'Blue'],
+                ["#FF0000" , 'Red'],
+                ["#000080" , 'DarkBlue'],
+                ["#008080" , 'Teal'],
+                ["#008000" , 'DarkGreen'],
+                ["#800080" , 'Purple'],
+                ["#800000" , 'Maroon'],
+                ["#808000" , 'Gold'],
+                ["#808080" , 'DarkGrey'],
+                ["#C0C0C0" , 'Grey'],
+                ["#000000" , 'Black']
+            ] );
+        },
+        enumerable: true,
+        configurable: true
+    });
+    SPRteColorGroups.standardColorGroup = function (theme) {
+        var palette = theme.palette;
+        var standardColorGroup = {
+            groupText: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].StandardColorLabel,
+            groupColors: [
+                { id: palette.redDark, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].RedDarkLabel, color: palette.redDark },
+                { id: palette.red, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].RedLabel, color: palette.red },
+                { id: palette.yellow, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].OrangeLabel, color: palette.yellow },
+                { id: palette.yellowLight, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].YellowLabel, color: palette.yellowLight },
+                { id: palette.greenLight, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].GreenLightLabel, color: palette.greenLight },
+                { id: palette.green, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].GreenLabel, color: palette.green },
+                { id: palette.blueLight, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].BlueLightLabel, color: palette.blueLight },
+                { id: palette.blue, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].BlueLabel, color: palette.blue },
+                { id: palette.blueDark, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].BlueDarkLabel, color: palette.blueDark },
+                { id: palette.purple, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].PurpleLabel, color: palette.purple }
+            ]
+        };
+        return standardColorGroup;
+    };
+    SPRteColorGroups.themeColorGroup = function (theme) {
+        var palette = theme.palette;
+        var themeColorGroup = {
+            groupText: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].ThemeColorGroupLabel,
+            groupColors: [
+                { id: palette.themeDarker, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].ThemeDarkerLabel, color: palette.themeDarker },
+                { id: palette.themeDark, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].ThemeDarkLabel, color: palette.themeDark },
+                { id: palette.themeDarkAlt, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].ThemeDarkAltLabel, color: palette.themeDarkAlt },
+                { id: palette.themePrimary, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].ThemePrimaryLabel, color: palette.themePrimary },
+                { id: palette.themeSecondary, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].ThemeSecondaryLabel, color: palette.themeSecondary },
+                { id: palette.neutralTertiary, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].NeutralTertiaryLabel, color: palette.neutralTertiary },
+                { id: palette.neutralSecondary, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].NeutralSecondaryLabel, color: palette.neutralSecondary },
+                { id: palette.neutralPrimaryAlt, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].NeutralPrimaryAltLabel, color: palette.neutralPrimaryAlt },
+                { id: palette.neutralPrimary, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].NeutralPrimaryLabel, color: palette.neutralPrimary },
+                { id: palette.neutralDark, label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].NeutralDarkLabel, color: palette.neutralDark }
+            ]
+        };
+        return themeColorGroup;
+    };
+    SPRteColorGroups.highlightColorGroup = {
+        groupText: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].HightlightColorsLabel,
+        groupColors: [
+            { id: "#FFFF00" , label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].YellowLabel, color: "#FFFF00"  },
+            { id: "#00FF00" , label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].GreenLabel, color: "#00FF00"  },
+            { id: "#00FFFF" , label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].AquaLabel, color: "#00FFFF"  },
+            { id: "#FF00FF" , label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].MagentaLabel, color: "#FF00FF"  },
+            { id: "#0000FF" , label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].BlueLabel, color: "#0000FF"  },
+            { id: "#FF0000" , label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].RedLabel, color: "#FF0000"  },
+            { id: "#000080" , label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].BlueDarkLabel, color: "#000080"  },
+            { id: "#008080" , label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].TealLabel, color: "#008080"  },
+            { id: "#008000" , label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].GreenDarkLabel, color: "#008000"  },
+            { id: "#800080" , label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].PurpleLabel, color: "#800080"  },
+            { id: "#800000" , label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].MaroonLabel, color: "#800000"  },
+            { id: "#808000" , label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].GoldLabel, color: "#808000"  },
+            { id: "#808080" , label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].DarkGreyLabel, color: "#808080"  },
+            { id: "#C0C0C0" , label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].GreyLabel, color: "#C0C0C0"  },
+            { id: "#000000" , label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_0__["default"].BlackLabel, color: "#000000"  }
+        ]
+    };
+    return SPRteColorGroups;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorPicker.js":
+/*!******************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorPicker.js ***!
+  \******************************************************************************************************/
+/*! exports provided: SPRteColorPicker */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SPRteColorPicker", function() { return SPRteColorPicker; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @microsoft/sp-lodash-subset */ "@microsoft/sp-lodash-subset");
+/* harmony import */ var _microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @microsoft/sp-core-library */ "@microsoft/sp-core-library");
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var office_ui_fabric_react_lib_components_Tooltip_TooltipHost__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! office-ui-fabric-react/lib/components/Tooltip/TooltipHost */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Tooltip/TooltipHost.js");
+/* harmony import */ var office_ui_fabric_react_lib_components_Tooltip_TooltipHost__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(office_ui_fabric_react_lib_components_Tooltip_TooltipHost__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./SPRteColorPicker.module.scss */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorPicker.module.scss.js");
+/* harmony import */ var _ColorPickerGroup__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ColorPickerGroup */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/ColorPickerGroup.js");
+/* harmony import */ var _SPRteColorGroups__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./SPRteColorGroups */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorGroups.js");
+/* harmony import */ var _SPRtePropertyPaneUtilities__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./SPRtePropertyPaneUtilities */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPaneUtilities.js");
+/* harmony import */ var _SPRteColorPickerStyles_styles__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./SPRteColorPickerStyles.styles */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorPickerStyles.styles.js");
+
+
+
+
+
+
+
+
+
+
+
+var SPRteColorPicker =  (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](SPRteColorPicker, _super);
+    function SPRteColorPicker(props) {
+        var _this = _super.call(this, props) || this;
+        _this._buttonContainerRef = react__WEBPACK_IMPORTED_MODULE_2__["createRef"]();
+        _this._colorPickerGroups = [];
+        _this._handleColorChanged = function (id, color) {
+            _this.props.onColorChanged(id, color, _this.props.theme);
+        };
+        _this._handleShowMenuClicked = function () {
+            _this.setState({
+                isCalloutVisible: !_this.state.isCalloutVisible
+            });
+        };
+        _this._handleCalloutDismiss = function () {
+            _this.setState({
+                isCalloutVisible: false
+            });
+        };
+        _this.state = {
+            isCalloutVisible: false
+        };
+        _this._setColorPickerGroups();
+        return _this;
+    }
+    SPRteColorPicker.prototype.shouldComponentUpdate = function (nextProps, nextState) {
+        var selectedColor = this.props.selectedColor;
+        return (selectedColor !== nextProps.selectedColor ||
+            this.state.isCalloutVisible !== nextState.isCalloutVisible ||
+            !Object(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_3__["isEqual"])(nextProps.colorPickerGroups, this.props.colorPickerGroups));
+    };
+    SPRteColorPicker.prototype.componentWillUpdate = function (prevProps, prevState) {
+        this._setColorPickerGroups();
+    };
+    SPRteColorPicker.prototype.render = function () {
+        var _a, _b, _c, _d;
+        var _e = this.props, buttonLabel = _e.buttonLabel, switchToDefaultColor = _e.switchToDefaultColor, defaultButtonLabel = _e.defaultButtonLabel, fillThemeColor = _e.fillThemeColor, automationId = _e.automationId;
+        var isCalloutVisible = this.state.isCalloutVisible;
+        var previewSvgCss = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["css"])(_SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].previewSvg, (_a = {},
+            _a[_SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].border] = this.props.previewColor && _SPRtePropertyPaneUtilities__WEBPACK_IMPORTED_MODULE_9__["SPRtePropertyPaneUtilities"].isColorTransparent(this.props.previewColor),
+            _a));
+        var tooltipCalloutProps = { gapSpace: 0 };
+        var defaultSvgClassName = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["css"])(_SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].previewSvg, _SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].defaultSvg, this._themedClass, (_b = {}, _b[_SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].selected] = !this._selectedColor, _b), (_c = {}, _c[_SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].fillDefaultColor] = !fillThemeColor, _c), (_d = {}, _d[_SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].fillThemeColor] = fillThemeColor && !this._themedClass, _d));
+        var colorPickerButtonId = automationId + "-propertyPaneButtonToolTip";
+        var defaultButtonId = automationId + "-defaultButtonTooltip";
+        var pickerCalloutClassName = _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_4__["_BrowserDetection"].getBrowserInformation().browser === 5  ? undefined : _SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].pickerCallout;
+        var defaultColorButton = react__WEBPACK_IMPORTED_MODULE_2__["createElement"](office_ui_fabric_react_lib_components_Tooltip_TooltipHost__WEBPACK_IMPORTED_MODULE_5__["TooltipHost"], { content: defaultButtonLabel, id: defaultButtonId, calloutProps: tooltipCalloutProps },
+            react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["Button"], { className: _SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].colorPickerButton, onClick: switchToDefaultColor, "data-automation-id": automationId + "-defaultButton", "aria-describedby": defaultButtonId },
+                react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("svg", { className: defaultSvgClassName, viewBox: '0 0 20 20' }, this._previewSvgRectangle),
+                react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", { className: _SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].buttonLabel }, defaultButtonLabel)));
+        return (react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", null,
+            react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", { ref: this._buttonContainerRef },
+                react__WEBPACK_IMPORTED_MODULE_2__["createElement"](office_ui_fabric_react_lib_components_Tooltip_TooltipHost__WEBPACK_IMPORTED_MODULE_5__["TooltipHost"], { content: buttonLabel, id: colorPickerButtonId, calloutProps: tooltipCalloutProps },
+                    react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["Button"], { className: _SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].colorPickerButton, onClick: this._handleShowMenuClicked, "data-automation-id": automationId + "-propertyPaneButton", "aria-describedby": colorPickerButtonId },
+                        react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("svg", { className: previewSvgCss, fill: this.props.previewColor, viewBox: '0 0 20 20' }, this._previewSvgRectangle),
+                        react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("div", { className: _SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].buttonLabel }, buttonLabel),
+                        react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["Icon"], { className: _SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].previewIcon, iconName: 'CaretDownSolid8', role: 'presentation' })))),
+            isCalloutVisible && (react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["FocusTrapCallout"], { className: pickerCalloutClassName, directionalHint: _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["DirectionalHint"].bottomLeftEdge, gapSpace: 0, isBeakVisible: false, onDismiss: this._handleCalloutDismiss, role: 'alertdialog', setInitialFocus: true, target: this._buttonContainer, focusTrapProps: { forceFocusInsideTrap: false, isClickableOutsideFocusTrap: true } },
+                defaultColorButton,
+                this._colorPickerGroups))));
+    };
+    Object.defineProperty(SPRteColorPicker.prototype, "_buttonContainer", {
+        get: function () {
+            return this._buttonContainerRef.current;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(SPRteColorPicker.prototype, "_themedClass", {
+        get: function () {
+            if (this.props.emphasisTheme) {
+                var classNames = _SPRteColorPickerStyles_styles__WEBPACK_IMPORTED_MODULE_10__["SPRteColorPickerStyles"].getClassNames({
+                    root: _SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].defaultSvg,
+                    emphasisTheme: this.props.emphasisTheme
+                });
+                return classNames && classNames.root;
+            }
+            return undefined;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(SPRteColorPicker.prototype, "_previewSvgRectangle", {
+        get: function () {
+            return react__WEBPACK_IMPORTED_MODULE_2__["createElement"]("rect", { className: _SPRteColorPicker_module_scss__WEBPACK_IMPORTED_MODULE_6__["default"].previewRectangle, width: '100%', height: '100%' });
+        },
+        enumerable: true,
+        configurable: true
+    });
+    SPRteColorPicker.prototype._setColorPickerGroups = function () {
+        var _a = this.props, colorPickerGroups = _a.colorPickerGroups, theme = _a.theme, selectedColor = _a.selectedColor;
+        this._colorPickerGroups = [];
+        var dataAutomationId;
+        for (var i = 0; i < colorPickerGroups.length; i++) {
+            var colorPickerGroup = void 0;
+            switch (colorPickerGroups[i]) {
+                case "standardColors" :
+                    colorPickerGroup = theme ? _SPRteColorGroups__WEBPACK_IMPORTED_MODULE_8__["SPRteColorGroups"].standardColorGroup(theme) : undefined;
+                    dataAutomationId = 'Standard';
+                    break;
+                case "themeColors" :
+                    colorPickerGroup = theme ? _SPRteColorGroups__WEBPACK_IMPORTED_MODULE_8__["SPRteColorGroups"].themeColorGroup(theme) : undefined;
+                    dataAutomationId = 'Theme';
+                    break;
+                case "highlightColors" :
+                    colorPickerGroup = _SPRteColorGroups__WEBPACK_IMPORTED_MODULE_8__["SPRteColorGroups"].highlightColorGroup;
+                    dataAutomationId = 'Highlight';
+                    break;
+            }
+            if (colorPickerGroup) {
+                var color = _SPRteColorGroups__WEBPACK_IMPORTED_MODULE_8__["SPRteColorGroups"].getSelectedColor(colorPickerGroup.groupColors, selectedColor);
+                if (color) {
+                    this._selectedColor = color;
+                }
+                this._colorPickerGroups.push(this._getColorPickerGroup(colorPickerGroup, color, dataAutomationId));
+            }
+        }
+    };
+    SPRteColorPicker.prototype._getColorPickerGroup = function (colorPickerGroup, color, dataAutomationId) {
+        return (react__WEBPACK_IMPORTED_MODULE_2__["createElement"](_ColorPickerGroup__WEBPACK_IMPORTED_MODULE_7__["ColorPickerGroup"], { dataAutomationId: dataAutomationId, key: colorPickerGroup.groupText, groupText: colorPickerGroup.groupText, groupColors: colorPickerGroup.groupColors, onColorChanged: this._handleColorChanged, selectedColor: color }));
+    };
+    SPRteColorPicker = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["customizable"])('SPRteColorPicker', ['theme'])
+    ], SPRteColorPicker);
+    return SPRteColorPicker;
+}(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["BaseComponent"]));
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorPicker.module.css":
+/*!**************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorPicker.module.css ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./SPRteColorPicker.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorPicker.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorPicker.module.scss.js":
+/*!******************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorPicker.module.scss.js ***!
+  \******************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./SPRteColorPicker.module.css */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorPicker.module.css");
+var styles = {
+    pickerCallout: 'pickerCallout_7ad0ac6a',
+    pickerLabel: 'pickerLabel_7ad0ac6a',
+    isRTL: 'isRTL_7ad0ac6a',
+    buttonLabel: 'buttonLabel_7ad0ac6a',
+    previewSvg: 'previewSvg_7ad0ac6a',
+    border: 'border_7ad0ac6a',
+    defaultSvg: 'defaultSvg_7ad0ac6a',
+    fillDefaultColor: 'fillDefaultColor_7ad0ac6a',
+    fillThemeColor: 'fillThemeColor_7ad0ac6a',
+    selected: 'selected_7ad0ac6a',
+    colorPickerButton: 'colorPickerButton_7ad0ac6a',
+    previewRectangle: 'previewRectangle_7ad0ac6a',
+    previewIcon: 'previewIcon_7ad0ac6a'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorPickerStyles.styles.js":
+/*!*******************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorPickerStyles.styles.js ***!
+  \*******************************************************************************************************************/
+/*! exports provided: SPRteColorPickerStyles */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SPRteColorPickerStyles", function() { return SPRteColorPickerStyles; });
+/* harmony import */ var _common_StyleHelpers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../common/StyleHelpers */ "../../libraries/sp-canvas/lib/sp-canvas/common/StyleHelpers.js");
+
+var SPRteColorPickerStyles =  (function () {
+    function SPRteColorPickerStyles() {
+    }
+    SPRteColorPickerStyles.getClassNames = function (props) {
+        return Object(_common_StyleHelpers__WEBPACK_IMPORTED_MODULE_0__["getClassNames"])(SPRteColorPickerStyles._getStyles, props);
+    };
+    SPRteColorPickerStyles._getStyles = function (props) {
+        var emphasisTheme = props.emphasisTheme, root = props.root;
+        var semanticColors = emphasisTheme.semanticColors;
+        return {
+            root: [
+                root,
+                {
+                    fill: semanticColors.bodyText
+                }
+            ]
+        };
+    };
+    return SPRteColorPickerStyles;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPane.resx.js":
+/*!************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPane.resx.js ***!
+  \************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var key = '_bKMsmDAqUqbOL6h9rxYuIw';
+var allStrings = ( false) ?
+    undefined :
+    __webpack_require__(/*! resx-strings */ "resx-strings");
+var strings = allStrings[key];
+/* harmony default export */ __webpack_exports__["default"] = (strings);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPaneButton.js":
+/*!*************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPaneButton.js ***!
+  \*************************************************************************************************************/
+/*! exports provided: SPRtePropertyPaneButton */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SPRtePropertyPaneButton", function() { return SPRtePropertyPaneButton; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var office_ui_fabric_react_lib_components_Tooltip_TooltipHost__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! office-ui-fabric-react/lib/components/Tooltip/TooltipHost */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Tooltip/TooltipHost.js");
+/* harmony import */ var office_ui_fabric_react_lib_components_Tooltip_TooltipHost__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(office_ui_fabric_react_lib_components_Tooltip_TooltipHost__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _SPRtePropertyPaneButton_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SPRtePropertyPaneButton.module.scss */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPaneButton.module.scss.js");
+
+
+
+
+
+var SPRtePropertyPaneButton =  (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](SPRtePropertyPaneButton, _super);
+    function SPRtePropertyPaneButton(props) {
+        return _super.call(this, props) || this;
+    }
+    SPRtePropertyPaneButton.prototype.render = function () {
+        var _a;
+        var _b = this.props, onClick = _b.onClick, fabricIconKey = _b.fabricIconKey, title = _b.title, ariaLabel = _b.ariaLabel, isActive = _b.isActive, imageSrc = _b.imageSrc, isDisabled = _b.isDisabled, text = _b.text, automationId = _b.automationId, className = _b.className;
+        var buttonAutomationId = automationId + '-propertyPaneButton';
+        var buttonClassName = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["css"])(_SPRtePropertyPaneButton_module_scss__WEBPACK_IMPORTED_MODULE_4__["default"].sprtePropertyPaneButton, className ? _SPRtePropertyPaneButton_module_scss__WEBPACK_IMPORTED_MODULE_4__["default"][className] : undefined, (_a = {},
+            _a[_SPRtePropertyPaneButton_module_scss__WEBPACK_IMPORTED_MODULE_4__["default"].sprtePropertyPaneButtonActive] = isActive,
+            _a[_SPRtePropertyPaneButton_module_scss__WEBPACK_IMPORTED_MODULE_4__["default"].imageButton] = !!imageSrc,
+            _a[_SPRtePropertyPaneButton_module_scss__WEBPACK_IMPORTED_MODULE_4__["default"].iconButton] = fabricIconKey,
+            _a[_SPRtePropertyPaneButton_module_scss__WEBPACK_IMPORTED_MODULE_4__["default"].textButton] = !!text && !imageSrc,
+            _a[_SPRtePropertyPaneButton_module_scss__WEBPACK_IMPORTED_MODULE_4__["default"].disabled] = isDisabled,
+            _a));
+        var imageButtonClassName = Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["css"])(_SPRtePropertyPaneButton_module_scss__WEBPACK_IMPORTED_MODULE_4__["default"].sprtePropertyPaneButtonImage);
+        return (react__WEBPACK_IMPORTED_MODULE_3__["createElement"](office_ui_fabric_react_lib_components_Tooltip_TooltipHost__WEBPACK_IMPORTED_MODULE_2__["TooltipHost"], { content: title, calloutProps: { gapSpace: 0 } }, fabricIconKey ? (react__WEBPACK_IMPORTED_MODULE_3__["createElement"](_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["IconButton"], { ariaLabel: ariaLabel, iconProps: { iconName: fabricIconKey }, onClick: onClick, disabled: isDisabled, className: buttonClassName, "data-automation-id": buttonAutomationId })) : (react__WEBPACK_IMPORTED_MODULE_3__["createElement"](_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_1__["DefaultButton"], { ariaLabel: ariaLabel, onClick: onClick, disabled: isDisabled, className: buttonClassName, "data-automation-id": buttonAutomationId }, imageSrc && !fabricIconKey ? react__WEBPACK_IMPORTED_MODULE_3__["createElement"]("div", { className: imageButtonClassName }, imageSrc) : text))));
+    };
+    return SPRtePropertyPaneButton;
+}(react__WEBPACK_IMPORTED_MODULE_3__["Component"]));
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPaneButton.module.css":
+/*!*********************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPaneButton.module.css ***!
+  \*********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./SPRtePropertyPaneButton.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPaneButton.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPaneButton.module.scss.js":
+/*!*************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPaneButton.module.scss.js ***!
+  \*************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./SPRtePropertyPaneButton.module.css */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPaneButton.module.css");
+var styles = {
+    sprtePropertyPaneButton: 'sprtePropertyPaneButton_28d0f207',
+    iconButton: 'iconButton_28d0f207',
+    imageButton: 'imageButton_28d0f207',
+    tableButtonInPane: 'tableButtonInPane_28d0f207',
+    sprtePropertyPaneButtonActive: 'sprtePropertyPaneButtonActive_28d0f207',
+    textButton: 'textButton_28d0f207',
+    disabled: 'disabled_28d0f207',
+    sprtePropertyPaneButtonImage: 'sprtePropertyPaneButtonImage_28d0f207'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPaneControl.js":
+/*!**************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPaneControl.js ***!
+  \**************************************************************************************************************/
+/*! exports provided: SPRtePropertyPaneControl */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SPRtePropertyPaneControl", function() { return SPRtePropertyPaneControl; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "react-dom");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _microsoft_sp_webpart_base__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @microsoft/sp-webpart-base */ "@microsoft/sp-webpart-base");
+/* harmony import */ var _microsoft_sp_webpart_base__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_webpart_base__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ms/odsp-utilities-bundle */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/@ms/odsp-utilities-bundle/5.0.61/node_modules/@ms/odsp-utilities-bundle/lib/index.js");
+/* harmony import */ var _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ms/sp-rte */ "../../libraries/sp-rte/lib/index.js");
+/* harmony import */ var _tableIcons__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../tableIcons */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/tableIcons/index.js");
+/* harmony import */ var _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./SPRtePropertyPane.resx */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPane.resx.js");
+/* harmony import */ var _common_ControlsInOneRow__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../common/ControlsInOneRow */ "../../libraries/sp-canvas/lib/sp-canvas/common/ControlsInOneRow.js");
+/* harmony import */ var _SPRteColorPicker__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./SPRteColorPicker */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorPicker.js");
+/* harmony import */ var _SPRtePropertyPaneButton__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./SPRtePropertyPaneButton */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPaneButton.js");
+/* harmony import */ var _SPRteColorGroups__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./SPRteColorGroups */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRteColorGroups.js");
+/* harmony import */ var _common_Flights__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../common/Flights */ "../../libraries/sp-canvas/lib/sp-canvas/common/Flights.js");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var FontStyle;
+(function (FontStyle) {
+    FontStyle["NormalText"] = "normalText";
+    FontStyle["H2"] = "h2";
+    FontStyle["H3"] = "h3";
+    FontStyle["H4"] = "h4";
+    FontStyle["Blockquote"] = "blockquote";
+    FontStyle["Pre"] = "pre";
+})(FontStyle || (FontStyle = {}));
+var PROPERTY_PATH = new Set(['fontSize', 'fontStyle']);
+var TABLE_BUTTON_CLASS = 'tableButtonInPane';
+var SPRtePropertyPaneControl =  (function () {
+    function SPRtePropertyPaneControl(sprte) {
+        var _this = this;
+        this._handleFontColorChange = function (id, color, theme) {
+            var formatHandler = _this._sprte.getFormatHandler(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].FontColor);
+            if (formatHandler) {
+                formatHandler({
+                    format: _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].FontColor,
+                    value: {
+                        fontColor: _SPRteColorGroups__WEBPACK_IMPORTED_MODULE_11__["SPRteColorGroups"].buildFontColorMap(theme).get(id)
+                    }
+                });
+            }
+        };
+        this._handleHighlightColorChange = function (id, color) {
+            var formatHandler = _this._sprte.getFormatHandler(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].FontColor);
+            if (formatHandler) {
+                formatHandler({
+                    format: _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].HighlightColor,
+                    value: {
+                        highlightColor: _SPRteColorGroups__WEBPACK_IMPORTED_MODULE_11__["SPRteColorGroups"].HighlightColorMap.get(color)
+                    }
+                });
+            }
+        };
+        this._sprte = sprte;
+        this._async = new _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["Async"](this);
+        this._platform = new _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4__["PlatformDetection"]();
+    }
+    SPRtePropertyPaneControl._getArrayOfElements = function (props, component) {
+        return props.map(function (prop) { return react__WEBPACK_IMPORTED_MODULE_0__["createElement"](component, prop); });
+    };
+    SPRtePropertyPaneControl._controlsInOneRow = function (props, component, spaceInBetween) {
+        return Object(_microsoft_sp_webpart_base__WEBPACK_IMPORTED_MODULE_3__["PropertyPaneCustomField"])({
+            key: 'ControlsInOneRow',
+            onRender: function (element) {
+                return react_dom__WEBPACK_IMPORTED_MODULE_1__["render"](react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_common_ControlsInOneRow__WEBPACK_IMPORTED_MODULE_8__["ControlsInOneRow"], { spaceInBetween: spaceInBetween }, SPRtePropertyPaneControl._getArrayOfElements(props, component)), element);
+            }
+        });
+    };
+    SPRtePropertyPaneControl._addTableButtonClassName = function (buttons) {
+        return buttons.map(function (button) {
+            button.className = TABLE_BUTTON_CLASS;
+            return button;
+        });
+    };
+    SPRtePropertyPaneControl.prototype._isPropertyPaneReactive = function () {
+        return true;
+    };
+    SPRtePropertyPaneControl.prototype._loadPropertyPaneResources = function () {
+    };
+    SPRtePropertyPaneControl.prototype._onPropertyPaneLifeCycleEvent = function (event) {
+        if (_common_Flights__WEBPACK_IMPORTED_MODULE_12__["Flights"].isCanvasVerticalSectionFlightEnabled() &&
+            (event === 4  || event === 3 )) {
+            this._sprte.handlePropertyPaneOpenOrClose();
+        }
+    };
+    SPRtePropertyPaneControl.prototype._getPropertyPaneData = function () {
+        return Promise.resolve({
+            webPartId: this._sprte.props.control.id,
+            title: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].RTESettingsText,
+            configuration: {
+                pages: this._getProperyPanePages()
+            },
+            dynamicConfiguration: undefined,
+            onPropertyPaneFieldChanged: undefined,
+            onConfigurationEvent: undefined,
+            onRendered: undefined,
+            properties: {},
+            isReactive: this._isPropertyPaneReactive()
+        });
+    };
+    SPRtePropertyPaneControl.prototype._onPropertyPaneFieldChanged = function (propertyPath, newValue) {
+        var _this = this;
+        if (this._platform.isEdge && PROPERTY_PATH.has(propertyPath)) {
+            this._async.setTimeout(function () {
+                _this._onFieldChanged(propertyPath, newValue);
+            }, 0);
+        }
+        else {
+            this._onFieldChanged(propertyPath, newValue);
+        }
+    };
+    SPRtePropertyPaneControl.prototype._onFieldChanged = function (propertyPath, newValue) {
+        if (propertyPath === 'fontSize') {
+            var formatHandler = this._sprte.getFormatHandler(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].FontSize);
+            if (formatHandler) {
+                formatHandler({
+                    format: _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].FontSize,
+                    value: { fontSize: newValue }
+                });
+            }
+        }
+        else {
+            var formatHandler = this._sprte.getFormatHandler(newValue);
+            if (formatHandler) {
+                formatHandler();
+            }
+        }
+    };
+    SPRtePropertyPaneControl.prototype._propertyPaneButton = function (formatKey, automationId, groupLabel, value, imageSrc, disabled, className) {
+        var button = this._sprte.config.formats.get(formatKey).button;
+        var formatHandler = this._sprte.getFormatHandler(formatKey);
+        return {
+            ariaLabel: groupLabel ?
+                _ms_odsp_utilities_bundle__WEBPACK_IMPORTED_MODULE_4__["StringHelper"].format(_SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].PropertyPaneButtonAriaLabel, groupLabel, button.title) : button.title,
+            fabricIconKey: button.fabricIconKey,
+            imageSrc: _tableIcons__WEBPACK_IMPORTED_MODULE_6__["TableIcons"].getSvgFromSrc(imageSrc),
+            isActive: this._sprte.isFormatActive(formatKey),
+            isDisabled: disabled,
+            key: button.title,
+            onClick: value && formatHandler ? function () { return formatHandler(value); } : formatHandler,
+            text: !button.fabricIconKey && !button.imageSrc ? button.label : undefined,
+            title: button.title,
+            automationId: automationId
+        };
+    };
+    Object.defineProperty(SPRtePropertyPaneControl.prototype, "_firstRowButtons", {
+        get: function () {
+            var clearFormattingButtonProps = {
+                ariaLabel: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].FormattingBarClearFormattingButtonTitle,
+                fabricIconKey: 'ClearFormatting',
+                key: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].FormattingBarClearFormattingButtonTitle,
+                onClick: this._sprte.getFormatHandler(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].ClearFormatting),
+                title: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].FormattingBarClearFormattingButtonTitle,
+                automationId: 'clearFormatting-button'
+            };
+            return _common_Flights__WEBPACK_IMPORTED_MODULE_12__["Flights"].isPageUndoRedoFlightEnabled()
+                ? [clearFormattingButtonProps]
+                : [
+                    this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].Undo, 'undo'),
+                    this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].Redo, 'redo'),
+                    clearFormattingButtonProps
+                ];
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(SPRtePropertyPaneControl.prototype, "_styleCommandButtons", {
+        get: function () {
+            var buttons = [
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].Bold, 'bold'),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].Italic, 'italic'),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].Underline, 'underline'),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].Strike, 'strike'),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].Superscipt, 'superscript'),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].Subscript, 'subscript')
+            ];
+            return buttons;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(SPRtePropertyPaneControl.prototype, "_hyperlinkButtons", {
+        get: function () {
+            var buttons = [
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].Link, 'link'),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].UnLink, 'unlink', undefined, undefined , SPRtePropertyPaneControl._noImgSrc, !this._sprte.isLinkSelected)
+            ];
+            return buttons;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(SPRtePropertyPaneControl.prototype, "_paragraphButtons", {
+        get: function () {
+            var buttons = [
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].AlignLeft, 'alignLeft', _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].ParagraphGroupText),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].AlignCenter, 'alignCenter', _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].ParagraphGroupText),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].AlignRight, 'alignRight', _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].ParagraphGroupText),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].Justify, 'justify', _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].ParagraphGroupText),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].Indent, 'indent', _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].ParagraphGroupText),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].Outdent, 'outdent', _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].ParagraphGroupText)
+            ];
+            return buttons;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(SPRtePropertyPaneControl.prototype, "_bulletButtons", {
+        get: function () {
+            var buttons = [
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].Bullet, 'bullet', _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].ParagraphGroupText),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].List, 'list', _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].ParagraphGroupText)
+            ];
+            return buttons;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(SPRtePropertyPaneControl.prototype, "_tableButton", {
+        get: function () {
+            var buttons = [
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].CustomTable, 'createTable', _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].TableGroup, {
+                    format: _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].CustomTable,
+                    value: {
+                        customTable: {
+                            rows: 3,
+                            columns: 3
+                        }
+                    }
+                }, SPRtePropertyPaneControl._noImgSrc, this._sprte.isTableContentsSelected)
+            ];
+            return buttons;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(SPRtePropertyPaneControl.prototype, "_tableOperationButtons", {
+        get: function () {
+            var buttons = [
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].RowInserBefore, 'insertRowAbove', undefined, { format: _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].RowInserBefore }),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].RowInsertAfter, 'insertRowBelow', undefined, { format: _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].RowInsertAfter }),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].ColumnInsertBefore, 'insertColumnLeft', undefined, { format: _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].ColumnInsertBefore }),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].ColumnInsertAfter, 'insertColumnRight', undefined, { format: _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].ColumnInsertAfter }),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].RowDelete, 'deleteRow', undefined, { format: _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].RowDelete }),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].ColumnDelete, 'deleteColumn', undefined, { format: _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].ColumnDelete }),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].TableCustomDelete, 'deleteTable', undefined, {
+                    format: _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].TableCustomDelete
+                })
+            ];
+            return SPRtePropertyPaneControl._addTableButtonClassName(buttons);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(SPRtePropertyPaneControl.prototype, "_tableStyleNeutralButtons", {
+        get: function () {
+            return this._tableStyleButtons("Neutral" );
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(SPRtePropertyPaneControl.prototype, "_tableStyleThemeButtons", {
+        get: function () {
+            return this._tableStyleButtons("Theme" );
+        },
+        enumerable: true,
+        configurable: true
+    });
+    SPRtePropertyPaneControl.prototype._tableStyleButtons = function (styleColor) {
+        var isTheme = styleColor === "Theme" ;
+        var buttons = [
+            this._propertyPaneButton(isTheme ? _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].SimpleTableStyleTheme : _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].SimpleTableStyleNeutral, "simpleTableStyle" + styleColor, _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].TableStylesGroupLabel, {
+                format: _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].TableStyle,
+                value: {
+                    tableStyle: {
+                        tableStyle: "simpleTableStyle" ,
+                        styleColor: styleColor
+                    }
+                }
+            }, "simpleTableStyle" + styleColor + ".svg"),
+            this._propertyPaneButton(isTheme ? _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].BorderHeaderTableStyleTheme : _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].BorderHeaderTableStyleNeutral, "borderHeaderTableStyle" + styleColor, _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].TableStylesGroupLabel, {
+                format: _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].TableStyle,
+                value: {
+                    tableStyle: {
+                        tableStyle: "borderHeaderTableStyle" ,
+                        styleColor: styleColor
+                    }
+                }
+            }, "borderHeaderTableStyle" + styleColor + ".svg"),
+            this._propertyPaneButton(isTheme ? _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].FilledHeaderTableStyleTheme : _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].FilledHeaderTableStyleNeutral, "filledHeaderTableStyle" + styleColor, _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].TableStylesGroupLabel, {
+                format: _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].TableStyle,
+                value: {
+                    tableStyle: {
+                        tableStyle: "filledHeaderTableStyle" ,
+                        styleColor: styleColor
+                    }
+                }
+            }, "filledHeaderTableStyle" + styleColor + ".svg"),
+            this._propertyPaneButton(isTheme ? _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].BandedRowTableStyleTheme : _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].BandedRowTableStyleNeutral, "bandedRowTableStyle" + styleColor, _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].TableStylesGroupLabel, {
+                format: _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].TableStyle,
+                value: {
+                    tableStyle: {
+                        tableStyle: "bandedRowTableStyle" ,
+                        styleColor: styleColor
+                    }
+                }
+            }, "bandedRowTableStyle" + styleColor + ".svg"),
+            this._propertyPaneButton(isTheme ? _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].BandedRowColumnTableStyleTheme : _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].BandedRowColumnTableStyleNeutral, "bandedRowColumnTableStyle" + styleColor, _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].TableStylesGroupLabel, {
+                format: _ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].TableStyle,
+                value: {
+                    tableStyle: {
+                        tableStyle: "bandedRowColumnTableStyle" ,
+                        styleColor: styleColor
+                    }
+                }
+            }, "bandedRowColumnTableStyle" + styleColor + ".svg")
+        ];
+        return buttons;
+    };
+    Object.defineProperty(SPRtePropertyPaneControl.prototype, "_fontStyleDropDown", {
+        get: function () {
+            var selectedKey = 'normalText';
+            for (var i = 0; i < SPRtePropertyPaneControl._fontStyleOptions.length; i++) {
+                if (this._sprte.isFormatActive(SPRtePropertyPaneControl._fontStyleOptions[i].key)) {
+                    selectedKey = SPRtePropertyPaneControl._fontStyleOptions[i].key;
+                    break;
+                }
+            }
+            return Object(_microsoft_sp_webpart_base__WEBPACK_IMPORTED_MODULE_3__["PropertyPaneDropdown"])('fontStyle', {
+                label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].FontDropDownText,
+                options: SPRtePropertyPaneControl._fontStyleOptions,
+                selectedKey: selectedKey
+            });
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(SPRtePropertyPaneControl.prototype, "_fontSizeDropDown", {
+        get: function () {
+            return Object(_microsoft_sp_webpart_base__WEBPACK_IMPORTED_MODULE_3__["PropertyPaneDropdown"])('fontSize', {
+                label: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].FontSizeDropDownLabel,
+                options: SPRtePropertyPaneControl._fontSizeOptions,
+                selectedKey: this._sprte.fontSizeStyle ? this._sprte.fontSizeStyle : ''
+            });
+        },
+        enumerable: true,
+        configurable: true
+    });
+    SPRtePropertyPaneControl.prototype._getColorPickerProps = function (colorPickerGroups, onColorChanged, buttonLabel, previewColor, switchToDefaultColor, defaultButtonLabel, selectedColor, automationId, fillThemeColor, emphasisTheme) {
+        return {
+            buttonLabel: buttonLabel,
+            colorPickerGroups: colorPickerGroups,
+            onColorChanged: onColorChanged,
+            previewColor: previewColor,
+            key: buttonLabel,
+            switchToDefaultColor: switchToDefaultColor,
+            defaultButtonLabel: defaultButtonLabel,
+            selectedColor: selectedColor,
+            fillThemeColor: fillThemeColor,
+            automationId: automationId,
+            emphasisTheme: emphasisTheme
+        };
+    };
+    Object.defineProperty(SPRtePropertyPaneControl.prototype, "_colorPickers", {
+        get: function () {
+            var colorPickers = [];
+            colorPickers.push(this._getColorPickerProps(["themeColors" , "standardColors" ], this._handleFontColorChange, _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].FontColorLabel, this._sprte.fontColor, this._sprte.removeFontColorFormat, _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].DefaultColorLabel, this._sprte.fontColor, 'fontColor', true, this._sprte.props.control.emphasisTheme));
+            colorPickers.push(this._getColorPickerProps(["highlightColors" ], this._handleHighlightColorChange, _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].HightlightLabel, this._sprte.highlightColor, this._sprte.removeHighlightColor, _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].RemoveHighlightColor, this._sprte.highlightColor && this._sprte.highlightColor.toUpperCase(), 'highlightLabel'));
+            return colorPickers;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(SPRtePropertyPaneControl.prototype, "_alignTableButtons", {
+        get: function () {
+            var buttons = [
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].AlignTableLeft, 'alignTableLeft'),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].AlignTableCenter, 'alignTableCenter'),
+                this._propertyPaneButton(_ms_sp_rte__WEBPACK_IMPORTED_MODULE_5__["Format"].AlignTableRight, 'alignTableRight')
+            ];
+            return SPRtePropertyPaneControl._addTableButtonClassName(buttons);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(SPRtePropertyPaneControl.prototype, "_tableGroupLabel", {
+        get: function () {
+            return _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].TableGroup;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(SPRtePropertyPaneControl.prototype, "_shouldAddTableButtons", {
+        get: function () {
+            return Boolean(this._sprte.isTableContentsSelected);
+        },
+        enumerable: true,
+        configurable: true
+    });
+    SPRtePropertyPaneControl.prototype._getProperyPanePages = function () {
+        var groups = [
+            {
+                groupName: '',
+                groupFields: [
+                    SPRtePropertyPaneControl._controlsInOneRow(this._firstRowButtons, _SPRtePropertyPaneButton__WEBPACK_IMPORTED_MODULE_10__["SPRtePropertyPaneButton"]),
+                    this._fontStyleDropDown,
+                    this._fontSizeDropDown,
+                    SPRtePropertyPaneControl._controlsInOneRow(this._styleCommandButtons, _SPRtePropertyPaneButton__WEBPACK_IMPORTED_MODULE_10__["SPRtePropertyPaneButton"]),
+                    SPRtePropertyPaneControl._controlsInOneRow(this._colorPickers, _SPRteColorPicker__WEBPACK_IMPORTED_MODULE_9__["SPRteColorPicker"])
+                ]
+            },
+            {
+                groupName: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].ParagraphGroupText,
+                groupFields: [
+                    SPRtePropertyPaneControl._controlsInOneRow(this._paragraphButtons, _SPRtePropertyPaneButton__WEBPACK_IMPORTED_MODULE_10__["SPRtePropertyPaneButton"]),
+                    SPRtePropertyPaneControl._controlsInOneRow(this._bulletButtons, _SPRtePropertyPaneButton__WEBPACK_IMPORTED_MODULE_10__["SPRtePropertyPaneButton"])
+                ]
+            },
+            {
+                groupName: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].HyperlinkGroupLabel,
+                groupFields: [SPRtePropertyPaneControl._controlsInOneRow(this._hyperlinkButtons, _SPRtePropertyPaneButton__WEBPACK_IMPORTED_MODULE_10__["SPRtePropertyPaneButton"])]
+            },
+            {
+                groupName: this._tableGroupLabel,
+                groupFields: [SPRtePropertyPaneControl._controlsInOneRow(this._tableButton, _SPRtePropertyPaneButton__WEBPACK_IMPORTED_MODULE_10__["SPRtePropertyPaneButton"])]
+            }
+        ];
+        if (this._shouldAddTableButtons) {
+            groups.push({
+                groupName: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].TableStylesGroupLabel,
+                groupFields: [
+                    SPRtePropertyPaneControl._controlsInOneRow(this._tableStyleNeutralButtons, _SPRtePropertyPaneButton__WEBPACK_IMPORTED_MODULE_10__["SPRtePropertyPaneButton"]),
+                    SPRtePropertyPaneControl._controlsInOneRow(this._tableStyleThemeButtons, _SPRtePropertyPaneButton__WEBPACK_IMPORTED_MODULE_10__["SPRtePropertyPaneButton"])
+                ]
+            });
+        }
+        if (this._sprte.isTableContentsSelected) {
+            groups.push({
+                groupName: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].InsertAndDeleteGroupLabel,
+                groupFields: [SPRtePropertyPaneControl._controlsInOneRow(this._tableOperationButtons, _SPRtePropertyPaneButton__WEBPACK_IMPORTED_MODULE_10__["SPRtePropertyPaneButton"])]
+            });
+        }
+        if (this._shouldAddTableButtons) {
+            groups.push({
+                groupName: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].AlignTableGroupLabel,
+                groupFields: [SPRtePropertyPaneControl._controlsInOneRow(this._alignTableButtons, _SPRtePropertyPaneButton__WEBPACK_IMPORTED_MODULE_10__["SPRtePropertyPaneButton"])]
+            });
+        }
+        return [
+            {
+                groups: groups
+            }
+        ];
+    };
+    SPRtePropertyPaneControl._fontStyleOptions = [
+        { key: FontStyle.NormalText, text: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].FormattingBarNormalTextButtonTitle },
+        { key: FontStyle.H2, text: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].FormattingBarHeading2ButtonTitle },
+        { key: FontStyle.H3, text: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].FormattingBarHeading3ButtonTitle },
+        { key: FontStyle.H4, text: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].FormattingBarHeading4ButtonTitle },
+        { key: FontStyle.Blockquote, text: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].FormattingBarQuoteButtonTitle },
+        { key: FontStyle.Pre, text: _SPRtePropertyPane_resx__WEBPACK_IMPORTED_MODULE_7__["default"].FormattingBarPreButtonTitle }
+    ];
+    SPRtePropertyPaneControl._fontSizeOptions = [
+        { key: "12" , text: "12" .toString() },
+        { key: "14" , text: "14" .toString() },
+        { key: "15" , text: "15" .toString() },
+        { key: "17" , text: "17" .toString() },
+        { key: "21" , text: "21" .toString() },
+        { key: "24" , text: "24" .toString() },
+        { key: "28" , text: "28" .toString() },
+        { key: "32" , text: "32" .toString() },
+        { key: "36" , text: "36" .toString() },
+        { key: "42" , text: "42" .toString() }
+    ];
+    return SPRtePropertyPaneControl;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPaneUtilities.js":
+/*!****************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/PropertyPane/SPRtePropertyPaneUtilities.js ***!
+  \****************************************************************************************************************/
+/*! exports provided: SPRtePropertyPaneUtilities */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SPRtePropertyPaneUtilities", function() { return SPRtePropertyPaneUtilities; });
+var SPRtePropertyPaneUtilities =  (function () {
+    function SPRtePropertyPaneUtilities() {
+    }
+    SPRtePropertyPaneUtilities.isColorTransparent = function (previewColor) {
+        return previewColor === 'rgba(0, 0, 0, 0)' || previewColor === 'transparent';
+    };
+    return SPRtePropertyPaneUtilities;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/spRte/tableIcons/TableIcons.js":
+/*!**********************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/tableIcons/TableIcons.js ***!
+  \**********************************************************************************************/
+/*! exports provided: TableIcons */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TableIcons", function() { return TableIcons; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TableIcons.module.scss */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/tableIcons/TableIcons.module.scss.js");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+var TableIcons =  (function () {
+    function TableIcons() {
+    }
+    TableIcons.getSvgFromSrc = function (imageSrc) {
+        switch (imageSrc) {
+            case 'deleteColumn.svg':
+                return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themeableSvgTableIcon, xmlns: 'http://www.w3.org/2000/svg', viewBox: '-19988 21347 28 33' },
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { id: 'Table', transform: 'translate(-21036.9 20446)' },
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls1, transform: 'translate(1057.4 915)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5, width: '10', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6, x: '0.5', y: '0.5', width: '9', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls2, transform: 'translate(1048.9 906)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5, width: '10', height: '28' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6, x: '0.5', y: '0.5', width: '9', height: '27' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls3, transform: 'translate(1057.9 929) rotate(-90)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls3, width: '28', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6, x: '0.5', y: '0.5', width: '27', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls2, transform: 'translate(1066.9 906)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5, width: '10', height: '28' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6, x: '0.5', y: '0.5', width: '9', height: '27' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls4, d: 'M-2.837,0V2.748H-5.581v.516h2.744V6h.512V3.264H.419V2.748H-2.325V0Z', transform: 'translate(1066.591 905.704) rotate(45)' }))));
+            case 'deleteRow.svg':
+                return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themeableSvgTableIcon, xmlns: 'http://www.w3.org/2000/svg', viewBox: '-20039 21352 33 28' },
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { id: 'Table', transform: 'translate(-19105 20303.6) rotate(90)' },
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls1, transform: 'translate(1057.4 915)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5, width: '10', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6, x: '0.5', y: '0.5', width: '9', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls1, transform: 'translate(1066.4 906)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5, width: '10', height: '28' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6, x: '0.5', y: '0.5', width: '9', height: '27' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls2, transform: 'translate(1048.4 906)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5, width: '10', height: '28' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6, x: '0.5', y: '0.5', width: '9', height: '27' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls3, transform: 'translate(1057.4 929) rotate(-90)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5, width: '28', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6, x: '0.5', y: '0.5', width: '27', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls4, d: 'M-2.837,0V2.748H-5.581v.516h2.744V6h.512V3.264H.419V2.748H-2.325V0Z', transform: 'translate(1066.347 905.704) rotate(45)' }))));
+            case 'deleteTable.svg':
+                return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themeableSvgTableIcon, xmlns: 'http://www.w3.org/2000/svg', viewBox: '-19947 21352 28 28' },
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { id: 'Table', transform: 'translate(-19013 20303.6) rotate(90)' },
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls1), d: 'M.5.5H27.379V9.667H.5Z', transform: 'translate(1048.4 914.917)' }),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls2), width: '28', height: '27', transform: 'translate(1048.4 906)' }),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls3), transform: 'translate(1048.4 915)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5), width: '10', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6), x: '0.5', y: '0.5', width: '9', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls3), transform: 'translate(1048.4 906)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5), width: '10', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6), x: '0.5', y: '0.5', width: '9', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls3), transform: 'translate(1057.4 915)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5), width: '10', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6), x: '0.5', y: '0.5', width: '9', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls3), transform: 'translate(1057.4 906)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5), width: '10', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6), x: '0.5', y: '0.5', width: '9', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls3), transform: 'translate(1066.4 915)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5), width: '10', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6), x: '0.5', y: '0.5', width: '9', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls3), transform: 'translate(1066.4 906)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5), width: '10', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6), x: '0.5', y: '0.5', width: '9', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls3), transform: 'translate(1048.4 924)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5), width: '10', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6), x: '0.5', y: '0.5', width: '9', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls3), transform: 'translate(1057.4 924)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5), width: '10', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6), x: '0.5', y: '0.5', width: '9', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls3), transform: 'translate(1066.4 924)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5), width: '10', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6), x: '0.5', y: '0.5', width: '9', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: Object(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_2__["css"])(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].deleteTable, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls4), d: 'M-2.837,0V2.748H-5.581v.516h2.744V6h.512V3.264H.419V2.748H-2.325V0Z', transform: 'translate(1075.091 910.961) rotate(45)' }))));
+            case 'insertRowAbove.svg':
+                return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themeableSvgTableIcon, xmlns: 'http://www.w3.org/2000/svg', viewBox: '-20219 21352 28 28' },
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { id: 'Table', transform: 'translate(-21267.4 20446)' },
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls1, d: 'M.5.5H27.379V9.667H.5Z', transform: 'translate(1048.4 914.917)' }),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls2, transform: 'translate(1048.4 924)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5, width: '28', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6, x: '0.5', y: '0.5', width: '27', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls3, transform: 'translate(1048.4 906)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5, width: '28', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6, x: '0.5', y: '0.5', width: '27', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls4, d: 'M-2.837,0V2.748H-5.581v.516h2.744V6h.512V3.264H.419V2.748H-2.325V0Z', transform: 'translate(1064.981 908)' }))));
+            case 'insertRowBelow.svg':
+                return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themeableSvgTableIcon, xmlns: 'http://www.w3.org/2000/svg', viewBox: '-20171 21352 28 28' },
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { id: 'Table', transform: 'translate(-19094.6 22286) rotate(180)' },
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls1, d: 'M.5.5H27.379V9.667H.5Z', transform: 'translate(1048.4 914.917)' }),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls2, transform: 'translate(1048.4 924)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5, width: '28', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6, x: '0.5', y: '0.5', width: '27', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls3, transform: 'translate(1048.4 906)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5, width: '28', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6, x: '0.5', y: '0.5', width: '27', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls4, d: 'M-2.837,0V2.748H-5.581v.516h2.744V6h.512V3.264H.419V2.748H-2.325V0Z', transform: 'translate(1064.981 908)' }))));
+            case 'insertColumnLeft.svg':
+                return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themeableSvgTableIcon, xmlns: 'http://www.w3.org/2000/svg', viewBox: '-20128 21352 28 28' },
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { id: 'Table', transform: 'translate(-21034 22428.4) rotate(-90)' },
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls1, d: 'M.5.5H27.379V9.667H.5Z', transform: 'translate(1048.4 914.917)' }),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls1, transform: 'translate(1048.4 924)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5, width: '28', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6, x: '0.5', y: '0.5', width: '27', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls3, transform: 'translate(1048.4 906)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5, width: '28', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6, x: '0.5', y: '0.5', width: '27', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls4, d: 'M-2.837,0V2.748H-5.581v.516h2.744V6h.512V3.264H.419V2.748H-2.325V0Z', transform: 'translate(1064.981 908)' }))));
+            case 'insertColumnRight.svg':
+                return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themeableSvgTableIcon, xmlns: 'http://www.w3.org/2000/svg', viewBox: '-20085 21352 28 28' },
+                    react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { id: 'Table', transform: 'translate(-19151 20303.6) rotate(90)' },
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls1, d: 'M.5.5H27.379V9.667H.5Z', transform: 'translate(1048.4 914.917)' }),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls2, transform: 'translate(1048.4 924)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5, width: '28', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6, x: '0.5', y: '0.5', width: '27', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls3, transform: 'translate(1048.4 906)' },
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls5, width: '28', height: '10' }),
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls6, x: '0.5', y: '0.5', width: '27', height: '9' })),
+                        react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].cls4, d: 'M-2.837,0V2.748H-5.581v.516h2.744V6h.512V3.264H.419V2.748H-2.325V0Z', transform: 'translate(1064.981 908)' }))));
+            case 'simpleTableStyleNeutral.svg':
+                return TableIcons.simpleTableIcon(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].neutralPrimaryIcon);
+            case 'borderHeaderTableStyleNeutral.svg':
+                return TableIcons.borderHeaderTableStyle(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].neutralPrimaryIcon);
+            case 'filledHeaderTableStyleNeutral.svg':
+                return TableIcons.filledHeaderTableStyle(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].neutralPrimaryIcon);
+            case 'bandedRowTableStyleNeutral.svg':
+                return TableIcons.bandedRowTableStyle(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].neutralPrimaryIcon, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].neutralRows);
+            case 'bandedRowColumnTableStyleNeutral.svg':
+                return TableIcons.bandedRowColumnTableStyle(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].neutralPrimaryIcon, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].neutralRows, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].neutralLeftColumn);
+            case 'simpleTableStyleTheme.svg':
+                return TableIcons.simpleTableIcon(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themePrimaryIcon);
+            case 'borderHeaderTableStyleTheme.svg':
+                return TableIcons.borderHeaderTableStyle(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themePrimaryIcon);
+            case 'filledHeaderTableStyleTheme.svg':
+                return TableIcons.filledHeaderTableStyle(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themePrimaryIcon);
+            case 'bandedRowTableStyleTheme.svg':
+                return TableIcons.bandedRowTableStyle(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themePrimaryIcon, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themeRows);
+            case 'bandedRowColumnTableStyleTheme.svg':
+                return TableIcons.bandedRowColumnTableStyle(_TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themePrimaryIcon, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themeRows, _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themeLeftColumn);
+            default:
+                return false;
+        }
+    };
+    TableIcons.simpleTableIcon = function (className) {
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", { xmlns: 'http://www.w3.org/2000/svg', x: '0px', y: '0px', viewBox: '0 0 48 48', className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themeableSvgTableIcon },
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", null,
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: className, 
+                    d: 'M0,0v11.5v1v11v1v11v1V48h48V36.5v-1v-11v-1v-11v-1V0H0z M17,35.5v-11h15v11H17z M32,36.5V47H17V36.5H32zM17,23.5v-11h15v11H17z M17,11.5V1h15v10.5H17z M1,1h15v10.5H1V1z M1,12.5h15v11H1V12.5z M1,24.5h15v11H1V24.5z M1,36.5h15V47H1V36.5z M47,47H33V36.5h14V47z M47,35.5H33v-11h14V35.5z M47,23.5H33v-11h14V23.5z M33,11.5V1h14v10.5H33z' }))));
+    };
+    TableIcons.borderHeaderTableStyle = function (className) {
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", { xmlns: 'http://www.w3.org/2000/svg', x: '0px', y: '0px', viewBox: '0 0 48 48', className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themeableSvgTableIcon },
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", null,
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: className, 
+                    d: 'M33,0h-1H17h-1H0v12v11.5v1v11v1V48h48V36.5v-1v-11v-1V12V0H33z M47,1v10H33V1H47z M32,1v10H17V1H32z M17,35.5v-11h15v11H17z M32,36.5V47H17V36.5H32z M17,23.5V13h15v10.5H17z M1,1h15v10H1V1z M1,13h15v10.5H1V13z M1,24.5h15v11H1V24.5zM1,36.5h15V47H1V36.5z M47,47H33V36.5h14V47z M47,35.5H33v-11h14V35.5z M33,23.5V13h14v10.5H33z' }))));
+    };
+    TableIcons.filledHeaderTableStyle = function (className) {
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", { xmlns: 'http://www.w3.org/2000/svg', x: '0px', y: '0px', viewBox: '0 0 48 48', className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themeableSvgTableIcon },
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", null,
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: className, 
+                    d: 'M48,12V0H0v12h0v11.5v1v11v1V48h48V36.5v-1v-11v-1L48,12L48,12z M17,35.5v-11h15v11H17z M32,36.5V47H17V36.5H32z M17,23.5V13h15v10.5H17z M1,13h15v10.5H1V13z M1,24.5h15v11H1V24.5z M1,36.5h15V47H1V36.5z M47,47H33V36.5h14V47z M47,35.5H33v-11h14V35.5z M33,23.5V13h14v10.5H33z' }))));
+    };
+    TableIcons.bandedRowTableStyle = function (primaryClassName, rowClassName) {
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", { xmlns: 'http://www.w3.org/2000/svg', x: '0px', y: '0px', viewBox: '0 0 48 48', className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themeableSvgTableIcon },
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { x: '1', y: '36.5', className: rowClassName, width: '46', height: '11' }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { x: '1', y: '13', className: rowClassName, width: '46', height: '11' }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", null,
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: primaryClassName, 
+                    d: 'M48,12V0H0v12h0v11.5v1v11v1V48h48V36.5v-1v-11v-1L48,12L48,12z M17,35.5v-11h15v11H17z M32,36.5V47H17V36.5H32z M17,23.5V13h15v10.5H17z M1,13h15v10.5H1V13z M1,24.5h15v11H1V24.5z M1,36.5h15V47H1V36.5z M47,47H33V36.5h14V47z M47,35.5H33v-11h14V35.5z M33,23.5V13h14v10.5H33z' }))));
+    };
+    TableIcons.bandedRowColumnTableStyle = function (primaryClassName, rowClassName, columnClassName) {
+        return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("svg", { xmlns: 'http://www.w3.org/2000/svg', x: '0px', y: '0px', viewBox: '0 0 48 48', className: _TableIcons_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].themeableSvgTableIcon },
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { x: '16.9', y: '36.5', className: rowClassName, width: '30.1', height: '10.5' }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { x: '17', y: '13', className: rowClassName, width: '30', height: '11' }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("rect", { x: '1', y: '13', className: columnClassName, width: '15', height: '34' }),
+            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("g", null,
+                react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("path", { className: primaryClassName, 
+                    d: 'M48,12V0H0v12h0v11.5v1v11v1V48h48V36.5v-1v-11v-1L48,12L48,12z M17,35.5v-11h15v11H17z M32,36.5V47H17V36.5H32z M17,23.5V13h15v10.5H17z M1,13h15v10.5H1V13z M1,24.5h15v11H1V24.5z M1,36.5h15V47H1V36.5z M47,47H33V36.5h14V47z M47,35.5H33v-11h14V35.5z M33,23.5V13h14v10.5H33z' }))));
+    };
+    return TableIcons;
+}());
+
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/spRte/tableIcons/TableIcons.module.css":
+/*!******************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/tableIcons/TableIcons.module.css ***!
+  \******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../../../../../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader??ref--4-1!./TableIcons.module.css */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/css-loader/0.28.11/node_modules/css-loader/index.js?!../../libraries/sp-canvas/lib/sp-canvas/spRte/tableIcons/TableIcons.module.css");
+var loader = __webpack_require__(/*! @microsoft/load-themed-styles */ "@microsoft/load-themed-styles");
+
+if(typeof content === "string") content = [[module.i, content]];
+
+// add the styles to the DOM
+for (var i = 0; i < content.length; i++) loader.loadStyles(content[i][1], true);
+
+if(content.locals) module.exports = content.locals;
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/spRte/tableIcons/TableIcons.module.scss.js":
+/*!**********************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/tableIcons/TableIcons.module.scss.js ***!
+  \**********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+__webpack_require__(/*! ./TableIcons.module.css */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/tableIcons/TableIcons.module.css");
+var styles = {
+    themeableSvgTableIcon: 'themeableSvgTableIcon_9341a896',
+    cls1: 'cls1_9341a896',
+    cls6: 'cls6_9341a896',
+    cls2: 'cls2_9341a896',
+    cls3: 'cls3_9341a896',
+    cls4: 'cls4_9341a896',
+    cls5: 'cls5_9341a896',
+    deleteTable: 'deleteTable_9341a896',
+    neutralPrimaryIcon: 'neutralPrimaryIcon_9341a896',
+    neutralRows: 'neutralRows_9341a896',
+    neutralLeftColumn: 'neutralLeftColumn_9341a896',
+    themePrimaryIcon: 'themePrimaryIcon_9341a896',
+    themeRows: 'themeRows_9341a896',
+    themeLeftColumn: 'themeLeftColumn_9341a896'
+};
+/* harmony default export */ __webpack_exports__["default"] = (styles);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-canvas/lib/sp-canvas/spRte/tableIcons/index.js":
+/*!*****************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-canvas/lib/sp-canvas/spRte/tableIcons/index.js ***!
+  \*****************************************************************************************/
+/*! exports provided: TableIcons */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TableIcons__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TableIcons */ "../../libraries/sp-canvas/lib/sp-canvas/spRte/tableIcons/TableIcons.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TableIcons", function() { return _TableIcons__WEBPACK_IMPORTED_MODULE_0__["TableIcons"]; });
+
+
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=7.7_2ef29b463c7e66ff335b.js.map

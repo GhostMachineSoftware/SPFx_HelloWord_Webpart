@@ -1,0 +1,610 @@
+(window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] = window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] || []).push([[1],{
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/@uifabric/set-version/1.1.3/node_modules/@uifabric/set-version/lib/index.js":
+/*!******************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/@uifabric/set-version/1.1.3/node_modules/@uifabric/set-version/lib/index.js ***!
+  \******************************************************************************************************************************************************************/
+/*! exports provided: setVersion */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _setVersion__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./setVersion */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/@uifabric/set-version/1.1.3/node_modules/@uifabric/set-version/lib/setVersion.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "setVersion", function() { return _setVersion__WEBPACK_IMPORTED_MODULE_0__["setVersion"]; });
+
+
+
+Object(_setVersion__WEBPACK_IMPORTED_MODULE_0__["setVersion"])('@uifabric/set-version', '6.0.0');
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/@uifabric/set-version/1.1.3/node_modules/@uifabric/set-version/lib/setVersion.js":
+/*!***********************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/@uifabric/set-version/1.1.3/node_modules/@uifabric/set-version/lib/setVersion.js ***!
+  \***********************************************************************************************************************************************************************/
+/*! exports provided: setVersion */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setVersion", function() { return setVersion; });
+// A packages cache that makes sure that we don't inject the same packageName twice in the same bundle -
+// this cache is local to the module closure inside this bundle
+var packagesCache = {};
+function setVersion(packageName, packageVersion) {
+    if (typeof window !== 'undefined') {
+        // tslint:disable-next-line:no-any
+        var packages = (window.__packages__ = window.__packages__ || {});
+        // We allow either the global packages or local packages caches to invalidate so testing can just clear the global to set this state
+        if (!packages[packageName] || !packagesCache[packageName]) {
+            packagesCache[packageName] = packageVersion;
+            var versions = (packages[packageName] = packages[packageName] || []);
+            versions.push(packageVersion);
+        }
+    }
+}
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Fabric.js":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Fabric.js ***!
+  \*****************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/Fabric.js
+var pkg = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+module.exports = {}
+for (var key in pkg) {
+  if (pkg.hasOwnProperty(key)) {
+    module.exports[key] = pkg[key];
+  }
+}
+Object.defineProperty(module.exports, "__esModule", { value: true });
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Layer.js":
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Layer.js ***!
+  \****************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/Layer.js
+module.exports = __webpack_require__(/*! !C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Layer.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Layer.js");
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.base.js":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.base.js ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/components/Layer/Layer.base.js
+module.exports = __webpack_require__(/*! !C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.base.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.base.js");
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.js":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.js ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/components/Layer/Layer.js
+module.exports = __webpack_require__(/*! !C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.js");
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.notification.js":
+/*!**********************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.notification.js ***!
+  \**********************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/components/Layer/Layer.notification.js
+module.exports = __webpack_require__(/*! !C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.notification.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.notification.js");
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.styles.js":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.styles.js ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/components/Layer/Layer.styles.js
+module.exports = __webpack_require__(/*! !C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.styles.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.styles.js");
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/LayerHost.js":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/LayerHost.js ***!
+  \*************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/components/Layer/LayerHost.js
+module.exports = __webpack_require__(/*! !C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/LayerHost.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/LayerHost.js");
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/index.js":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/index.js ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/components/Layer/index.js
+module.exports = __webpack_require__(/*! !C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/index.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/index.js");
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/version.js":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/version.js ***!
+  \******************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Loading office-ui-fabric-react/version.js
+module.exports = __webpack_require__(/*! !C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/version.js */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/version.js");
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Layer.js":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Layer.js ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _version__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./version */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/version.js");
+/* harmony import */ var _version__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_version__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Layer_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Layer/index */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/index.js");
+/* harmony import */ var _components_Layer_index__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_Layer_index__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _components_Layer_index__WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _components_Layer_index__WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.base.js":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.base.js ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: LayerBase */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LayerBase", function() { return LayerBase; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "react-dom");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Fabric__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Fabric */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Fabric.js");
+/* harmony import */ var _Fabric__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Fabric__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Utilities */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Utilities.js");
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Utilities__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _Layer_notification__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Layer.notification */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.notification.js");
+/* harmony import */ var _Layer_notification__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Layer_notification__WEBPACK_IMPORTED_MODULE_5__);
+
+
+
+
+
+
+var getClassNames = Object(_Utilities__WEBPACK_IMPORTED_MODULE_4__["classNamesFunction"])();
+var LayerBase = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](LayerBase, _super);
+    function LayerBase(props) {
+        var _this = _super.call(this, props) || this;
+        _this._rootElement = Object(_Utilities__WEBPACK_IMPORTED_MODULE_4__["createRef"])();
+        /**
+         * rootElement wrapper for setting virtual parent as soon as root element ref is available.
+         */
+        _this._handleRootElementRef = function (ref) {
+            _this._rootElement(ref);
+            if (ref) {
+                // TODO: Calling _setVirtualParent in this ref wrapper SHOULD allow us to remove
+                //    other calls to _setVirtualParent throughout this class. However,
+                //    as this is an immediate fix for a P0 issue the existing _setVirtualParent
+                //    calls are left for now to minimize potential regression.
+                _this._setVirtualParent();
+            }
+        };
+        /**
+         * Helper to stop events from bubbling up out of Layer.
+         */
+        _this._filterEvent = function (ev) {
+            // We should just be able to check ev.bubble here and only stop events that are bubbling up. However, even though mouseenter and
+            //    mouseleave do NOT bubble up, they are showing up as bubbling. Therefore we stop events based on event name rather than ev.bubble.
+            if (ev.eventPhase === Event.BUBBLING_PHASE && ev.type !== 'mouseenter' && ev.type !== 'mouseleave') {
+                ev.stopPropagation();
+            }
+        };
+        _this.state = {
+            hasMounted: false
+        };
+        if (true) {
+            Object(_Utilities__WEBPACK_IMPORTED_MODULE_4__["warnDeprecations"])('Layer', props, {
+                onLayerMounted: 'onLayerDidMount'
+            });
+        }
+        if (_this.props.hostId) {
+            Object(_Layer_notification__WEBPACK_IMPORTED_MODULE_5__["registerLayer"])(_this.props.hostId, _this);
+        }
+        return _this;
+    }
+    LayerBase.prototype.componentWillMount = function () {
+        this._layerElement = this._getLayerElement();
+    };
+    LayerBase.prototype.componentWillUpdate = function () {
+        if (!this._layerElement) {
+            this._layerElement = this._getLayerElement();
+        }
+    };
+    LayerBase.prototype.componentDidMount = function () {
+        // We can safely set state immediately because the ref wrapper will make sure the virtual
+        //    parent has been set before componentDidMount is called.
+        this.setState({ hasMounted: true });
+        this._setVirtualParent();
+        var _a = this.props, onLayerDidMount = _a.onLayerDidMount, onLayerMounted = _a.onLayerMounted;
+        if (onLayerMounted) {
+            onLayerMounted();
+        }
+        if (onLayerDidMount) {
+            onLayerDidMount();
+        }
+    };
+    LayerBase.prototype.componentWillUnmount = function () {
+        this._removeLayerElement();
+        var _a = this.props, onLayerWillUnmount = _a.onLayerWillUnmount, hostId = _a.hostId;
+        if (onLayerWillUnmount) {
+            onLayerWillUnmount();
+        }
+        if (hostId) {
+            Object(_Layer_notification__WEBPACK_IMPORTED_MODULE_5__["unregisterLayer"])(hostId, this);
+        }
+    };
+    LayerBase.prototype.componentDidUpdate = function () {
+        this._setVirtualParent();
+    };
+    LayerBase.prototype.render = function () {
+        var classNames = this._getClassNames();
+        var eventBubblingEnabled = this.props.eventBubblingEnabled;
+        var hasMounted = this.state.hasMounted;
+        return (react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("span", { className: "ms-layer", ref: this._handleRootElementRef }, this._layerElement &&
+            hasMounted &&
+            react_dom__WEBPACK_IMPORTED_MODULE_2__["createPortal"](eventBubblingEnabled ? (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_Fabric__WEBPACK_IMPORTED_MODULE_3__["Fabric"], { className: classNames.content }, this.props.children)) : (react__WEBPACK_IMPORTED_MODULE_1__["createElement"](_Fabric__WEBPACK_IMPORTED_MODULE_3__["Fabric"], { className: classNames.content, onClick: this._filterEvent, onContextMenu: this._filterEvent, onDoubleClick: this._filterEvent, onDrag: this._filterEvent, onDragEnd: this._filterEvent, onDragEnter: this._filterEvent, onDragExit: this._filterEvent, onDragLeave: this._filterEvent, onDragOver: this._filterEvent, onDragStart: this._filterEvent, onDrop: this._filterEvent, onMouseDown: this._filterEvent, onMouseEnter: this._filterEvent, onMouseLeave: this._filterEvent, onMouseMove: this._filterEvent, onMouseOver: this._filterEvent, onMouseOut: this._filterEvent, onMouseUp: this._filterEvent, onKeyDown: this._filterEvent, onKeyPress: this._filterEvent, onKeyUp: this._filterEvent, onFocus: this._filterEvent, onBlur: this._filterEvent, onChange: this._filterEvent, onInput: this._filterEvent, onInvalid: this._filterEvent, onSubmit: this._filterEvent }, this.props.children)), this._layerElement)));
+    };
+    LayerBase.prototype._getClassNames = function () {
+        var _a = this.props, className = _a.className, styles = _a.styles, theme = _a.theme;
+        var classNames = getClassNames(styles, {
+            theme: theme,
+            className: className,
+            isNotHost: !this.props.hostId
+        });
+        return classNames;
+    };
+    LayerBase.prototype._setVirtualParent = function () {
+        if (this._rootElement && this._rootElement.current && this._layerElement) {
+            Object(_Utilities__WEBPACK_IMPORTED_MODULE_4__["setVirtualParent"])(this._layerElement, this._rootElement.current);
+        }
+    };
+    LayerBase.prototype._getLayerElement = function () {
+        var host = this._getHost();
+        var classNames = this._getClassNames();
+        if (host !== this._host) {
+            this._removeLayerElement();
+        }
+        if (host) {
+            this._host = host;
+            if (!this._layerElement) {
+                var doc = Object(_Utilities__WEBPACK_IMPORTED_MODULE_4__["getDocument"])();
+                if (!doc) {
+                    return;
+                }
+                this._layerElement = doc.createElement('div');
+                this._layerElement.className = classNames.root;
+                Object(_Utilities__WEBPACK_IMPORTED_MODULE_4__["setPortalAttribute"])(this._layerElement);
+                this.props.insertFirst ? host.insertBefore(this._layerElement, host.firstChild) : host.appendChild(this._layerElement);
+            }
+        }
+        return this._layerElement;
+    };
+    LayerBase.prototype._removeLayerElement = function () {
+        if (this._layerElement) {
+            this.props.onLayerWillUnmount();
+            var parentNode = this._layerElement.parentNode;
+            if (parentNode) {
+                parentNode.removeChild(this._layerElement);
+            }
+            this._layerElement = undefined;
+        }
+    };
+    LayerBase.prototype._getHost = function () {
+        var hostId = this.props.hostId;
+        var doc = Object(_Utilities__WEBPACK_IMPORTED_MODULE_4__["getDocument"])();
+        if (!doc) {
+            return undefined;
+        }
+        if (hostId) {
+            return doc.getElementById(hostId);
+        }
+        else {
+            var defaultHostSelector = Object(_Layer_notification__WEBPACK_IMPORTED_MODULE_5__["getDefaultTarget"])();
+            return defaultHostSelector ? doc.querySelector(defaultHostSelector) : doc.body;
+        }
+    };
+    LayerBase.defaultProps = {
+        onLayerDidMount: function () { return undefined; },
+        onLayerWillUnmount: function () { return undefined; }
+    };
+    LayerBase = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_Utilities__WEBPACK_IMPORTED_MODULE_4__["customizable"])('Layer', ['theme', 'hostId'])
+    ], LayerBase);
+    return LayerBase;
+}(react__WEBPACK_IMPORTED_MODULE_1__["Component"]));
+
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.js":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.js ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: Layer */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Layer", function() { return Layer; });
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Utilities */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Utilities.js");
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Utilities__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Layer_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Layer.base */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.base.js");
+/* harmony import */ var _Layer_base__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Layer_base__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Layer_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Layer.styles */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.styles.js");
+/* harmony import */ var _Layer_styles__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Layer_styles__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+var Layer = Object(_Utilities__WEBPACK_IMPORTED_MODULE_0__["styled"])(_Layer_base__WEBPACK_IMPORTED_MODULE_1__["LayerBase"], _Layer_styles__WEBPACK_IMPORTED_MODULE_2__["getStyles"], undefined, {
+    scope: 'Layer',
+    fields: ['hostId', 'theme', 'styles']
+});
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.notification.js":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.notification.js ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: registerLayer, unregisterLayer, notifyHostChanged, setDefaultTarget, getDefaultTarget */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "registerLayer", function() { return registerLayer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unregisterLayer", function() { return unregisterLayer; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "notifyHostChanged", function() { return notifyHostChanged; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setDefaultTarget", function() { return setDefaultTarget; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getDefaultTarget", function() { return getDefaultTarget; });
+var _layersByHostId = {};
+var _defaultHostSelector;
+/**
+ * Register a layer for a given host id
+ * @param hostId Id of the layer host
+ * @param layer Layer instance
+ */
+function registerLayer(hostId, layer) {
+    if (!_layersByHostId[hostId]) {
+        _layersByHostId[hostId] = [];
+    }
+    _layersByHostId[hostId].push(layer);
+}
+/**
+ * Unregister a layer for a given host id
+ * @param hostId Id of the layer host
+ * @param layer Layer instance
+ */
+function unregisterLayer(hostId, layer) {
+    if (_layersByHostId[hostId]) {
+        var idx = _layersByHostId[hostId].indexOf(layer);
+        if (idx >= 0) {
+            _layersByHostId[hostId].splice(idx, 1);
+            if (_layersByHostId[hostId].length === 0) {
+                delete _layersByHostId[hostId];
+            }
+        }
+    }
+}
+/**
+ * Used for notifying applicable Layers that a host is available/unavailable and to re-evaluate Layers that
+ * care about the specific host.
+ */
+function notifyHostChanged(id) {
+    if (_layersByHostId[id]) {
+        _layersByHostId[id].forEach(function (layer) { return layer.forceUpdate(); });
+    }
+}
+/**
+ * Sets the default target selector to use when determining the host in which
+ * Layered content will be injected into. If not provided, an element will be
+ * created at the end of the document body.
+ *
+ * Passing in a falsey value will clear the default target and reset back to
+ * using a created element at the end of document body.
+ */
+function setDefaultTarget(selector) {
+    _defaultHostSelector = selector;
+}
+/**
+ * Get the default target selector when determining a host
+ */
+function getDefaultTarget() {
+    return _defaultHostSelector;
+}
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.styles.js":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.styles.js ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: getStyles */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getStyles", function() { return getStyles; });
+/* harmony import */ var _Styling__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Styling */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Styling.js");
+/* harmony import */ var _Styling__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Styling__WEBPACK_IMPORTED_MODULE_0__);
+
+var GlobalClassNames = {
+    root: 'ms-Layer',
+    rootNoHost: 'ms-Layer--fixed',
+    content: 'ms-Layer-content'
+};
+var getStyles = function (props) {
+    var className = props.className, isNotHost = props.isNotHost, theme = props.theme;
+    var classNames = Object(_Styling__WEBPACK_IMPORTED_MODULE_0__["getGlobalClassNames"])(GlobalClassNames, theme);
+    return {
+        root: [
+            classNames.root,
+            theme.fonts.medium,
+            isNotHost && [
+                classNames.rootNoHost,
+                {
+                    position: 'fixed',
+                    zIndex: _Styling__WEBPACK_IMPORTED_MODULE_0__["ZIndexes"].Layer,
+                    top: 0,
+                    left: 0,
+                    width: '100vw',
+                    height: '100vh',
+                    visibility: 'hidden'
+                }
+            ],
+            className
+        ],
+        content: [
+            classNames.content,
+            {
+                visibility: 'visible'
+            }
+        ]
+    };
+};
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/LayerHost.js":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/LayerHost.js ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: LayerHost */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LayerHost", function() { return LayerHost; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Utilities */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/Utilities.js");
+/* harmony import */ var _Utilities__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Utilities__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Layer_notification__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Layer.notification */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.notification.js");
+/* harmony import */ var _Layer_notification__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Layer_notification__WEBPACK_IMPORTED_MODULE_3__);
+
+
+
+
+var LayerHost = /** @class */ (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](LayerHost, _super);
+    function LayerHost() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    LayerHost.prototype.shouldComponentUpdate = function () {
+        return false;
+    };
+    LayerHost.prototype.componentDidMount = function () {
+        Object(_Layer_notification__WEBPACK_IMPORTED_MODULE_3__["notifyHostChanged"])(this.props.id);
+    };
+    LayerHost.prototype.componentWillUnmount = function () {
+        Object(_Layer_notification__WEBPACK_IMPORTED_MODULE_3__["notifyHostChanged"])(this.props.id);
+    };
+    LayerHost.prototype.render = function () {
+        return react__WEBPACK_IMPORTED_MODULE_1__["createElement"]("div", tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"]({}, this.props, { className: Object(_Utilities__WEBPACK_IMPORTED_MODULE_2__["css"])('ms-LayerHost', this.props.className) }));
+    };
+    return LayerHost;
+}(react__WEBPACK_IMPORTED_MODULE_1__["Component"]));
+
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/index.js":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/index.js ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Layer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Layer */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.js");
+/* harmony import */ var _Layer__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Layer__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Layer__WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Layer__WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _Layer_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Layer.base */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/Layer.base.js");
+/* harmony import */ var _Layer_base__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Layer_base__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Layer_base__WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Layer_base__WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _LayerHost__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./LayerHost */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/components/Layer/LayerHost.js");
+/* harmony import */ var _LayerHost__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_LayerHost__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _LayerHost__WEBPACK_IMPORTED_MODULE_2__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _LayerHost__WEBPACK_IMPORTED_MODULE_2__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+
+
+
+
+
+/***/ }),
+
+/***/ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader/index.js!../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/version.js":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/source-map-loader/0.2.4/node_modules/source-map-loader!C:/agent/1/_work/20/s/common/temp/node_modules/.onedrive.pkgs.visualstudio.com/office-ui-fabric-react/6.189.2/react-dom@16.8.5+react@16.8.5/node_modules/office-ui-fabric-react/lib/version.js ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _uifabric_set_version__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @uifabric/set-version */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/@uifabric/set-version/1.1.3/node_modules/@uifabric/set-version/lib/index.js");
+// office-ui-fabric-react@6.185.0
+// Do not modify this file, the file is generated as part of publish. The checked in version is a placeholder only.
+
+Object(_uifabric_set_version__WEBPACK_IMPORTED_MODULE_0__["setVersion"])('office-ui-fabric-react', '6.185.0');
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1.1_b155af970d8e32fdc96f.js.map

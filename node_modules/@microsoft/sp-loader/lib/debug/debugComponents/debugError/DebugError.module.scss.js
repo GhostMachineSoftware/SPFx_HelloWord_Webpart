@@ -1,0 +1,6 @@
+require("./DebugError.module.css");
+var styles = {
+    detailText: 'detailText_c9936a36',
+    errorText: 'errorText_c9936a36'
+};
+export default styles;

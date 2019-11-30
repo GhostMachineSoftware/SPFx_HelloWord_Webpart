@@ -1,0 +1,56 @@
+{
+  "_NAR8NFw8cblGJm9t5CjqOw": {
+    "SuccessfullyLoadedText": "Šųčćȅŝšƒŭłĺŷ ļōàđěď đēƀųģ mǻńīƒĕŝţš.",
+    "ErrorLoadingText": "Ƒâĩļęđ ŧơ ļŏāď đėƂŭğ māňīƒėšţş: {0}"
+  },
+  "_vd/LT/qfiQhbHFfeM1GtlA": {
+    "FetchFailedError": "Ƒęŧćĥįńğ ŵȇƂƿåťś ƒâīĺȅđ ŵĩťĥ ēřŗơŗ \"{0}\". Řęňđĕŕ ơƒ ǻ ćȁĉħėđ ŵőŕĸɓȇńćħ màŷ ƒäīł.",
+    "CanvasInitializationError": "Īňĭţĭàľıźĭƞğ čáňvàŝ ƒàĭłěđ ŵĭŧħ ȅŕŗơř \"{0}\".",
+    "UnknownError": "Äŋ ũńĸŋőŵņ ėŕřōŕ ŏčċųŕřȇđ \"{0}\"."
+  },
+  "_FQya7ZjwIyrOEutOa+omIA": {
+    "Title": "Ŵǻŕŉįņġ",
+    "SubText": "Ŷōŭř ŵěƂ ƥăŗŧ ŵīļļ ńơť ăƥƥĕãŕ ĭń ŧħĕ ŧŏơľƂōx. Ƥŀęȃŝě mȃĸė şũřě \"ğūĺƥ śȇřvē\" ĩś ŗűńņįŋĝ ĩŉ å ŵēƂ ƿâřŧ ƥřơĴȇĉť. Ƥľēȃŝě ŗēƒŕēšĥ ţħȅ ƥâğē ōńčę \"ğũŀƿ şȇŗvě\" ĩś ŕūƞƞĩňģ.",
+    "OkButtonText": "ŌĶ",
+    "ClickHerePrefix": "Ĉŀįčķ ",
+    "ClickHereLink": "ħĕŕĕ",
+    "ClickHereSuffix": " ƒŏř mőŕė ĭƞƒơŗmàŧĩơń."
+  },
+  "_1JArBGDet5Uj9pJOV/9sFw": {
+    "UrlTextBoxPlaceholder": "Ēƞťęŗ ä ŪŖĿ ţō vīȇŵ īŉ MőƂĩļę Ƥŗěvıȅŵ Ťōŏľ.",
+    "ScreenReaderMobilePreviewEntered": "Ƴōů ħąvě ěŉŧęŕěď ťħę MơƂıĺȇ Ƥŗėvīȅŵ Ťőőŀ. Ĭƒ ŷōű ŵǻŋţ ťő ƥřěvīȅŵ ǻ đĭƒƒėŗěƞţ ƿäģȅ, ȇŋŧȅŗ ťħě ŪŖĿ įń ŪƦĹ ŧȇxŧ ƒĩēļď. Ťō čļőşę ŧĥę ţőőĺ ąńđ ğŏ Ƅāċķ ţő Ŵŏŕƙƅěŋčĥ, ƿŗėśş Ěŝċȃƿȅ.",
+    "ScreenReaderDevicePickerEntered": "Ūšȅ ŀēƒť ãňď ŗįğĥť äřŕōŵ ĸĕɏŝ ţŏ ćĥơơşě â đėvıćė ŧō ĉĥāńģė ťĥę ƥŕėvįȇŵ ŝčŕēĕņ şįżē.",
+    "ScreenReaderDevicePickerSelectionChanged": "Ƥŕĕśş Ȅňŧęŗ ţơ ĉħōōşě ŧħįŝ ďęvįćĕ.",
+    "Width": "Ŵĭďţĥ",
+    "Height": "Ħěĩġĥť"
+  },
+  "_8EVKOH1av6NjR/ZNfdafrw": {
+    "WebPartData": "Ŵĕƃ Ƥãŗŧ Ɖãťā",
+    "ClassicPages": "Čľąşşĭč Ƥäĝęś",
+    "ModernPages": "Mơđėŕń Ƥăģĕš",
+    "Close": "Čľőşȇ",
+    "WebPartDataHelpInfoLink": "Ľėåřƞ àƃŏűť ƿřővĩšıōŋįŉğ ŚħářęƤōįƞŧ àšŝěťŝ ƒřŏm ȳơūř ŞĥâŕȇƤőįňŧ ċļĭȇņŧ-ŝīďė ŵęƅ ƿàřŧ"
+  },
+  "_IusqdbcSoVYQiit3+QRSxw": {
+    "Office365Title": "Őƒƒįĉȅ 365",
+    "SharePointWorkbenchTitle": "ŞħȃřĕƤōīŋŧ Ŵơŕĸƀȅŉċħ",
+    "ScreenReaderDisplayModeSwitchToEditMode": "Śŵĭţćħȅď ƒŗŏm ƿřȅvĩėŵ mōđě ťő ȅđįţ mōďę.",
+    "ScreenReaderDisplayModeSwitchToReadMode": "Śŵīŧćĥėđ ƒŕơm ėďįŧ mơďē ţơ ƿŗȅvĩēŵ mōďĕ."
+  },
+  "_nCtJlVOXBHa59LgYtajnjA": {
+    "Save": "Šãvȅ",
+    "SaveAltText": "Űşȅ ťŏ śāvě ţħȅ čűŕŕėňţ ŵőŗķƄēńĉĥ śŧȁťę.",
+    "Discard": "Ɖįşčäŗđ",
+    "DiscardAltText": "Űśȇ ţő ďıŝĉáŕď ŧħě ćűŕŕēńť ŵŏŗƙƀȇŋćħ šŧȃŧě.",
+    "Mobile": "Mōƀıŀȅ",
+    "MobleAltText": "Űşē ťơ ŏƥēņ ŧĥȅ mōƃĭľĕ ƥŕęvıęŵ ŧơőļ ƒơŕ ä ċĕŀļ ƿĥơŉĕ.",
+    "Tablet": "Ŧąƀľĕŧ",
+    "TabletAltText": "Űŝē ťő őƿȇň ŧĥȅ mōƅıłē ƥŗĕvīĕŵ ţŏōĺ ƒơŗ ã ťǻƅļēť.",
+    "Preview": "Ƥřėvĭȅŵ",
+    "PreviewAltText": "Ųşě ţŏ ŝŵĩŧċĥ ƒŗőm ȇďĩţ mōđĕ ťŏ ƿŕęvĩȇŵ mơďę.",
+    "Edit": "Ėďıť",
+    "EditAltText": "Ųŝĕ ťŏ ŝŵįţĉĥ ţő ěđĩť mŏđė.",
+    "WebPartData": "ŴȇƄ ƥåřţ đàťą",
+    "WebPartDataAltText": "Ɗīşƿļȁȳ ŧħė šėŕįäłĩžěď ŵȇƃ ƥāŗť đäťã."
+  }
+}

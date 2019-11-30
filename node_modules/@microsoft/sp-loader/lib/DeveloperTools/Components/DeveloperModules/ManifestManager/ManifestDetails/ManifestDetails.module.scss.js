@@ -1,0 +1,7 @@
+require("./ManifestDetails.module.css");
+var styles = {
+    container: 'container_1812d3d7',
+    manifestIdHeading: 'manifestIdHeading_1812d3d7',
+    manifestTextBox: 'manifestTextBox_1812d3d7'
+};
+export default styles;

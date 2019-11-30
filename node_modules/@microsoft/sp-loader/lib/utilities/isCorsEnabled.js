@@ -1,0 +1,4 @@
+var corsMatch = /^https:\/\/spo.*?\.akamaihd\.net\/?[^?]/;
+export default function isCorsEnabled(src) {
+    return !!src && src.search(corsMatch) === 0;
+}

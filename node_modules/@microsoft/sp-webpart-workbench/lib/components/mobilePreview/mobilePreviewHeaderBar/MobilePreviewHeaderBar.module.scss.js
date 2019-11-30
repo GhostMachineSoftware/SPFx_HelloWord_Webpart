@@ -1,0 +1,14 @@
+require("./MobilePreviewHeaderBar.module.css");
+var styles = {
+    mobilePreviewNavBar: 'mobilePreviewNavBar_0b6461b2',
+    navBarItems: 'navBarItems_0b6461b2',
+    navBarItemSm: 'navBarItemSm_0b6461b2',
+    navBarItemMd: 'navBarItemMd_0b6461b2',
+    navBarItem: 'navBarItem_0b6461b2',
+    'ms-Grid': 'ms-Grid_0b6461b2',
+    navBarItemRight: 'navBarItemRight_0b6461b2',
+    mobilePreviewTitle: 'mobilePreviewTitle_0b6461b2',
+    mobilePreviewXIcon: 'mobilePreviewXIcon_0b6461b2',
+    col: 'col_0b6461b2'
+};
+export default styles;

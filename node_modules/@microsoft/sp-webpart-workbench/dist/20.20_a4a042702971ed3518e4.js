@@ -1,0 +1,251 @@
+(window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] = window["webpackJsonp_8be81a5c_af38_4bb2_af97_afa3b64dfbed_1_9_1"] || []).push([[20],{
+
+/***/ "../../libraries/sp-rte/lib/rte/webPartRte/CKEditorForWebPartRte.js":
+/*!******************************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-rte/lib/rte/webPartRte/CKEditorForWebPartRte.js ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/sp-diagnostics */ "@microsoft/sp-diagnostics");
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _ckeditor_CKTextEditor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../ckeditor/CKTextEditor */ "../../libraries/sp-rte/lib/rte/ckeditor/CKTextEditor.js");
+
+
+
+var CKEditorForWebPartRte =  (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](CKEditorForWebPartRte, _super);
+    function CKEditorForWebPartRte(options, onReadyCallback) {
+        var _this = _super.call(this, options, onReadyCallback) || this;
+        var pluginsToBeRemoved = 'contextmenu,menubutton,scayt,liststyle,tableselection,tabletools,magicline,link,resize,autogrow,elementspath,divarea';
+        _this._ckEditorConfig = {
+            disableNativeSpellChecker: false,
+            on: {
+                change: _this._onTextChange,
+                selectionChange: _this._handleSelectionChangeConvert
+            },
+            removePlugins: "tableselection," + pluginsToBeRemoved,
+            extraPlugins: 'justify,placeholdertext',
+            placeholder: options.placeholder,
+            removeButtons: '',
+            stylesSet: false,
+            toolbar: [],
+            startupFocus: _this._startupFocus,
+            fullPage: false,
+            resize_enabled: false,
+            width: '100%',
+            height: 200,
+            title: false
+        };
+        _this._onKeyDownCallBack = options.onKeyDownCallBack;
+        _this._ckEditorConfig.allowedContent = true;
+        _this._initialize(options.currentHTML);
+        return _this;
+    }
+    CKEditorForWebPartRte.createNewEditor = function (options) {
+        return new Promise(function (resolve) {
+            CKEditorForWebPartRte.moduleLoader
+                .loadModule()
+                .then(function () {
+                var editor = new CKEditorForWebPartRte(options, function () { return resolve(editor); });
+            })
+                .catch(function (error) {
+                _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_1__["_TraceLogger"].logError(CKEditorForWebPartRte.logSource, error);
+            });
+        });
+    };
+    CKEditorForWebPartRte.prototype._initialize = function (currentHTML) {
+        if (!this._ckEditorConfig) {
+            return;
+        }
+        var textPart = document.createElement('textarea');
+        this._editorElement.appendChild(textPart);
+        this._editor = CKEDITOR.replace(textPart, this._ckEditorConfig);
+        this._editor.setData(currentHTML);
+        this._editor.on('key', this._handleKeyDown.bind(this));
+        this._addCustomToolbarCommands();
+    };
+    CKEditorForWebPartRte.prototype._handleKeyDown = function (ev) {
+        var keyboardEvent = ev.data && ev.data.domEvent && ev.data.domEvent.$;
+        if (keyboardEvent && this._onKeyDownCallBack) {
+            this._onKeyDownCallBack(keyboardEvent);
+            if (keyboardEvent.defaultPrevented) {
+                ev.cancel();
+            }
+        }
+    };
+    CKEditorForWebPartRte.logSource = _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_1__["_LogSource"].create('CKEditorForWebPartRte');
+    return CKEditorForWebPartRte;
+}(_ckeditor_CKTextEditor__WEBPACK_IMPORTED_MODULE_2__["CKTextEditor"]));
+/* harmony default export */ __webpack_exports__["default"] = (CKEditorForWebPartRte);
+
+
+/***/ }),
+
+/***/ "../../libraries/sp-rte/lib/rte/webPartRte/WebPartRte.js":
+/*!*******************************************************************************!*\
+  !*** C:/agent/1/_work/20/s/libraries/sp-rte/lib/rte/webPartRte/WebPartRte.js ***!
+  \*******************************************************************************/
+/*! exports provided: WebPartRte */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebPartRte", function() { return WebPartRte; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../../common/temp/node_modules/.onedrive.pkgs.visualstudio.com/tslib/1.9.3/node_modules/tslib/tslib.es6.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "react-dom");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @microsoft/sp-core-library */ "@microsoft/sp-core-library");
+/* harmony import */ var _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @microsoft/sp-diagnostics */ "@microsoft/sp-diagnostics");
+/* harmony import */ var _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @microsoft/office-ui-fabric-react-bundle */ "@microsoft/office-ui-fabric-react-bundle");
+/* harmony import */ var _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @microsoft/sp-lodash-subset */ "@microsoft/sp-lodash-subset");
+/* harmony import */ var _microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _ms_sp_a11y__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ms/sp-a11y */ "../../libraries/sp-a11y/lib/index.js");
+/* harmony import */ var _baseRte_BaseRte__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../baseRte/BaseRte */ "../../libraries/sp-rte/lib/rte/baseRte/BaseRte.js");
+/* harmony import */ var _baseRte_BaseRteConfiguration__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../baseRte/BaseRteConfiguration */ "../../libraries/sp-rte/lib/rte/baseRte/BaseRteConfiguration.js");
+/* harmony import */ var _CKEditorForWebPartRte__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./CKEditorForWebPartRte */ "../../libraries/sp-rte/lib/rte/webPartRte/CKEditorForWebPartRte.js");
+/* harmony import */ var _a11y_RteA11y__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../a11y/RteA11y */ "../../libraries/sp-rte/lib/rte/a11y/RteA11y.js");
+/* harmony import */ var _loc_RteStrings_resx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../loc/RteStrings.resx */ "../../libraries/sp-rte/lib/rte/loc/RteStrings.resx.js");
+
+
+
+
+
+
+
+
+
+
+
+
+var WebPartRte =  (function (_super) {
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__extends"](WebPartRte, _super);
+    function WebPartRte(props) {
+        var _this = _super.call(this, props, WebPartRte.defaultOptions) || this;
+        _this.TAG_NAME = 'WebPartRte.';
+        return _this;
+    }
+    WebPartRte._getFormattingBarDefaultPosition = function (isRtl) {
+        if (isRtl === void 0) { isRtl = false; }
+        var left = isRtl ? undefined : 0;
+        var top = -202;
+        var position = 'relative';
+        var right = isRtl ? 0 : undefined;
+        return { left: left, top: top, position: position, right: right };
+    };
+    WebPartRte.prototype.componentDidMount = function () {
+        _super.prototype.componentDidMount.call(this);
+    };
+    WebPartRte.prototype.focus = function () {
+        _super.prototype.focus.call(this);
+    };
+    WebPartRte.prototype._initState = function () {
+        this.state = {
+            displayMode: this.props.displayMode,
+            formattingBarPosition: WebPartRte._getFormattingBarDefaultPosition(this._isRtl),
+            isFormattingBarHidden: false
+        };
+    };
+    WebPartRte.prototype._createNewEditor = function (innerHTML, startUpFocus) {
+        return this._options.editor.createNewEditor({
+            config: this._config,
+            currentHTML: innerHTML,
+            editorElement: this._editorElement,
+            selectionChangeCallback: this._handleSelectionChange,
+            textChangeCallback: this._handleTextChange.bind(this),
+            startUpFocus: startUpFocus,
+            onImagePasteCallBack: function () {
+            },
+            onPasteCallback: function () {
+            },
+            onContextMenuCallBack: function () {
+            },
+            onKeyDownCallBack: this._handleEditorKeyDown,
+            placeholder: this.props.placeholder
+        });
+    };
+    WebPartRte.prototype._afterEditorCreated = function (editor) {
+        this._editor = editor;
+        this._handleTextChange();
+        var formattingbarElement = react_dom__WEBPACK_IMPORTED_MODULE_1__["findDOMNode"](this._formattingBar);
+        if (!_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["_SPKillSwitch"].isActivated(_microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["Guid"].parse('06eae745-f397-452e-a5e6-3afb39b2a156'), '04/24/2019', 'SOX_DisableA11yManagerHandlingTabEventOnFormattingBar')) {
+            formattingbarElement.setAttribute('data-sp-a11y-skipkeys', String(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_4__["KeyCodes"].tab));
+        }
+        this._editorElement.style.position = 'relative';
+        this._editorElement.style.top = formattingbarElement.offsetHeight + "px";
+        formattingbarElement.style.top = "-" + this._editorElement.offsetHeight + "px";
+        var iframe = this._editorElement.querySelector('iframe');
+        if (iframe && iframe.contentDocument) {
+            iframe.contentDocument.addEventListener('paste', this._onBeforePaste, true);
+            var ariaLabel = _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["Text"].format(_loc_RteStrings_resx__WEBPACK_IMPORTED_MODULE_11__["default"].RichTextEditorIframeTitle, this.props.ariaLabel || '', _loc_RteStrings_resx__WEBPACK_IMPORTED_MODULE_11__["default"].RichTextEditorAriaLabel);
+            iframe.setAttribute('title', ariaLabel);
+        }
+        this._initPagePicker();
+    };
+    WebPartRte.prototype._finalizeAction = function (ariaActionName) {
+        _super.prototype._finalizeAction.call(this, ariaActionName);
+        if (this.props.onChanged) {
+            var newValue = this._editor ? this._editor.getHTML() : this.props.innerHTML;
+            if (newValue) {
+                this.props.onChanged(newValue);
+            }
+        }
+    };
+    WebPartRte.prototype._handleKeyDown = function (evt) {
+    };
+    WebPartRte.prototype._handleEditorKeyDown = function (evt) {
+        if (_ms_sp_a11y__WEBPACK_IMPORTED_MODULE_6__["Keyboard"].isKey(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_4__["KeyCodes"].f10, evt, { alt: true }) && this._formattingbarElement) {
+            _microsoft_sp_diagnostics__WEBPACK_IMPORTED_MODULE_3__["_EngagementLogger"].logEvent(this.TAG_NAME + 'ToolbarByKeyboardShortcut.Focus', evt.type);
+            Object(_a11y_RteA11y__WEBPACK_IMPORTED_MODULE_10__["navigateInside"])(this._formattingbarElement);
+            var screenReaderInstruction = _microsoft_sp_core_library__WEBPACK_IMPORTED_MODULE_2__["Text"].format(_loc_RteStrings_resx__WEBPACK_IMPORTED_MODULE_11__["default"].RichTextNavigationAltF10Keys, _loc_RteStrings_resx__WEBPACK_IMPORTED_MODULE_11__["default"].ToolbarNavigationArrowKeys, _loc_RteStrings_resx__WEBPACK_IMPORTED_MODULE_11__["default"].ToolbarNavigationShiftTabKey);
+            Object(_a11y_RteA11y__WEBPACK_IMPORTED_MODULE_10__["ariaAlert"])(screenReaderInstruction);
+            evt.stopPropagation();
+            evt.preventDefault();
+        }
+        else if (_ms_sp_a11y__WEBPACK_IMPORTED_MODULE_6__["Keyboard"].isKey('K'.charCodeAt(0), evt, { ctrl: true })) {
+            this._handleLink();
+            evt.stopPropagation();
+            evt.preventDefault();
+        }
+        else if (!_ms_sp_a11y__WEBPACK_IMPORTED_MODULE_6__["Keyboard"].isKey(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_4__["KeyCodes"].tab, evt) &&
+            !_ms_sp_a11y__WEBPACK_IMPORTED_MODULE_6__["Keyboard"].isKey(_microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_4__["KeyCodes"].tab, evt, { shift: true })) {
+            this._redispatchKeyboardEvent(evt);
+        }
+    };
+    WebPartRte.prototype._redispatchKeyboardEvent = function (evt) {
+        var emptyEvent = document.createEvent('Event');
+        emptyEvent.initEvent(evt.type, true, true);
+        var clonedEvent = Object(_microsoft_sp_lodash_subset__WEBPACK_IMPORTED_MODULE_5__["merge"])(emptyEvent, {
+            keyCode: evt.keyCode,
+            code: evt.code,
+            which: evt.which,
+            altKey: evt.altKey,
+            ctrlKey: evt.ctrlKey
+        });
+        if (this._editorElement) {
+            this._editorElement.dispatchEvent(clonedEvent);
+        }
+    };
+    WebPartRte.defaultOptions = {
+        editor: _CKEditorForWebPartRte__WEBPACK_IMPORTED_MODULE_9__["default"],
+        config: new _baseRte_BaseRteConfiguration__WEBPACK_IMPORTED_MODULE_8__["BaseRteConfiguration"](),
+        loader: _CKEditorForWebPartRte__WEBPACK_IMPORTED_MODULE_9__["default"].moduleLoader
+    };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        _microsoft_office_ui_fabric_react_bundle__WEBPACK_IMPORTED_MODULE_4__["autobind"]
+    ], WebPartRte.prototype, "_handleEditorKeyDown", null);
+    return WebPartRte;
+}(_baseRte_BaseRte__WEBPACK_IMPORTED_MODULE_7__["BaseRte"]));
+
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=20.20_a4a042702971ed3518e4.js.map
