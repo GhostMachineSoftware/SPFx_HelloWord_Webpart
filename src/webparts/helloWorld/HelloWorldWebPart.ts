@@ -5,7 +5,10 @@ import {
   PropertyPaneTextField,
   PropertyPaneCheckbox,
   PropertyPaneDropdown,
-  PropertyPaneToggle  
+  PropertyPaneLabel,
+  PropertyPaneLink,
+  PropertyPaneSlider,
+  PropertyPaneToggle
 } from '@microsoft/sp-webpart-base';
 
 import {
